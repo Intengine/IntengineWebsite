@@ -724,6 +724,26 @@ footer.main-footer nav.footer-nav ul li a{
 .site-hero_tapdrive .page-title .big-title{font-size: 36px;}
 .site-hero_tapdrive .page-title .small-title{font-size: 14px;}
 
+/*babiagora */
+.site-hero_babiagora{
+	background: url("../img/babiagora/babiagoraBG.jpg") no-repeat;
+	background-size: cover;
+	height: 500px;
+	width: 100%;
+	position: relative;
+}
+.site-hero_babiagora .page-title{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	-webkit-transform:translate(-50%, -50%);
+	-ms-transform:translate(-50%, -50%);
+	transform:translate(-50%, -50%);
+	text-align: center;
+}
+.site-hero_babiagora .page-title .big-title{font-size: 36px;}
+.site-hero_babiagora .page-title .small-title{font-size: 14px;}
+
 /*agency */
 .agency{
 	width: 100%;
