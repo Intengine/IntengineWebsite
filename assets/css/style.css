@@ -544,6 +544,26 @@ footer.main-footer nav.footer-nav ul li a{
 .site-hero_2 .page-title .big-title{font-size: 36px;}
 .site-hero_2 .page-title .small-title{font-size: 14px;}
 
+/*londonvho */
+.site-hero_londonvho{
+	background: url("../img/vho/vhoBG.jpg") no-repeat;
+	background-size: cover;
+	height: 500px;
+	width: 100%;
+	position: relative;
+}
+.site-hero_londonvho .page-title{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	-webkit-transform:translate(-50%, -50%);
+	-ms-transform:translate(-50%, -50%);
+	transform:translate(-50%, -50%);
+	text-align: center;
+}
+.site-hero_londonvho .page-title .big-title{font-size: 36px;}
+.site-hero_londonvho .page-title .small-title{font-size: 14px;}
+
 /*golgota */
 .site-hero_golgota{
 	background: url("../img/golgota/golgotaBG.jpg") no-repeat;
