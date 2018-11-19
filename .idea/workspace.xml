@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66caf849-ec29-42a7-ad4b-d234693724d7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/._index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/babiagora.html" beforeDir="false" afterPath="$PROJECT_DIR$/babiagora.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/downloader.html" beforeDir="false" afterPath="$PROJECT_DIR$/downloader.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eagloo.html" beforeDir="false" afterPath="$PROJECT_DIR$/eagloo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/golgota.html" beforeDir="false" afterPath="$PROJECT_DIR$/golgota.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/vho/logo.psd" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/vho/logo.psd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skopelos.html" beforeDir="false" afterPath="$PROJECT_DIR$/skopelos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soad.html" beforeDir="false" afterPath="$PROJECT_DIR$/soad.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tapdrive.html" beforeDir="false" afterPath="$PROJECT_DIR$/tapdrive.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tornado.html" beforeDir="false" afterPath="$PROJECT_DIR$/tornado.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vienna.html" beforeDir="false" afterPath="$PROJECT_DIR$/vienna.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather.html" beforeDir="false" afterPath="$PROJECT_DIR$/weather.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="londonvho.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/londonvho.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="85" column="22" lean-forward="true" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
+            <state relative-caret-position="537">
+              <caret line="368" column="34" lean-forward="true" selection-start-line="368" selection-start-column="34" selection-end-line="368" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -86,17 +75,16 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="803" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,6 +113,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -167,14 +156,16 @@
       <workItem from="1540023186231" duration="96000" />
       <workItem from="1542009008251" duration="667000" />
       <workItem from="1542015908844" duration="1126000" />
+      <workItem from="1542182308499" duration="7000" />
+      <workItem from="1542617370392" duration="619000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5240000" />
+    <option name="totallyTimeSpent" value="5866000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="797" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="800" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15208334" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -202,15 +193,24 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/londonvho.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="85" column="22" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/londonvho.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="85" column="22" lean-forward="true" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-          <folding>
-            <element signature="e#9484#9490#0" expanded="true" />
-            <element signature="e#9695#9701#0" expanded="true" />
-            <element signature="e#10699#10705#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -343,11 +343,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="34" column="101" selection-start-line="34" selection-start-column="101" selection-end-line="34" selection-end-column="101" />
-          <folding>
-            <element signature="e#9484#9490#0" expanded="true" />
-            <element signature="e#9695#9701#0" expanded="true" />
-            <element signature="e#10699#10705#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -383,20 +378,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-880">
           <caret line="35" column="105" selection-start-line="35" selection-start-column="105" selection-end-line="35" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="245" column="53" selection-start-line="245" selection-start-column="53" selection-end-line="245" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="340" column="34" lean-forward="true" selection-start-line="340" selection-start-column="34" selection-end-line="340" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -451,8 +432,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/londonvho.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="85" column="22" lean-forward="true" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
+        <state relative-caret-position="408">
+          <caret line="85" column="22" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="259" column="53" selection-start-line="259" selection-start-column="53" selection-end-line="259" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="368" column="34" lean-forward="true" selection-start-line="368" selection-start-column="34" selection-end-line="368" selection-end-column="34" />
         </state>
       </provider>
     </entry>
