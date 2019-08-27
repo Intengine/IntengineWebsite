@@ -1,0 +1,11 @@
+state: enabled
+email: sylwester.pilarz93@gmail.com
+fullname: 'Frank Jaeger'
+title: Administrator
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$ttMJczM2mxof6dTUvRMk2eB3i4QsTLFfOJ30ScG4NZ7MCCOvgTuAi
