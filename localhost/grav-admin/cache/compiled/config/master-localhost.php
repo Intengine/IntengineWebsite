@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1566925863,
-    'checksum' => '44cf5ca2cef3d1d50015b65f7f27575a',
+    'timestamp' => 1567098235,
+    'checksum' => 'cda443a83aa5d93af1f808262bab0a3a',
     'files' => [
         'user/config' => [
             'backups' => [
@@ -12,6 +12,18 @@ return [
             'media' => [
                 'file' => 'user/config/media.yaml',
                 'modified' => 1566925789
+            ],
+            'plugins/bootstrapper' => [
+                'file' => 'user/config/plugins/bootstrapper.yaml',
+                'modified' => 1567097697
+            ],
+            'plugins/fullpage' => [
+                'file' => 'user/config/plugins/fullpage.yaml',
+                'modified' => 1567097459
+            ],
+            'plugins/gantry5' => [
+                'file' => 'user/config/plugins/gantry5.yaml',
+                'modified' => 1567097870
             ],
             'scheduler' => [
                 'file' => 'user/config/scheduler.yaml',
@@ -31,7 +43,11 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1566378722
+                'modified' => 1567098232
+            ],
+            'themes/g5_hydrogen' => [
+                'file' => 'user/config/themes/g5_hydrogen.yaml',
+                'modified' => 1567098024
             ]
         ],
         'system/config' => [
@@ -68,6 +84,10 @@ return [
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
                 'modified' => 1566378722
+            ],
+            'plugins/gantry5' => [
+                'file' => 'user/plugins/gantry5/gantry5.yaml',
+                'modified' => 1567097838
             ],
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/admin.yaml',
@@ -128,6 +148,18 @@ return [
                     'site_key' => NULL,
                     'secret_key' => NULL
                 ]
+            ],
+            'gantry5' => [
+                'enabled' => true,
+                'production' => false,
+                'use_media_folder' => true,
+                'offline' => true,
+                'offline_message' => NULL,
+                'asset_timestamps' => true,
+                'asset_timestamps_period' => 7.0,
+                'debug' => false,
+                'compile_yaml' => true,
+                'compile_twig' => true
             ],
             'admin' => [
                 'enabled' => true,
@@ -288,6 +320,65 @@ return [
                 ],
                 'content_type' => 'text/html',
                 'debug' => false
+            ],
+            'bootstrapper' => [
+                'enabled' => true,
+                'version' => 'v4',
+                'always_load' => true,
+                'use_cdn' => true,
+                'mode' => 'production',
+                'load_core_css' => true,
+                'load_theme_css' => true,
+                'load_popper_js' => true,
+                'load_core_js' => true
+            ],
+            'fullpage' => [
+                'enabled' => false,
+                'order' => [
+                    'by' => 'folder',
+                    'dir' => 'asc'
+                ],
+                'theme_css' => true,
+                'builtin_css' => true,
+                'builtin_js' => true,
+                'color_function' => '50',
+                'header_font' => '\'Helvetica Neue\', Helvetica, Arial, sans-serif',
+                'block_font' => 'Palatino, \'Palatino Linotype\', \'Palatino LT STD\', \'Book Antiqua\', Georgia, serif',
+                'change_titles' => true,
+                'inject_footer' => '',
+                'shortcodes' => true,
+                'transition' => true,
+                'styles' => [
+                    0 => [
+                        'background' => '#0B110D'
+                    ],
+                    1 => [
+                        'background' => '#2C4D56'
+                    ]
+                ],
+                'options' => [
+                    'navigation' => false,
+                    'navigationPosition' => 'right',
+                    'showActiveTooltip' => false,
+                    'slidesNavigation' => false,
+                    'slidesNavPosition' => 'bottom',
+                    'css3' => true,
+                    'autoScrolling' => true,
+                    'fitToSection' => true,
+                    'scrollBar' => false,
+                    'loopTop' => false,
+                    'loopBottom' => false,
+                    'loopHorizontal' => true,
+                    'touchSensitivity' => 15,
+                    'keyboardScrolling' => true,
+                    'animateAnchor' => true,
+                    'recordHistory' => true,
+                    'controlArrows' => true,
+                    'verticalCentered' => true,
+                    'sectionSelector' => '.section',
+                    'slideSelector' => '.slide',
+                    'lazyLoading' => true
+                ]
             ]
         ],
         'backups' => [
@@ -711,7 +802,7 @@ node_modules'
                 'hide_in_urls' => false
             ],
             'pages' => [
-                'theme' => 'quark',
+                'theme' => 'g5_hydrogen',
                 'order' => [
                     'by' => 'default',
                     'dir' => 'asc'
@@ -858,7 +949,8 @@ node_modules'
                 'allowed_fallback_types' => [
                     
                 ],
-                'auto_metadata_exif' => false
+                'auto_metadata_exif' => false,
+                'upload_limit' => 8388608
             ],
             'session' => [
                 'enabled' => true,
@@ -889,6 +981,11 @@ node_modules'
         ],
         'scheduler' => [
             
+        ],
+        'themes' => [
+            'g5_hydrogen' => [
+                'enabled' => true
+            ]
         ]
     ]
 ];
