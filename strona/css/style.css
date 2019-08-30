@@ -1,15 +1,53 @@
 body {
   height: 100%;
   color: #60606E;
-  font-family: 'Bebas Neue';
+  font-family: 'Bebas Neue Bold';
   margin: 0;
+}
+
+a {
+  color: #60606E;
+  text-decoration: none;
+}
+
+p {
+  padding-top: 10vh;
 }
 
 div {
   height: 100vh;
   width: 100%;
+  text-align: center;
+  font-size: 46px;
+  letter-spacing: 10px;
+}
+
+#home {
   background-image: url('../img/backgroundMountains.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  vertical-align: middle;
+  line-height: 100vh;
+}
+
+#director {
+  background-image: url('../img/backgroundDirector.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 18px;
+  padding: 5vh;
+  letter-spacing: 4px;
+  position: fixed;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  padding: 3vh;
 }
