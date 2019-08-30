@@ -82,6 +82,6 @@ class __TwigTemplate_3d8977741622ad291953b07bdde07625e10b19fed06ed17a12ae544aae1
     {{ particle.content|raw }}
 </div>
 {% endblock %}
-", "@particles/branding.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/localhost/grav-admin/user/plugins/gantry5/engines/nucleus/particles/branding.html.twig");
+", "@particles/branding.html.twig", "/Users/mac/Desktop/IntengineWebsite/localhost/grav-admin/user/plugins/gantry5/engines/nucleus/particles/branding.html.twig");
     }
 }

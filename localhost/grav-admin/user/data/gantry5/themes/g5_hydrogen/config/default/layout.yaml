@@ -6,16 +6,9 @@ preset:
 layout:
   /header/:
     -
-      - 'logo-2493 30'
-      - 'position-header 70'
-  /navigation/:
-    -
       - menu-5154
+  /navigation/: {  }
   /main/:
-    -
-      - position-breadcrumbs
-    -
-      - system-messages-7808
     -
       - system-content-7860
   /footer/:
@@ -43,12 +36,6 @@ structure:
     attributes:
       boxed: ''
 content:
-  position-header:
-    attributes:
-      key: header
-  position-breadcrumbs:
-    attributes:
-      key: breadcrumbs
   position-footer:
     attributes:
       key: footer

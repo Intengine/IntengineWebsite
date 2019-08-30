@@ -80,33 +80,34 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
 body {
   color: #666;
   background: #fff;
+  background-image: #fff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-/* line 8, user/themes/g5_hydrogen/scss/hydrogen/_core.scss */
+/* line 9, user/themes/g5_hydrogen/scss/hydrogen/_core.scss */
 #g-page-surround {
   background: #fff;
 }
 @media print {
-  /* line 13, user/themes/g5_hydrogen/scss/hydrogen/_core.scss */
+  /* line 14, user/themes/g5_hydrogen/scss/hydrogen/_core.scss */
   #g-page-surround {
     background: #fff !important;
     color: #000 !important;
   }
 }
-/* line 19, user/themes/g5_hydrogen/scss/hydrogen/_core.scss */
+/* line 20, user/themes/g5_hydrogen/scss/hydrogen/_core.scss */
 a {
   color: #439a86;
 }
-/* line 21, user/themes/g5_hydrogen/scss/hydrogen/_core.scss */
+/* line 22, user/themes/g5_hydrogen/scss/hydrogen/_core.scss */
 a:hover {
   color: #4d4d4d;
 }
-/* line 26, user/themes/g5_hydrogen/scss/hydrogen/_core.scss */
+/* line 27, user/themes/g5_hydrogen/scss/hydrogen/_core.scss */
 h1, h2, h3, h4, h5, h6, strong {
   color: #4d4d4d;
 }
-/* line 30, user/themes/g5_hydrogen/scss/hydrogen/_core.scss */
+/* line 31, user/themes/g5_hydrogen/scss/hydrogen/_core.scss */
 .button {
   display: inline-block;
   padding: 0.5rem 1rem;
@@ -123,72 +124,53 @@ h1, h2, h3, h4, h5, h6, strong {
   -moz-transition: background 0.1s;
   transition: background 0.1s;
 }
-/* line 44, user/themes/g5_hydrogen/scss/hydrogen/_core.scss */
+/* line 45, user/themes/g5_hydrogen/scss/hydrogen/_core.scss */
 .button:hover {
   background: #4bac95;
   color: #fff;
 }
-/* line 49, user/themes/g5_hydrogen/scss/hydrogen/_core.scss */
+/* line 50, user/themes/g5_hydrogen/scss/hydrogen/_core.scss */
 .button:active, .button:focus {
   background: #3b8877;
   box-shadow: inset -1px -1px 1px rgba(0, 0, 0, 0.15);
   color: #fff;
   outline: 0;
 }
-/* line 56, user/themes/g5_hydrogen/scss/hydrogen/_core.scss */
+/* line 57, user/themes/g5_hydrogen/scss/hydrogen/_core.scss */
 .button:disabled {
   opacity: 0.25;
   cursor: not-allowed;
 }
-/* line 60, user/themes/g5_hydrogen/scss/hydrogen/_core.scss */
+/* line 61, user/themes/g5_hydrogen/scss/hydrogen/_core.scss */
 .button:disabled:hover {
   background: #439a86;
 }
-/* line 66, user/themes/g5_hydrogen/scss/hydrogen/_core.scss */
+/* line 67, user/themes/g5_hydrogen/scss/hydrogen/_core.scss */
 .gantry-logo {
   display: inline-block;
 }
 @media only all and (max-width: 47.938rem) {
-  /* line 25, user/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_breakpoints.scss */
   .gantry-logo {
     display: block;
     text-align: center;
   }
 }
-/* line 72, user/themes/g5_hydrogen/scss/hydrogen/_core.scss */
+/* line 73, user/themes/g5_hydrogen/scss/hydrogen/_core.scss */
 .gantry-logo img {
   width: 150px;
 }
-/* line 77, user/themes/g5_hydrogen/scss/hydrogen/_core.scss */
+/* line 78, user/themes/g5_hydrogen/scss/hydrogen/_core.scss */
 .logo-large {
   display: inline-block;
 }
-@font-face {
-  font-family: "roboto";
-  font-style: normal;
-  font-weight: 400;
-  src: url('../../../../../themes/g5_hydrogen/fonts/roboto_regular_macroman/Roboto-Regular-webfont.eot?5d6804a3#iefix') format("embedded-opentype"), url('../../../../../themes/g5_hydrogen/fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff2?5d6804a3') format("woff2"), url('../../../../../themes/g5_hydrogen/fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff?5d6804a3') format("woff"), url('../../../../../themes/g5_hydrogen/fonts/roboto_regular_macroman/Roboto-Regular-webfont.ttf?5d6804a3') format("truetype"), url('../../../../../themes/g5_hydrogen/fonts/roboto_regular_macroman/Roboto-Regular-webfont.svg?5d6804a3#roboto') format("svg");
-}
-@font-face {
-  font-family: "roboto";
-  font-style: normal;
-  font-weight: 500;
-  src: url('../../../../../themes/g5_hydrogen/fonts/roboto_medium_macroman/Roboto-Medium-webfont.eot?5d6804a3#iefix') format("embedded-opentype"), url('../../../../../themes/g5_hydrogen/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff2?5d6804a3') format("woff2"), url('../../../../../themes/g5_hydrogen/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff?5d6804a3') format("woff"), url('../../../../../themes/g5_hydrogen/fonts/roboto_medium_macroman/Roboto-Medium-webfont.ttf?5d6804a3') format("truetype"), url('../../../../../themes/g5_hydrogen/fonts/roboto_medium_macroman/Roboto-Medium-webfont.svg?5d6804a3#roboto') format("svg");
-}
-@font-face {
-  font-family: "roboto";
-  font-style: normal;
-  font-weight: 700;
-  src: url('../../../../../themes/g5_hydrogen/fonts/roboto_bold_macroman/Roboto-Bold-webfont.eot?5d6804a3#iefix') format("embedded-opentype"), url('../../../../../themes/g5_hydrogen/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff2?5d6804a3') format("woff2"), url('../../../../../themes/g5_hydrogen/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff?5d6804a3') format("woff"), url('../../../../../themes/g5_hydrogen/fonts/roboto_bold_macroman/Roboto-Bold-webfont.ttf?5d6804a3') format("truetype"), url('../../../../../themes/g5_hydrogen/fonts/roboto_bold_macroman/Roboto-Bold-webfont.svg?5d6804a3#roboto') format("svg");
-}
 /* line 5, user/themes/g5_hydrogen/scss/hydrogen/_typography.scss */
 body {
-  font-family: "roboto", sans-serif;
+  font-family: "Bebas Neue";
   font-weight: 400;
 }
 /* line 10, user/themes/g5_hydrogen/scss/hydrogen/_typography.scss */
 h1, h2, h3, h4, h5 {
-  font-family: "roboto", sans-serif;
+  font-family: "Bebas Neue";
   font-weight: 500;
 }
 /* line 15, user/themes/g5_hydrogen/scss/hydrogen/_typography.scss */
@@ -497,7 +479,6 @@ hr {
   display: none;
 }
 @media only all and (max-width: 48rem) {
-  /* line 33, user/themes/g5_hydrogen/scss/hydrogen/_offcanvas.scss */
   .g-offcanvas-toggle {
     display: block;
   }
@@ -564,7 +545,7 @@ hr {
 }
 /* line 1, user/themes/g5_hydrogen/scss/hydrogen/_header.scss */
 #g-header {
-  background: #2a816d;
+  background-image: #2a816d;
   color: #fff;
   position: relative;
   z-index: 3;
@@ -703,6 +684,7 @@ hr {
 #g-showcase {
   padding: 1.5rem 0;
   background-color: #354d59;
+  background-image: url('../../../../../themes/g5_hydrogen/images/macbook.png?5d68c682');
   color: #fff;
 }
 /* line 9, user/themes/g5_hydrogen/scss/hydrogen/_showcase.scss */
@@ -768,12 +750,13 @@ hr {
 #g-subfeature {
   padding: 1.5rem 0;
   background: #f0f0f0;
+  background-image: #f0f0f0;
   color: #666;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 @media print {
-  /* line 10, user/themes/g5_hydrogen/scss/hydrogen/_subfeature.scss */
+  /* line 11, user/themes/g5_hydrogen/scss/hydrogen/_subfeature.scss */
   #g-subfeature {
     background: #fff !important;
     color: #000 !important;
@@ -1015,7 +998,6 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   font-size: 1.2rem;
 }
 @media only all and (min-width: 48rem) {
-  /* line 22, user/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_breakpoints.scss */
   /* line 18, user/themes/g5_hydrogen/scss/hydrogen/_sample.scss */
   .sample-content .device-promo {
     width: 356px;
@@ -1031,7 +1013,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
     height: 203px;
     position: absolute;
     z-index: 1;
-    background: url('../../../../../themes/g5_hydrogen/images/macbook.png?5d6804a2');
+    background: url('../../../../../themes/g5_hydrogen/images/macbook.png?5d68c682');
   }
   /* line 31, user/themes/g5_hydrogen/scss/hydrogen/_sample.scss */
   .sample-content .device-promo .macbook .macbook-color {
@@ -1048,7 +1030,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
     height: 203px;
     position: absolute;
     z-index: 2;
-    background: url('../../../../../themes/g5_hydrogen/images/ipad.png?5d6804a2');
+    background: url('../../../../../themes/g5_hydrogen/images/ipad.png?5d68c682');
   }
   /* line 46, user/themes/g5_hydrogen/scss/hydrogen/_sample.scss */
   .sample-content .device-promo .ipad .ipad-color {
@@ -1065,7 +1047,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
     height: 203px;
     position: absolute;
     z-index: 3;
-    background: url('../../../../../themes/g5_hydrogen/images/iphone.png?5d6804a2');
+    background: url('../../../../../themes/g5_hydrogen/images/iphone.png?5d68c682');
   }
   /* line 61, user/themes/g5_hydrogen/scss/hydrogen/_sample.scss */
   .sample-content .device-promo .iphone .iphone-color {
@@ -1088,7 +1070,6 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   font-size: 10rem;
 }
 @media only all and (min-width: 48rem) and (max-width: 59.938rem) {
-  /* line 13, user/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_breakpoints.scss */
   .sample-content .fa-github-square {
     font-size: 8rem;
   }
@@ -1114,7 +1095,6 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   font-size: 6rem;
 }
 @media only all and (min-width: 60rem) {
-  /* line 10, user/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_breakpoints.scss */
   /* line 102, user/themes/g5_hydrogen/scss/hydrogen/_sample.scss */
   /* line 103, user/themes/g5_hydrogen/scss/hydrogen/_sample.scss */
   #g-showcase .sample-description {
@@ -1367,7 +1347,6 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   width: 75rem;
 }
 @media only all and (min-width: 60rem) and (max-width: 74.938rem) {
-  /* line 7, user/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_breakpoints.scss */
   .g-container {
     width: 60rem;
   }
@@ -1378,13 +1357,11 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   }
 }
 @media only all and (min-width: 30.062rem) and (max-width: 47.938rem) {
-  /* line 16, user/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_breakpoints.scss */
   .g-container {
     width: 30rem;
   }
 }
 @media only all and (max-width: 30rem) {
-  /* line 19, user/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_breakpoints.scss */
   .g-container {
     width: 100%;
   }
@@ -1481,7 +1458,6 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   }
 }
 @media only all and (min-width: 75rem) {
-  /* line 4, user/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_breakpoints.scss */
   /* line 41, user/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .visible-large {
     display: block !important;

@@ -1,113 +1,121 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1567098235,
-    'checksum' => 'cda443a83aa5d93af1f808262bab0a3a',
+    'timestamp' => 1567159331,
+    'checksum' => '9bde1ee3487d2110a63f5209b0b99fd9',
     'files' => [
         'user/config' => [
             'backups' => [
                 'file' => 'user/config/backups.yaml',
-                'modified' => 1566925789
+                'modified' => 1567147649
             ],
             'media' => [
                 'file' => 'user/config/media.yaml',
-                'modified' => 1566925789
+                'modified' => 1567147649
             ],
             'plugins/bootstrapper' => [
                 'file' => 'user/config/plugins/bootstrapper.yaml',
-                'modified' => 1567097697
+                'modified' => 1567147649
+            ],
+            'plugins/custom-css' => [
+                'file' => 'user/config/plugins/custom-css.yaml',
+                'modified' => 1567151792
             ],
             'plugins/fullpage' => [
                 'file' => 'user/config/plugins/fullpage.yaml',
-                'modified' => 1567097459
+                'modified' => 1567154957
             ],
             'plugins/gantry5' => [
                 'file' => 'user/config/plugins/gantry5.yaml',
-                'modified' => 1567097870
+                'modified' => 1567147649
             ],
             'scheduler' => [
                 'file' => 'user/config/scheduler.yaml',
-                'modified' => 1566925789
+                'modified' => 1567147649
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
-                'modified' => 1566925789
+                'modified' => 1567147649
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1566378722
+                'modified' => 1567151261
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
-                'modified' => 1566925789
+                'modified' => 1567147649
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1567098232
+                'modified' => 1567151380
             ],
             'themes/g5_hydrogen' => [
                 'file' => 'user/config/themes/g5_hydrogen.yaml',
-                'modified' => 1567098024
+                'modified' => 1567147649
             ]
         ],
         'system/config' => [
             'backups' => [
                 'file' => 'system/config/backups.yaml',
-                'modified' => 1566378722
+                'modified' => 1567147649
             ],
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1566378722
+                'modified' => 1567147649
             ],
             'security' => [
                 'file' => 'system/config/security.yaml',
-                'modified' => 1566378722
+                'modified' => 1567147649
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1566378722
+                'modified' => 1567147649
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1566378722
+                'modified' => 1567147649
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1566378722
+                'modified' => 1567147649
             ]
         ],
         'user/plugins' => [
             'plugins/markdown-notices' => [
                 'file' => 'user/plugins/markdown-notices/markdown-notices.yaml',
-                'modified' => 1566378722
+                'modified' => 1567147650
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1566378722
-            ],
-            'plugins/gantry5' => [
-                'file' => 'user/plugins/gantry5/gantry5.yaml',
-                'modified' => 1567097838
+                'modified' => 1567147650
             ],
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/admin.yaml',
-                'modified' => 1566378722
+                'modified' => 1567147649
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/problems.yaml',
-                'modified' => 1566378722
+                'modified' => 1567147650
+            ],
+            'plugins/custom-css' => [
+                'file' => 'user/plugins/custom-css/custom-css.yaml',
+                'modified' => 1567151570
+            ],
+            'plugins/devtools' => [
+                'file' => 'user/plugins/devtools/devtools.yaml',
+                'modified' => 1567159331
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
-                'modified' => 1566378722
+                'modified' => 1567147650
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
-                'modified' => 1566378722
+                'modified' => 1567147650
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
-                'modified' => 1566378722
+                'modified' => 1567147649
             ]
         ]
     ],
@@ -148,18 +156,6 @@ return [
                     'site_key' => NULL,
                     'secret_key' => NULL
                 ]
-            ],
-            'gantry5' => [
-                'enabled' => true,
-                'production' => false,
-                'use_media_folder' => true,
-                'offline' => true,
-                'offline_message' => NULL,
-                'asset_timestamps' => true,
-                'asset_timestamps_period' => 7.0,
-                'debug' => false,
-                'compile_yaml' => true,
-                'compile_twig' => true
             ],
             'admin' => [
                 'enabled' => true,
@@ -228,6 +224,12 @@ return [
             'problems' => [
                 'enabled' => true,
                 'built_in_css' => true
+            ],
+            'custom-css' => [
+                'enabled' => true
+            ],
+            'devtools' => [
+                'enabled' => true
             ],
             'error' => [
                 'enabled' => true,
@@ -333,7 +335,7 @@ return [
                 'load_core_js' => true
             ],
             'fullpage' => [
-                'enabled' => false,
+                'enabled' => true,
                 'order' => [
                     'by' => 'folder',
                     'dir' => 'asc'
@@ -345,7 +347,6 @@ return [
                 'header_font' => '\'Helvetica Neue\', Helvetica, Arial, sans-serif',
                 'block_font' => 'Palatino, \'Palatino Linotype\', \'Palatino LT STD\', \'Book Antiqua\', Georgia, serif',
                 'change_titles' => true,
-                'inject_footer' => '',
                 'shortcodes' => true,
                 'transition' => true,
                 'styles' => [
@@ -357,7 +358,7 @@ return [
                     ]
                 ],
                 'options' => [
-                    'navigation' => false,
+                    'navigation' => true,
                     'navigationPosition' => 'right',
                     'showActiveTooltip' => false,
                     'slidesNavigation' => false,
@@ -379,6 +380,17 @@ return [
                     'slideSelector' => '.slide',
                     'lazyLoading' => true
                 ]
+            ],
+            'gantry5' => [
+                'enabled' => true,
+                'production' => false,
+                'use_media_folder' => true,
+                'offline' => true,
+                'asset_timestamps' => true,
+                'asset_timestamps_period' => 7.0,
+                'debug' => false,
+                'compile_yaml' => true,
+                'compile_twig' => true
             ]
         ],
         'backups' => [
@@ -723,18 +735,18 @@ node_modules'
             'salt' => 's5JDZmfbzEy4lN'
         ],
         'site' => [
-            'title' => 'Grav',
+            'title' => 'Intengine',
             'default_lang' => 'en',
             'author' => [
-                'name' => 'Joe Bloggs',
-                'email' => 'joe@example.com'
+                'name' => 'Frank Jaeger',
+                'email' => 'sylwester.pilarz93@gmail.com'
             ],
             'taxonomies' => [
                 0 => 'category',
                 1 => 'tag'
             ],
             'metadata' => [
-                'description' => 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+                'description' => 'Intengine Studio - movies, graphic design, game design'
             ],
             'summary' => [
                 'enabled' => true,
@@ -802,7 +814,7 @@ node_modules'
                 'hide_in_urls' => false
             ],
             'pages' => [
-                'theme' => 'g5_hydrogen',
+                'theme' => 'quark',
                 'order' => [
                     'by' => 'default',
                     'dir' => 'asc'
@@ -818,7 +830,7 @@ node_modules'
                 'publish_dates' => true,
                 'process' => [
                     'markdown' => true,
-                    'twig' => false
+                    'twig' => true
                 ],
                 'twig_first' => false,
                 'never_cache_twig' => false,
@@ -852,7 +864,7 @@ node_modules'
                 'etag' => false,
                 'vary_accept_encoding' => false,
                 'redirect_default_route' => false,
-                'redirect_default_code' => 302,
+                'redirect_default_code' => '302',
                 'redirect_trailing_slash' => true,
                 'ignore_files' => [
                     0 => '.DS_Store'
@@ -917,7 +929,7 @@ node_modules'
                 ]
             ],
             'errors' => [
-                'display' => true,
+                'display' => 1,
                 'log' => true
             ],
             'log' => [
@@ -934,8 +946,8 @@ node_modules'
                 'twig' => true
             ],
             'images' => [
-                'default_image_quality' => 85,
-                'cache_all' => false,
+                'default_image_quality' => 100,
+                'cache_all' => true,
                 'cache_perms' => '0755',
                 'debug' => false,
                 'auto_fix_orientation' => false,

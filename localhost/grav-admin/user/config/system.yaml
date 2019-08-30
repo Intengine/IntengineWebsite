@@ -24,7 +24,7 @@ home:
   alias: /home
   hide_in_urls: false
 pages:
-  theme: g5_hydrogen
+  theme: quark
   order:
     by: default
     dir: asc
@@ -37,7 +37,7 @@ pages:
   publish_dates: true
   process:
     markdown: true
-    twig: false
+    twig: true
   twig_first: false
   never_cache_twig: false
   events:
@@ -66,7 +66,7 @@ pages:
   etag: false
   vary_accept_encoding: false
   redirect_default_route: false
-  redirect_default_code: 302
+  redirect_default_code: '302'
   redirect_trailing_slash: true
   ignore_files:
     - .DS_Store
@@ -120,7 +120,7 @@ assets:
   collections:
     jquery: 'system://assets/jquery/jquery-2.x.min.js'
 errors:
-  display: true
+  display: 1
   log: true
 log:
   handler: file
@@ -132,8 +132,8 @@ debugger:
     close_connection: true
   twig: true
 images:
-  default_image_quality: 85
-  cache_all: false
+  default_image_quality: 100
+  cache_all: true
   cache_perms: '0755'
   debug: false
   auto_fix_orientation: false

@@ -139,6 +139,6 @@ class __TwigTemplate_64c9b1a5a583747f61eb17db57cfdcb688f2e9856b46fea8a9a285df568
 
 {% block particle %}
 {% endblock %}
-", "@nucleus/partials/particle.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/localhost/grav-admin/user/plugins/gantry5/engines/nucleus/templates/partials/particle.html.twig");
+", "@nucleus/partials/particle.html.twig", "/Users/mac/Desktop/IntengineWebsite/localhost/grav-admin/user/plugins/gantry5/engines/nucleus/templates/partials/particle.html.twig");
     }
 }

@@ -81,6 +81,6 @@ class __TwigTemplate_33c9091c0f1bb15dbd3fbec25109621f535c3d1a883cd1d237f9a85981b
 {% if enabled and (segment.attributes.enabled is null or segment.attributes.enabled) %}
     <div class=\"spacer{{ segment.classes ? ' ' ~ segment.classes|join(' ')|e }}\"></div>
 {% endif %}
-", "@nucleus/content/spacer.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/localhost/grav-admin/user/plugins/gantry5/engines/nucleus/templates/content/spacer.html.twig");
+", "@nucleus/content/spacer.html.twig", "/Users/mac/Desktop/IntengineWebsite/localhost/grav-admin/user/plugins/gantry5/engines/nucleus/templates/content/spacer.html.twig");
     }
 }

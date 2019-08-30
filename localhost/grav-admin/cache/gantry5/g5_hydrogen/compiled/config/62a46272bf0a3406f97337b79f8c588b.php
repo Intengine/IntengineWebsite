@@ -1,23 +1,103 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1567098235,
-    'checksum' => '0fab29f3d005ca65fd4db9b93271eeba',
+    'timestamp' => 1567149964,
+    'checksum' => 'a94cc133d67598a1bcb46b6589239ef6',
     'files' => [
         'user/data/gantry5/themes/g5_hydrogen/config/default' => [
             'index' => [
                 'file' => 'user/data/gantry5/themes/g5_hydrogen/config/default/index.yaml',
-                'modified' => 1567098053
+                'modified' => 1567147947
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/g5_hydrogen/config/default/layout.yaml',
-                'modified' => 1567098053
+                'modified' => 1567147947
+            ],
+            'page/assets' => [
+                'file' => 'user/data/gantry5/themes/g5_hydrogen/config/default/page/assets.yaml',
+                'modified' => 1567147967
+            ],
+            'page/body' => [
+                'file' => 'user/data/gantry5/themes/g5_hydrogen/config/default/page/body.yaml',
+                'modified' => 1567147967
+            ],
+            'page/head' => [
+                'file' => 'user/data/gantry5/themes/g5_hydrogen/config/default/page/head.yaml',
+                'modified' => 1567147967
+            ],
+            'particles/branding' => [
+                'file' => 'user/data/gantry5/themes/g5_hydrogen/config/default/particles/branding.yaml',
+                'modified' => 1567148262
+            ],
+            'particles/content' => [
+                'file' => 'user/data/gantry5/themes/g5_hydrogen/config/default/particles/content.yaml',
+                'modified' => 1567148262
+            ],
+            'particles/contentarray' => [
+                'file' => 'user/data/gantry5/themes/g5_hydrogen/config/default/particles/contentarray.yaml',
+                'modified' => 1567148262
+            ],
+            'particles/copyright' => [
+                'file' => 'user/data/gantry5/themes/g5_hydrogen/config/default/particles/copyright.yaml',
+                'modified' => 1567148262
+            ],
+            'particles/custom' => [
+                'file' => 'user/data/gantry5/themes/g5_hydrogen/config/default/particles/custom.yaml',
+                'modified' => 1567148262
+            ],
+            'particles/date' => [
+                'file' => 'user/data/gantry5/themes/g5_hydrogen/config/default/particles/date.yaml',
+                'modified' => 1567148262
+            ],
+            'particles/login' => [
+                'file' => 'user/data/gantry5/themes/g5_hydrogen/config/default/particles/login.yaml',
+                'modified' => 1567148262
+            ],
+            'particles/logo' => [
+                'file' => 'user/data/gantry5/themes/g5_hydrogen/config/default/particles/logo.yaml',
+                'modified' => 1567148262
+            ],
+            'particles/menu' => [
+                'file' => 'user/data/gantry5/themes/g5_hydrogen/config/default/particles/menu.yaml',
+                'modified' => 1567148262
+            ],
+            'particles/messages' => [
+                'file' => 'user/data/gantry5/themes/g5_hydrogen/config/default/particles/messages.yaml',
+                'modified' => 1567148262
+            ],
+            'particles/mobile-menu' => [
+                'file' => 'user/data/gantry5/themes/g5_hydrogen/config/default/particles/mobile-menu.yaml',
+                'modified' => 1567148262
+            ],
+            'particles/position' => [
+                'file' => 'user/data/gantry5/themes/g5_hydrogen/config/default/particles/position.yaml',
+                'modified' => 1567148262
+            ],
+            'particles/sample' => [
+                'file' => 'user/data/gantry5/themes/g5_hydrogen/config/default/particles/sample.yaml',
+                'modified' => 1567148262
+            ],
+            'particles/social' => [
+                'file' => 'user/data/gantry5/themes/g5_hydrogen/config/default/particles/social.yaml',
+                'modified' => 1567148262
+            ],
+            'particles/spacer' => [
+                'file' => 'user/data/gantry5/themes/g5_hydrogen/config/default/particles/spacer.yaml',
+                'modified' => 1567148262
+            ],
+            'particles/totop' => [
+                'file' => 'user/data/gantry5/themes/g5_hydrogen/config/default/particles/totop.yaml',
+                'modified' => 1567148262
+            ],
+            'styles' => [
+                'file' => 'user/data/gantry5/themes/g5_hydrogen/config/default/styles.yaml',
+                'modified' => 1567149964
             ]
         ],
         'user/themes/g5_hydrogen/config/default' => [
             'particles/logo' => [
                 'file' => 'user/themes/g5_hydrogen/config/default/particles/logo.yaml',
-                'modified' => 1567098018
+                'modified' => 1567147650
             ]
         ]
     ],
@@ -27,13 +107,13 @@ return [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => true
+                'enabled' => '1'
             ],
             'branding' => [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => true,
+                'enabled' => '1',
                 'content' => 'Powered by <a href="http://www.gantry.org/" title="Gantry Framework" class="g-powered-by">Gantry Framework</a>',
                 'css' => [
                     'class' => 'branding'
@@ -43,11 +123,12 @@ return [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => true,
+                'enabled' => '1',
                 'date' => [
                     'start' => 'now',
                     'end' => 'now'
-                ]
+                ],
+                'owner' => ''
             ],
             'custom' => [
                 'caching' => [
@@ -57,7 +138,7 @@ return [
                         'filter' => '0'
                     ]
                 ],
-                'enabled' => true,
+                'enabled' => '1',
                 'twig' => '0',
                 'filter' => '0'
             ],
@@ -67,57 +148,65 @@ return [
                 ],
                 'enabled' => '1',
                 'target' => '_self',
-                'link' => true,
+                'link' => '1',
                 'url' => '',
                 'image' => 'gantry-assets://images/gantry5-logo.png',
                 'text' => 'Gantry 5',
-                'class' => 'gantry-logo'
+                'class' => 'gantry-logo',
+                'height' => '',
+                'svg' => ''
             ],
             'menu' => [
                 'caching' => [
                     'type' => 'menu'
                 ],
-                'enabled' => true,
+                'enabled' => '1',
                 'menu' => '',
                 'base' => '/',
-                'startLevel' => 1,
-                'maxLevels' => 0,
-                'renderTitles' => 0,
-                'hoverExpand' => 1,
-                'mobileTarget' => 0,
-                'forceTarget' => 0
+                'startLevel' => '1',
+                'maxLevels' => '0',
+                'renderTitles' => '0',
+                'hoverExpand' => '1',
+                'mobileTarget' => '0',
+                'forceTarget' => '0'
             ],
             'mobile-menu' => [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => true
+                'enabled' => '1'
             ],
             'social' => [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => true,
+                'enabled' => '1',
                 'css' => [
                     'class' => 'social'
                 ],
                 'target' => '',
-                'display' => 'both'
+                'display' => 'both',
+                'title' => '',
+                'items' => [
+                    
+                ]
             ],
             'spacer' => [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => true
+                'enabled' => '1'
             ],
             'totop' => [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => true,
+                'enabled' => '1',
                 'css' => [
                     'class' => 'totop'
-                ]
+                ],
+                'icon' => '',
+                'content' => ''
             ],
             'analytics' => [
                 'enabled' => true,
@@ -134,10 +223,10 @@ return [
                 'enabled' => true
             ],
             'content' => [
-                'enabled' => true
+                'enabled' => '1'
             ],
             'contentarray' => [
-                'enabled' => true,
+                'enabled' => '1',
                 'article' => [
                     'limit' => [
                         'total' => 2,
@@ -147,7 +236,7 @@ return [
                     'display' => [
                         'pagination_buttons' => '',
                         'image' => [
-                            'enabled' => 'intro'
+                            'enabled' => 'full'
                         ],
                         'text' => [
                             'type' => 'intro',
@@ -155,30 +244,40 @@ return [
                             'formatting' => 'text'
                         ],
                         'title' => [
-                            'enabled' => 'show'
+                            'enabled' => 'show',
+                            'limit' => ''
                         ],
                         'date' => [
                             'enabled' => 'published',
                             'format' => 'l, F d, Y'
                         ],
                         'read_more' => [
-                            'enabled' => 'show'
+                            'enabled' => 'show',
+                            'label' => '',
+                            'css' => ''
                         ],
                         'author' => [
                             'enabled' => 'show'
                         ],
                         'category' => [
-                            'enabled' => 'link'
+                            'enabled' => 'show',
+                            'route' => ''
                         ]
                     ],
                     'sort' => [
                         'orderby' => 'default',
                         'ordering' => 'asc'
                     ]
+                ],
+                'css' => [
+                    'class' => ''
+                ],
+                'extra' => [
+                    
                 ]
             ],
             'date' => [
-                'enabled' => true,
+                'enabled' => '1',
                 'css' => [
                     'class' => 'date'
                 ],
@@ -214,13 +313,14 @@ return [
                 'enabled' => true
             ],
             'login' => [
-                'enabled' => true
+                'enabled' => '0'
             ],
             'messages' => [
-                'enabled' => true
+                'enabled' => '1'
             ],
             'position' => [
-                'enabled' => true
+                'enabled' => '1',
+                'chrome' => ''
             ],
             'search' => [
                 'enabled' => true
@@ -231,10 +331,35 @@ return [
             'body' => [
                 'class' => 'gantry',
                 'attribs' => [
-                    'class' => 'gantry'
+                    'class' => 'gantry',
+                    'id' => '',
+                    'extra' => [
+                        
+                    ]
                 ],
                 'layout' => [
-                    'sections' => 0
+                    'sections' => '1'
+                ],
+                'body_top' => '',
+                'body_bottom' => ''
+            ],
+            'assets' => [
+                'favicon' => '',
+                'touchicon' => '',
+                'css' => [
+                    
+                ],
+                'javascript' => [
+                    
+                ]
+            ],
+            'head' => [
+                'meta' => [
+                    
+                ],
+                'head_bottom' => '',
+                'atoms' => [
+                    
                 ]
             ]
         ],
@@ -246,8 +371,8 @@ return [
             'base' => [
                 'background' => '#ffffff',
                 'text-color' => '#666666',
-                'body-font' => 'roboto, sans-serif',
-                'heading-font' => 'roboto, sans-serif'
+                'body-font' => 'Bebas Neue',
+                'heading-font' => 'Bebas Neue'
             ],
             'breakpoints' => [
                 'large-desktop-container' => '75rem',
@@ -286,17 +411,18 @@ return [
                 'text-color' => '#ffffff',
                 'width' => '17rem',
                 'toggle-color' => '#ffffff',
-                'toggle-visibility' => 1
+                'toggle-visibility' => '1'
             ],
             'showcase' => [
                 'background' => '#354d59',
-                'image' => '',
+                'image' => 'gantry-media://macbook.png',
                 'text-color' => '#ffffff'
             ],
             'subfeature' => [
                 'background' => '#f0f0f0',
                 'text-color' => '#666666'
-            ]
+            ],
+            'preset' => 'preset1'
         ],
         'pages' => [
             'blog_item' => [
@@ -365,7 +491,7 @@ return [
         ],
         'index' => [
             'name' => 'default',
-            'timestamp' => 1567098053,
+            'timestamp' => 1567147947,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -373,8 +499,6 @@ return [
                 'timestamp' => 1567098019
             ],
             'positions' => [
-                'header' => 'Header',
-                'breadcrumbs' => 'Breadcrumbs',
                 'footer' => 'Footer'
             ],
             'sections' => [
@@ -385,22 +509,14 @@ return [
                 'offcanvas' => 'Offcanvas'
             ],
             'particles' => [
-                'logo' => [
-                    'logo-2493' => 'Logo'
-                ],
-                'position' => [
-                    'position-header' => 'Header',
-                    'position-breadcrumbs' => 'Breadcrumbs',
-                    'position-footer' => 'Footer'
-                ],
                 'menu' => [
                     'menu-5154' => 'Menu'
                 ],
-                'messages' => [
-                    'system-messages-7808' => 'System Messages'
-                ],
                 'content' => [
                     'system-content-7860' => 'Page Content'
+                ],
+                'position' => [
+                    'position-footer' => 'Footer'
                 ],
                 'copyright' => [
                     'copyright-6932' => 'Copyright'
@@ -429,23 +545,14 @@ return [
             'layout' => [
                 '/header/' => [
                     0 => [
-                        0 => 'logo-2493 30',
-                        1 => 'position-header 70'
-                    ]
-                ],
-                '/navigation/' => [
-                    0 => [
                         0 => 'menu-5154'
                     ]
                 ],
+                '/navigation/' => [
+                    
+                ],
                 '/main/' => [
                     0 => [
-                        0 => 'position-breadcrumbs'
-                    ],
-                    1 => [
-                        0 => 'system-messages-7808'
-                    ],
-                    2 => [
                         0 => 'system-content-7860'
                     ]
                 ],
@@ -489,16 +596,6 @@ return [
                 ]
             ],
             'content' => [
-                'position-header' => [
-                    'attributes' => [
-                        'key' => 'header'
-                    ]
-                ],
-                'position-breadcrumbs' => [
-                    'attributes' => [
-                        'key' => 'breadcrumbs'
-                    ]
-                ],
                 'position-footer' => [
                     'attributes' => [
                         'key' => 'footer'

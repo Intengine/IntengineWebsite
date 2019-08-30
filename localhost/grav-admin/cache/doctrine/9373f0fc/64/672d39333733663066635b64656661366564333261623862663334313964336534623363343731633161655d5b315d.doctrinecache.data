@@ -1,0 +1,22 @@
+1567762472
+a:2:{s:7:"content";s:692:"<section class="section modular-features ">
+        <section class="container grid-lg">
+            <div class="frame-box">
+
+                <h1>Error: Invalid Frontmatter</h1>
+<p>Path: <code>/Users/mac/Desktop/IntengineWebsite/localhost/grav-admin/user/pages/01.home/_highlights/features.md</code></p>
+<p><strong>Failed to read /Users/mac/Desktop/IntengineWebsite/localhost/grav-admin/user/pages/01.home/_highlights/features.md: Multiple documents are not supported at line 2 (near "---").</strong></p>
+<pre><code>---
+
+---
+---
+SASASASA
+---
+SASASASASA</code></pre>
+
+                <div class="columns">
+                                </div>
+            </div>
+        </section>
+</section>
+";s:12:"content_meta";N;}

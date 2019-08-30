@@ -1,15 +1,15 @@
 <?php
 return [
     'file' => 'gantry-theme://css-compiled/custom.css',
-    'timestamp' => 1567098236,
+    'timestamp' => 1567149966,
     'md5' => '76409eda08dc6d5acbab915ed8c6e4a1',
     'variables' => [
         'accent-color-1' => '#439a86',
         'accent-color-2' => '#8f4dae',
         'base-background' => '#ffffff',
         'base-text-color' => '#666666',
-        'base-body-font' => '\'roboto, sans-serif\'',
-        'base-heading-font' => '\'roboto, sans-serif\'',
+        'base-body-font' => '\'Bebas Neue\'',
+        'base-heading-font' => '\'Bebas Neue\'',
         'breakpoints-large-desktop-container' => '75rem',
         'breakpoints-desktop-container' => '60rem',
         'breakpoints-tablet-container' => '48rem',
@@ -34,9 +34,11 @@ return [
         'offcanvas-toggle-color' => '#ffffff',
         'offcanvas-toggle-visibility' => '\'1\'',
         'showcase-background' => '#354d59',
+        'showcase-image' => '\'gantry-media://macbook.png\'',
         'showcase-text-color' => '#ffffff',
         'subfeature-background' => '#f0f0f0',
-        'subfeature-text-color' => '#666666'
+        'subfeature-text-color' => '#666666',
+        'preset' => '\'preset1\''
     ],
     'imports' => [
         

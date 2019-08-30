@@ -75,6 +75,6 @@ class __TwigTemplate_a5076c022bb8ca0b488d096a6e9aa5497484a9fa8f5789b8dcb8061d812
 {% block particle %}
     {{ gantry.platform.displayModules(particle.key, {'style': particle.chrome|default('gantry'), 'position': particle})|raw }}
 {% endblock %}
-", "@particles/position.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/localhost/grav-admin/user/plugins/gantry5/engines/nucleus/particles/position.html.twig");
+", "@particles/position.html.twig", "/Users/mac/Desktop/IntengineWebsite/localhost/grav-admin/user/plugins/gantry5/engines/nucleus/particles/position.html.twig");
     }
 }

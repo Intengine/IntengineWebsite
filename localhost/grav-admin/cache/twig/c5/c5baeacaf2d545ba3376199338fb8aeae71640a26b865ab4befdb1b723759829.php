@@ -127,6 +127,6 @@ class __TwigTemplate_b27bba37eeddf8b2d7a17efb4c33324a8b6d630589b621e523d14352d31
         {{ html|raw }}
     </div>
 {% endif %}
-", "@nucleus/content/system.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/localhost/grav-admin/user/plugins/gantry5/engines/nucleus/templates/content/system.html.twig");
+", "@nucleus/content/system.html.twig", "/Users/mac/Desktop/IntengineWebsite/localhost/grav-admin/user/plugins/gantry5/engines/nucleus/templates/content/system.html.twig");
     }
 }
