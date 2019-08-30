@@ -2,9 +2,9 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/localhost/grav-admin/user/data/feed/9292e04d7d7733bcbfbb7f4c1bcd1f6d.yaml',
-    'modified' => 1567149786,
+    'modified' => 1567159438,
     'data' => [
-        'last_checked' => 1567149786,
+        'last_checked' => 1567159438,
         'data' => [
             0 => [
                 'title' => 'Grav 1.6 Released!',
