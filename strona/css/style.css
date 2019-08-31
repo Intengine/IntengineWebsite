@@ -12,7 +12,7 @@ a {
 }
 
 p {
-  padding-top: 10vh;
+  padding-top: 8vh;
   padding-bottom: 0;
 }
 
@@ -31,9 +31,18 @@ span {
 }
 
 button {
-  font-size: 12px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: transparent;
+  border-radius: 12px;
+  border-color: #60606E;
+  border: 0.5;
+  font-size: 14px;
   color: #60606E;
   font-family: 'Bebas Neue';
+  text-align: center;
   letter-spacing: 3px;
 }
 
@@ -58,7 +67,16 @@ button {
   background-image: url('../img/backgroundDesign.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: middle center;
+}
+
+#graphic hr {
+  color: white;
+}
+
+#graphic button {
+  color: white;
+  border-color: white;
 }
 
 #game {
@@ -67,6 +85,15 @@ button {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+#game hr {
+  color: white;
+}
+
+#game button {
+  color: white;
+  border-color: white;
 }
 
 ul {
