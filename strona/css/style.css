@@ -3,6 +3,7 @@ body {
   color: #60606E;
   font-family: 'Bebas Neue Bold';
   margin: 0;
+  line-height: 0.3;
 }
 
 a {
@@ -12,6 +13,7 @@ a {
 
 p {
   padding-top: 10vh;
+  padding-bottom: 0;
 }
 
 div {
@@ -20,6 +22,19 @@ div {
   text-align: center;
   font-size: 46px;
   letter-spacing: 10px;
+}
+
+span {
+  font-family: 'Helvetica';
+  font-size: 16px;
+  letter-spacing: 0;
+}
+
+button {
+  font-size: 12px;
+  color: #60606E;
+  font-family: 'Bebas Neue';
+  letter-spacing: 3px;
 }
 
 #home {
@@ -38,6 +53,22 @@ div {
   background-position: center center;
 }
 
+#graphic {
+  color: white;
+  background-image: url('../img/backgroundDesign.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#game {
+  color: white;
+  background-image: url('../img/backgroundGamer.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 ul {
   list-style-type: none;
   font-size: 18px;
@@ -50,4 +81,9 @@ ul {
 li {
   display: inline;
   padding: 3vh;
+}
+
+hr {
+  width: 60px;
+  color: #60606E;
 }
