@@ -50,6 +50,25 @@ button {
   letter-spacing: 3px;
 }
 
+ul {
+  list-style-type: none;
+  font-size: 18px;
+  padding: 5vh;
+  letter-spacing: 4px;
+  position: fixed;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  padding: 3vh;
+}
+
+hr {
+  width: 60px;
+  color: #60606E;
+}
+
 #home {
   background-image: url('../img/backgroundMountains.jpg');
   background-size: cover;
@@ -98,23 +117,4 @@ button {
 #game button {
   color: white;
   border-color: white;
-}
-
-ul {
-  list-style-type: none;
-  font-size: 18px;
-  padding: 5vh;
-  letter-spacing: 4px;
-  position: fixed;
-  text-align: center;
-}
-
-li {
-  display: inline;
-  padding: 3vh;
-}
-
-hr {
-  width: 60px;
-  color: #60606E;
 }
