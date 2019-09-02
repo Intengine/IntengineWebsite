@@ -10,12 +10,6 @@ body {
   line-height: 0.3;
 }
 
-table {
-  height: 100vh;
-  width: 100%;
-  text-align: center;
-}
-
 a {
   color: #60606E;
   text-decoration: none;
@@ -128,4 +122,17 @@ hr {
 #game button {
   color: white;
   border-color: white;
+}
+
+#table-navbar {
+  width: 100%;
+  padding-top: 20px;
+  position: fixed;
+  text-align: center;
+}
+
+#table-content {
+  height: 100%;
+  width: 100%;
+  text-align: center;
 }
