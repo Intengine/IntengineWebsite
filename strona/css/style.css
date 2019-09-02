@@ -34,6 +34,11 @@ div {
   letter-spacing: 10px;
 }
 
+img {
+  float: left;
+  margin: 0 60px 20px 0;
+}
+
 span {
   font-family: 'Helvetica';
   font-size: 16px;
