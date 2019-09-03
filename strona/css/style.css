@@ -3,7 +3,54 @@
 }
 
 body {
-  height: 100%;
   color: #60606E;
   font-family: Bebas Neue;
+  height: 100vh;
+}
+
+hr {
+  color: #60606E;
+  width: 60px;
+}
+
+li a {
+  color: #60606E;
+  letter-spacing: 5px;
+}
+
+li a:hover {
+  color: #000000;
+  text-decoration: none;
+  transition: all .4s;
+}
+
+#hero-text {
+  font-size: 46px;
+  letter-spacing: 8px;
+}
+
+#home {
+  background-image: url('../img/backgroundMountains.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#movie-director {
+  background-image: url('../img/backgroundDirector.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#movie-director-text {
+  font-size: 46px;
+  letter-spacing: 8px;
+  padding-top: 8vh;
+}
+
+#subtext {
+  font-family: 'Helvetica';
+  font-size: 16px;
+  letter-spacing: 0;
 }
