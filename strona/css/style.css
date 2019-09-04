@@ -8,6 +8,10 @@ body {
   height: 100vh;
 }
 
+button {
+  letter-spacing: 5px;
+}
+
 hr {
   color: #60606E;
   width: 60px;
@@ -46,7 +50,7 @@ li a:hover {
 #movie-director-text {
   font-size: 46px;
   letter-spacing: 8px;
-  padding-top: 8vh;
+  padding-top: 6vh;
 }
 
 #subtext {
