@@ -2,7 +2,22 @@
   font-family: Bebas Neue; src: url('../fonts/BebasNeue-Regular.otf');
 }
 
+a {
+  color: #60606E;
+  letter-spacing: 5px;
+}
+
+a:hover {
+  color: #000000;
+  text-decoration: none;
+  transition: all .4s;
+}
+
 body {
+  background-image: url('../img/backgroundMountains.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   color: #60606E;
   font-family: Bebas Neue;
   height: 100vh;
@@ -12,20 +27,17 @@ button {
   letter-spacing: 5px;
 }
 
+h1 {
+  letter-spacing: 5px;
+}
+
 hr {
   color: #60606E;
   width: 60px;
 }
 
-li a {
-  color: #60606E;
+#footer {
   letter-spacing: 5px;
-}
-
-li a:hover {
-  color: #000000;
-  text-decoration: none;
-  transition: all .4s;
 }
 
 #game-designer {
@@ -61,6 +73,11 @@ li a:hover {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+#navigation {
+  font-size: 1.2rem;
+  padding-top: 20px;
 }
 
 #second-hero-text {
