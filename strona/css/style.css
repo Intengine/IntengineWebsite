@@ -36,6 +36,11 @@ hr {
   width: 60px;
 }
 
+img {
+  float: left;
+  margin-right: 50px;
+}
+
 #footer {
   letter-spacing: 5px;
 }
@@ -66,6 +71,15 @@ hr {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+#icon {
+  height: 25px;
+  width: 25px;
+}
+
+#info {
+  letter-spacing: 5px;
 }
 
 #movie-director {
