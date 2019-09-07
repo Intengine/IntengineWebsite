@@ -121,6 +121,10 @@ img {
   padding-top: 20px;
 }
 
+#portfolio {
+  margin-top: 10vh;
+}
+
 #second-hero-text {
   font-size: 46px;
   letter-spacing: 8px;
