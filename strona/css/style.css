@@ -2,6 +2,10 @@
   font-family: Bebas Neue; src: url('../fonts/BebasNeue-Regular.otf');
 }
 
+@font-face {
+  font-family: Bebas Neue Light; src: url('../fonts/BebasNeue-Light.otf');
+}
+
 a {
   color: #60606E;
   letter-spacing: 5px;
@@ -19,7 +23,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   color: #60606E;
-  font-family: Bebas Neue;
+  font-family: 'Bebas Neue';
   height: 100vh;
 }
 
@@ -123,6 +127,36 @@ img {
 
 #portfolio {
   margin-top: 8vh;
+}
+
+.portfolio-container:hover #portfolio-image {
+  opacity: 0.3;
+}
+
+.portfolio-container:hover #portfolio-text {
+  opacity: 1;
+}
+
+#portfolio-image {
+  backface-visibility: hidden;
+  display: block;
+  height: auto;
+  opacity: 1;
+  transition: .5s ease;
+}
+
+#portfolio-text {
+  font-family: 'Bebas Neue Light';
+  font-size: 2rem;
+  left: 50%;
+  letter-spacing: 8px;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transition: .5s ease;
 }
 
 #second-hero-text {
