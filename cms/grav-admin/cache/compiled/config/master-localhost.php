@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1568648824,
-    'checksum' => 'c2fb780c65f50a83eac52a93e714083c',
+    'timestamp' => 1568649661,
+    'checksum' => '297e203463e376075a6b1a13702633a7',
     'files' => [
         'user/config' => [
             'backups' => [
@@ -31,7 +31,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1568648824
+                'modified' => 1568649661
             ]
         ],
         'system/config' => [
@@ -88,6 +88,10 @@ return [
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
                 'modified' => 1566378722
+            ],
+            'plugins/bootstrapper' => [
+                'file' => 'user/plugins/bootstrapper/bootstrapper.yaml',
+                'modified' => 1568649579
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
@@ -225,6 +229,17 @@ return [
                 'routes' => [
                     404 => '/error'
                 ]
+            ],
+            'bootstrapper' => [
+                'enabled' => true,
+                'version' => 'v3',
+                'always_load' => false,
+                'use_cdn' => false,
+                'mode' => 'production',
+                'load_core_css' => true,
+                'load_theme_css' => true,
+                'load_popper_js' => true,
+                'load_core_js' => true
             ],
             'login' => [
                 'enabled' => true,

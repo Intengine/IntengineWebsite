@@ -2226,11 +2226,11 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 #g-offcanvas {
   background: #4db2b3;
   width: 12rem;
-  color: #eceeef;
+  color: #00a6ff;
 }
 /* line 6, user/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
 #g-offcanvas a {
-  color: #eceeef;
+  color: #00a6ff;
 }
 /* line 9, user/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
 #g-offcanvas a:hover {
@@ -2238,12 +2238,12 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 14, user/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
 #g-offcanvas h1, #g-offcanvas h2, #g-offcanvas h3, #g-offcanvas h4, #g-offcanvas h5, #g-offcanvas h6, #g-offcanvas strong {
-  color: #eceeef;
+  color: #00a6ff;
 }
 /* line 18, user/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
 #g-offcanvas .button {
   background: #8f4dae;
-  color: #eceeef;
+  color: #00a6ff;
 }
 /* line 21, user/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
 #g-offcanvas .button:hover {
@@ -2259,7 +2259,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 33, user/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
 #g-offcanvas .g-offcanvas-toggle {
-  color: #eceeef;
+  color: #00a6ff;
   left: 9rem;
   top: 1rem;
 }
@@ -2318,14 +2318,14 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* line 100, user/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
 /* line 101, user/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
 #g-offcanvas #g-mobilemenu-container ul > li > .g-menu-item-container {
-  color: #eceeef;
+  color: #00a6ff;
   padding: 0.938rem;
 }
 /* line 106, user/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
 /* line 107, user/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
 /* line 108, user/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
 #g-offcanvas #g-mobilemenu-container ul > li:not(.g-menu-item-type-particle):not(.g-menu-item-type-module).active > .g-menu-item-container, #g-offcanvas #g-mobilemenu-container ul > li:not(.g-menu-item-type-particle):not(.g-menu-item-type-module):hover > .g-menu-item-container {
-  color: #eceeef;
+  color: #00a6ff;
 }
 /* line 113, user/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
 #g-offcanvas #g-mobilemenu-container ul > li:not(.g-menu-item-type-particle):not(.g-menu-item-type-module).active {

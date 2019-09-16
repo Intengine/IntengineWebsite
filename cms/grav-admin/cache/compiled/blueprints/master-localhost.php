@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1568648824,
-    'checksum' => '446f602e39a7f32e818bcd1d266c302b',
+    'timestamp' => 1568649610,
+    'checksum' => '009f7d56ff5a507de6c66ba3e8948368',
     'files' => [
         'user/plugins/admin/blueprints/config' => [
             'media' => [
@@ -68,6 +68,10 @@ return [
             'plugins/error' => [
                 'file' => 'user/plugins/error/blueprints.yaml',
                 'modified' => 1566378722
+            ],
+            'plugins/bootstrapper' => [
+                'file' => 'user/plugins/bootstrapper/blueprints.yaml',
+                'modified' => 1568649579
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/blueprints.yaml',
@@ -3578,6 +3582,142 @@ return [
                 'name' => 'plugins.error.routes.404',
                 'validation' => 'strict'
             ],
+            'plugins.bootstrapper' => [
+                'type' => '_root',
+                'form_field' => false,
+                'form' => [
+                    'validation' => 'strict'
+                ]
+            ],
+            'plugins.bootstrapper.enabled' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_ADMIN.PLUGIN_STATUS',
+                'highlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.bootstrapper.enabled',
+                'validation' => 'strict'
+            ],
+            'plugins.bootstrapper.version' => [
+                'type' => 'select',
+                'size' => 'small',
+                'label' => 'PLUGIN_BOOTSTRAPPER.VERSION',
+                'default' => 'v3',
+                'options' => [
+                    'v3' => 'Bootstrap v3.3.7',
+                    'v4' => 'Bootstrap v4.1.1'
+                ],
+                'name' => 'plugins.bootstrapper.version',
+                'validation' => 'strict'
+            ],
+            'plugins.bootstrapper.always_load' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_BOOTSTRAPPER.ALWAYS_LOAD',
+                'highlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.bootstrapper.always_load',
+                'validation' => 'strict'
+            ],
+            'plugins.bootstrapper.use_cdn' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_BOOTSTRAPPER.USE_CDN',
+                'highlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.bootstrapper.use_cdn',
+                'validation' => 'strict'
+            ],
+            'plugins.bootstrapper.mode' => [
+                'type' => 'select',
+                'size' => 'small',
+                'label' => 'PLUGIN_BOOTSTRAPPER.MODE',
+                'default' => 'production',
+                'options' => [
+                    'development' => 'Development',
+                    'production' => 'Production'
+                ],
+                'name' => 'plugins.bootstrapper.mode',
+                'validation' => 'strict'
+            ],
+            'plugins.bootstrapper.load_core_css' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_BOOTSTRAPPER.LOAD_CORE_CSS',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.bootstrapper.load_core_css',
+                'validation' => 'strict'
+            ],
+            'plugins.bootstrapper.load_theme_css' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_BOOTSTRAPPER.LOAD_THEME_CSS',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.bootstrapper.load_theme_css',
+                'validation' => 'strict'
+            ],
+            'plugins.bootstrapper.load_popper_js' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_BOOTSTRAPPER.LOAD_POPPER_JS',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.bootstrapper.load_popper_js',
+                'validation' => 'strict'
+            ],
+            'plugins.bootstrapper.load_core_js' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_BOOTSTRAPPER.LOAD_CORE_JS',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.bootstrapper.load_core_js',
+                'validation' => 'strict'
+            ],
             'plugins.login' => [
                 'type' => '_root',
                 'form_field' => false,
@@ -4668,6 +4808,17 @@ return [
                     'routes' => [
                         404 => 'plugins.error.routes.404'
                     ]
+                ],
+                'bootstrapper' => [
+                    'enabled' => 'plugins.bootstrapper.enabled',
+                    'version' => 'plugins.bootstrapper.version',
+                    'always_load' => 'plugins.bootstrapper.always_load',
+                    'use_cdn' => 'plugins.bootstrapper.use_cdn',
+                    'mode' => 'plugins.bootstrapper.mode',
+                    'load_core_css' => 'plugins.bootstrapper.load_core_css',
+                    'load_theme_css' => 'plugins.bootstrapper.load_theme_css',
+                    'load_popper_js' => 'plugins.bootstrapper.load_popper_js',
+                    'load_core_js' => 'plugins.bootstrapper.load_core_js'
                 ],
                 'login' => [
                     'enabled' => 'plugins.login.enabled',

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-    'modified' => 1568648828,
+    'modified' => 1568651418,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -16,13 +16,14 @@ return [
                     0 => 'system-messages-7972'
                 ],
                 1 => [
-                    0 => 'logo-9608 15',
-                    1 => 'menu-6409 65',
-                    2 => 'social-3171 20'
+                    0 => 'menu-6409 50',
+                    1 => 'social-3171 50'
                 ]
             ],
             '/header/' => [
-                
+                0 => [
+                    0 => 'owlcarousel-7244'
+                ]
             ],
             '/intro/' => [
                 
@@ -170,12 +171,20 @@ return [
             ]
         ],
         'content' => [
-            'logo-9608' => [
-                'title' => 'Logo / Image'
-            ],
             'social-3171' => [
                 'block' => [
                     'class' => 'g-social-header'
+                ]
+            ],
+            'owlcarousel-7244' => [
+                'title' => 'Owl Carousel',
+                'attributes' => [
+                    'nav' => 'enable',
+                    'dots' => 'enable',
+                    'autoplay' => 'enable'
+                ],
+                'block' => [
+                    'fixed' => '1'
                 ]
             ],
             'position-position-4734' => [

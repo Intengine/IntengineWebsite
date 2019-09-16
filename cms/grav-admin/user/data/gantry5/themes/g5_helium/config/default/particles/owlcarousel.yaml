@@ -1,0 +1,29 @@
+enabled: '1'
+class: ''
+title: ''
+nav: enable
+dots: enable
+autoplay: enable
+autoplaySpeed: ''
+imageOverlay: enable
+items:
+  -
+    class: ''
+    image: 'gantry-media://header/img01.jpg'
+    title: 'Title 1'
+    desc: 'Lorem ipsum dolor sit amet'
+    link: ''
+    linktext: 'read more'
+    buttonclass: button-outline
+    disable: '0'
+    name: 'Item 1'
+  -
+    class: ''
+    image: 'gantry-media://header/img02.jpg'
+    title: 'Title 2'
+    desc: 'Lorem ipsum dolor sit amet'
+    link: ''
+    linktext: 'read more'
+    buttonclass: button-outline
+    disable: '0'
+    name: 'Item 2'
