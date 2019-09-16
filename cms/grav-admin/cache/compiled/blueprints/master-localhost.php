@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1568647536,
-    'checksum' => 'b0d590d702bfe5bdc5d0c9b4823075dd',
+    'timestamp' => 1568648020,
+    'checksum' => 'c503ca04592a705e9a3e8523d10341b8',
     'files' => [
         'system/blueprints/config' => [
             'backups' => [
@@ -50,6 +50,10 @@ return [
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/blueprints.yaml',
                 'modified' => 1566378722
+            ],
+            'plugins/custom-css' => [
+                'file' => 'user/plugins/custom-css/blueprints.yaml',
+                'modified' => 1568648020
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/blueprints.yaml',
@@ -3463,6 +3467,56 @@ return [
                 'name' => 'plugins.problems.built_in_css',
                 'validation' => 'strict'
             ],
+            'plugins.custom-css' => [
+                'type' => '_root',
+                'form_field' => false,
+                'form' => [
+                    'validation' => 'strict'
+                ]
+            ],
+            'plugins.custom-css.enabled' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_ADMIN.PLUGIN_STATUS',
+                'highlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.custom-css.enabled',
+                'validation' => 'strict'
+            ],
+            'plugins.custom-css.css_inline' => [
+                'type' => 'editor',
+                'codemirror' => [
+                    'mode' => 'css'
+                ],
+                'label' => 'PLUGIN_CUSTOM_CSS.INLINE_CSS',
+                'name' => 'plugins.custom-css.css_inline',
+                'validation' => 'strict'
+            ],
+            'plugins.custom-css.css_files' => [
+                'type' => 'list',
+                'label' => 'PLUGIN_CUSTOM_CSS.CSS_FILES',
+                'name' => 'plugins.custom-css.css_files',
+                'validation' => 'strict'
+            ],
+            'plugins.custom-css.css_files.path' => [
+                'type' => 'text',
+                'label' => 'PLUGIN_CUSTOM_CSS.CSS_FILES_PATH',
+                'name' => 'plugins.custom-css.css_files.path',
+                'validation' => 'strict'
+            ],
+            'plugins.custom-css.css_files.priority' => [
+                'type' => 'int',
+                'label' => 'PLUGIN_CUSTOM_CSS.CSS_FILES_PATH_PRIORITY',
+                'default' => 0,
+                'name' => 'plugins.custom-css.css_files.priority',
+                'validation' => 'strict'
+            ],
             'plugins.error' => [
                 'type' => '_root',
                 'form_field' => false,
@@ -4655,6 +4709,14 @@ return [
                 'problems' => [
                     'enabled' => 'plugins.problems.enabled',
                     'built_in_css' => 'plugins.problems.built_in_css'
+                ],
+                'custom-css' => [
+                    'enabled' => 'plugins.custom-css.enabled',
+                    'css_inline' => 'plugins.custom-css.css_inline',
+                    'css_files' => [
+                        'path' => 'plugins.custom-css.css_files.path',
+                        'priority' => 'plugins.custom-css.css_files.priority'
+                    ]
                 ],
                 'error' => [
                     'enabled' => 'plugins.error.enabled',

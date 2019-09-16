@@ -2,15 +2,29 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/config/site.yaml',
-    'modified' => 1566378722,
+    'modified' => 1568647778,
     'data' => [
-        'title' => 'Grav',
+        'title' => 'Intengine',
+        'default_lang' => 'en',
         'author' => [
-            'name' => 'Joe Bloggs',
-            'email' => 'joe@example.com'
+            'name' => 'Frank Jaeger',
+            'email' => 'sylwester.pilarz93@gmail.com'
+        ],
+        'taxonomies' => [
+            0 => 'category',
+            1 => 'tag'
         ],
         'metadata' => [
-            'description' => 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+            'description' => 'Intengine'
+        ],
+        'summary' => [
+            'enabled' => true,
+            'format' => 'short',
+            'size' => 300,
+            'delimiter' => '==='
+        ],
+        'blog' => [
+            'route' => '/blog'
         ]
     ]
 ];

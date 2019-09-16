@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1568647536,
-    'checksum' => '103ac62e44f9209a4a9c9223c2091fda',
+    'timestamp' => 1568648020,
+    'checksum' => '326987279f906f46e674acf94ff1949a',
     'files' => [
         'user/config' => [
             'backups' => [
@@ -23,7 +23,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1566378722
+                'modified' => 1568647778
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -31,7 +31,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1566378722
+                'modified' => 1568647935
             ]
         ],
         'system/config' => [
@@ -76,6 +76,10 @@ return [
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/problems.yaml',
                 'modified' => 1566378722
+            ],
+            'plugins/custom-css' => [
+                'file' => 'user/plugins/custom-css/custom-css.yaml',
+                'modified' => 1568648020
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
@@ -196,6 +200,9 @@ return [
             'problems' => [
                 'enabled' => true,
                 'built_in_css' => true
+            ],
+            'custom-css' => [
+                'enabled' => true
             ],
             'error' => [
                 'enabled' => true,
@@ -632,18 +639,18 @@ node_modules'
             'salt' => 'gm2aueIilbZ6KD'
         ],
         'site' => [
-            'title' => 'Grav',
+            'title' => 'Intengine',
             'default_lang' => 'en',
             'author' => [
-                'name' => 'Joe Bloggs',
-                'email' => 'joe@example.com'
+                'name' => 'Frank Jaeger',
+                'email' => 'sylwester.pilarz93@gmail.com'
             ],
             'taxonomies' => [
                 0 => 'category',
                 1 => 'tag'
             ],
             'metadata' => [
-                'description' => 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+                'description' => 'Intengine'
             ],
             'summary' => [
                 'enabled' => true,
@@ -727,7 +734,7 @@ node_modules'
                 'publish_dates' => true,
                 'process' => [
                     'markdown' => true,
-                    'twig' => false
+                    'twig' => true
                 ],
                 'twig_first' => false,
                 'never_cache_twig' => false,
@@ -761,7 +768,7 @@ node_modules'
                 'etag' => false,
                 'vary_accept_encoding' => false,
                 'redirect_default_route' => false,
-                'redirect_default_code' => 302,
+                'redirect_default_code' => '302',
                 'redirect_trailing_slash' => true,
                 'ignore_files' => [
                     0 => '.DS_Store'
@@ -826,7 +833,7 @@ node_modules'
                 ]
             ],
             'errors' => [
-                'display' => true,
+                'display' => 1,
                 'log' => true
             ],
             'log' => [
@@ -843,7 +850,7 @@ node_modules'
                 'twig' => true
             ],
             'images' => [
-                'default_image_quality' => 85,
+                'default_image_quality' => 100,
                 'cache_all' => false,
                 'cache_perms' => '0755',
                 'debug' => false,
@@ -858,13 +865,14 @@ node_modules'
                 'allowed_fallback_types' => [
                     
                 ],
-                'auto_metadata_exif' => false
+                'auto_metadata_exif' => false,
+                'upload_limit' => 8388608
             ],
             'session' => [
                 'enabled' => true,
                 'initialize' => true,
                 'timeout' => 1800,
-                'name' => 'grav-site',
+                'name' => 'intengine-site',
                 'uniqueness' => 'path',
                 'secure' => false,
                 'httponly' => true,

@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledLanguages',
-    'timestamp' => 1568647536,
-    'checksum' => '6415e43024b9111676444eb35c4d3a9b',
+    'timestamp' => 1568648020,
+    'checksum' => '8f9363b8c9dd3d6284c5b11705da8506',
     'files' => [
         'system/languages' => [
             'ar' => [
@@ -174,6 +174,10 @@ return [
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/languages.yaml',
                 'modified' => 1566378722
+            ],
+            'plugins/custom-css' => [
+                'file' => 'user/plugins/custom-css/languages.yaml',
+                'modified' => 1568648020
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/languages.yaml',
@@ -2564,6 +2568,16 @@ You have **2FA** enabled on this account. Please use your **2FA** app to enter t
             'PLUGIN_PROBLEMS' => [
                 'BUILTIN_CSS' => 'Use built in CSS',
                 'BUILTIN_CSS_HELP' => 'Include the CSS provided by the Problems plugin'
+            ],
+            'PLUGIN_CUSTOM_CSS' => [
+                'INLINE_CSS' => 'Inline CSS',
+                'INLINE_CSS_HELP' => 'CSS that will be added inline to every page',
+                'CSS_FILES' => 'CSS Files',
+                'CSS_FILES_HELP' => 'CSS Files that will be loaded on every page. Use relative or absolute URLs',
+                'CSS_FILES_PATH' => 'File path',
+                'CSS_FILES_PATH_HELP' => 'Relative to web root',
+                'CSS_FILES_PATH_PRIORITY' => 'Priority (0=Default)',
+                'CSS_FILES_PATH_PRIORITY_HELP' => 'Lower means later inclusion. Negative value to add this file after the other files (that come with the theme)'
             ],
             'PLUGIN_ERROR' => [
                 'ERROR' => 'Error',
@@ -9563,6 +9577,16 @@ Calea: `%2$s`
             'PLUGIN_PROBLEMS' => [
                 'BUILTIN_CSS' => 'Использовать встроенный CSS',
                 'BUILTIN_CSS_HELP' => 'Использовать CSS, предоставленный плагином Problems'
+            ],
+            'PLUGIN_CUSTOM_CSS' => [
+                'INLINE_CSS' => 'Встроенный CSS',
+                'INLINE_CSS_HELP' => 'CSS код, который будет добавлен на каждой странице',
+                'CSS_FILES' => 'CSS файлы',
+                'CSS_FILES_HELP' => 'CSS файлы, которые будут загружаться на каждой странице. Используйте относительные или абсолютные URL',
+                'CSS_FILES_PATH' => 'Путь к файлу',
+                'CSS_FILES_PATH_HELP' => 'Относительно корня',
+                'CSS_FILES_PATH_PRIORITY' => 'Приоритет (0=По умолчанию)',
+                'CSS_FILES_PATH_PRIORITY_HELP' => 'Меньше - файл подключается позже. Отрицательное значение для подключения этого файла после других файлов (которые поставляются с темой)'
             ],
             'PLUGIN_ERROR' => [
                 'ERROR' => 'Ошибка',
