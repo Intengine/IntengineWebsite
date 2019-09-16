@@ -87,6 +87,7 @@ img {
 }
 
 #icon {
+  float: none;
   height: 25px;
   width: 25px;
 }
