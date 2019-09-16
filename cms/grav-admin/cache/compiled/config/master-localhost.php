@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1568648020,
-    'checksum' => '326987279f906f46e674acf94ff1949a',
+    'timestamp' => 1568648824,
+    'checksum' => 'c2fb780c65f50a83eac52a93e714083c',
     'files' => [
         'user/config' => [
             'backups' => [
@@ -31,7 +31,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1568647935
+                'modified' => 1568648824
             ]
         ],
         'system/config' => [
@@ -68,6 +68,10 @@ return [
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
                 'modified' => 1566378722
+            ],
+            'plugins/gantry5' => [
+                'file' => 'user/plugins/gantry5/gantry5.yaml',
+                'modified' => 1568648714
             ],
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/admin.yaml',
@@ -132,6 +136,18 @@ return [
                     'site_key' => NULL,
                     'secret_key' => NULL
                 ]
+            ],
+            'gantry5' => [
+                'enabled' => true,
+                'production' => false,
+                'use_media_folder' => false,
+                'offline' => false,
+                'offline_message' => NULL,
+                'asset_timestamps' => true,
+                'asset_timestamps_period' => 7,
+                'debug' => false,
+                'compile_yaml' => true,
+                'compile_twig' => true
             ],
             'admin' => [
                 'enabled' => true,
@@ -718,7 +734,7 @@ node_modules'
                 'hide_in_urls' => false
             ],
             'pages' => [
-                'theme' => 'quark',
+                'theme' => 'g5_helium',
                 'order' => [
                     'by' => 'default',
                     'dir' => 'asc'
