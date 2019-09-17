@@ -272,6 +272,6 @@ class __TwigTemplate_cf154f54bc857cd547715e7c6c32a691e3fefe26f94a6b163989175073c
 {% include 'partials/modal-update-packages.html.twig' with { type: 'plugin' } %}
 {% include 'partials/modal-remove-package.html.twig' with { type: 'plugin', package: plugin } %}
 {% include 'partials/modal-reinstall-package.html.twig' with { type: 'plugin', package: plugin } %}
-", "partials/plugins-details.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/plugins-details.html.twig");
+", "partials/plugins-details.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/plugins-details.html.twig");
     }
 }

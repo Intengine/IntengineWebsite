@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1568705618,
-    'checksum' => 'ae10d77be120a0085bc6bafb7d98ba1c',
+    'timestamp' => 1568712513,
+    'checksum' => '4a9147d6076d12558fd33b8c32838611',
     'files' => [
         'user/data/gantry5/themes/g5_helium/config/_offline' => [
             'index' => [
@@ -113,7 +113,7 @@ return [
             ],
             'styles' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/styles.yaml',
-                'modified' => 1568705614
+                'modified' => 1568712508
             ]
         ],
         'user/themes/g5_helium/config/default' => [
@@ -467,16 +467,16 @@ return [
         ],
         'styles' => [
             'above' => [
-                'background' => '#f4f5f7',
-                'text-color' => '#424753'
+                'background' => '#a8a7a7',
+                'text-color' => '#ffffff'
             ],
             'accent' => [
-                'color-1' => '#4db2b3',
-                'color-2' => '#8f4dae'
+                'color-1' => '#a8a7a7',
+                'color-2' => '#474747'
             ],
             'base' => [
-                'background' => '#ffffff',
-                'text-color' => '#424753'
+                'background' => '#363636',
+                'text-color' => '#a8a7a7'
             ],
             'breakpoints' => [
                 'large-desktop-container' => '75rem',
@@ -486,61 +486,61 @@ return [
                 'mobile-menu-breakpoint' => '48rem'
             ],
             'expanded' => [
-                'background' => '#ffffff',
-                'text-color' => '#424753'
+                'background' => '#363636',
+                'text-color' => '#ffffff'
             ],
             'features' => [
-                'background' => '#ffffff',
-                'text-color' => '#424753'
+                'background' => '#363636',
+                'text-color' => '#ffffff'
             ],
             'font' => [
                 'family-default' => 'Raleway, Helvetica, Tahoma, Geneva, Arial, sans-serif',
                 'family-title' => 'Lato, Helvetica, Tahoma, Geneva, Arial, sans-serif'
             ],
             'footer' => [
-                'background' => '#312f38',
+                'background' => '#474747',
                 'text-color' => '#ffffff'
             ],
             'header' => [
-                'background' => '#9e9e9e',
-                'background-image' => '',
+                'background' => '#474747',
+                'background-image' => 'gantry-media://header/img01.jpg',
                 'background-overlay' => 'enabled',
                 'text-color' => '#eceeef'
             ],
             'intro' => [
-                'background' => '#f4f5f7',
-                'text-color' => '#424753'
+                'background' => '#474747',
+                'text-color' => '#ffffff'
             ],
             'link' => [
-                'regular' => '#4db2b3',
-                'hover' => '#424753'
+                'regular' => '#a8a7a7',
+                'hover' => '#eceeef'
             ],
             'menu' => [
                 'col-width' => '180px',
                 'animation' => 'g-fade'
             ],
             'navigation' => [
-                'background' => '#7a7a7a',
+                'background' => '#474747',
                 'text-color' => '#ffffff'
             ],
             'offcanvas' => [
-                'background' => '#4db2b3',
-                'text-color' => '#00a6ff',
-                'toggle-color' => '#4db2b3',
+                'background' => '#474747',
+                'text-color' => '#eceeef',
+                'toggle-color' => '#a8a7a7',
                 'toggle-visibility' => '1',
                 'width' => '12rem'
             ],
             'testimonials' => [
-                'background' => '#8f4dae',
+                'background' => '#a8a7a7',
                 'background-image' => 'gantry-media://testimonials/img01.jpg',
                 'background-overlay' => 'enabled',
                 'text-color' => '#eceeef'
             ],
             'utility' => [
-                'background' => '#424753',
+                'background' => '#474747',
                 'text-color' => '#ffffff'
             ],
-            'preset' => 'preset1'
+            'preset' => 'preset6'
         ],
         'page' => [
             'body' => [

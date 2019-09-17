@@ -1,17 +1,17 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1568705614,
-    'checksum' => '60f0ed52b73263082a4e0b7706f2d574',
+    'timestamp' => 1568713093,
+    'checksum' => '3edad34c32a3e8005aa7f86f53a993b2',
     'files' => [
         'user/data/gantry5/themes/g5_helium/config/default' => [
             'index' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/index.yaml',
-                'modified' => 1568705574
+                'modified' => 1568713091
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-                'modified' => 1568705574
+                'modified' => 1568713091
             ],
             'page/assets' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/assets.yaml',
@@ -27,83 +27,83 @@ return [
             ],
             'particles/branding' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/branding.yaml',
-                'modified' => 1568704836
+                'modified' => 1568713013
             ],
             'particles/content' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/content.yaml',
-                'modified' => 1568704836
+                'modified' => 1568713013
             ],
             'particles/contentarray' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/contentarray.yaml',
-                'modified' => 1568704836
+                'modified' => 1568713013
             ],
             'particles/contentcubes' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/contentcubes.yaml',
-                'modified' => 1568704836
+                'modified' => 1568713013
             ],
             'particles/contenttabs' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/contenttabs.yaml',
-                'modified' => 1568704836
+                'modified' => 1568713013
             ],
             'particles/copyright' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/copyright.yaml',
-                'modified' => 1568704836
+                'modified' => 1568713013
             ],
             'particles/custom' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/custom.yaml',
-                'modified' => 1568704836
+                'modified' => 1568713013
             ],
             'particles/date' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/date.yaml',
-                'modified' => 1568704836
+                'modified' => 1568713013
             ],
             'particles/horizontalmenu' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/horizontalmenu.yaml',
-                'modified' => 1568704836
+                'modified' => 1568713013
             ],
             'particles/login' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/login.yaml',
-                'modified' => 1568704836
+                'modified' => 1568713013
             ],
             'particles/logo' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/logo.yaml',
-                'modified' => 1568704836
+                'modified' => 1568713013
             ],
             'particles/menu' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/menu.yaml',
-                'modified' => 1568704836
+                'modified' => 1568713013
             ],
             'particles/messages' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/messages.yaml',
-                'modified' => 1568704836
+                'modified' => 1568713013
             ],
             'particles/mobile-menu' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/mobile-menu.yaml',
-                'modified' => 1568704836
+                'modified' => 1568713013
             ],
             'particles/owlcarousel' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/owlcarousel.yaml',
-                'modified' => 1568704836
+                'modified' => 1568713013
             ],
             'particles/position' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/position.yaml',
-                'modified' => 1568704836
+                'modified' => 1568713013
             ],
             'particles/social' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/social.yaml',
-                'modified' => 1568704836
+                'modified' => 1568713013
             ],
             'particles/spacer' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/spacer.yaml',
-                'modified' => 1568704836
+                'modified' => 1568713013
             ],
             'particles/totop' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/totop.yaml',
-                'modified' => 1568704836
+                'modified' => 1568713013
             ],
             'styles' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/styles.yaml',
-                'modified' => 1568705614
+                'modified' => 1568712508
             ]
         ],
         'user/themes/g5_helium/config/default' => [
@@ -206,24 +206,24 @@ return [
                     0 => [
                         'class' => '',
                         'image' => 'gantry-media://header/img01.jpg',
-                        'title' => 'Title 1',
-                        'desc' => 'Lorem ipsum dolor sit amet',
-                        'link' => '',
+                        'title' => 'Graphic Designer',
+                        'desc' => 'Photoshop, InDesign, Illustrator, UX / UI and more...',
+                        'link' => 'http://www.google.pl',
                         'linktext' => 'read more',
                         'buttonclass' => 'button-outline',
                         'disable' => '0',
-                        'name' => 'Item 1'
+                        'name' => 'Graphic Designer'
                     ],
                     1 => [
                         'class' => '',
                         'image' => 'gantry-media://header/img02.jpg',
-                        'title' => 'Title 2',
-                        'desc' => 'Lorem ipsum dolor sit amet',
-                        'link' => '',
+                        'title' => 'Movie Director',
+                        'desc' => 'After Effects, Final Cut Pro X, Motion and more...',
+                        'link' => 'http://www.google.pl',
                         'linktext' => 'read more',
                         'buttonclass' => 'button-outline',
                         'disable' => '0',
-                        'name' => 'Item 2'
+                        'name' => 'Movie Director'
                     ]
                 ]
             ],
@@ -457,16 +457,16 @@ return [
         ],
         'styles' => [
             'above' => [
-                'background' => '#f4f5f7',
-                'text-color' => '#424753'
+                'background' => '#a8a7a7',
+                'text-color' => '#ffffff'
             ],
             'accent' => [
-                'color-1' => '#4db2b3',
-                'color-2' => '#8f4dae'
+                'color-1' => '#a8a7a7',
+                'color-2' => '#474747'
             ],
             'base' => [
-                'background' => '#ffffff',
-                'text-color' => '#424753'
+                'background' => '#363636',
+                'text-color' => '#a8a7a7'
             ],
             'breakpoints' => [
                 'large-desktop-container' => '75rem',
@@ -476,61 +476,61 @@ return [
                 'mobile-menu-breakpoint' => '48rem'
             ],
             'expanded' => [
-                'background' => '#ffffff',
-                'text-color' => '#424753'
+                'background' => '#363636',
+                'text-color' => '#ffffff'
             ],
             'features' => [
-                'background' => '#ffffff',
-                'text-color' => '#424753'
+                'background' => '#363636',
+                'text-color' => '#ffffff'
             ],
             'font' => [
                 'family-default' => 'Raleway, Helvetica, Tahoma, Geneva, Arial, sans-serif',
                 'family-title' => 'Lato, Helvetica, Tahoma, Geneva, Arial, sans-serif'
             ],
             'footer' => [
-                'background' => '#312f38',
+                'background' => '#474747',
                 'text-color' => '#ffffff'
             ],
             'header' => [
-                'background' => '#9e9e9e',
-                'background-image' => '',
+                'background' => '#474747',
+                'background-image' => 'gantry-media://header/img01.jpg',
                 'background-overlay' => 'enabled',
                 'text-color' => '#eceeef'
             ],
             'intro' => [
-                'background' => '#f4f5f7',
-                'text-color' => '#424753'
+                'background' => '#474747',
+                'text-color' => '#ffffff'
             ],
             'link' => [
-                'regular' => '#4db2b3',
-                'hover' => '#424753'
+                'regular' => '#a8a7a7',
+                'hover' => '#eceeef'
             ],
             'menu' => [
                 'col-width' => '180px',
                 'animation' => 'g-fade'
             ],
             'navigation' => [
-                'background' => '#7a7a7a',
+                'background' => '#474747',
                 'text-color' => '#ffffff'
             ],
             'offcanvas' => [
-                'background' => '#4db2b3',
-                'text-color' => '#00a6ff',
-                'toggle-color' => '#4db2b3',
+                'background' => '#474747',
+                'text-color' => '#eceeef',
+                'toggle-color' => '#a8a7a7',
                 'toggle-visibility' => '1',
                 'width' => '12rem'
             ],
             'testimonials' => [
-                'background' => '#8f4dae',
+                'background' => '#a8a7a7',
                 'background-image' => 'gantry-media://testimonials/img01.jpg',
                 'background-overlay' => 'enabled',
                 'text-color' => '#eceeef'
             ],
             'utility' => [
-                'background' => '#424753',
+                'background' => '#474747',
                 'text-color' => '#ffffff'
             ],
-            'preset' => 'preset1'
+            'preset' => 'preset6'
         ],
         'page' => [
             'body' => [
@@ -646,7 +646,7 @@ return [
         ],
         'index' => [
             'name' => 'default',
-            'timestamp' => 1568705574,
+            'timestamp' => 1568713091,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -800,8 +800,9 @@ return [
                 ],
                 'header' => [
                     'attributes' => [
-                        'boxed' => '',
-                        'class' => ''
+                        'boxed' => '2',
+                        'class' => '',
+                        'variations' => ''
                     ]
                 ],
                 'intro' => [
@@ -889,11 +890,9 @@ return [
                     'title' => 'Owl Carousel',
                     'attributes' => [
                         'nav' => 'enable',
-                        'dots' => 'enable',
-                        'autoplay' => 'enable'
-                    ],
-                    'block' => [
-                        'fixed' => '1'
+                        'dots' => 'disable',
+                        'autoplay' => 'enable',
+                        'autoplaySpeed' => '5000'
                     ]
                 ],
                 'position-position-4734' => [

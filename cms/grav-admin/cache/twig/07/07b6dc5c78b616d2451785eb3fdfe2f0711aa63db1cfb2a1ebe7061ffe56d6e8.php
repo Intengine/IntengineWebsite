@@ -92,6 +92,6 @@ class __TwigTemplate_e8f24c83fe70e17e8908514c6ebdc3f97e8b5cc96a6bc41dfb318c06e46
         <a></a>
     </div>
 </form>
-", "partials/release-toggle.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/release-toggle.html.twig");
+", "partials/release-toggle.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/release-toggle.html.twig");
     }
 }

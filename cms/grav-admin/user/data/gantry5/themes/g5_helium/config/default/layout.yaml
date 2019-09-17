@@ -49,8 +49,9 @@ structure:
       boxed: ''
   header:
     attributes:
-      boxed: ''
+      boxed: '2'
       class: ''
+      variations: ''
   intro:
     type: section
     attributes:
@@ -108,10 +109,9 @@ content:
     title: 'Owl Carousel'
     attributes:
       nav: enable
-      dots: enable
+      dots: disable
       autoplay: enable
-    block:
-      fixed: '1'
+      autoplaySpeed: '5000'
   position-position-4734:
     title: Aside
     attributes:

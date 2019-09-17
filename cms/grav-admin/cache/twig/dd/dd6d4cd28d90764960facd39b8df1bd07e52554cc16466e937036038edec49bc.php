@@ -145,6 +145,6 @@ class __TwigTemplate_c707e471d630a36d6f1df2981d017f62e1fe173095b9e7e9a198bc8928b
 
 </div>
 
-", "partials/tools-direct-install.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/tools-direct-install.html.twig");
+", "partials/tools-direct-install.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/tools-direct-install.html.twig");
     }
 }

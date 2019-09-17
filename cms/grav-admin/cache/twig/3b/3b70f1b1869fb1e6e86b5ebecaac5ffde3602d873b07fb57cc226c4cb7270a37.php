@@ -191,6 +191,6 @@ class __TwigTemplate_34b42ada8b6f106c07e8f32f7f9dfb3a181072cf6073160596938285c6c
 {% endblock %}
 
 
-", "forms/fields/themeselect/themeselect.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/forms/fields/themeselect/themeselect.html.twig");
+", "forms/fields/themeselect/themeselect.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/forms/fields/themeselect/themeselect.html.twig");
     }
 }

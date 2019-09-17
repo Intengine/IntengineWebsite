@@ -85,6 +85,6 @@ class __TwigTemplate_82f23afcec475bba7abf9171c554e73f8494b75088824f93f361960835b
             {% include 'forms/default/fields.html.twig' with {name: field.name, fields: field.fields} %}
         </div>
     {% endif %}
-{% endblock %}", "forms/fields/tab/tab.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/form/templates/forms/fields/tab/tab.html.twig");
+{% endblock %}", "forms/fields/tab/tab.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/form/templates/forms/fields/tab/tab.html.twig");
     }
 }

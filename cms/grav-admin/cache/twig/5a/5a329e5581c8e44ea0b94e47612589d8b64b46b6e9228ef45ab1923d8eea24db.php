@@ -237,7 +237,7 @@ class __TwigTemplate_ba4186cf74bfd2813bff3d232807b39e81b3cfd792621322b0ec455aae8
         <div class=\"tabs-content\">
             ";
                 // line 54
-                $this->loadTemplate("forms/fields/tabs/tabs.html.twig", "forms/fields/tabs/tabs.html.twig", 54, "300182304")->display(twig_array_merge($context, ["name" => $this->getAttribute(($context["field"] ?? null), "name", []), "fields" => $this->getAttribute(($context["field"] ?? null), "fields", [])]));
+                $this->loadTemplate("forms/fields/tabs/tabs.html.twig", "forms/fields/tabs/tabs.html.twig", 54, "1712176462")->display(twig_array_merge($context, ["name" => $this->getAttribute(($context["field"] ?? null), "name", []), "fields" => $this->getAttribute(($context["field"] ?? null), "fields", [])]));
                 // line 62
                 echo "        </div>
     ";
@@ -339,13 +339,13 @@ class __TwigTemplate_ba4186cf74bfd2813bff3d232807b39e81b3cfd792621322b0ec455aae8
 {% endif %}
 </div>
 {% endblock %}
-", "forms/fields/tabs/tabs.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/form/templates/forms/fields/tabs/tabs.html.twig");
+", "forms/fields/tabs/tabs.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/form/templates/forms/fields/tabs/tabs.html.twig");
     }
 }
 
 
 /* forms/fields/tabs/tabs.html.twig */
-class __TwigTemplate_ba4186cf74bfd2813bff3d232807b39e81b3cfd792621322b0ec455aae8c877c___300182304 extends \Twig\Template
+class __TwigTemplate_ba4186cf74bfd2813bff3d232807b39e81b3cfd792621322b0ec455aae8c877c___1712176462 extends \Twig\Template
 {
     public function __construct(Environment $env)
     {
@@ -480,6 +480,6 @@ class __TwigTemplate_ba4186cf74bfd2813bff3d232807b39e81b3cfd792621322b0ec455aae8
 {% endif %}
 </div>
 {% endblock %}
-", "forms/fields/tabs/tabs.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/form/templates/forms/fields/tabs/tabs.html.twig");
+", "forms/fields/tabs/tabs.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/form/templates/forms/fields/tabs/tabs.html.twig");
     }
 }

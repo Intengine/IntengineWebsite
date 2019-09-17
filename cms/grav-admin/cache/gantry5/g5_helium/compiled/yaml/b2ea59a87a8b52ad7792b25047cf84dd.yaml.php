@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-    'modified' => 1568705574,
+    'modified' => 1568713091,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -91,8 +91,9 @@ return [
             ],
             'header' => [
                 'attributes' => [
-                    'boxed' => '',
-                    'class' => ''
+                    'boxed' => '2',
+                    'class' => '',
+                    'variations' => ''
                 ]
             ],
             'intro' => [
@@ -180,11 +181,9 @@ return [
                 'title' => 'Owl Carousel',
                 'attributes' => [
                     'nav' => 'enable',
-                    'dots' => 'enable',
-                    'autoplay' => 'enable'
-                ],
-                'block' => [
-                    'fixed' => '1'
+                    'dots' => 'disable',
+                    'autoplay' => 'enable',
+                    'autoplaySpeed' => '5000'
                 ]
             ],
             'position-position-4734' => [

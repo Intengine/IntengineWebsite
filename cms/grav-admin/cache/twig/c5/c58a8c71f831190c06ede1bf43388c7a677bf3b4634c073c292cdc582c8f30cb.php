@@ -107,6 +107,6 @@ class __TwigTemplate_e08c9b8cd42ce77eec71dadad17b2e5558f98662903e0df5961a04ada44
     </select>
     <div class=\"sort-icon\"><i class=\"fa fa-fw fa-sort-amount-asc\"></i></div>
 </div>
-", "partials/list-sort.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/list-sort.html.twig");
+", "partials/list-sort.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/list-sort.html.twig");
     }
 }

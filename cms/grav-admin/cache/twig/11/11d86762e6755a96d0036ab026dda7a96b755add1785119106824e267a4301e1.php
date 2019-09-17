@@ -130,6 +130,6 @@ class __TwigTemplate_7035cc05d0173238918c022d683c14e1a6301ddfe429533f141fa05fdb6
     type=\"text\"
     {{ parent() }}
 {% endblock %}
-", "forms/fields/selectize/selectize.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/forms/fields/selectize/selectize.html.twig");
+", "forms/fields/selectize/selectize.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/forms/fields/selectize/selectize.html.twig");
     }
 }

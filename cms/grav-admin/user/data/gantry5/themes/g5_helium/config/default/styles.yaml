@@ -1,51 +1,51 @@
-preset: preset1
+preset: preset6
 base:
-  background: '#ffffff'
-  text-color: '#424753'
+  background: '#363636'
+  text-color: '#a8a7a7'
 accent:
-  color-1: '#4db2b3'
-  color-2: '#8f4dae'
+  color-1: '#a8a7a7'
+  color-2: '#474747'
 font:
   family-default: 'Raleway, Helvetica, Tahoma, Geneva, Arial, sans-serif'
   family-title: 'Lato, Helvetica, Tahoma, Geneva, Arial, sans-serif'
 link:
-  regular: '#4db2b3'
-  hover: '#424753'
+  regular: '#a8a7a7'
+  hover: '#eceeef'
 navigation:
-  background: '#7a7a7a'
+  background: '#474747'
   text-color: '#ffffff'
 header:
-  background: '#9e9e9e'
-  background-image: ''
+  background: '#474747'
+  background-image: 'gantry-media://header/img01.jpg'
   background-overlay: enabled
   text-color: '#eceeef'
 intro:
-  background: '#f4f5f7'
-  text-color: '#424753'
+  background: '#474747'
+  text-color: '#ffffff'
 features:
-  background: '#ffffff'
-  text-color: '#424753'
+  background: '#363636'
+  text-color: '#ffffff'
 utility:
-  background: '#424753'
+  background: '#474747'
   text-color: '#ffffff'
 above:
-  background: '#f4f5f7'
-  text-color: '#424753'
+  background: '#a8a7a7'
+  text-color: '#ffffff'
 testimonials:
-  background: '#8f4dae'
+  background: '#a8a7a7'
   background-image: 'gantry-media://testimonials/img01.jpg'
   background-overlay: enabled
   text-color: '#eceeef'
 expanded:
-  background: '#ffffff'
-  text-color: '#424753'
+  background: '#363636'
+  text-color: '#ffffff'
 footer:
-  background: '#312f38'
+  background: '#474747'
   text-color: '#ffffff'
 offcanvas:
-  background: '#4db2b3'
-  text-color: '#00a6ff'
-  toggle-color: '#4db2b3'
+  background: '#474747'
+  text-color: '#eceeef'
+  toggle-color: '#a8a7a7'
   toggle-visibility: '1'
   width: 12rem
 breakpoints:

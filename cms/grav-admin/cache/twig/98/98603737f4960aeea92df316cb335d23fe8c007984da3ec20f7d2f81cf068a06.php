@@ -84,6 +84,6 @@ class __TwigTemplate_dba099cd07afac8f037c2b506a266395a0e304110d2923326fd7f9f072a
 </div>
 <h1><i class=\"fa fa-fw fa-briefcase\"></i> {{ \"PLUGIN_ADMIN.TOOLS\"|tu }} - {{ \"PLUGIN_ADMIN.BACKUPS\"|tu }}</h1>
 
-", "partials/tools-backups-titlebar.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/tools-backups-titlebar.html.twig");
+", "partials/tools-backups-titlebar.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/tools-backups-titlebar.html.twig");
     }
 }

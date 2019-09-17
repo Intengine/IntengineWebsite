@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1568705022,
-    'checksum' => '0ad7f926bde205f7ca7b3fd4a90d762e',
+    'timestamp' => 1568713253,
+    'checksum' => 'fc876b5233c588f59e9e942165611d5a',
     'files' => [
         'user/config' => [
             'backups' => [
@@ -69,6 +69,10 @@ return [
                 'file' => 'user/plugins/form/form.yaml',
                 'modified' => 1568704837
             ],
+            'plugins/admin-power-tools' => [
+                'file' => 'user/plugins/admin-power-tools/admin-power-tools.yaml',
+                'modified' => 1568713247
+            ],
             'plugins/gantry5' => [
                 'file' => 'user/plugins/gantry5/gantry5.yaml',
                 'modified' => 1568704837
@@ -100,6 +104,14 @@ return [
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
                 'modified' => 1568704837
+            ],
+            'plugins/editor' => [
+                'file' => 'user/plugins/editor/editor.yaml',
+                'modified' => 1568713251
+            ],
+            'plugins/core-service-manager' => [
+                'file' => 'user/plugins/core-service-manager/core-service-manager.yaml',
+                'modified' => 1568713242
             ]
         ]
     ],
@@ -140,6 +152,18 @@ return [
                     'site_key' => NULL,
                     'secret_key' => NULL
                 ]
+            ],
+            'admin-power-tools' => [
+                'enabled' => true,
+                'edit_page_enabled' => true,
+                'edit_section_enabled' => true,
+                'edit_section_syntax_enabled' => true,
+                'add_page_enabled' => true,
+                'reports_enabled' => true,
+                'child_reordering_enabled' => true,
+                'child_reordering_immediate' => true,
+                'move_page_enabled' => false,
+                'rename_page_enabled' => false
             ],
             'gantry5' => [
                 'enabled' => true,
@@ -326,6 +350,20 @@ return [
                 ],
                 'content_type' => 'text/html',
                 'debug' => false
+            ],
+            'editor' => [
+                'enabled' => true,
+                'js_enabled' => true,
+                'php_enabled' => true,
+                'twig_enabled' => true,
+                'css_enabled' => true,
+                'yaml_enabled' => true,
+                'markdown_enabled' => true
+            ],
+            'core-service-manager' => [
+                'enabled' => true,
+                'override_admin_twigs' => true,
+                'show_samples' => false
             ]
         ],
         'backups' => [

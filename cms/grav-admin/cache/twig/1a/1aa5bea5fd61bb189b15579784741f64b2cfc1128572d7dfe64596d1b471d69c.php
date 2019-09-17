@@ -253,6 +253,6 @@ class __TwigTemplate_5d6c60f0632bf4b6de26840bab59735bd631725b18fac144ae387b7d90c
     <span class=\"range-append\">{{ field.append }}</span>
 
 {% endblock append %}
-", "forms/fields/range/range.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/forms/fields/range/range.html.twig");
+", "forms/fields/range/range.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/forms/fields/range/range.html.twig");
     }
 }

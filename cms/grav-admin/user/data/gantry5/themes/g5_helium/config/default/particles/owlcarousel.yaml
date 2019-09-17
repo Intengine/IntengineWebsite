@@ -10,20 +10,20 @@ items:
   -
     class: ''
     image: 'gantry-media://header/img01.jpg'
-    title: 'Title 1'
-    desc: 'Lorem ipsum dolor sit amet'
-    link: ''
+    title: 'Graphic Designer'
+    desc: 'Photoshop, InDesign, Illustrator, UX / UI and more...'
+    link: 'http://www.google.pl'
     linktext: 'read more'
     buttonclass: button-outline
     disable: '0'
-    name: 'Item 1'
+    name: 'Graphic Designer'
   -
     class: ''
     image: 'gantry-media://header/img02.jpg'
-    title: 'Title 2'
-    desc: 'Lorem ipsum dolor sit amet'
-    link: ''
+    title: 'Movie Director'
+    desc: 'After Effects, Final Cut Pro X, Motion and more...'
+    link: 'http://www.google.pl'
     linktext: 'read more'
     buttonclass: button-outline
     disable: '0'
-    name: 'Item 2'
+    name: 'Movie Director'
