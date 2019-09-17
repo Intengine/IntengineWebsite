@@ -1,7 +1,7 @@
 <?php
 return [
     'file' => 'gantry-theme://css-compiled/custom.css',
-    'timestamp' => 1568712511,
+    'timestamp' => 1568736220,
     'md5' => '76409eda08dc6d5acbab915ed8c6e4a1',
     'variables' => [
         'above-background' => '#a8a7a7',
@@ -19,8 +19,8 @@ return [
         'expanded-text-color' => '#ffffff',
         'features-background' => '#363636',
         'features-text-color' => '#ffffff',
-        'font-family-default' => '\'Raleway, Helvetica, Tahoma, Geneva, Arial, sans-serif\'',
-        'font-family-title' => '\'Lato, Helvetica, Tahoma, Geneva, Arial, sans-serif\'',
+        'font-family-default' => '\'Bebas\'',
+        'font-family-title' => '\'Bebas\'',
         'footer-background' => '#474747',
         'footer-text-color' => '#ffffff',
         'header-background' => '#474747',

@@ -6,8 +6,8 @@ accent:
   color-1: '#a8a7a7'
   color-2: '#474747'
 font:
-  family-default: 'Raleway, Helvetica, Tahoma, Geneva, Arial, sans-serif'
-  family-title: 'Lato, Helvetica, Tahoma, Geneva, Arial, sans-serif'
+  family-default: Bebas
+  family-title: Bebas
 link:
   regular: '#a8a7a7'
   hover: '#eceeef'

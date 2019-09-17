@@ -11,3 +11,9 @@ atoms:
       mobile: enable
       secondtrigger: '0'
       secondoffset: ''
+  -
+    title: 'Custom CSS / JS'
+    type: assets
+    attributes:
+      enabled: true
+    id: assets-3348

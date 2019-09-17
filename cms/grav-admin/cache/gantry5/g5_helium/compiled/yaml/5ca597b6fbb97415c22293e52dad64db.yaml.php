@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'gantry-theme://config/default/page/head.yaml',
-    'modified' => 1568705145,
+    'modified' => 1568733055,
     'data' => [
         'meta' => [
             
@@ -15,7 +15,7 @@ return [
                 'title' => 'Fixed Header',
                 'attributes' => [
                     'enabled' => '1',
-                    'cssselector' => '#g-header',
+                    'cssselector' => '#g-navigation',
                     'mobile' => 'enable',
                     'secondtrigger' => '0',
                     'secondoffset' => ''

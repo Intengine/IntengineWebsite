@@ -6,8 +6,6 @@ preset:
 layout:
   /navigation/:
     -
-      - system-messages-7972
-    -
       - 'menu-6409 50'
       - 'social-3171 50'
   /header/:

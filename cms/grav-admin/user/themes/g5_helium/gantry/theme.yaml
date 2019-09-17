@@ -58,6 +58,11 @@ configuration:
       400: 'gantry-theme://fonts/lato/lato-regular/lato-regular-webfont'
       200italic: 'gantry-theme://fonts/lato/lato-lightitalic/lato-lightitalic-webfont'
       200: 'gantry-theme://fonts/lato/lato-light/lato-light-webfont'
+    Bebas:
+      500: 'gantry-theme://fonts/bebasneue/bebasneue_regular/bebasneue-regular-webfont'
+      400: 'gantry-theme://fonts/bebasneue/bebasneue_light/bebasneue-light-webfont'
+      300: 'gantry-theme://fonts/bebasneue/bebasneue_thin/bebasneue-thin-webfont'
+      200: 'gantry-theme://fonts/bebasneue/bebasneue_book/bebasneue-book-webfont'
 
   css:
     compiler: \Gantry\Component\Stylesheet\ScssCompiler
@@ -85,8 +90,8 @@ configuration:
       section-vertical-paddings-large: Large Vertical Paddings
       section-horizontal-paddings-large: Large Horizontal Paddings
       section-vertical-paddings-small: Small Vertical Paddings
-      section-horizontal-paddings-small: Small Horizontal Paddings    
-    Utility:    
+      section-horizontal-paddings-small: Small Horizontal Paddings
+    Utility:
       nomarginall: No Margin
       nopaddingall: No Padding
 

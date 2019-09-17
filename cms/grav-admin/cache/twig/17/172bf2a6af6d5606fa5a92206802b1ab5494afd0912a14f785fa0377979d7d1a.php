@@ -75,6 +75,6 @@ class __TwigTemplate_2040d46a87b133df8e5f72ba1ab8ea6a497f8cb130367679ed9d62ff8b7
 {% block particle %}
     <div id=\"g-mobilemenu-container\" data-g-menu-breakpoint=\"{{ gantry.config.get('styles.breakpoints.mobile-menu-breakpoint')|default('48rem') }}\"></div>
 {% endblock %}
-", "@particles/mobile-menu.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/engines/nucleus/particles/mobile-menu.html.twig");
+", "@particles/mobile-menu.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/engines/nucleus/particles/mobile-menu.html.twig");
     }
 }
