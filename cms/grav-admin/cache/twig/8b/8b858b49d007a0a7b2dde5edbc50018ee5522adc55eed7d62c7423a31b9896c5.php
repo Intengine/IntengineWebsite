@@ -75,6 +75,6 @@ class __TwigTemplate_1945c588906976d8267e814ef26b8ea0874c98ec2374460c081767a9d97
 {% block content %}
     {{ content|raw }}
 {% endblock %}
-", "gantry.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/templates/gantry.html.twig");
+", "gantry.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/templates/gantry.html.twig");
     }
 }

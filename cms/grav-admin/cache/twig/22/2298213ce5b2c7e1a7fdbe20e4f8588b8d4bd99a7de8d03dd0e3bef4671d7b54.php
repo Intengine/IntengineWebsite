@@ -75,6 +75,6 @@ class __TwigTemplate_a7fefd67be92dc55a12a2cc829fae459048edc6cc2cd5b979c06ff2f775
         return new Source("{% for entry in feed %}
 <li><span class=\"date\">{{ entry.nicetime }}</span> <a href=\"{{ entry.url }}\" target=\"_blank\" title=\"{{ entry.title|striptags|e('html_attr') }}\">{{ entry.title }}</a>
 {% endfor %}
-", "partials/feed-block.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/feed-block.html.twig");
+", "partials/feed-block.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/feed-block.html.twig");
     }
 }

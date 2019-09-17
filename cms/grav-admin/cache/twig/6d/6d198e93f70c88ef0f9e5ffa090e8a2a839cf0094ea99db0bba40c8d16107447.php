@@ -466,6 +466,6 @@ class __TwigTemplate_18f5279fee7b28448d156a6958d3c49f8efd037af31e4bbe5d1c049f15b
 
 </html>
 {% endblock -%}
-", "@nucleus/page.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/engines/nucleus/templates/page.html.twig");
+", "@nucleus/page.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/engines/nucleus/templates/page.html.twig");
     }
 }

@@ -1653,6 +1653,6 @@ $context["p"], "published", [])) ? (($this->env->getExtension('Grav\Plugin\Admin
         \$('.admin-pages .form-tabs .tabs-nav').css('margin-right', (\$('#admin-topbar').width() + 20) + 'px');
     </script>
 {% endblock %}
-", "pages.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/pages.html.twig");
+", "pages.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/pages.html.twig");
     }
 }

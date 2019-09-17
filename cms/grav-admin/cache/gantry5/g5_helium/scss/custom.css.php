@@ -1,7 +1,7 @@
 <?php
 return [
     'file' => 'gantry-theme://css-compiled/custom.css',
-    'timestamp' => 1568651089,
+    'timestamp' => 1568705616,
     'md5' => '76409eda08dc6d5acbab915ed8c6e4a1',
     'variables' => [
         'above-background' => '#f4f5f7',
@@ -23,8 +23,7 @@ return [
         'font-family-title' => '\'Lato, Helvetica, Tahoma, Geneva, Arial, sans-serif\'',
         'footer-background' => '#312f38',
         'footer-text-color' => '#ffffff',
-        'header-background' => '#312f38',
-        'header-background-image' => '\'gantry-media://header/img01.jpg\'',
+        'header-background' => '#9e9e9e',
         'header-background-overlay' => '\'enabled\'',
         'header-text-color' => '#eceeef',
         'intro-background' => '#f4f5f7',
@@ -33,7 +32,7 @@ return [
         'link-hover' => '#424753',
         'menu-col-width' => '180px',
         'menu-animation' => '\'g-fade\'',
-        'navigation-background' => '#312f38',
+        'navigation-background' => '#7a7a7a',
         'navigation-text-color' => '#ffffff',
         'offcanvas-background' => '#4db2b3',
         'offcanvas-text-color' => '#00a6ff',

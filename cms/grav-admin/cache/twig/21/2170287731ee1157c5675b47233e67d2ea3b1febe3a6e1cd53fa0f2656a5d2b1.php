@@ -79,6 +79,6 @@ class __TwigTemplate_a879b74ea10c759612ab11dded9d7fa4ec57db443ae9f761bae1d11943b
         return new Source("{% for entry in notifications %}
 <li class=\"single-notification {{ entry.type }}-notification\"><span class=\"badge alert {{ entry.type }}\">{{ entry.type|capitalize }}</span><a target=\"_blank\" href=\"{{ entry.link }}\" title=\"{{ entry.message|striptags|e('html_attr') }}\">{{ entry.message|raw }}</a></li>
 {% endfor %}
-", "partials/notification-feed-block.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/notification-feed-block.html.twig");
+", "partials/notification-feed-block.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/notification-feed-block.html.twig");
     }
 }

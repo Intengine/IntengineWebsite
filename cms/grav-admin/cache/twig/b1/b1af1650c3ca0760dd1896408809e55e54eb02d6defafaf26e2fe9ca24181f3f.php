@@ -190,6 +190,6 @@ class __TwigTemplate_a9767fd0634395da6d353157d891e950003a6e46cb71d5d005c716ededc
 
 {% endif %}
 {% endblock %}
-", "forms/fields/section/section.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/forms/fields/section/section.html.twig");
+", "forms/fields/section/section.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/forms/fields/section/section.html.twig");
     }
 }

@@ -187,6 +187,6 @@ class __TwigTemplate_fea0009ce7757cd8850c03fc634d5305e158900785bdc290adf402fc054
 
     public function getSourceContext()
     {
-        return new Source("", "partials/outlines-list.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/admin/templates/partials/outlines-list.html.twig");
+        return new Source("", "partials/outlines-list.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/admin/templates/partials/outlines-list.html.twig");
     }
 }

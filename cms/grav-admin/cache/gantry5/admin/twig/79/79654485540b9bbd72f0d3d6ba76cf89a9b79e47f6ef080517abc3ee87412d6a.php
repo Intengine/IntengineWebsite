@@ -193,6 +193,6 @@ class __TwigTemplate_8397a2432ffadf5bc9fdeac64bb869d694ed3c4fb817122c642224203f0
 
     public function getSourceContext()
     {
-        return new Source("", "@gantry-admin/pages/configurations/page/atoms.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/admin/templates/pages/configurations/page/atoms.html.twig");
+        return new Source("", "@gantry-admin/pages/configurations/page/atoms.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/admin/templates/pages/configurations/page/atoms.html.twig");
     }
 }

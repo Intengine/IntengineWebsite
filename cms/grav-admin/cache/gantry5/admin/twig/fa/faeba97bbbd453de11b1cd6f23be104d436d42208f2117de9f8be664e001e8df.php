@@ -145,6 +145,6 @@ class __TwigTemplate_481058874a08c96ebbea3e6d1f9e70766c5e2fd6d32be9879c56aac6971
 
     public function getSourceContext()
     {
-        return new Source("", "forms/fields/input/section-variations.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/admin/templates/forms/fields/input/section-variations.html.twig");
+        return new Source("", "forms/fields/input/section-variations.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/admin/templates/forms/fields/input/section-variations.html.twig");
     }
 }

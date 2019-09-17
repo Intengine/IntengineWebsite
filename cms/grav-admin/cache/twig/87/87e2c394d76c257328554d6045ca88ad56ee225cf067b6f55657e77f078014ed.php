@@ -127,6 +127,6 @@ class __TwigTemplate_7f87790d9dad01ab7e3b38bd6ef835405a4fac8db7644d4377da3b05050
         </div>
     </div>
 {% endif %}
-", "partials/dashboard-statistics.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/dashboard-statistics.html.twig");
+", "partials/dashboard-statistics.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/dashboard-statistics.html.twig");
     }
 }

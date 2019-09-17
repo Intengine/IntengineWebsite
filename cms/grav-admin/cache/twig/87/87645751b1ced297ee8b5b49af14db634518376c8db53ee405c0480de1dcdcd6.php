@@ -86,6 +86,6 @@ class __TwigTemplate_703162f5a602dd041f2edf37684b749dab1b7f2f076aa2544ab11f54087
     </div>
 </div>
 
-", "partials/dashboard-feed.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/dashboard-feed.html.twig");
+", "partials/dashboard-feed.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/dashboard-feed.html.twig");
     }
 }
