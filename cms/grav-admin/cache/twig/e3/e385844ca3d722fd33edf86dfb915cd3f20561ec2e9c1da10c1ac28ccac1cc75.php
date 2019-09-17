@@ -95,6 +95,6 @@ class __TwigTemplate_8f42c9b0ce1e562415a59b35f9d0c8d38cede29077a612cc23fadfa4687
 </div>
 
 
-", "partials/page-legend.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/page-legend.html.twig");
+", "partials/page-legend.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/page-legend.html.twig");
     }
 }

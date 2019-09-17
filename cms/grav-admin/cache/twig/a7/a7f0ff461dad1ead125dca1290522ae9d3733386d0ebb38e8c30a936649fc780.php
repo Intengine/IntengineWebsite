@@ -2475,6 +2475,6 @@ $context["p"], "published", [])) ? (($this->env->getExtension('Grav\Plugin\Admin
     {#tt end#}
     
 {% endblock %}
-", "pages.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/core-service-manager/admin/templates-grav-1_10/pages.html.twig");
+", "pages.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/core-service-manager/admin/templates-grav-1_10/pages.html.twig");
     }
 }

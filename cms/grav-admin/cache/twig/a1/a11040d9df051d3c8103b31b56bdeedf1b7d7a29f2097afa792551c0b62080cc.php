@@ -152,6 +152,6 @@ class __TwigTemplate_1261546c954feeeaf38f11062534c5ba3df15cd99fc3f7f7498b8d92833
     {{ nonce_field('admin-form', 'admin-nonce')|raw }}
 
 </form>
-", "partials/blueprints-new.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/blueprints-new.html.twig");
+", "partials/blueprints-new.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/blueprints-new.html.twig");
     }
 }
