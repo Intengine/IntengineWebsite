@@ -1610,26 +1610,27 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* line 8, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-container {
   position: relative;
+  height: 0;
 }
-/* line 13, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
+/* line 14, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-logo {
   color: #fff;
   line-height: 2.8rem;
 }
-/* line 17, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 /* line 18, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
+/* line 19, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-logo.g-logo-helium svg {
   fill: #fff;
 }
-/* line 25, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
+/* line 26, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 @media only all and (max-width: 47.938rem) {
-  /* line 27, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
+  /* line 28, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
   #g-navigation .g-social-header .g-content {
     margin-top: 0;
     padding: 0 0.938rem;
   }
 }
-/* line 34, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
+/* line 35, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-social {
   text-align: right;
   line-height: 3.125;
@@ -1639,21 +1640,21 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
     text-align: center;
   }
 }
-/* line 42, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
+/* line 43, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 .rtl #g-navigation .g-social {
   text-align: left;
 }
-/* line 48, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
+/* line 49, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav {
   font-family: "Bebas";
   font-weight: 700;
   line-height: 1.5;
 }
-/* line 53, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
+/* line 54, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-toplevel {
   line-height: 3.125;
 }
-/* line 56, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
+/* line 57, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-toplevel > li {
   margin: 0 0.5rem;
 }
@@ -1662,126 +1663,126 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
     margin: 0 0.2rem;
   }
 }
-/* line 63, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
+/* line 64, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-toplevel > li > .g-menu-item-container {
   color: #fff;
   padding: 0.2345rem 0;
 }
-/* line 67, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
+/* line 68, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-toplevel > li > .g-menu-item-container > .g-menu-item-content {
   padding: 0 0 0.2345rem;
 }
-/* line 71, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
+/* line 72, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-toplevel > li > .g-menu-item-container .g-menu-parent-indicator {
   vertical-align: top;
 }
-/* line 74, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
+/* line 75, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-toplevel > li > .g-menu-item-container .g-menu-parent-indicator:after {
   content: "\f107";
   opacity: 0.75;
   width: 1rem;
   font-weight: 400;
 }
-/* line 82, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
+/* line 83, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-toplevel > li > .g-menu-item-container i {
   opacity: 1;
 }
-/* line 87, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 /* line 88, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
+/* line 89, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-toplevel > li:hover > .g-menu-item-container {
   color: rgba(255, 255, 255, 0.7);
 }
-/* line 91, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
+/* line 92, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-toplevel > li:hover > .g-menu-item-container > .g-selected {
   color: rgba(255, 255, 255, 0.7);
 }
-/* line 97, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 /* line 98, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 /* line 99, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
+/* line 100, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-toplevel > li.active > .g-menu-item-container > .g-menu-item-content {
   box-shadow: 0 2px 0 rgba(255, 255, 255, 0.2);
 }
-/* line 103, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
+/* line 104, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-toplevel > li.active > .g-menu-item-container > .g-selected {
   box-shadow: 0 2px 0 rgba(255, 255, 255, 0.2);
 }
-/* line 111, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
+/* line 112, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-dropdown {
   background: #4c4c4c;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 0.25rem;
 }
-/* line 116, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
+/* line 117, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-dropdown > .g-dropdown-column {
   border: 1px solid transparent;
 }
-/* line 120, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
+/* line 121, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-dropdown a {
   color: #fff;
 }
-/* line 123, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
+/* line 124, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-dropdown a:hover {
   color: #a8a7a7;
 }
-/* line 128, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
+/* line 129, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-dropdown .g-dropdown-column {
   position: relative;
 }
-/* line 132, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
+/* line 133, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-dropdown .g-dropdown {
   margin-left: 20px;
 }
-/* line 137, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 /* line 138, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
-/* line 140, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
+/* line 139, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
+/* line 141, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-sublevel > li > .g-menu-item-container {
   color: #fff;
 }
-/* line 143, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
+/* line 144, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-sublevel > li > .g-menu-item-container > .g-selected {
   color: #fff;
 }
-/* line 148, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 /* line 149, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
+/* line 150, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-sublevel > li:not(:last-child) > .g-menu-item-container {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
-/* line 152, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
+/* line 153, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-sublevel > li:not(:last-child) > .g-menu-item-container > .g-selected {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
-/* line 158, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 /* line 159, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
+/* line 160, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-sublevel > li:hover > .g-menu-item-container, #g-navigation .g-main-nav .g-sublevel > li.active > .g-menu-item-container {
   color: #a8a7a7;
 }
-/* line 162, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
+/* line 163, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-sublevel > li:hover > .g-menu-item-container > .g-selected, #g-navigation .g-main-nav .g-sublevel > li.active > .g-menu-item-container > .g-selected {
   color: #a8a7a7;
 }
-/* line 168, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 /* line 169, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
+/* line 170, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-sublevel > li.g-menu-item-type-particle > .g-menu-item-container {
   border: 0;
 }
-/* line 173, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 /* line 174, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
+/* line 175, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-sublevel > li.g-menu-item-type-particle:hover > .g-menu-item-container, #g-navigation .g-main-nav .g-sublevel > li.g-menu-item-type-particle.active > .g-menu-item-container {
   border: 0;
 }
-/* line 180, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 /* line 181, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 /* line 182, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
+/* line 183, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-sublevel > li.g-menu-item-type-particle:hover > .g-menu-item-container {
   background: inherit;
 }
-/* line 191, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
+/* line 192, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 @media only all and (max-width: 47.938rem) {
   #g-navigation .g-menu-block {
     display: none;
   }
 }
-/* line 197, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
+/* line 198, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-menu-item-subtitle {
   text-transform: lowercase;
   font-size: 0.8rem;
@@ -1789,7 +1790,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   padding-top: 0;
 }
 @media print {
-  /* line 206, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
+  /* line 207, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
   #g-navigation {
     background: #fff !important;
     color: #000 !important;
