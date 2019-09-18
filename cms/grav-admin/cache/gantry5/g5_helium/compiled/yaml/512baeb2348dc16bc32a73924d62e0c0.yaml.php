@@ -2,12 +2,12 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/config/default/styles.yaml',
-    'modified' => 1568788239,
+    'modified' => 1568796246,
     'data' => [
         'preset' => 'preset6',
         'base' => [
             'background' => '#363636',
-            'text-color' => '#a8a7a7'
+            'text-color' => '#ffffff'
         ],
         'accent' => [
             'color-1' => '#a8a7a7',
@@ -18,8 +18,8 @@ return [
             'family-title' => 'Bebas'
         ],
         'link' => [
-            'regular' => '#a8a7a7',
-            'hover' => '#eceeef'
+            'regular' => '#ffffff',
+            'hover' => '#60606E'
         ],
         'navigation' => [
             'background' => '#474747',

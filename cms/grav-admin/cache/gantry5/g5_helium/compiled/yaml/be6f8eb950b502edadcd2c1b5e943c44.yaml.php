@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/config/default/particles/copyright.yaml',
-    'modified' => 1568794397,
+    'modified' => 1568794962,
     'data' => [
         'enabled' => '1',
         'date' => [
@@ -13,7 +13,7 @@ return [
         'link' => '',
         'target' => '_blank',
         'additional' => [
-            'text' => 'Developed by RocketTheme exclusively<br />for Gantry 5.'
+            'text' => ''
         ],
         'css' => [
             'class' => ''

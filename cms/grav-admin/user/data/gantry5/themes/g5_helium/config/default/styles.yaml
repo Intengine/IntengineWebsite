@@ -1,7 +1,7 @@
 preset: preset6
 base:
   background: '#363636'
-  text-color: '#a8a7a7'
+  text-color: '#ffffff'
 accent:
   color-1: '#a8a7a7'
   color-2: '#474747'
@@ -9,8 +9,8 @@ font:
   family-default: Bebas
   family-title: Bebas
 link:
-  regular: '#a8a7a7'
-  hover: '#eceeef'
+  regular: '#ffffff'
+  hover: '#60606E'
 navigation:
   background: '#474747'
   text-color: '#ffffff'

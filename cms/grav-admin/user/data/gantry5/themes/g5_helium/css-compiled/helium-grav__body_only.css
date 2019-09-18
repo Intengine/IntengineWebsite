@@ -440,7 +440,7 @@
 }
 /* line 74, user/plugins/gantry5/engines/nucleus/scss/grav/theme/_blog.scss */
 .list-item .list-blog-header h4 a {
-  color: #a8a7a7;
+  color: #fff;
 }
 /* line 76, user/plugins/gantry5/engines/nucleus/scss/grav/theme/_blog.scss */
 .list-item .list-blog-header h4 a:hover {
@@ -456,7 +456,7 @@
 /* line 88, user/plugins/gantry5/engines/nucleus/scss/grav/theme/_blog.scss */
 .list-item .list-blog-header .list-blog-meta .separator {
   margin: 0 0.3rem;
-  color: rgba(168, 167, 167, 0.2);
+  color: rgba(255, 255, 255, 0.2);
 }
 /* line 97, user/plugins/gantry5/engines/nucleus/scss/grav/theme/_blog.scss */
 /* line 98, user/plugins/gantry5/engines/nucleus/scss/grav/theme/_blog.scss */
