@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1568809783,
-    'checksum' => '4738d5d7c1ffdc9ceaae8700a1b13cca',
+    'timestamp' => 1568813550,
+    'checksum' => '7ae2da9b6de863ec20e38909ff59d74d',
     'files' => [
         'user/data/gantry5/themes/g5_helium/config/_error' => [
             'index' => [
@@ -17,11 +17,11 @@ return [
         'user/data/gantry5/themes/g5_helium/config/default' => [
             'index' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/index.yaml',
-                'modified' => 1568809390
+                'modified' => 1568813443
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-                'modified' => 1568809390
+                'modified' => 1568813443
             ],
             'page/assets' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/assets.yaml',
@@ -113,7 +113,7 @@ return [
             ],
             'styles' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/styles.yaml',
-                'modified' => 1568809779
+                'modified' => 1568813546
             ]
         ],
         'user/themes/g5_helium/config/default' => [

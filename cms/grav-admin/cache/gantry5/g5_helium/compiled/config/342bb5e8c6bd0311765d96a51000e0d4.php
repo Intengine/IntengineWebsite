@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1568809782,
-    'checksum' => 'e1965b94157d5fea0ce40e4bd186935d',
+    'timestamp' => 1568813548,
+    'checksum' => '34b6ceb51ad6bb80919fd59d570bc8fe',
     'files' => [
         'user/data/gantry5/themes/g5_helium/config/_body_only' => [
             'index' => [
@@ -17,11 +17,11 @@ return [
         'user/data/gantry5/themes/g5_helium/config/default' => [
             'index' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/index.yaml',
-                'modified' => 1568809390
+                'modified' => 1568813443
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-                'modified' => 1568809390
+                'modified' => 1568813443
             ],
             'page/assets' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/assets.yaml',
@@ -113,7 +113,7 @@ return [
             ],
             'styles' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/styles.yaml',
-                'modified' => 1568809779
+                'modified' => 1568813546
             ]
         ],
         'user/themes/g5_helium/config/default' => [
@@ -762,8 +762,8 @@ return [
                     'title' => 'Owl Carousel',
                     'attributes' => [
                         'nav' => 'enable',
-                        'dots' => 'disable',
-                        'autoplay' => 'disable',
+                        'dots' => 'enable',
+                        'autoplay' => 'enable',
                         'autoplaySpeed' => '5000'
                     ]
                 ],

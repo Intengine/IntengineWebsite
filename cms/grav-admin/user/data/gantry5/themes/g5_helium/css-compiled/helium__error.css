@@ -651,7 +651,7 @@ hr {
 .button {
   display: inline-block;
   font-family: "Bebas";
-  font-weight: 600;
+  font-weight: 900;
   font-size: 0.8rem;
   line-height: 1.15;
   letter-spacing: 0.1rem;
@@ -1557,11 +1557,11 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 32, user/themes/g5_helium/scss/helium/sections/_header.scss */
 #g-header a {
-  color: rgba(255, 255, 255, 0.6);
+  color: #fff;
 }
 /* line 35, user/themes/g5_helium/scss/helium/sections/_header.scss */
 #g-header a:hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: #60606e;
 }
 /* line 40, user/themes/g5_helium/scss/helium/sections/_header.scss */
 #g-header h2 {

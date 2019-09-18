@@ -128,8 +128,8 @@ content:
     title: 'Owl Carousel'
     attributes:
       nav: enable
-      dots: disable
-      autoplay: disable
+      dots: enable
+      autoplay: enable
       autoplaySpeed: '5000'
   position-position-4734:
     title: Aside
