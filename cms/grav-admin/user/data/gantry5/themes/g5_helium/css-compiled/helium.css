@@ -2144,6 +2144,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 11, user/themes/g5_helium/scss/helium/sections/_footer.scss */
 #g-footer .g-copyright {
+  letter-spacing: 4px;
   font-size: 0.8125rem;
   line-height: 1.25rem;
 }
@@ -2152,8 +2153,9 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
     text-align: center;
   }
 }
-/* line 21, user/themes/g5_helium/scss/helium/sections/_footer.scss */
+/* line 22, user/themes/g5_helium/scss/helium/sections/_footer.scss */
 #g-footer .g-horizontalmenu {
+  letter-spacing: 4px;
   padding: 0.5rem 0;
   text-align: right;
 }
@@ -2162,29 +2164,29 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
     text-align: center;
   }
 }
-/* line 29, user/themes/g5_helium/scss/helium/sections/_footer.scss */
+/* line 31, user/themes/g5_helium/scss/helium/sections/_footer.scss */
 #g-footer .g-horizontalmenu a {
   color: #60606e;
 }
-/* line 32, user/themes/g5_helium/scss/helium/sections/_footer.scss */
+/* line 34, user/themes/g5_helium/scss/helium/sections/_footer.scss */
 #g-footer .g-horizontalmenu a:hover {
   color: rgba(96, 96, 110, 0.6);
   box-shadow: 0 2px 0 rgba(96, 96, 110, 0.2);
 }
-/* line 40, user/themes/g5_helium/scss/helium/sections/_footer.scss */
+/* line 42, user/themes/g5_helium/scss/helium/sections/_footer.scss */
 #g-footer .g-totop {
   padding: 0.5rem 0;
 }
-/* line 43, user/themes/g5_helium/scss/helium/sections/_footer.scss */
+/* line 45, user/themes/g5_helium/scss/helium/sections/_footer.scss */
 #g-footer .g-totop a {
   color: #60606e;
 }
-/* line 46, user/themes/g5_helium/scss/helium/sections/_footer.scss */
+/* line 48, user/themes/g5_helium/scss/helium/sections/_footer.scss */
 #g-footer .g-totop a:hover {
   color: rgba(96, 96, 110, 0.6);
 }
 @media print {
-  /* line 54, user/themes/g5_helium/scss/helium/sections/_footer.scss */
+  /* line 56, user/themes/g5_helium/scss/helium/sections/_footer.scss */
   #g-footer {
     background: #fff !important;
     color: #000 !important;

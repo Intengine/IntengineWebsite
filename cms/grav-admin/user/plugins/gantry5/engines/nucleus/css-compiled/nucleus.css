@@ -1796,11 +1796,16 @@ th {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  text-align: center;
   margin: 0.75rem 0 1.5rem 0;
   text-rendering: optimizeLegibility;
 }
 
 p {
+  font-family: 'Helvetica';
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
   margin: 1.5rem 0;
 }
 

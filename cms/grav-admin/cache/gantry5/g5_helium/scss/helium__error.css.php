@@ -1,8 +1,8 @@
 <?php
 return [
     'file' => 'gantry-theme://css-compiled/helium__error.css',
-    'timestamp' => 1568813551,
-    'md5' => '8a96e794fd25088c6bbe180efa6f2a58',
+    'timestamp' => 1568814545,
+    'md5' => 'b37ce124be7fa390ce4b094091a5a4c6',
     'variables' => [
         'above-text-color' => '#ffffff',
         'accent-color-1' => '#ffffff',
@@ -171,7 +171,7 @@ return [
         'gantry-theme://scss/helium/sections/_main.scss' => 1568788242,
         'gantry-theme://scss/helium/sections/_aside.scss' => 1568788242,
         'gantry-theme://scss/helium/sections/_sidebar.scss' => 1568788242,
-        'gantry-theme://scss/helium/sections/_footer.scss' => 1568788242,
+        'gantry-theme://scss/helium/sections/_footer.scss' => 1568814537,
         'gantry-theme://scss/helium/sections/_offcanvas.scss' => 1568788242,
         'gantry-theme://scss/helium/layouts/_error.scss' => 1568788242,
         'gantry-theme://scss/helium/layouts/_offline.scss' => 1568788242,

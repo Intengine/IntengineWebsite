@@ -1,5 +1,5 @@
 enabled: '1'
 css:
   class: ''
-icon: 'fa fa-chevron-up fa-fw'
+icon: 'fa fa-chevron-circle-up fa-fw'
 content: 'Back to top'
