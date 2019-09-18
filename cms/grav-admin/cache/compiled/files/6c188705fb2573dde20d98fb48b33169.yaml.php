@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin-power-tools/blueprints.yaml',
-    'modified' => 1568713248,
+    'modified' => 1568788240,
     'data' => [
         'name' => 'Admin Power Tools',
         'version' => '0.1.12',

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/engines/nucleus/particles/date.yaml',
-    'modified' => 1568704837,
+    'modified' => 1568788241,
     'data' => [
         'name' => 'Date',
         'description' => 'Display a date.',

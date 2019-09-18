@@ -209,6 +209,6 @@ class __TwigTemplate_a9edb40b5457d9b22814cf6b7da8a3e04d24caac2b11fdb0dbc649dd2f0
 
     public function getSourceContext()
     {
-        return new Source("", "@gantry-admin/ajax/filepicker.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/admin/templates/ajax/filepicker.html.twig");
+        return new Source("", "@gantry-admin/ajax/filepicker.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/admin/templates/ajax/filepicker.html.twig");
     }
 }

@@ -2,27 +2,27 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/data/notifications/9292e04d7d7733bcbfbb7f4c1bcd1f6d.yaml',
-    'modified' => 1568712451,
+    'modified' => 1568793178,
     'data' => [
-        'last_checked' => 1568712451,
+        'last_checked' => 1568793178,
         'data' => [
             'feed' => [
                 0 => [
-                    'id' => 23,
-                    'date' => '2018-11-15 15:50',
-                    'message' => 'Grav community chat has moved from Slack to <span class=\'fa fa-comments\'></span> Discord',
-                    'link' => 'https://chat.getgrav.org',
-                    'type' => 'info',
+                    'id' => 24,
+                    'date' => '2019-09-17 11:27',
+                    'message' => '⏰ It\'s that time again! Please vote for Grav as <b>Best Flat File CMS</b> in the 2019 CMS Critics\' Awards',
+                    'link' => 'https://www.cmscritic.com/awards/',
+                    'type' => 'note',
                     'location' => [
                         0 => 'feed'
                     ]
                 ],
                 1 => [
-                    'id' => 22,
-                    'date' => '2018-10-08 11:27',
-                    'message' => '☑️ We\'re in the final 3! Please vote for Grav as <b>Best Flat File CMS</b> in the 2018 CMS Critics\' Awards',
-                    'link' => 'https://www.cmscritic.com/awards/',
-                    'type' => 'note',
+                    'id' => 23,
+                    'date' => '2018-11-15 15:50',
+                    'message' => 'Grav community chat has moved from Slack to <span class=\'fa fa-comments\'></span> Discord',
+                    'link' => 'https://chat.getgrav.org',
+                    'type' => 'info',
                     'location' => [
                         0 => 'feed'
                     ]
@@ -48,16 +48,6 @@ return [
                     ]
                 ],
                 4 => [
-                    'id' => 19,
-                    'date' => '2018-08-22 10:50',
-                    'message' => '❤️ Please nominate Grav for the 2018 CMS Critics\' Awards',
-                    'link' => 'https://www.cmscritic.com/awards/',
-                    'type' => 'note',
-                    'location' => [
-                        0 => 'feed'
-                    ]
-                ],
-                5 => [
                     'id' => 18,
                     'date' => '2018-08-17 11:40',
                     'message' => '🔥 Grav 1.5.0 final released, please update!',
@@ -67,7 +57,7 @@ return [
                         0 => 'feed'
                     ]
                 ],
-                6 => [
+                5 => [
                     'id' => 12,
                     'date' => '2017-02-17 15:15',
                     'message' => 'Support Grav for the price of a <span class=\'fa fa-coffee\'></span> a month!',
@@ -77,7 +67,7 @@ return [
                         0 => 'feed'
                     ]
                 ],
-                7 => [
+                6 => [
                     'id' => 4,
                     'date' => '2016-08-05 02:23',
                     'message' => 'Join the Grav mailing list to stay in the loop!',
@@ -87,7 +77,7 @@ return [
                         0 => 'feed'
                     ]
                 ],
-                8 => [
+                7 => [
                     'id' => 3,
                     'date' => '2016-08-05 02:23',
                     'message' => 'Please follow us on Twitter',
@@ -97,7 +87,7 @@ return [
                         0 => 'feed'
                     ]
                 ],
-                9 => [
+                8 => [
                     'id' => 2,
                     'date' => '2016-08-05 02:23',
                     'message' => 'Don\'t forget to star Grav on GitHub!',

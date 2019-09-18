@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/themes/g5_helium/particles/copyright.yaml',
-    'modified' => 1568704838,
+    'modified' => 1568788242,
     'data' => [
         'name' => 'Copyright',
         'description' => 'Display copyright information.',
