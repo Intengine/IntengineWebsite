@@ -2,12 +2,12 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/config/default/styles.yaml',
-    'modified' => 1568796246,
+    'modified' => 1568801830,
     'data' => [
         'preset' => 'preset6',
         'base' => [
-            'background' => '#363636',
-            'text-color' => '#ffffff'
+            'background' => '#ffffff',
+            'text-color' => '#60606e'
         ],
         'accent' => [
             'color-1' => '#a8a7a7',
@@ -19,52 +19,52 @@ return [
         ],
         'link' => [
             'regular' => '#ffffff',
-            'hover' => '#60606E'
+            'hover' => '#60606e'
         ],
         'navigation' => [
-            'background' => '#474747',
+            'background' => '',
             'text-color' => '#ffffff'
         ],
         'header' => [
-            'background' => '#474747',
+            'background' => '',
             'background-image' => 'gantry-media://header/img01.jpg',
             'background-overlay' => 'enabled',
-            'text-color' => '#eceeef'
+            'text-color' => '#ffffff'
         ],
         'intro' => [
-            'background' => '#474747',
+            'background' => '',
             'text-color' => '#ffffff'
         ],
         'features' => [
-            'background' => '#363636',
+            'background' => '',
             'text-color' => '#ffffff'
         ],
         'utility' => [
-            'background' => '#474747',
+            'background' => '',
             'text-color' => '#ffffff'
         ],
         'above' => [
-            'background' => '#a8a7a7',
+            'background' => '',
             'text-color' => '#ffffff'
         ],
         'testimonials' => [
-            'background' => '#a8a7a7',
+            'background' => '',
             'background-image' => 'gantry-media://testimonials/img01.jpg',
             'background-overlay' => 'enabled',
-            'text-color' => '#eceeef'
+            'text-color' => '#ffffff'
         ],
         'expanded' => [
-            'background' => '#363636',
+            'background' => '',
             'text-color' => '#ffffff'
         ],
         'footer' => [
-            'background' => '#474747',
-            'text-color' => '#ffffff'
+            'background' => '#ffffff',
+            'text-color' => '#60606e'
         ],
         'offcanvas' => [
-            'background' => '#474747',
-            'text-color' => '#eceeef',
-            'toggle-color' => '#a8a7a7',
+            'background' => '',
+            'text-color' => '#ffffff',
+            'toggle-color' => '#ffffff',
             'toggle-visibility' => '1',
             'width' => '12rem'
         ],

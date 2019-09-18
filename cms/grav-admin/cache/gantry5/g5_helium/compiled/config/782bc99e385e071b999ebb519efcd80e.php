@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1568796250,
-    'checksum' => 'dc6373fd262a63def7d39b61d4b9ee60',
+    'timestamp' => 1568801835,
+    'checksum' => '94ffe2d02b25a828fa2469b6e44ee974',
     'files' => [
         'user/data/gantry5/themes/g5_helium/config/_offline' => [
             'index' => [
@@ -113,7 +113,7 @@ return [
             ],
             'styles' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/styles.yaml',
-                'modified' => 1568796246
+                'modified' => 1568801830
             ]
         ],
         'user/themes/g5_helium/config/default' => [
@@ -478,7 +478,7 @@ return [
         ],
         'styles' => [
             'above' => [
-                'background' => '#a8a7a7',
+                'background' => '',
                 'text-color' => '#ffffff'
             ],
             'accent' => [
@@ -486,8 +486,8 @@ return [
                 'color-2' => '#474747'
             ],
             'base' => [
-                'background' => '#363636',
-                'text-color' => '#ffffff'
+                'background' => '#ffffff',
+                'text-color' => '#60606e'
             ],
             'breakpoints' => [
                 'large-desktop-container' => '75rem',
@@ -497,11 +497,11 @@ return [
                 'mobile-menu-breakpoint' => '48rem'
             ],
             'expanded' => [
-                'background' => '#363636',
+                'background' => '',
                 'text-color' => '#ffffff'
             ],
             'features' => [
-                'background' => '#363636',
+                'background' => '',
                 'text-color' => '#ffffff'
             ],
             'font' => [
@@ -509,46 +509,46 @@ return [
                 'family-title' => 'Bebas'
             ],
             'footer' => [
-                'background' => '#474747',
-                'text-color' => '#ffffff'
+                'background' => '#ffffff',
+                'text-color' => '#60606e'
             ],
             'header' => [
-                'background' => '#474747',
+                'background' => '',
                 'background-image' => 'gantry-media://header/img01.jpg',
                 'background-overlay' => 'enabled',
-                'text-color' => '#eceeef'
+                'text-color' => '#ffffff'
             ],
             'intro' => [
-                'background' => '#474747',
+                'background' => '',
                 'text-color' => '#ffffff'
             ],
             'link' => [
                 'regular' => '#ffffff',
-                'hover' => '#60606E'
+                'hover' => '#60606e'
             ],
             'menu' => [
                 'col-width' => '180px',
                 'animation' => 'g-fade'
             ],
             'navigation' => [
-                'background' => '#474747',
+                'background' => '',
                 'text-color' => '#ffffff'
             ],
             'offcanvas' => [
-                'background' => '#474747',
-                'text-color' => '#eceeef',
-                'toggle-color' => '#a8a7a7',
+                'background' => '',
+                'text-color' => '#ffffff',
+                'toggle-color' => '#ffffff',
                 'toggle-visibility' => '1',
                 'width' => '12rem'
             ],
             'testimonials' => [
-                'background' => '#a8a7a7',
+                'background' => '',
                 'background-image' => 'gantry-media://testimonials/img01.jpg',
                 'background-overlay' => 'enabled',
-                'text-color' => '#eceeef'
+                'text-color' => '#ffffff'
             ],
             'utility' => [
-                'background' => '#474747',
+                'background' => '',
                 'text-color' => '#ffffff'
             ],
             'preset' => 'preset6'
