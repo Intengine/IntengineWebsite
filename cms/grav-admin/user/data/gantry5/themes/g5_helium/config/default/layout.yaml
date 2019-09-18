@@ -103,7 +103,7 @@ content:
   logo-9322:
     title: 'Logo / Image'
     attributes:
-      image: 'gantry-media://g5_helium/intengine-logo.png'
+      image: 'gantry-media://g5_helium/logo.png'
       text: intengine
       class: 'g-logo g-logo-helium'
   social-3171:

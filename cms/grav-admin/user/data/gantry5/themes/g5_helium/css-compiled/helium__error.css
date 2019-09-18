@@ -76,7 +76,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   font-family: 'rockettheme-apps';
   font-style: normal;
   font-weight: normal;
-  src: url('../../../../../themes/g5_helium/fonts/rockettheme-apps/rockettheme-apps.eot?5d81cf12#iefix') format("embedded-opentype"), url('../../../../../themes/g5_helium/fonts/rockettheme-apps/rockettheme-apps.woff2?5d81cf12') format("woff2"), url('../../../../../themes/g5_helium/fonts/rockettheme-apps/rockettheme-apps.woff?5d81cf12') format("woff"), url('../../../../../themes/g5_helium/fonts/rockettheme-apps/rockettheme-apps.ttf?5d81cf12') format("truetype"), url('../../../../../themes/g5_helium/fonts/rockettheme-apps/rockettheme-apps.svg?5d81cf12#rockettheme-apps') format("svg");
+  src: url('../../../../../themes/g5_helium/fonts/rockettheme-apps/rockettheme-apps.eot?5d8244e3#iefix') format("embedded-opentype"), url('../../../../../themes/g5_helium/fonts/rockettheme-apps/rockettheme-apps.woff2?5d8244e3') format("woff2"), url('../../../../../themes/g5_helium/fonts/rockettheme-apps/rockettheme-apps.woff?5d8244e3') format("woff"), url('../../../../../themes/g5_helium/fonts/rockettheme-apps/rockettheme-apps.ttf?5d8244e3') format("truetype"), url('../../../../../themes/g5_helium/fonts/rockettheme-apps/rockettheme-apps.svg?5d8244e3#rockettheme-apps') format("svg");
 }
 /* line 4, user/themes/g5_helium/scss/helium/styles/_fonts.scss */
 i.fa-grav-spaceman, i.fa-grav-text, i.fa-grav-full, i.fa-grav-logo, i.fa-grav-symbol, i.fa-grav-logo-both, i.fa-grav-both, i.fa-gantry, i.fa-gantry-logo, i.fa-gantry-symbol, i.fa-gantry-logo-both, i.fa-gantry-both {
@@ -180,25 +180,25 @@ a:hover {
   font-family: "bebas";
   font-style: normal;
   font-weight: 700;
-  src: url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_regular/bebasneue-regular-webfont.eot?5d81cf11#iefix') format("embedded-opentype"), url('../fonts/bebasneue/bebasneue_regular/bebasneue-regular-webfont.woff2') format("woff2"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_regular/bebasneue-regular-webfont.woff?5d81cf11') format("woff"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_regular/bebasneue-regular-webfont.ttf?5d81cf11') format("truetype"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_regular/bebasneue-regular-webfont.svg?5d81cf11#bebas') format("svg");
+  src: url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_regular/bebasneue-regular-webfont.eot?5d8244e3#iefix') format("embedded-opentype"), url('../fonts/bebasneue/bebasneue_regular/bebasneue-regular-webfont.woff2') format("woff2"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_regular/bebasneue-regular-webfont.woff?5d8244e3') format("woff"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_regular/bebasneue-regular-webfont.ttf?5d8244e3') format("truetype"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_regular/bebasneue-regular-webfont.svg?5d8244e3#bebas') format("svg");
 }
 @font-face {
   font-family: "bebas";
   font-style: normal;
   font-weight: 600;
-  src: url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_light/bebasneue-light-webfont.eot?5d81cf11#iefix') format("embedded-opentype"), url('../fonts/bebasneue/bebasneue_light/bebasneue-light-webfont.woff2') format("woff2"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_light/bebasneue-light-webfont.woff?5d81cf11') format("woff"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_light/bebasneue-light-webfont.ttf?5d81cf11') format("truetype"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_light/bebasneue-light-webfont.svg?5d81cf11#bebas') format("svg");
+  src: url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_light/bebasneue-light-webfont.eot?5d8244e3#iefix') format("embedded-opentype"), url('../fonts/bebasneue/bebasneue_light/bebasneue-light-webfont.woff2') format("woff2"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_light/bebasneue-light-webfont.woff?5d8244e3') format("woff"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_light/bebasneue-light-webfont.ttf?5d8244e3') format("truetype"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_light/bebasneue-light-webfont.svg?5d8244e3#bebas') format("svg");
 }
 @font-face {
   font-family: "bebas";
   font-style: normal;
   font-weight: 500;
-  src: url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_thin/bebasneue-thin-webfont.eot?5d81cf11#iefix') format("embedded-opentype"), url('../fonts/bebasneue/bebasneue_thin/bebasneue-thin-webfont.woff2') format("woff2"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_thin/bebasneue-thin-webfont.woff?5d81cf11') format("woff"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_thin/bebasneue-thin-webfont.ttf?5d81cf11') format("truetype"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_thin/bebasneue-thin-webfont.svg?5d81cf11#bebas') format("svg");
+  src: url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_thin/bebasneue-thin-webfont.eot?5d8244e3#iefix') format("embedded-opentype"), url('../fonts/bebasneue/bebasneue_thin/bebasneue-thin-webfont.woff2') format("woff2"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_thin/bebasneue-thin-webfont.woff?5d8244e3') format("woff"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_thin/bebasneue-thin-webfont.ttf?5d8244e3') format("truetype"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_thin/bebasneue-thin-webfont.svg?5d8244e3#bebas') format("svg");
 }
 @font-face {
   font-family: "bebas";
   font-style: normal;
   font-weight: 400;
-  src: url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_book/bebasneue-book-webfont.eot?5d81cf11#iefix') format("embedded-opentype"), url('../fonts/bebasneue/bebasneue_book/bebasneue-book-webfont.woff2') format("woff2"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_book/bebasneue-book-webfont.woff?5d81cf11') format("woff"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_book/bebasneue-book-webfont.ttf?5d81cf11') format("truetype"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_book/bebasneue-book-webfont.svg?5d81cf11#bebas') format("svg");
+  src: url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_book/bebasneue-book-webfont.eot?5d8244e3#iefix') format("embedded-opentype"), url('../fonts/bebasneue/bebasneue_book/bebasneue-book-webfont.woff2') format("woff2"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_book/bebasneue-book-webfont.woff?5d8244e3') format("woff"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_book/bebasneue-book-webfont.ttf?5d8244e3') format("truetype"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_book/bebasneue-book-webfont.svg?5d8244e3#bebas') format("svg");
 }
 /* line 5, user/themes/g5_helium/scss/helium/styles/_typography.scss */
 body {
@@ -300,14 +300,12 @@ hr {
   padding-right: 10%;
 }
 @media only all and (min-width: 48rem) and (max-width: 59.938rem) {
-  /* line 13, user/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_breakpoints.scss */
   .section-horizontal-paddings {
     padding-left: 0;
     padding-right: 0;
   }
 }
 @media only all and (max-width: 47.938rem) {
-  /* line 25, user/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_breakpoints.scss */
   .section-horizontal-paddings {
     padding-left: 0;
     padding-right: 0;
@@ -1332,7 +1330,6 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* line 2, user/themes/g5_helium/scss/helium/styles/_helium-style.scss */
 /* line 4, user/themes/g5_helium/scss/helium/styles/_helium-style.scss */
 @media only all and (min-width: 48rem) {
-  /* line 22, user/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_breakpoints.scss */
   .g-home-particles.g-helium-style #g-navigation {
     background: transparent;
   }
@@ -1377,7 +1374,6 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   }
 }
 @media only all and (min-width: 30.062rem) and (max-width: 47.938rem) {
-  /* line 16, user/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_breakpoints.scss */
   .g-home-particles.g-helium-style #g-header {
     padding-top: 2rem;
   }
@@ -1538,7 +1534,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   padding: 3rem 0;
   position: relative;
   z-index: 10;
-  background-image: url('../../../../../themes/g5_helium/images/header/img01.jpg?5d81cf12');
+  background-image: url('../../../../../images/g5_helium/above/slider1.jpg?5d82497b');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2043,7 +2039,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   padding: 3rem 0;
   position: relative;
   z-index: 10;
-  background: url('../../../../../themes/g5_helium/images/testimonials/img01.jpg?5d81cf12') no-repeat center top;
+  background: url('../../../../../themes/g5_helium/images/testimonials/img01.jpg?5d8244e4') no-repeat center top;
   background-size: cover;
 }
 /* line 13, user/themes/g5_helium/scss/helium/sections/_testimonials.scss */
@@ -2248,7 +2244,6 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   color: rgba(255, 255, 255, 0.6);
 }
 @media only all and (max-width: 48rem) {
-  /* line 54, user/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
   .g-offcanvas-toggle {
     display: block;
   }
@@ -2655,7 +2650,6 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   margin: 0 auto;
 }
 @media only all and (min-width: 60rem) and (max-width: 74.938rem) {
-  /* line 7, user/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_breakpoints.scss */
   .g-contentcubes .cube-items-wrapper .cube-content-wrapper {
     padding: 4.6rem 0;
   }
@@ -2672,7 +2666,6 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   }
 }
 @media only all and (max-width: 30rem) {
-  /* line 19, user/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_breakpoints.scss */
   .g-contentcubes .cube-items-wrapper .cube-content-wrapper {
     max-width: 14.5rem;
   }
@@ -3177,7 +3170,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 320, user/themes/g5_helium/scss/helium/particles/_owlcarousel.scss */
 .g-owlcarousel {
-  color: #eceeef;
+  color: #fff;
 }
 /* line 323, user/themes/g5_helium/scss/helium/particles/_owlcarousel.scss */
 .g-owlcarousel .g-owlcarousel-item-wrapper {
@@ -3211,7 +3204,6 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   transform-style: preserve-3d;
 }
 @media only all and (min-width: 75rem) {
-  /* line 4, user/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_breakpoints.scss */
   .g-owlcarousel .g-owlcarousel-item-wrapper .g-owlcarousel-item-content-container {
     width: 75rem;
   }

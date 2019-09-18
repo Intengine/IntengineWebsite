@@ -16,7 +16,7 @@ navigation:
   text-color: '#ffffff'
 header:
   background: ''
-  background-image: 'gantry-media://header/img01.jpg'
+  background-image: 'gantry-media://g5_helium/above/slider1.jpg'
   background-overlay: enabled
   text-color: '#ffffff'
 intro:
