@@ -1,7 +1,7 @@
 <?php
 return [
     'file' => 'gantry-theme://css-compiled/helium-grav__body_only.css',
-    'timestamp' => 1568809205,
+    'timestamp' => 1568809783,
     'md5' => 'a0e22aea74a95f644455bd3978b014d2',
     'variables' => [
         'above-text-color' => '#ffffff',

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-    'modified' => 1568807575,
+    'modified' => 1568809390,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -206,7 +206,7 @@ return [
                 'attributes' => [
                     'nav' => 'enable',
                     'dots' => 'disable',
-                    'autoplay' => 'enable',
+                    'autoplay' => 'disable',
                     'autoplaySpeed' => '5000'
                 ]
             ],
