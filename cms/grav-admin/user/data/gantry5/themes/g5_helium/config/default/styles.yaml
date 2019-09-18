@@ -3,8 +3,8 @@ base:
   background: '#ffffff'
   text-color: '#60606e'
 accent:
-  color-1: '#a8a7a7'
-  color-2: '#474747'
+  color-1: '#ffffff'
+  color-2: '#60606e'
 font:
   family-default: Bebas
   family-title: Bebas

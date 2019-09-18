@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/config/menu/mainmenu.yaml',
-    'modified' => 1568793591,
+    'modified' => 1568807744,
     'data' => [
         'settings' => [
             'title' => 'Mainmenu'
@@ -12,8 +12,10 @@ return [
         ],
         'items' => [
             'home' => [
-                'enabled' => true,
-                'anchor_class' => ''
+                'enabled' => '1',
+                'dropdown_dir' => 'right',
+                'dropdown_hide' => '0',
+                'width' => 'auto'
             ]
         ]
     ]

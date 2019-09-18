@@ -4,5 +4,7 @@ ordering:
   home: ''
 items:
   home:
-    enabled: true
-    anchor_class: ''
+    enabled: '1'
+    dropdown_dir: right
+    dropdown_hide: '0'
+    width: auto

@@ -1,12 +1,12 @@
 <?php
 return [
     'file' => 'gantry-theme://css-compiled/helium-grav__offline.css',
-    'timestamp' => 1568801835,
+    'timestamp' => 1568809207,
     'md5' => 'fd39f2ac177e57d148059b1e8cc32fda',
     'variables' => [
         'above-text-color' => '#ffffff',
-        'accent-color-1' => '#a8a7a7',
-        'accent-color-2' => '#474747',
+        'accent-color-1' => '#ffffff',
+        'accent-color-2' => '#60606e',
         'base-background' => '#ffffff',
         'base-text-color' => '#60606e',
         'breakpoints-large-desktop-container' => '75rem',
@@ -131,7 +131,7 @@ return [
         'gantry-engine://scss/configuration/grav/_variables.scss' => 1568788241,
         'gantry-theme://scss/configuration/_base.scss' => 1568788242,
         'gantry-theme://scss/configuration/_core.scss' => 1568788242,
-        'gantry-theme://scss/configuration/_colors.scss' => 1568788242,
+        'gantry-theme://scss/configuration/_colors.scss' => 1568808558,
         'gantry-theme://scss/configuration/_typography.scss' => 1568788242,
         'gantry-theme://scss/configuration/_nav.scss' => 1568788242,
         'gantry-theme://scss/configuration/_offcanvas.scss' => 1568788242,

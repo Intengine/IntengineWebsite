@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/themes/g5_helium/gantry/theme.yaml',
-    'modified' => 1568788242,
+    'modified' => 1568807462,
     'data' => [
         'details' => [
             'name' => 'Helium',
@@ -68,10 +68,10 @@ return [
                     200 => 'gantry-theme://fonts/lato/lato-light/lato-light-webfont'
                 ],
                 'Bebas' => [
-                    500 => 'gantry-theme://fonts/bebasneue/bebasneue_regular/bebasneue-regular-webfont',
-                    400 => 'gantry-theme://fonts/bebasneue/bebasneue_light/bebasneue-light-webfont',
-                    300 => 'gantry-theme://fonts/bebasneue/bebasneue_thin/bebasneue-thin-webfont',
-                    200 => 'gantry-theme://fonts/bebasneue/bebasneue_book/bebasneue-book-webfont'
+                    700 => 'gantry-theme://fonts/bebasneue/bebasneue_regular/bebasneue-regular-webfont',
+                    600 => 'gantry-theme://fonts/bebasneue/bebasneue_light/bebasneue-light-webfont',
+                    500 => 'gantry-theme://fonts/bebasneue/bebasneue_thin/bebasneue-thin-webfont',
+                    400 => 'gantry-theme://fonts/bebasneue/bebasneue_book/bebasneue-book-webfont'
                 ]
             ],
             'css' => [

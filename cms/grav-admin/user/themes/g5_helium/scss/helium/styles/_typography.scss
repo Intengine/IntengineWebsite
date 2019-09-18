@@ -9,6 +9,8 @@ body {
 
 // Headings
 h1, h2, h3, h4, h5 {
+    text-align: center;
+    letter-spacing: 6px;
     font-family: get-font-family($font-family-default);
     font-weight: $font-weight-regular;
 }

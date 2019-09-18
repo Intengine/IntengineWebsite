@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/config/default/styles.yaml',
-    'modified' => 1568801830,
+    'modified' => 1568809202,
     'data' => [
         'preset' => 'preset6',
         'base' => [
@@ -10,8 +10,8 @@ return [
             'text-color' => '#60606e'
         ],
         'accent' => [
-            'color-1' => '#a8a7a7',
-            'color-2' => '#474747'
+            'color-1' => '#ffffff',
+            'color-2' => '#60606e'
         ],
         'font' => [
             'family-default' => 'Bebas',

@@ -1,17 +1,17 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1568801831,
-    'checksum' => '546de3ff2a3a89018e6fb9ae2209c5f7',
+    'timestamp' => 1568809202,
+    'checksum' => '1457242a9e092b880578ff3a5bfd1f6d',
     'files' => [
         'user/data/gantry5/themes/g5_helium/config/default' => [
             'index' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/index.yaml',
-                'modified' => 1568795642
+                'modified' => 1568807575
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-                'modified' => 1568795642
+                'modified' => 1568807575
             ],
             'page/assets' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/assets.yaml',
@@ -27,83 +27,83 @@ return [
             ],
             'particles/branding' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/branding.yaml',
-                'modified' => 1568794962
+                'modified' => 1568808320
             ],
             'particles/content' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/content.yaml',
-                'modified' => 1568794962
+                'modified' => 1568808320
             ],
             'particles/contentarray' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/contentarray.yaml',
-                'modified' => 1568794962
+                'modified' => 1568808320
             ],
             'particles/contentcubes' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/contentcubes.yaml',
-                'modified' => 1568794962
+                'modified' => 1568808320
             ],
             'particles/contenttabs' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/contenttabs.yaml',
-                'modified' => 1568794962
+                'modified' => 1568808320
             ],
             'particles/copyright' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/copyright.yaml',
-                'modified' => 1568794962
+                'modified' => 1568808320
             ],
             'particles/custom' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/custom.yaml',
-                'modified' => 1568794962
+                'modified' => 1568808320
             ],
             'particles/date' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/date.yaml',
-                'modified' => 1568794962
+                'modified' => 1568808320
             ],
             'particles/horizontalmenu' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/horizontalmenu.yaml',
-                'modified' => 1568794962
+                'modified' => 1568808320
             ],
             'particles/login' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/login.yaml',
-                'modified' => 1568794962
+                'modified' => 1568808320
             ],
             'particles/logo' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/logo.yaml',
-                'modified' => 1568794962
+                'modified' => 1568808320
             ],
             'particles/menu' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/menu.yaml',
-                'modified' => 1568794962
+                'modified' => 1568808320
             ],
             'particles/messages' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/messages.yaml',
-                'modified' => 1568794962
+                'modified' => 1568808320
             ],
             'particles/mobile-menu' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/mobile-menu.yaml',
-                'modified' => 1568794962
+                'modified' => 1568808320
             ],
             'particles/owlcarousel' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/owlcarousel.yaml',
-                'modified' => 1568794962
+                'modified' => 1568808320
             ],
             'particles/position' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/position.yaml',
-                'modified' => 1568794962
+                'modified' => 1568808320
             ],
             'particles/social' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/social.yaml',
-                'modified' => 1568794962
+                'modified' => 1568808320
             ],
             'particles/spacer' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/spacer.yaml',
-                'modified' => 1568794962
+                'modified' => 1568808320
             ],
             'particles/totop' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/totop.yaml',
-                'modified' => 1568794962
+                'modified' => 1568808320
             ],
             'styles' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/styles.yaml',
-                'modified' => 1568801830
+                'modified' => 1568809202
             ]
         ],
         'user/themes/g5_helium/config/default' => [
@@ -206,7 +206,7 @@ return [
                     0 => [
                         'class' => '',
                         'image' => 'gantry-media://above/img02.jpeg',
-                        'title' => 'Graphic Designer',
+                        'title' => '<h1>Graphic Designer</h1>',
                         'desc' => 'Photoshop, InDesign, Illustrator, UX / UI and more...',
                         'link' => 'http://www.google.pl',
                         'linktext' => 'read more',
@@ -217,7 +217,7 @@ return [
                     1 => [
                         'class' => '',
                         'image' => 'gantry-media://above/img02.jpeg',
-                        'title' => 'Movie Director',
+                        'title' => '<h1>Movie Director</h1>',
                         'desc' => 'After Effects, Final Cut Pro X, Motion and more...',
                         'link' => 'http://www.google.pl',
                         'linktext' => 'read more',
@@ -228,7 +228,7 @@ return [
                     2 => [
                         'class' => '',
                         'image' => 'gantry-media://above/img01.jpeg',
-                        'title' => 'Game Developer',
+                        'title' => '<h1>Game Developer</h1>',
                         'desc' => 'Unity 3D, Unreal Engine 4, GODOT and more...',
                         'link' => 'http://www.google.pl',
                         'linktext' => 'read more',
@@ -472,8 +472,8 @@ return [
                 'text-color' => '#ffffff'
             ],
             'accent' => [
-                'color-1' => '#a8a7a7',
-                'color-2' => '#474747'
+                'color-1' => '#ffffff',
+                'color-2' => '#60606e'
             ],
             'base' => [
                 'background' => '#ffffff',
@@ -665,7 +665,7 @@ return [
         ],
         'index' => [
             'name' => 'default',
-            'timestamp' => 1568795642,
+            'timestamp' => 1568807575,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -705,13 +705,12 @@ return [
                 'owlcarousel' => [
                     'owlcarousel-7244' => 'Owl Carousel'
                 ],
-                'content' => [
-                    'system-content-4817' => 'Page Content',
-                    'system-content-1587' => 'Page Content'
-                ],
                 'position' => [
                     'position-position-4734' => 'Aside',
                     'position-position-3949' => 'Sidebar'
+                ],
+                'content' => [
+                    'system-content-1587' => 'Page Content'
                 ],
                 'copyright' => [
                     'copyright-1736' => 'Copyright'
@@ -741,8 +740,8 @@ return [
                 '/navigation/' => [
                     0 => [
                         0 => 'logo-9322 33',
-                        1 => 'menu-6409 33.9',
-                        2 => 'social-3171 33'
+                        1 => 'menu-6409 34',
+                        2 => 'social-3171 32.9'
                     ]
                 ],
                 '/header/' => [
@@ -751,9 +750,7 @@ return [
                     ]
                 ],
                 '/intro/' => [
-                    0 => [
-                        0 => 'system-content-4817'
-                    ]
+                    
                 ],
                 '/features/' => [
                     

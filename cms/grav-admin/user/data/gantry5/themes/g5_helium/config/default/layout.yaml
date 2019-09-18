@@ -7,14 +7,12 @@ layout:
   /navigation/:
     -
       - 'logo-9322 33'
-      - 'menu-6409 33.9'
-      - 'social-3171 33'
+      - 'menu-6409 34'
+      - 'social-3171 32.9'
   /header/:
     -
       - owlcarousel-7244
-  /intro/:
-    -
-      - system-content-4817
+  /intro/: {  }
   /features/: {  }
   /utility/: {  }
   /above/: {  }
