@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/config/default/particles/owlcarousel.yaml',
-    'modified' => 1568793783,
+    'modified' => 1568794397,
     'data' => [
         'enabled' => '1',
         'class' => '',
@@ -11,11 +11,11 @@ return [
         'dots' => 'enable',
         'autoplay' => 'enable',
         'autoplaySpeed' => '',
-        'imageOverlay' => 'enable',
+        'imageOverlay' => 'disable',
         'items' => [
             0 => [
                 'class' => '',
-                'image' => 'gantry-media://header/img01.jpg',
+                'image' => 'gantry-media://above/img02.jpeg',
                 'title' => 'Graphic Designer',
                 'desc' => 'Photoshop, InDesign, Illustrator, UX / UI and more...',
                 'link' => 'http://www.google.pl',
@@ -26,7 +26,7 @@ return [
             ],
             1 => [
                 'class' => '',
-                'image' => 'gantry-media://header/img02.jpg',
+                'image' => 'gantry-media://above/img02.jpeg',
                 'title' => 'Movie Director',
                 'desc' => 'After Effects, Final Cut Pro X, Motion and more...',
                 'link' => 'http://www.google.pl',
@@ -37,7 +37,7 @@ return [
             ],
             2 => [
                 'class' => '',
-                'image' => 'gantry-media://header/img02.jpg',
+                'image' => 'gantry-media://above/img01.jpeg',
                 'title' => 'Game Developer',
                 'desc' => 'Unity 3D, Unreal Engine 4, GODOT and more...',
                 'link' => 'http://www.google.pl',

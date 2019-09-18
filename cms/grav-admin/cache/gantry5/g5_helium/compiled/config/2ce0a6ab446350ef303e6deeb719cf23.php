@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1568793783,
-    'checksum' => '0bdcddd0fab57c19dc5e31ec81e01c2b',
+    'timestamp' => 1568794398,
+    'checksum' => 'e998ea84321bf52df97158c649abe6e3',
     'files' => [
         'user/data/gantry5/themes/g5_helium/config/default' => [
             'index' => [
@@ -27,79 +27,79 @@ return [
             ],
             'particles/branding' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/branding.yaml',
-                'modified' => 1568793783
+                'modified' => 1568794397
             ],
             'particles/content' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/content.yaml',
-                'modified' => 1568793783
+                'modified' => 1568794397
             ],
             'particles/contentarray' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/contentarray.yaml',
-                'modified' => 1568793783
+                'modified' => 1568794397
             ],
             'particles/contentcubes' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/contentcubes.yaml',
-                'modified' => 1568793783
+                'modified' => 1568794397
             ],
             'particles/contenttabs' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/contenttabs.yaml',
-                'modified' => 1568793783
+                'modified' => 1568794397
             ],
             'particles/copyright' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/copyright.yaml',
-                'modified' => 1568793783
+                'modified' => 1568794397
             ],
             'particles/custom' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/custom.yaml',
-                'modified' => 1568793783
+                'modified' => 1568794397
             ],
             'particles/date' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/date.yaml',
-                'modified' => 1568793783
+                'modified' => 1568794397
             ],
             'particles/horizontalmenu' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/horizontalmenu.yaml',
-                'modified' => 1568793783
+                'modified' => 1568794397
             ],
             'particles/login' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/login.yaml',
-                'modified' => 1568793783
+                'modified' => 1568794397
             ],
             'particles/logo' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/logo.yaml',
-                'modified' => 1568793783
+                'modified' => 1568794397
             ],
             'particles/menu' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/menu.yaml',
-                'modified' => 1568793783
+                'modified' => 1568794397
             ],
             'particles/messages' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/messages.yaml',
-                'modified' => 1568793783
+                'modified' => 1568794397
             ],
             'particles/mobile-menu' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/mobile-menu.yaml',
-                'modified' => 1568793783
+                'modified' => 1568794397
             ],
             'particles/owlcarousel' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/owlcarousel.yaml',
-                'modified' => 1568793783
+                'modified' => 1568794397
             ],
             'particles/position' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/position.yaml',
-                'modified' => 1568793783
+                'modified' => 1568794397
             ],
             'particles/social' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/social.yaml',
-                'modified' => 1568793783
+                'modified' => 1568794397
             ],
             'particles/spacer' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/spacer.yaml',
-                'modified' => 1568793783
+                'modified' => 1568794397
             ],
             'particles/totop' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/totop.yaml',
-                'modified' => 1568793783
+                'modified' => 1568794397
             ],
             'styles' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/styles.yaml',
@@ -198,14 +198,14 @@ return [
                 'nav' => 'enable',
                 'dots' => 'enable',
                 'autoplay' => 'enable',
-                'imageOverlay' => 'enable',
+                'imageOverlay' => 'disable',
                 'class' => '',
                 'title' => '',
                 'autoplaySpeed' => '',
                 'items' => [
                     0 => [
                         'class' => '',
-                        'image' => 'gantry-media://header/img01.jpg',
+                        'image' => 'gantry-media://above/img02.jpeg',
                         'title' => 'Graphic Designer',
                         'desc' => 'Photoshop, InDesign, Illustrator, UX / UI and more...',
                         'link' => 'http://www.google.pl',
@@ -216,7 +216,7 @@ return [
                     ],
                     1 => [
                         'class' => '',
-                        'image' => 'gantry-media://header/img02.jpg',
+                        'image' => 'gantry-media://above/img02.jpeg',
                         'title' => 'Movie Director',
                         'desc' => 'After Effects, Final Cut Pro X, Motion and more...',
                         'link' => 'http://www.google.pl',
@@ -227,7 +227,7 @@ return [
                     ],
                     2 => [
                         'class' => '',
-                        'image' => 'gantry-media://header/img02.jpg',
+                        'image' => 'gantry-media://above/img01.jpeg',
                         'title' => 'Game Developer',
                         'desc' => 'Unity 3D, Unreal Engine 4, GODOT and more...',
                         'link' => 'http://www.google.pl',
