@@ -23,7 +23,7 @@ intro:
   background: '#ffffff'
   text-color: '#60606e'
 features:
-  background: ''
+  background: '#60606e'
   text-color: '#ffffff'
 utility:
   background: ''

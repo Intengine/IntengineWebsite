@@ -1,7 +1,7 @@
 <?php
 return [
     'file' => 'gantry-theme://css-compiled/helium-grav__error.css',
-    'timestamp' => 1568890705,
+    'timestamp' => 1568899386,
     'md5' => '5e20100fec94795a022154355020cdc9',
     'variables' => [
         'above-text-color' => '#ffffff',
@@ -15,6 +15,7 @@ return [
         'breakpoints-large-mobile-container' => '30rem',
         'breakpoints-mobile-menu-breakpoint' => '48rem',
         'expanded-text-color' => '#ffffff',
+        'features-background' => '#60606e',
         'features-text-color' => '#ffffff',
         'font-family-default' => '\'Bebas\'',
         'font-family-title' => '\'Bebas\'',

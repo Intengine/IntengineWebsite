@@ -1,5 +1,5 @@
 name: _body_only
-timestamp: 1568875646
+timestamp: 1568897544
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/body-only.png'
@@ -11,6 +11,4 @@ sections:
 particles:
   messages:
     system-messages-6659: 'System Messages'
-  content:
-    system-content-5845: 'Page Content'
 inherit: {  }

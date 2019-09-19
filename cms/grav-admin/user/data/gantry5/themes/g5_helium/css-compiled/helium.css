@@ -1999,7 +1999,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 1, user/themes/g5_helium/scss/helium/sections/_features.scss */
 #g-features {
-  background: #fff;
+  background: #60606e;
   color: #fff;
   padding: 3rem 0;
 }

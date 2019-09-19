@@ -1,29 +1,29 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1568890977,
-    'checksum' => '2284eb3ce2f3287e28a1010783894a4b',
+    'timestamp' => 1568899382,
+    'checksum' => '716cd9f22c6edcccb881581bf73957c1',
     'files' => [
         'user/data/gantry5/themes/g5_helium/config/default' => [
             'index' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/index.yaml',
-                'modified' => 1568890972
+                'modified' => 1568899341
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-                'modified' => 1568890972
+                'modified' => 1568899341
             ],
             'page/assets' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/assets.yaml',
-                'modified' => 1568875646
+                'modified' => 1568897997
             ],
             'page/body' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/body.yaml',
-                'modified' => 1568875646
+                'modified' => 1568897997
             ],
             'page/head' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/head.yaml',
-                'modified' => 1568875646
+                'modified' => 1568897997
             ],
             'particles/branding' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/branding.yaml',
@@ -103,7 +103,7 @@ return [
             ],
             'styles' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/styles.yaml',
-                'modified' => 1568890701
+                'modified' => 1568899382
             ]
         ],
         'user/themes/g5_helium/config/default' => [
@@ -491,7 +491,7 @@ return [
                 'text-color' => '#ffffff'
             ],
             'features' => [
-                'background' => '',
+                'background' => '#60606e',
                 'text-color' => '#ffffff'
             ],
             'font' => [
@@ -665,7 +665,7 @@ return [
         ],
         'index' => [
             'name' => 'default',
-            'timestamp' => 1568890972,
+            'timestamp' => 1568899341,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -693,7 +693,10 @@ return [
             ],
             'particles' => [
                 'logo' => [
-                    'logo-9322' => 'Logo / Image'
+                    'logo-9322' => 'Logo / Image',
+                    'logo-8619' => 'Logo / Image',
+                    'logo-4027' => 'Logo / Image',
+                    'logo-7165' => 'Logo / Image'
                 ],
                 'menu' => [
                     'menu-6409' => 'Menu'
@@ -704,16 +707,16 @@ return [
                 'owlcarousel' => [
                     'owlcarousel-7244' => 'Owl Carousel'
                 ],
-                'content' => [
-                    'system-content-9196' => 'Page Content',
-                    'system-content-1587' => 'Page Content'
-                ],
                 'custom' => [
-                    'custom-8786' => 'Custom HTML'
+                    'custom-3577' => 'Custom HTML',
+                    'custom-5734' => 'Custom HTML'
                 ],
                 'position' => [
                     'position-position-4734' => 'Aside',
                     'position-position-3949' => 'Sidebar'
+                ],
+                'content' => [
+                    'system-content-1587' => 'Page Content'
                 ],
                 'copyright' => [
                     'copyright-1736' => 'Copyright'
@@ -754,12 +757,17 @@ return [
                 ],
                 '/intro/' => [
                     0 => [
-                        0 => 'system-content-9196'
+                        0 => 'custom-3577'
                     ]
                 ],
                 '/features/' => [
                     0 => [
-                        0 => 'custom-8786'
+                        0 => 'custom-5734'
+                    ],
+                    1 => [
+                        0 => 'logo-8619 33.3',
+                        1 => 'logo-4027 33.3',
+                        2 => 'logo-7165 33.3'
                     ]
                 ],
                 '/utility/' => [
@@ -829,7 +837,9 @@ return [
                 'intro' => [
                     'type' => 'section',
                     'attributes' => [
-                        'boxed' => ''
+                        'boxed' => '0',
+                        'class' => '',
+                        'variations' => ''
                     ]
                 ],
                 'features' => [
@@ -942,10 +952,41 @@ return [
                         'autoplaySpeed' => '5000'
                     ]
                 ],
-                'custom-8786' => [
+                'custom-3577' => [
                     'title' => 'Custom HTML',
                     'attributes' => [
-                        'html' => 'LOREM IPSUM'
+                        'html' => '<h1>Welcome to INTENGINE</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>'
+                    ],
+                    'block' => [
+                        'variations' => 'center title-center'
+                    ]
+                ],
+                'custom-5734' => [
+                    'title' => 'Custom HTML',
+                    'attributes' => [
+                        'html' => '<h1>FEATURES</h1>'
+                    ],
+                    'block' => [
+                        'variations' => 'center title-center'
+                    ]
+                ],
+                'logo-8619' => [
+                    'title' => 'Logo / Image',
+                    'attributes' => [
+                        'image' => 'gantry-media://media/thumb-3dm.png'
+                    ]
+                ],
+                'logo-4027' => [
+                    'title' => 'Logo / Image',
+                    'attributes' => [
+                        'image' => 'gantry-media://media/thumb-3g2.png'
+                    ]
+                ],
+                'logo-7165' => [
+                    'title' => 'Logo / Image',
+                    'attributes' => [
+                        'image' => 'gantry-media://media/thumb-3ds.png'
                     ]
                 ],
                 'position-position-4734' => [

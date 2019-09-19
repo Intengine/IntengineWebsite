@@ -1,7 +1,7 @@
 <?php
 return [
     'file' => 'gantry-theme://css-compiled/custom.css',
-    'timestamp' => 1568890703,
+    'timestamp' => 1568899384,
     'md5' => '76409eda08dc6d5acbab915ed8c6e4a1',
     'variables' => [
         'above-text-color' => '#ffffff',
@@ -15,6 +15,7 @@ return [
         'breakpoints-large-mobile-container' => '30rem',
         'breakpoints-mobile-menu-breakpoint' => '48rem',
         'expanded-text-color' => '#ffffff',
+        'features-background' => '#60606e',
         'features-text-color' => '#ffffff',
         'font-family-default' => '\'Bebas\'',
         'font-family-title' => '\'Bebas\'',

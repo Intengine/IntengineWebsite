@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1568890705,
-    'checksum' => 'bbc9c90c9625be907d35ebf80b62cffe',
+    'timestamp' => 1568899386,
+    'checksum' => '5dd9ec9322fe02e7961c32658ebca086',
     'files' => [
         'user/data/gantry5/themes/g5_helium/config/_offline' => [
             'index' => [
@@ -17,23 +17,23 @@ return [
         'user/data/gantry5/themes/g5_helium/config/default' => [
             'index' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/index.yaml',
-                'modified' => 1568890675
+                'modified' => 1568899341
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-                'modified' => 1568890675
+                'modified' => 1568899341
             ],
             'page/assets' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/assets.yaml',
-                'modified' => 1568875646
+                'modified' => 1568897997
             ],
             'page/body' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/body.yaml',
-                'modified' => 1568875646
+                'modified' => 1568897997
             ],
             'page/head' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/head.yaml',
-                'modified' => 1568875646
+                'modified' => 1568897997
             ],
             'particles/branding' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/branding.yaml',
@@ -113,7 +113,7 @@ return [
             ],
             'styles' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/styles.yaml',
-                'modified' => 1568890701
+                'modified' => 1568899382
             ]
         ],
         'user/themes/g5_helium/config/default' => [
@@ -501,7 +501,7 @@ return [
                 'text-color' => '#ffffff'
             ],
             'features' => [
-                'background' => '',
+                'background' => '#60606e',
                 'text-color' => '#ffffff'
             ],
             'font' => [

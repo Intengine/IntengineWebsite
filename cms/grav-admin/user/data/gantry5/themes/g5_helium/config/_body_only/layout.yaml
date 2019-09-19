@@ -7,8 +7,6 @@ layout:
   /mainbar/:
     -
       - system-messages-6659
-    -
-      - system-content-5845
 structure:
   mainbar:
     type: section

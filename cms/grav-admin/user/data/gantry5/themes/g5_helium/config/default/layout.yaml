@@ -14,10 +14,14 @@ layout:
       - owlcarousel-7244
   /intro/:
     -
-      - system-content-9196
+      - custom-3577
   /features/:
     -
-      - custom-8786
+      - custom-5734
+    -
+      - 'logo-8619 33.3'
+      - 'logo-4027 33.3'
+      - 'logo-7165 33.3'
   /utility/: {  }
   /above/: {  }
   /testimonials/: {  }
@@ -57,7 +61,9 @@ structure:
   intro:
     type: section
     attributes:
-      boxed: ''
+      boxed: '0'
+      class: ''
+      variations: ''
   features:
     type: section
     attributes:
@@ -134,10 +140,30 @@ content:
       dots: enable
       autoplay: enable
       autoplaySpeed: '5000'
-  custom-8786:
+  custom-3577:
     title: 'Custom HTML'
     attributes:
-      html: 'LOREM IPSUM'
+      html: "<h1>Welcome to INTENGINE</h1>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+    block:
+      variations: 'center title-center'
+  custom-5734:
+    title: 'Custom HTML'
+    attributes:
+      html: '<h1>FEATURES</h1>'
+    block:
+      variations: 'center title-center'
+  logo-8619:
+    title: 'Logo / Image'
+    attributes:
+      image: 'gantry-media://media/thumb-3dm.png'
+  logo-4027:
+    title: 'Logo / Image'
+    attributes:
+      image: 'gantry-media://media/thumb-3g2.png'
+  logo-7165:
+    title: 'Logo / Image'
+    attributes:
+      image: 'gantry-media://media/thumb-3ds.png'
   position-position-4734:
     title: Aside
     attributes:

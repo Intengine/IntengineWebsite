@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-    'modified' => 1568890972,
+    'modified' => 1568899341,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -25,12 +25,17 @@ return [
             ],
             '/intro/' => [
                 0 => [
-                    0 => 'system-content-9196'
+                    0 => 'custom-3577'
                 ]
             ],
             '/features/' => [
                 0 => [
-                    0 => 'custom-8786'
+                    0 => 'custom-5734'
+                ],
+                1 => [
+                    0 => 'logo-8619 33.3',
+                    1 => 'logo-4027 33.3',
+                    2 => 'logo-7165 33.3'
                 ]
             ],
             '/utility/' => [
@@ -100,7 +105,9 @@ return [
             'intro' => [
                 'type' => 'section',
                 'attributes' => [
-                    'boxed' => ''
+                    'boxed' => '0',
+                    'class' => '',
+                    'variations' => ''
                 ]
             ],
             'features' => [
@@ -213,10 +220,41 @@ return [
                     'autoplaySpeed' => '5000'
                 ]
             ],
-            'custom-8786' => [
+            'custom-3577' => [
                 'title' => 'Custom HTML',
                 'attributes' => [
-                    'html' => 'LOREM IPSUM'
+                    'html' => '<h1>Welcome to INTENGINE</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>'
+                ],
+                'block' => [
+                    'variations' => 'center title-center'
+                ]
+            ],
+            'custom-5734' => [
+                'title' => 'Custom HTML',
+                'attributes' => [
+                    'html' => '<h1>FEATURES</h1>'
+                ],
+                'block' => [
+                    'variations' => 'center title-center'
+                ]
+            ],
+            'logo-8619' => [
+                'title' => 'Logo / Image',
+                'attributes' => [
+                    'image' => 'gantry-media://media/thumb-3dm.png'
+                ]
+            ],
+            'logo-4027' => [
+                'title' => 'Logo / Image',
+                'attributes' => [
+                    'image' => 'gantry-media://media/thumb-3g2.png'
+                ]
+            ],
+            'logo-7165' => [
+                'title' => 'Logo / Image',
+                'attributes' => [
+                    'image' => 'gantry-media://media/thumb-3ds.png'
                 ]
             ],
             'position-position-4734' => [

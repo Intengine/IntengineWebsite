@@ -1,8 +1,8 @@
 <?php
 return [
     'file' => 'gantry-theme://css-compiled/helium__error.css',
-    'timestamp' => 1568890705,
-    'md5' => 'c38f89c8d6f0f5c4b529ceddbb01bd0b',
+    'timestamp' => 1568899386,
+    'md5' => 'c1cf5296b981387255b136c61db28bb4',
     'variables' => [
         'above-text-color' => '#ffffff',
         'accent-color-1' => '#ffffff',
@@ -15,6 +15,7 @@ return [
         'breakpoints-large-mobile-container' => '30rem',
         'breakpoints-mobile-menu-breakpoint' => '48rem',
         'expanded-text-color' => '#ffffff',
+        'features-background' => '#60606e',
         'features-text-color' => '#ffffff',
         'font-family-default' => '\'Bebas\'',
         'font-family-title' => '\'Bebas\'',

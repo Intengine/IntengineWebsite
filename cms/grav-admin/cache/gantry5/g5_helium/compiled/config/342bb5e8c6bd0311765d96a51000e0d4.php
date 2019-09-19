@@ -1,39 +1,39 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1568890703,
-    'checksum' => 'f2b713dbfc47c095d4418425d81a1f96',
+    'timestamp' => 1568899384,
+    'checksum' => '5df138fe376b0ddc2e843a2761245b47',
     'files' => [
         'user/data/gantry5/themes/g5_helium/config/_body_only' => [
             'index' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/_body_only/index.yaml',
-                'modified' => 1568890489
+                'modified' => 1568897544
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/_body_only/layout.yaml',
-                'modified' => 1568875646
+                'modified' => 1568897544
             ]
         ],
         'user/data/gantry5/themes/g5_helium/config/default' => [
             'index' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/index.yaml',
-                'modified' => 1568890675
+                'modified' => 1568899341
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-                'modified' => 1568890675
+                'modified' => 1568899341
             ],
             'page/assets' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/assets.yaml',
-                'modified' => 1568875646
+                'modified' => 1568897997
             ],
             'page/body' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/body.yaml',
-                'modified' => 1568875646
+                'modified' => 1568897997
             ],
             'page/head' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/head.yaml',
-                'modified' => 1568875646
+                'modified' => 1568897997
             ],
             'particles/branding' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/branding.yaml',
@@ -113,7 +113,7 @@ return [
             ],
             'styles' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/styles.yaml',
-                'modified' => 1568890701
+                'modified' => 1568899382
             ]
         ],
         'user/themes/g5_helium/config/default' => [
@@ -501,7 +501,7 @@ return [
                 'text-color' => '#ffffff'
             ],
             'features' => [
-                'background' => '',
+                'background' => '#60606e',
                 'text-color' => '#ffffff'
             ],
             'font' => [
@@ -675,7 +675,7 @@ return [
         ],
         'index' => [
             'name' => '_body_only',
-            'timestamp' => 1568875646,
+            'timestamp' => 1568897544,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/body-only.png',
@@ -691,9 +691,6 @@ return [
             'particles' => [
                 'messages' => [
                     'system-messages-6659' => 'System Messages'
-                ],
-                'content' => [
-                    'system-content-5845' => 'Page Content'
                 ]
             ],
             'inherit' => [
@@ -711,9 +708,6 @@ return [
                 '/mainbar/' => [
                     0 => [
                         0 => 'system-messages-6659'
-                    ],
-                    1 => [
-                        0 => 'system-content-5845'
                     ]
                 ]
             ],
@@ -767,10 +761,41 @@ return [
                         'autoplaySpeed' => '5000'
                     ]
                 ],
-                'custom-7379' => [
+                'custom-3577' => [
                     'title' => 'Custom HTML',
                     'attributes' => [
-                        'html' => 'LOREM IPSUM'
+                        'html' => '<h1>Welcome to INTENGINE</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>'
+                    ],
+                    'block' => [
+                        'variations' => 'center title-center'
+                    ]
+                ],
+                'custom-5734' => [
+                    'title' => 'Custom HTML',
+                    'attributes' => [
+                        'html' => '<h1>FEATURES</h1>'
+                    ],
+                    'block' => [
+                        'variations' => 'center title-center'
+                    ]
+                ],
+                'logo-8619' => [
+                    'title' => 'Logo / Image',
+                    'attributes' => [
+                        'image' => 'gantry-media://media/thumb-3dm.png'
+                    ]
+                ],
+                'logo-4027' => [
+                    'title' => 'Logo / Image',
+                    'attributes' => [
+                        'image' => 'gantry-media://media/thumb-3g2.png'
+                    ]
+                ],
+                'logo-7165' => [
+                    'title' => 'Logo / Image',
+                    'attributes' => [
+                        'image' => 'gantry-media://media/thumb-3ds.png'
                     ]
                 ],
                 'position-position-4734' => [
