@@ -1,5 +1,5 @@
 name: default
-timestamp: 1568820647
+timestamp: 1568890972
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -31,11 +31,14 @@ particles:
     social-3171: Social
   owlcarousel:
     owlcarousel-7244: 'Owl Carousel'
+  content:
+    system-content-9196: 'Page Content'
+    system-content-1587: 'Page Content'
+  custom:
+    custom-8786: 'Custom HTML'
   position:
     position-position-4734: Aside
     position-position-3949: Sidebar
-  content:
-    system-content-1587: 'Page Content'
   copyright:
     copyright-1736: Copyright
   horizontalmenu:

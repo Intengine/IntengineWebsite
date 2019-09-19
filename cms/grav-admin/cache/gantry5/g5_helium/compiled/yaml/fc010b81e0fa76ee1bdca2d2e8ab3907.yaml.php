@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/themes/g5_helium/blueprints/styles/offcanvas.yaml',
-    'modified' => 1568788241,
+    'modified' => 1568875649,
     'data' => [
         'name' => 'Offcanvas Styles',
         'description' => 'Paramters for the Off Canvas sidepanel section.',

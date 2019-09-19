@@ -76,7 +76,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   font-family: 'rockettheme-apps';
   font-style: normal;
   font-weight: normal;
-  src: url('../../../../../themes/g5_helium/fonts/rockettheme-apps/rockettheme-apps.eot?5d8244e3#iefix') format("embedded-opentype"), url('../../../../../themes/g5_helium/fonts/rockettheme-apps/rockettheme-apps.woff2?5d8244e3') format("woff2"), url('../../../../../themes/g5_helium/fonts/rockettheme-apps/rockettheme-apps.woff?5d8244e3') format("woff"), url('../../../../../themes/g5_helium/fonts/rockettheme-apps/rockettheme-apps.ttf?5d8244e3') format("truetype"), url('../../../../../themes/g5_helium/fonts/rockettheme-apps/rockettheme-apps.svg?5d8244e3#rockettheme-apps') format("svg");
+  src: url('../../../../../themes/g5_helium/fonts/rockettheme-apps/rockettheme-apps.eot?5d832481#iefix') format("embedded-opentype"), url('../../../../../themes/g5_helium/fonts/rockettheme-apps/rockettheme-apps.woff2?5d832481') format("woff2"), url('../../../../../themes/g5_helium/fonts/rockettheme-apps/rockettheme-apps.woff?5d832481') format("woff"), url('../../../../../themes/g5_helium/fonts/rockettheme-apps/rockettheme-apps.ttf?5d832481') format("truetype"), url('../../../../../themes/g5_helium/fonts/rockettheme-apps/rockettheme-apps.svg?5d832481#rockettheme-apps') format("svg");
 }
 /* line 4, user/themes/g5_helium/scss/helium/styles/_fonts.scss */
 i.fa-grav-spaceman, i.fa-grav-text, i.fa-grav-full, i.fa-grav-logo, i.fa-grav-symbol, i.fa-grav-logo-both, i.fa-grav-both, i.fa-gantry, i.fa-gantry-logo, i.fa-gantry-symbol, i.fa-gantry-logo-both, i.fa-gantry-both {
@@ -180,25 +180,25 @@ a:hover {
   font-family: "bebas";
   font-style: normal;
   font-weight: 700;
-  src: url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_regular/bebasneue-regular-webfont.eot?5d8244e3#iefix') format("embedded-opentype"), url('../fonts/bebasneue/bebasneue_regular/bebasneue-regular-webfont.woff2') format("woff2"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_regular/bebasneue-regular-webfont.woff?5d8244e3') format("woff"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_regular/bebasneue-regular-webfont.ttf?5d8244e3') format("truetype"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_regular/bebasneue-regular-webfont.svg?5d8244e3#bebas') format("svg");
+  src: url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_regular/bebasneue-regular-webfont.eot?5d832481#iefix') format("embedded-opentype"), url('../fonts/bebasneue/bebasneue_regular/bebasneue-regular-webfont.woff2') format("woff2"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_regular/bebasneue-regular-webfont.woff?5d832481') format("woff"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_regular/bebasneue-regular-webfont.ttf?5d832481') format("truetype"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_regular/bebasneue-regular-webfont.svg?5d832481#bebas') format("svg");
 }
 @font-face {
   font-family: "bebas";
   font-style: normal;
   font-weight: 600;
-  src: url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_light/bebasneue-light-webfont.eot?5d8244e3#iefix') format("embedded-opentype"), url('../fonts/bebasneue/bebasneue_light/bebasneue-light-webfont.woff2') format("woff2"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_light/bebasneue-light-webfont.woff?5d8244e3') format("woff"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_light/bebasneue-light-webfont.ttf?5d8244e3') format("truetype"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_light/bebasneue-light-webfont.svg?5d8244e3#bebas') format("svg");
+  src: url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_light/bebasneue-light-webfont.eot?5d832481#iefix') format("embedded-opentype"), url('../fonts/bebasneue/bebasneue_light/bebasneue-light-webfont.woff2') format("woff2"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_light/bebasneue-light-webfont.woff?5d832481') format("woff"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_light/bebasneue-light-webfont.ttf?5d832481') format("truetype"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_light/bebasneue-light-webfont.svg?5d832481#bebas') format("svg");
 }
 @font-face {
   font-family: "bebas";
   font-style: normal;
   font-weight: 500;
-  src: url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_thin/bebasneue-thin-webfont.eot?5d8244e3#iefix') format("embedded-opentype"), url('../fonts/bebasneue/bebasneue_thin/bebasneue-thin-webfont.woff2') format("woff2"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_thin/bebasneue-thin-webfont.woff?5d8244e3') format("woff"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_thin/bebasneue-thin-webfont.ttf?5d8244e3') format("truetype"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_thin/bebasneue-thin-webfont.svg?5d8244e3#bebas') format("svg");
+  src: url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_thin/bebasneue-thin-webfont.eot?5d832481#iefix') format("embedded-opentype"), url('../fonts/bebasneue/bebasneue_thin/bebasneue-thin-webfont.woff2') format("woff2"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_thin/bebasneue-thin-webfont.woff?5d832481') format("woff"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_thin/bebasneue-thin-webfont.ttf?5d832481') format("truetype"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_thin/bebasneue-thin-webfont.svg?5d832481#bebas') format("svg");
 }
 @font-face {
   font-family: "bebas";
   font-style: normal;
   font-weight: 400;
-  src: url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_book/bebasneue-book-webfont.eot?5d8244e3#iefix') format("embedded-opentype"), url('../fonts/bebasneue/bebasneue_book/bebasneue-book-webfont.woff2') format("woff2"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_book/bebasneue-book-webfont.woff?5d8244e3') format("woff"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_book/bebasneue-book-webfont.ttf?5d8244e3') format("truetype"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_book/bebasneue-book-webfont.svg?5d8244e3#bebas') format("svg");
+  src: url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_book/bebasneue-book-webfont.eot?5d832481#iefix') format("embedded-opentype"), url('../fonts/bebasneue/bebasneue_book/bebasneue-book-webfont.woff2') format("woff2"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_book/bebasneue-book-webfont.woff?5d832481') format("woff"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_book/bebasneue-book-webfont.ttf?5d832481') format("truetype"), url('../../../../../themes/g5_helium/custom/fonts/bebasneue/bebasneue_book/bebasneue-book-webfont.svg?5d832481#bebas') format("svg");
 }
 /* line 5, user/themes/g5_helium/scss/helium/styles/_typography.scss */
 body {
@@ -1534,7 +1534,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   padding: 3rem 0;
   position: relative;
   z-index: 10;
-  background-image: url('../../../../../images/g5_helium/above/slider1.jpg?5d82497b');
+  background-image: url('../../../../../images/g5_helium/above/slider1.jpg?5d83247e');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1982,8 +1982,8 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 1, user/themes/g5_helium/scss/helium/sections/_intro.scss */
 #g-intro {
-  background: #f4f5f7;
-  color: #fff;
+  background: #fff;
+  color: #60606e;
   padding: 3rem 0;
 }
 @media print {
@@ -2039,7 +2039,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   padding: 3rem 0;
   position: relative;
   z-index: 10;
-  background: url('../../../../../themes/g5_helium/images/testimonials/img01.jpg?5d8244e4') no-repeat center top;
+  background: url('../../../../../themes/g5_helium/images/testimonials/img01.jpg?5d832481') no-repeat center top;
   background-size: cover;
 }
 /* line 13, user/themes/g5_helium/scss/helium/sections/_testimonials.scss */

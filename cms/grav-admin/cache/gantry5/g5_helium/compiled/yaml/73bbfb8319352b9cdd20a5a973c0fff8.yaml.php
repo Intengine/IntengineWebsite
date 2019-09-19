@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/themes/g5_helium/particles/owlcarousel.yaml',
-    'modified' => 1568788242,
+    'modified' => 1568875649,
     'data' => [
         'name' => 'Owl Carousel',
         'description' => 'Display Owl Carousel.',

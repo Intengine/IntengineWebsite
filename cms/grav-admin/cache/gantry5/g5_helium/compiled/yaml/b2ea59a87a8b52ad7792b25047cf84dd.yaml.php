@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-    'modified' => 1568814813,
+    'modified' => 1568890972,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -24,10 +24,14 @@ return [
                 ]
             ],
             '/intro/' => [
-                
+                0 => [
+                    0 => 'system-content-9196'
+                ]
             ],
             '/features/' => [
-                
+                0 => [
+                    0 => 'custom-8786'
+                ]
             ],
             '/utility/' => [
                 
@@ -172,7 +176,7 @@ return [
             'logo-9322' => [
                 'title' => 'Logo / Image',
                 'attributes' => [
-                    'image' => 'gantry-media://g5_helium/intengine-logo.png',
+                    'image' => 'gantry-media://g5_helium/logo.png',
                     'text' => 'intengine',
                     'class' => 'g-logo g-logo-helium'
                 ]
@@ -207,6 +211,12 @@ return [
                     'dots' => 'enable',
                     'autoplay' => 'enable',
                     'autoplaySpeed' => '5000'
+                ]
+            ],
+            'custom-8786' => [
+                'title' => 'Custom HTML',
+                'attributes' => [
+                    'html' => 'LOREM IPSUM'
                 ]
             ],
             'position-position-4734' => [

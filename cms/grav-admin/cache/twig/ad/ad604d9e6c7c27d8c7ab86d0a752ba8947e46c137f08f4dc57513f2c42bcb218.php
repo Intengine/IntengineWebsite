@@ -171,6 +171,6 @@ class __TwigTemplate_66eb0f79454f4f0e378c1023bda9fb3aaf3dec0afd77e9aa472552f612b
     {{ nonce_field('admin-form', 'admin-nonce')|raw }}
 
 </form>
-", "partials/blueprints-new-custom.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/core-service-manager/admin/templates-twelvetone/partials/blueprints-new-custom.html.twig");
+", "partials/blueprints-new-custom.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/core-service-manager/admin/templates-twelvetone/partials/blueprints-new-custom.html.twig");
     }
 }

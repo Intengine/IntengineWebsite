@@ -20,8 +20,8 @@ header:
   background-overlay: enabled
   text-color: '#ffffff'
 intro:
-  background: ''
-  text-color: '#ffffff'
+  background: '#ffffff'
+  text-color: '#60606e'
 features:
   background: ''
   text-color: '#ffffff'

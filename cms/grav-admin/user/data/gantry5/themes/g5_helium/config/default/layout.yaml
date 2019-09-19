@@ -12,8 +12,12 @@ layout:
   /header/:
     -
       - owlcarousel-7244
-  /intro/: {  }
-  /features/: {  }
+  /intro/:
+    -
+      - system-content-9196
+  /features/:
+    -
+      - custom-8786
   /utility/: {  }
   /above/: {  }
   /testimonials/: {  }
@@ -130,6 +134,10 @@ content:
       dots: enable
       autoplay: enable
       autoplaySpeed: '5000'
+  custom-8786:
+    title: 'Custom HTML'
+    attributes:
+      html: 'LOREM IPSUM'
   position-position-4734:
     title: Aside
     attributes:

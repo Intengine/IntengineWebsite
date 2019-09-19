@@ -27,7 +27,7 @@ class __TwigTemplate_f3d66810853a14702589b3dc4f45ccc06b99a8402d146fc0de8580312a1
     protected function doDisplay(array $context, array $blocks = [])
     {
         // line 1
-        $this->loadTemplate("partials/login-form.html.twig", "partials/login-form.html.twig", 1, "809508782")->display(twig_array_merge($context, ["title" => "Grav Admin Login"]));
+        $this->loadTemplate("partials/login-form.html.twig", "partials/login-form.html.twig", 1, "2141371558")->display(twig_array_merge($context, ["title" => "Grav Admin Login"]));
     }
 
     public function getTemplateName()
@@ -85,13 +85,13 @@ class __TwigTemplate_f3d66810853a14702589b3dc4f45ccc06b99a8402d146fc0de8580312a1
 
 {% endblock %}
 
-{% endembed %}", "partials/login-form.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/login-form.html.twig");
+{% endembed %}", "partials/login-form.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/login-form.html.twig");
     }
 }
 
 
 /* partials/login-form.html.twig */
-class __TwigTemplate_f3d66810853a14702589b3dc4f45ccc06b99a8402d146fc0de8580312a1751db___809508782 extends \Twig\Template
+class __TwigTemplate_f3d66810853a14702589b3dc4f45ccc06b99a8402d146fc0de8580312a1751db___2141371558 extends \Twig\Template
 {
     public function __construct(Environment $env)
     {
@@ -288,6 +288,6 @@ class __TwigTemplate_f3d66810853a14702589b3dc4f45ccc06b99a8402d146fc0de8580312a1
 
 {% endblock %}
 
-{% endembed %}", "partials/login-form.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/login-form.html.twig");
+{% endembed %}", "partials/login-form.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/login-form.html.twig");
     }
 }
