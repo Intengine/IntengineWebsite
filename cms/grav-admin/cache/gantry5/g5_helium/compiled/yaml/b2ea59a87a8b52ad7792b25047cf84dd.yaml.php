@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-    'modified' => 1568899341,
+    'modified' => 1568901242,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -30,16 +30,16 @@ return [
             ],
             '/features/' => [
                 0 => [
-                    0 => 'custom-5734'
-                ],
-                1 => [
-                    0 => 'logo-8619 33.3',
-                    1 => 'logo-4027 33.3',
-                    2 => 'logo-7165 33.3'
+                    0 => 'gp_iconblock1-7932'
                 ]
             ],
             '/utility/' => [
-                
+                0 => [
+                    0 => 'jldivider-2272'
+                ],
+                1 => [
+                    0 => 'jldivider-9419'
+                ]
             ],
             '/above/' => [
                 
@@ -230,31 +230,173 @@ return [
                     'variations' => 'center title-center'
                 ]
             ],
-            'custom-5734' => [
-                'title' => 'Custom HTML',
+            'gp_iconblock1-7932' => [
+                'title' => 'Gp Icon Block 1',
                 'attributes' => [
-                    'html' => '<h1>FEATURES</h1>'
-                ],
-                'block' => [
-                    'variations' => 'center title-center'
+                    'class' => '',
+                    'icon_opacity' => '1',
+                    'text_color' => '',
+                    'font_size' => '',
+                    'text_align' => 'center',
+                    'padding' => '',
+                    'mobile_padding' => '',
+                    'heading_title' => 'FEATURES',
+                    'heading_title_tag' => 'h1',
+                    'heading_desc' => '',
+                    'heading_text_align' => 'center',
+                    'columns' => '33-3',
+                    'gp_items' => [
+                        0 => [
+                            'icon' => 'fa fa-apple fa-lg',
+                            'icon_color' => '',
+                            'title' => 'APPLE',
+                            'description' => 'Lorem Ipsum',
+                            'class' => '',
+                            'variations' => '',
+                            'name' => 'New item'
+                        ],
+                        1 => [
+                            'icon' => 'fa fa-automobile',
+                            'icon_color' => '',
+                            'title' => 'CAR',
+                            'description' => 'Ipsum Lorem',
+                            'class' => '',
+                            'variations' => '',
+                            'name' => 'New item'
+                        ],
+                        2 => [
+                            'icon' => 'fa fa-camera',
+                            'icon_color' => '',
+                            'title' => 'NIKON',
+                            'description' => 'Aparat & Camera',
+                            'class' => '',
+                            'variations' => '',
+                            'name' => 'New item'
+                        ]
+                    ],
+                    'button_text' => '',
+                    'button_url' => '',
+                    'button_class' => ''
                 ]
             ],
-            'logo-8619' => [
-                'title' => 'Logo / Image',
+            'jldivider-2272' => [
+                'title' => 'JL Divider',
                 'attributes' => [
-                    'image' => 'gantry-media://media/thumb-3dm.png'
+                    'divider_style' => 'icon',
+                    'divider_element' => 'div',
+                    'divider_align' => 'center',
+                    'divider_breakpoint' => 'always',
+                    'divider_fallback' => 'center',
+                    'class' => '',
+                    'particle_title' => '',
+                    'particle_title_style' => 'h3',
+                    'particle_title_decoration' => 'bullet',
+                    'particle_title_align' => 'center',
+                    'particle_predefined_color' => 'default',
+                    'particle_title_color' => '',
+                    'particle_title_fontsize' => '',
+                    'particle_title_element' => 'h3',
+                    'align' => 'inherit',
+                    'breakpoint' => 'always',
+                    'fallback' => 'inherit',
+                    'g_maxwidth' => 'inherit',
+                    'g_maxwidth_alignment' => 'left',
+                    'g_maxwidth_breakpoint' => 'always',
+                    'margin' => 'inherit',
+                    'visibility' => 'inherit',
+                    'animation' => 'inherit',
+                    'animation_delay' => '',
+                    'animation_repeat' => 'disabled',
+                    'pa_horizontal_start' => '',
+                    'pa_horizontal_end' => '',
+                    'pa_vertical_start' => '',
+                    'pa_vertical_end' => '',
+                    'scale_start' => '',
+                    'scale_end' => '',
+                    'rotate_start' => '',
+                    'rotate_end' => '',
+                    'opacity_start' => '',
+                    'opacity_end' => '',
+                    'easing' => '',
+                    'pa_viewport' => '',
+                    'pa_breakpoint' => 'always',
+                    'parallax_image' => '',
+                    'background_image_size' => 'auto',
+                    'background_image_position' => 'center-center',
+                    'parallax_bg_breakpoint' => 'always',
+                    'parallax_bg_visibility' => 'always',
+                    'parallax_bg_color' => '',
+                    'blendmode' => 'inherit',
+                    'parallax_bg_overlay' => '',
+                    'horizontal_start' => '0',
+                    'horizontal_end' => '0',
+                    'vertical_start' => '0',
+                    'vertical_end' => '0',
+                    'container' => '0',
+                    'viewport_height' => 'none',
+                    'padding' => 'default',
+                    'vertical_alignment' => 'none',
+                    'parallax_text_color' => 'default'
                 ]
             ],
-            'logo-4027' => [
-                'title' => 'Logo / Image',
+            'jldivider-9419' => [
+                'title' => 'JL Divider',
                 'attributes' => [
-                    'image' => 'gantry-media://media/thumb-3g2.png'
-                ]
-            ],
-            'logo-7165' => [
-                'title' => 'Logo / Image',
-                'attributes' => [
-                    'image' => 'gantry-media://media/thumb-3ds.png'
+                    'divider_style' => 'vertical',
+                    'divider_element' => 'hr',
+                    'divider_align' => 'center',
+                    'divider_breakpoint' => 'l',
+                    'divider_fallback' => 'center',
+                    'class' => '',
+                    'particle_title' => '',
+                    'particle_title_style' => 'h3',
+                    'particle_title_decoration' => 'none',
+                    'particle_title_align' => 'inherit',
+                    'particle_predefined_color' => 'default',
+                    'particle_title_color' => '',
+                    'particle_title_fontsize' => '',
+                    'particle_title_element' => 'h3',
+                    'align' => 'inherit',
+                    'breakpoint' => 'always',
+                    'fallback' => 'inherit',
+                    'g_maxwidth' => 'medium',
+                    'g_maxwidth_alignment' => 'center',
+                    'g_maxwidth_breakpoint' => 'always',
+                    'margin' => 'inherit',
+                    'visibility' => 'inherit',
+                    'animation' => 'inherit',
+                    'animation_delay' => '',
+                    'animation_repeat' => 'disabled',
+                    'pa_horizontal_start' => '',
+                    'pa_horizontal_end' => '',
+                    'pa_vertical_start' => '',
+                    'pa_vertical_end' => '',
+                    'scale_start' => '',
+                    'scale_end' => '',
+                    'rotate_start' => '',
+                    'rotate_end' => '',
+                    'opacity_start' => '',
+                    'opacity_end' => '',
+                    'easing' => '',
+                    'pa_viewport' => '',
+                    'pa_breakpoint' => 'always',
+                    'parallax_image' => '',
+                    'background_image_size' => 'auto',
+                    'background_image_position' => 'center-center',
+                    'parallax_bg_breakpoint' => 'always',
+                    'parallax_bg_visibility' => 'always',
+                    'parallax_bg_color' => '',
+                    'blendmode' => 'inherit',
+                    'parallax_bg_overlay' => '',
+                    'horizontal_start' => '0',
+                    'horizontal_end' => '0',
+                    'vertical_start' => '0',
+                    'vertical_end' => '0',
+                    'container' => '0',
+                    'viewport_height' => 'none',
+                    'padding' => 'default',
+                    'vertical_alignment' => 'none',
+                    'parallax_text_color' => 'default'
                 ]
             ],
             'position-position-4734' => [

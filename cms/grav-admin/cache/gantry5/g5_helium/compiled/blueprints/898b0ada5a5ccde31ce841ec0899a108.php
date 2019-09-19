@@ -1,13 +1,21 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledBlueprints',
-    'timestamp' => 1568890070,
-    'checksum' => 'f9d5734e61bf2dc49b85e7d5026fd476',
+    'timestamp' => 1568901110,
+    'checksum' => '9e4aa653e0b342f7e204fcea0907a2e6',
     'files' => [
         'user/data/gantry5/themes/g5_helium/particles' => [
             'particles/fixed-header' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/particles/fixed-header.yaml',
                 'modified' => 1568875646
+            ],
+            'particles/gp_iconblock1' => [
+                'file' => 'user/data/gantry5/themes/g5_helium/particles/gp_iconblock1.yaml',
+                'modified' => 1562341640
+            ],
+            'particles/jldivider' => [
+                'file' => 'user/data/gantry5/themes/g5_helium/particles/jldivider.yaml',
+                'modified' => 1564674898
             ]
         ],
         'user/themes/g5_helium/particles' => [
@@ -281,6 +289,872 @@ return [
                 'description' => 'Enter the top offset in pixels for the \'Second Trigger\' (do NOT add \'px\' at the end).',
                 'label' => 'Top Offset',
                 'name' => 'particles.fixed-header.secondoffset'
+            ],
+            'particles.gp_iconblock1' => [
+                'type' => '_root',
+                'form_field' => false,
+                'form' => [
+                    
+                ]
+            ],
+            'particles.gp_iconblock1.enabled' => [
+                'type' => 'input.checkbox',
+                'label' => 'Enabled',
+                'description' => 'Globally enable the particle.',
+                'default' => true,
+                'name' => 'particles.gp_iconblock1.enabled'
+            ],
+            'particles.gp_iconblock1.class' => [
+                'type' => 'input.selectize',
+                'label' => 'CSS Classes',
+                'description' => 'CSS class name for the particle.',
+                'overridable' => false,
+                'name' => 'particles.gp_iconblock1.class'
+            ],
+            'particles.gp_iconblock1.icon_opacity' => [
+                'type' => 'input.number',
+                'label' => 'Icon Opacity',
+                'default' => 0.6,
+                'min' => 0,
+                'max' => 1,
+                'step' => 0.1,
+                'overridable' => false,
+                'name' => 'particles.gp_iconblock1.icon_opacity'
+            ],
+            'particles.gp_iconblock1.text_color' => [
+                'type' => 'input.colorpicker',
+                'label' => 'Text Color',
+                'default' => '',
+                'overridable' => false,
+                'name' => 'particles.gp_iconblock1.text_color'
+            ],
+            'particles.gp_iconblock1.font_size' => [
+                'type' => 'input.text',
+                'label' => 'Font Size',
+                'overridable' => false,
+                'name' => 'particles.gp_iconblock1.font_size'
+            ],
+            'particles.gp_iconblock1.text_align' => [
+                'type' => 'select.select',
+                'label' => 'Text Align',
+                'default' => 'center',
+                'overridable' => false,
+                'options' => [
+                    'left' => 'Left',
+                    'center' => 'Center',
+                    'right' => 'Right'
+                ],
+                'name' => 'particles.gp_iconblock1.text_align'
+            ],
+            'particles.gp_iconblock1.padding' => [
+                'type' => 'input.text',
+                'label' => 'Padding',
+                'overridable' => false,
+                'name' => 'particles.gp_iconblock1.padding'
+            ],
+            'particles.gp_iconblock1.mobile_padding' => [
+                'type' => 'input.text',
+                'label' => 'Mobile Padding',
+                'overridable' => false,
+                'name' => 'particles.gp_iconblock1.mobile_padding'
+            ],
+            'particles.gp_iconblock1.tab_bg_styles' => [
+                'label' => 'Styles',
+                'name' => 'particles.gp_iconblock1.tab_bg_styles'
+            ],
+            'particles.gp_iconblock1.heading_title' => [
+                'type' => 'textarea.textarea',
+                'label' => 'Title',
+                'overridable' => false,
+                'name' => 'particles.gp_iconblock1.heading_title'
+            ],
+            'particles.gp_iconblock1.heading_title_tag' => [
+                'type' => 'select.select',
+                'label' => 'Title Tag',
+                'default' => 'h1',
+                'overridable' => false,
+                'options' => [
+                    'h1' => 'H1',
+                    'h2' => 'H2',
+                    'h3' => 'H3'
+                ],
+                'name' => 'particles.gp_iconblock1.heading_title_tag'
+            ],
+            'particles.gp_iconblock1.heading_desc' => [
+                'type' => 'textarea.textarea',
+                'label' => 'Description',
+                'overridable' => false,
+                'name' => 'particles.gp_iconblock1.heading_desc'
+            ],
+            'particles.gp_iconblock1.heading_text_align' => [
+                'type' => 'select.select',
+                'label' => 'Text Align',
+                'default' => 'center',
+                'overridable' => false,
+                'options' => [
+                    'left' => 'Left',
+                    'center' => 'Center',
+                    'right' => 'Right'
+                ],
+                'name' => 'particles.gp_iconblock1.heading_text_align'
+            ],
+            'particles.gp_iconblock1.tab_heading' => [
+                'label' => '> Heading',
+                'name' => 'particles.gp_iconblock1.tab_heading'
+            ],
+            'particles.gp_iconblock1.columns' => [
+                'type' => 'select.select',
+                'label' => 'Columns',
+                'default' => '33-3',
+                'overridable' => false,
+                'options' => [
+                    50 => '2 Columns',
+                    '33-3' => '3 Columns',
+                    25 => '4 Columns',
+                    20 => '5 Columns'
+                ],
+                'name' => 'particles.gp_iconblock1.columns'
+            ],
+            'particles.gp_iconblock1.gp_items' => [
+                'type' => 'collection.list',
+                'array' => true,
+                'label' => 'Icon Block Items',
+                'description' => 'Create each item to appear in the content row.',
+                'value' => 'name',
+                'ajax' => true,
+                'overridable' => false,
+                'name' => 'particles.gp_iconblock1.gp_items'
+            ],
+            'particles.gp_iconblock1.gp_items.*' => [
+                'type' => '_parent',
+                'name' => 'particles.gp_iconblock1.gp_items.*',
+                'form_field' => false
+            ],
+            'particles.gp_iconblock1.gp_items.*.name' => [
+                'type' => 'input.text',
+                'label' => 'Title',
+                'name' => 'particles.gp_iconblock1.gp_items.*.name'
+            ],
+            'particles.gp_iconblock1.gp_items.*.icon' => [
+                'type' => 'input.icon',
+                'label' => 'Select Icon',
+                'name' => 'particles.gp_iconblock1.gp_items.*.icon'
+            ],
+            'particles.gp_iconblock1.gp_items.*.icon_color' => [
+                'type' => 'input.colorpicker',
+                'label' => 'Icon Color',
+                'name' => 'particles.gp_iconblock1.gp_items.*.icon_color'
+            ],
+            'particles.gp_iconblock1.gp_items.*.title' => [
+                'type' => 'input.text',
+                'label' => 'Title',
+                'name' => 'particles.gp_iconblock1.gp_items.*.title'
+            ],
+            'particles.gp_iconblock1.gp_items.*.description' => [
+                'type' => 'textarea.textarea',
+                'label' => 'Description',
+                'name' => 'particles.gp_iconblock1.gp_items.*.description'
+            ],
+            'particles.gp_iconblock1.gp_items.*.class' => [
+                'type' => 'input.selectize',
+                'label' => 'CSS Classes',
+                'description' => 'Enter CSS class names.',
+                'default' => NULL,
+                'name' => 'particles.gp_iconblock1.gp_items.*.class'
+            ],
+            'particles.gp_iconblock1.gp_items.*.variations' => [
+                'type' => 'input.block-variations',
+                'label' => 'Variations',
+                'name' => 'particles.gp_iconblock1.gp_items.*.variations'
+            ],
+            'particles.gp_iconblock1.button_text' => [
+                'type' => 'input.text',
+                'label' => 'Button Text',
+                'overridable' => false,
+                'name' => 'particles.gp_iconblock1.button_text'
+            ],
+            'particles.gp_iconblock1.button_url' => [
+                'type' => 'input.text',
+                'label' => 'Button Link URL',
+                'overridable' => false,
+                'name' => 'particles.gp_iconblock1.button_url'
+            ],
+            'particles.gp_iconblock1.button_class' => [
+                'type' => 'input.text',
+                'label' => 'Button CSS Class',
+                'overridable' => false,
+                'name' => 'particles.gp_iconblock1.button_class'
+            ],
+            'particles.gp_iconblock1.tab_main_contents' => [
+                'label' => '> Main Contents',
+                'name' => 'particles.gp_iconblock1.tab_main_contents'
+            ],
+            'particles.jldivider' => [
+                'type' => '_root',
+                'form_field' => false,
+                'form' => [
+                    'overrideable' => false
+                ]
+            ],
+            'particles.jldivider.enabled' => [
+                'type' => 'input.checkbox',
+                'label' => 'Enabled',
+                'description' => 'Globally enable to the particles.',
+                'default' => true,
+                'name' => 'particles.jldivider.enabled'
+            ],
+            'particles.jldivider.divider_style' => [
+                'type' => 'select.select',
+                'label' => 'Style',
+                'description' => 'Choose a divider style.',
+                'default' => 'default',
+                'options' => [
+                    'default' => 'Default',
+                    'icon' => 'Icon',
+                    'small' => 'Small',
+                    'vertical' => 'Vertical'
+                ],
+                'name' => 'particles.jldivider.divider_style'
+            ],
+            'particles.jldivider.divider_element' => [
+                'type' => 'select.select',
+                'label' => 'HTML Element',
+                'description' => 'Choose the divider element to fit your semantic structure. Use the hr element for a thematic break and the div element for decorative reasons.',
+                'default' => 'hr',
+                'options' => [
+                    'hr' => 'Hr',
+                    'div' => 'Div'
+                ],
+                'name' => 'particles.jldivider.divider_element'
+            ],
+            'particles.jldivider.divider_align' => [
+                'type' => 'select.select',
+                'label' => 'Alignment',
+                'description' => 'Center, left and right alignment may depend on a breakpoint and reuquire a fallback. (Require \'Small\' style is selected)',
+                'default' => 'inherit',
+                'options' => [
+                    'inherit' => 'Inherit',
+                    'left' => 'Left',
+                    'center' => 'Center',
+                    'right' => 'Right'
+                ],
+                'name' => 'particles.jldivider.divider_align'
+            ],
+            'particles.jldivider.divider_breakpoint' => [
+                'type' => 'select.select',
+                'label' => 'Alignment Breakpoint',
+                'description' => 'Define the device width from which the alignment will apply. (Require \'Small\' style is selected)',
+                'default' => 'always',
+                'options' => [
+                    'always' => 'Always',
+                    's' => 'Small (Phone Landscape)',
+                    'm' => 'Medium (Tablet Landscape)',
+                    'l' => 'Large (Desktop)',
+                    'xl' => 'X-Large (Large Screens)'
+                ],
+                'name' => 'particles.jldivider.divider_breakpoint'
+            ],
+            'particles.jldivider.divider_fallback' => [
+                'type' => 'select.select',
+                'label' => 'Alignment Fallback',
+                'description' => 'Define an alignment fallback for device widths below the breakpoint. (Require \'Small\' style is selected)',
+                'default' => 'inherit',
+                'options' => [
+                    'inherit' => 'Inherit',
+                    'left' => 'Left',
+                    'center' => 'Center',
+                    'right' => 'Right'
+                ],
+                'name' => 'particles.jldivider.divider_fallback'
+            ],
+            'particles.jldivider.class' => [
+                'type' => 'input.selectize',
+                'label' => 'CSS Classes',
+                'description' => 'CSS class name for the particle.',
+                'name' => 'particles.jldivider.class'
+            ],
+            'particles.jldivider._tab_content' => [
+                'label' => 'Content',
+                'name' => 'particles.jldivider._tab_content'
+            ],
+            'particles.jldivider.particle_title' => [
+                'type' => 'input.text',
+                'label' => 'Title',
+                'description' => 'Add an optional particle title.',
+                'name' => 'particles.jldivider.particle_title'
+            ],
+            'particles.jldivider.particle_title_style' => [
+                'type' => 'select.select',
+                'label' => 'Style',
+                'description' => 'Heading styles differ in font-size but may also come with a predefined color, size and font.',
+                'default' => 'h3',
+                'options' => [
+                    'default' => 'Default',
+                    'heading-small' => 'Small',
+                    'heading-medium' => 'Medium',
+                    'heading-large' => 'Large',
+                    'heading-xlarge' => 'XLarge',
+                    'heading-2xlarge' => '2XLarge',
+                    'h1' => 'H1',
+                    'h2' => 'H2',
+                    'h3' => 'H3',
+                    'h4' => 'H4',
+                    'h5' => 'H5',
+                    'h6' => 'H6'
+                ],
+                'name' => 'particles.jldivider.particle_title_style'
+            ],
+            'particles.jldivider.particle_title_decoration' => [
+                'type' => 'select.select',
+                'label' => 'Decoration',
+                'description' => 'Decorate the headline with a divider, bullet or a line that is vertically centered to the heading.',
+                'default' => 'none',
+                'options' => [
+                    'none' => 'None',
+                    'divider' => 'Divider',
+                    'bullet' => 'Bullet',
+                    'line' => 'Line'
+                ],
+                'name' => 'particles.jldivider.particle_title_decoration'
+            ],
+            'particles.jldivider.particle_title_align' => [
+                'type' => 'select.select',
+                'label' => 'Alignment',
+                'description' => 'Center, left and right alignment for Particle title.',
+                'default' => 'inherit',
+                'options' => [
+                    'inherit' => 'Inherit',
+                    'left' => 'Left',
+                    'center' => 'Center',
+                    'right' => 'Right',
+                    'justify' => 'Justify'
+                ],
+                'name' => 'particles.jldivider.particle_title_align'
+            ],
+            'particles.jldivider.particle_predefined_color' => [
+                'type' => 'select.select',
+                'label' => 'Predefined Color',
+                'description' => 'Select the text color. If the Background option is selected, styles that don\'t apply a background image use the primary color instead.',
+                'default' => 'default',
+                'options' => [
+                    'default' => 'Default',
+                    'muted' => 'Muted',
+                    'emphasis' => 'Emphasis',
+                    'primary' => 'Primary',
+                    'secondary' => 'Secondary',
+                    'success' => 'Success',
+                    'warning' => 'Warning',
+                    'danger' => 'Danger'
+                ],
+                'name' => 'particles.jldivider.particle_predefined_color'
+            ],
+            'particles.jldivider.particle_title_color' => [
+                'type' => 'input.colorpicker',
+                'label' => 'Custom Color',
+                'description' => 'Customize the title color instead using predefined color mode. Set the Predefined color to default before using this color customization mode.',
+                'name' => 'particles.jldivider.particle_title_color'
+            ],
+            'particles.jldivider.particle_title_fontsize' => [
+                'type' => 'input.number',
+                'label' => 'Font Size',
+                'description' => 'Customize the particle title font size.',
+                'min' => 0,
+                'name' => 'particles.jldivider.particle_title_fontsize'
+            ],
+            'particles.jldivider.particle_title_element' => [
+                'type' => 'select.select',
+                'label' => 'HTML Element',
+                'description' => 'Choose one of the elements to fit your semantic structure.',
+                'default' => 'h3',
+                'options' => [
+                    'h1' => 'H1',
+                    'h2' => 'H2',
+                    'h3' => 'H3',
+                    'h4' => 'H4',
+                    'h5' => 'H5',
+                    'h6' => 'H6',
+                    'div' => 'div'
+                ],
+                'name' => 'particles.jldivider.particle_title_element'
+            ],
+            'particles.jldivider.align' => [
+                'type' => 'select.select',
+                'label' => 'Text Alignment',
+                'description' => 'Center, left and right alignment may depend on a breakpoint and require a fallback.',
+                'default' => 'inherit',
+                'options' => [
+                    'inherit' => 'Inherit',
+                    'left' => 'Left',
+                    'center' => 'Center',
+                    'right' => 'Right',
+                    'justify' => 'Justify'
+                ],
+                'name' => 'particles.jldivider.align'
+            ],
+            'particles.jldivider.breakpoint' => [
+                'type' => 'select.select',
+                'label' => 'Alignment Breakpoint',
+                'description' => 'Define the device width from which the alignment will apply.',
+                'default' => 'always',
+                'options' => [
+                    'always' => 'Always',
+                    's' => 'Small (Phone Landscape)',
+                    'm' => 'Medium (Tablet Landscape)',
+                    'l' => 'Large (Desktop)',
+                    'xl' => 'X-Large (Large Screens)'
+                ],
+                'name' => 'particles.jldivider.breakpoint'
+            ],
+            'particles.jldivider.fallback' => [
+                'type' => 'select.select',
+                'label' => 'Alignment Fallback',
+                'description' => 'Define an alignment fallback for device widths below the breakpoint.',
+                'default' => 'inherit',
+                'options' => [
+                    'inherit' => 'Inherit',
+                    'left' => 'Left',
+                    'center' => 'Center',
+                    'right' => 'Right',
+                    'justify' => 'Justify'
+                ],
+                'name' => 'particles.jldivider.fallback'
+            ],
+            'particles.jldivider.g_maxwidth' => [
+                'type' => 'select.select',
+                'label' => 'Max Width',
+                'description' => 'Set the maximum content width.',
+                'default' => 'inherit',
+                'options' => [
+                    'inherit' => 'None',
+                    'small' => 'Small',
+                    'medium' => 'Medium',
+                    'large' => 'Large',
+                    'xlarge' => 'X-Large',
+                    'xxlarge' => 'XX-Large'
+                ],
+                'name' => 'particles.jldivider.g_maxwidth'
+            ],
+            'particles.jldivider.g_maxwidth_alignment' => [
+                'type' => 'select.select',
+                'label' => 'Max Width Alignment',
+                'description' => 'Define the alignment in case the container exceeds the element\'s max-width.',
+                'default' => 'left',
+                'options' => [
+                    'left' => 'Left',
+                    'center' => 'Center',
+                    'right' => 'Right'
+                ],
+                'name' => 'particles.jldivider.g_maxwidth_alignment'
+            ],
+            'particles.jldivider.g_maxwidth_breakpoint' => [
+                'type' => 'select.select',
+                'label' => 'Max Width Breakpoint',
+                'description' => 'Define the device width from which the element\'s max-width will apply.',
+                'default' => 'always',
+                'options' => [
+                    'always' => 'Always',
+                    's' => 'Small (Phone Landscape)',
+                    'm' => 'Medium (Tablet Landscape)',
+                    'l' => 'Large (Desktop)',
+                    'xl' => 'X-Large (Large Screens)'
+                ],
+                'name' => 'particles.jldivider.g_maxwidth_breakpoint'
+            ],
+            'particles.jldivider.margin' => [
+                'type' => 'select.select',
+                'label' => 'Margin',
+                'description' => 'Set the vertical margin.',
+                'default' => 'inherit',
+                'options' => [
+                    'inherit' => 'Keep existing',
+                    'small' => 'Small',
+                    'default' => 'Default',
+                    'medium' => 'Medium',
+                    'large' => 'Large',
+                    'xlarge' => 'X-Large',
+                    'remove-vertical' => 'None'
+                ],
+                'name' => 'particles.jldivider.margin'
+            ],
+            'particles.jldivider.visibility' => [
+                'type' => 'select.select',
+                'label' => 'Visibility',
+                'description' => 'Display the element only on this device width and larger.',
+                'default' => 'inherit',
+                'options' => [
+                    'inherit' => 'Always',
+                    's' => 'Small (Phone Landscape)',
+                    'm' => 'Medium (Tablet Landscape)',
+                    'l' => 'Large (Desktop)',
+                    'xl' => 'X-Large (Large Screens)'
+                ],
+                'name' => 'particles.jldivider.visibility'
+            ],
+            'particles.jldivider.animation' => [
+                'type' => 'select.select',
+                'label' => 'Animation',
+                'description' => 'Apply an animation to particles once they enter the viewport. This will animate all particles inside the section.',
+                'default' => 'inherit',
+                'options' => [
+                    'inherit' => 'None',
+                    'fade' => 'Fade',
+                    'scale-up' => 'Scale Up',
+                    'scale-down' => 'Scale Down',
+                    'slide-top-small' => 'Slide Top Small',
+                    'slide-bottom-small' => 'Slide Bottom Small',
+                    'slide-left-small' => 'Slide Left Small',
+                    'slide-right-small' => 'Slide Right Small',
+                    'slide-top-medium' => 'Slide Top Medium',
+                    'slide-bottom-medium' => 'Slide Bottom Medium',
+                    'slide-left-medium' => 'Slide Left Medium',
+                    'slide-right-medium' => 'Slide Right Medium',
+                    'slide-top' => 'Slide Top 100%',
+                    'slide-bottom' => 'Slide Bottom 100%',
+                    'slide-left' => 'Slide Left 100%',
+                    'slide-right' => 'Slide Right 100%',
+                    'parallax' => 'Parallax'
+                ],
+                'name' => 'particles.jldivider.animation'
+            ],
+            'particles.jldivider.animation_delay' => [
+                'type' => 'input.number',
+                'label' => 'Animation Delay',
+                'description' => 'Set the delay animations for particle. Delay time in ms.',
+                'min' => 0,
+                'name' => 'particles.jldivider.animation_delay'
+            ],
+            'particles.jldivider.animation_repeat' => [
+                'type' => 'select.select',
+                'label' => 'Animation Repeat',
+                'description' => 'Repeat an animation to particle once it enter the viewport.',
+                'default' => 'disabled',
+                'options' => [
+                    'enabled' => 'Enable',
+                    'disabled' => 'Disable'
+                ],
+                'name' => 'particles.jldivider.animation_repeat'
+            ],
+            'particles.jldivider._tab_general' => [
+                'label' => 'General',
+                'overridable' => false,
+                'name' => 'particles.jldivider._tab_general'
+            ],
+            'particles.jldivider.pa_horizontal_start' => [
+                'type' => 'input.number',
+                'label' => 'Horizontal Start',
+                'description' => 'Animate the horizontal position (translateX) in pixels. Min -600 and Max 600.',
+                'min' => -600,
+                'max' => 600,
+                'name' => 'particles.jldivider.pa_horizontal_start'
+            ],
+            'particles.jldivider.pa_horizontal_end' => [
+                'type' => 'input.number',
+                'label' => 'Horizontal End',
+                'description' => 'Animate the horizontal position (translateX) in pixels. Min -600 and Max 600.',
+                'min' => -600,
+                'max' => 600,
+                'name' => 'particles.jldivider.pa_horizontal_end'
+            ],
+            'particles.jldivider.pa_vertical_start' => [
+                'type' => 'input.number',
+                'label' => 'Vertical Start',
+                'description' => 'Animate the vertical position (translateY) in pixels. Min -600 and Max 600.',
+                'min' => -600,
+                'max' => 600,
+                'name' => 'particles.jldivider.pa_vertical_start'
+            ],
+            'particles.jldivider.pa_vertical_end' => [
+                'type' => 'input.number',
+                'label' => 'Vertical End',
+                'description' => 'Animate the vertical position (translateY) in pixels. Min -600 and Max 600.',
+                'min' => -600,
+                'max' => 600,
+                'name' => 'particles.jldivider.pa_vertical_end'
+            ],
+            'particles.jldivider.scale_start' => [
+                'type' => 'input.number',
+                'label' => 'Scale Start',
+                'description' => 'Animate the scaling. 100 means 100% scale, 200 means 200% scale, and 50 means 50% scale. Min 50 and Max 200',
+                'min' => 50,
+                'max' => 200,
+                'name' => 'particles.jldivider.scale_start'
+            ],
+            'particles.jldivider.scale_end' => [
+                'type' => 'input.number',
+                'label' => 'Scale End',
+                'description' => 'Animate the scaling. 100 means 100% scale, 200 means 200% scale, and 50 means 50% scale. Min 50 and Max 200',
+                'min' => 50,
+                'max' => 200,
+                'name' => 'particles.jldivider.scale_end'
+            ],
+            'particles.jldivider.rotate_start' => [
+                'type' => 'input.number',
+                'label' => 'Rotate Start',
+                'description' => 'Animate the rotation clockwise in degrees. Min 0 and Max 360',
+                'min' => 0,
+                'max' => 360,
+                'name' => 'particles.jldivider.rotate_start'
+            ],
+            'particles.jldivider.rotate_end' => [
+                'type' => 'input.number',
+                'label' => 'Rotate End',
+                'description' => 'Animate the rotation clockwise in degrees. Min 0 and Max 360',
+                'min' => 0,
+                'max' => 360,
+                'name' => 'particles.jldivider.rotate_end'
+            ],
+            'particles.jldivider.opacity_start' => [
+                'type' => 'input.number',
+                'label' => 'Opacity Start',
+                'description' => 'Animate the opacity. 100 means 100% opacity, 0 means 0% opacity and 50 means 50%. Min 0 and Max 100',
+                'min' => 0,
+                'max' => 100,
+                'name' => 'particles.jldivider.opacity_start'
+            ],
+            'particles.jldivider.opacity_end' => [
+                'type' => 'input.number',
+                'label' => 'Opacity End',
+                'description' => 'Animate the opacity. 100 means 100% opacity, 0 means 0% opacity and 50 means 50%. Min 0 and Max 100',
+                'min' => 0,
+                'max' => 100,
+                'name' => 'particles.jldivider.opacity_end'
+            ],
+            'particles.jldivider.easing' => [
+                'type' => 'input.number',
+                'label' => 'Easing',
+                'description' => 'Determine how the speed of the animation behaves over time. A value below 100 is faster in the beginning and slower towards the end while a value above 100 behaves inversely. Min 10 and Max 200',
+                'min' => 10,
+                'max' => 200,
+                'name' => 'particles.jldivider.easing'
+            ],
+            'particles.jldivider.pa_viewport' => [
+                'type' => 'input.number',
+                'label' => 'Viewport',
+                'description' => 'Set the animation end point relative to viewport height, e.g. 50 for 50% of the viewport. Min 10 and Max 100',
+                'min' => 10,
+                'max' => 100,
+                'name' => 'particles.jldivider.pa_viewport'
+            ],
+            'particles.jldivider.pa_breakpoint' => [
+                'type' => 'select.select',
+                'label' => 'Breakpoint',
+                'description' => 'Display the parallax effect only on this device width and larger.',
+                'default' => 'always',
+                'options' => [
+                    'always' => 'Always',
+                    's' => 'Small (Phone Landscape)',
+                    'm' => 'Medium (Tablet Landscape)',
+                    'l' => 'Large (Desktop)',
+                    'xl' => 'X-Large (Large Screens)'
+                ],
+                'name' => 'particles.jldivider.pa_breakpoint'
+            ],
+            'particles.jldivider._tab_parallax_animation' => [
+                'label' => 'Parallax',
+                'overridable' => false,
+                'name' => 'particles.jldivider._tab_parallax_animation'
+            ],
+            'particles.jldivider.parallax_image' => [
+                'type' => 'input.imagepicker',
+                'label' => 'Background Image',
+                'description' => 'Select parallax background image for particle.',
+                'name' => 'particles.jldivider.parallax_image'
+            ],
+            'particles.jldivider.background_image_size' => [
+                'type' => 'select.select',
+                'label' => 'Image Size',
+                'description' => 'Determine whether the image will fit the section dimensions by clipping it or by filling the empty areas with the background color.',
+                'default' => 'auto',
+                'options' => [
+                    'auto' => 'Auto',
+                    'cover' => 'Cover',
+                    'contain' => 'Contain'
+                ],
+                'name' => 'particles.jldivider.background_image_size'
+            ],
+            'particles.jldivider.background_image_position' => [
+                'type' => 'select.select',
+                'label' => 'Image Position',
+                'description' => 'Set the initial background position, relative to the section layer.',
+                'default' => 'center-center',
+                'options' => [
+                    'top-left' => 'Top Left',
+                    'top-center' => 'Top Center',
+                    'top-right' => 'Top Right',
+                    'center-left' => 'Center Left',
+                    'center-center' => 'Center Center',
+                    'center-right' => 'Center Right',
+                    'bottom-left' => 'Bottom Left',
+                    'bottom-center' => 'Bottom Center',
+                    'bottom-right' => 'Bottom Right'
+                ],
+                'name' => 'particles.jldivider.background_image_position'
+            ],
+            'particles.jldivider.parallax_bg_breakpoint' => [
+                'type' => 'select.select',
+                'label' => 'Parallax Breakpoint',
+                'description' => 'Display the parallax effect only on this device width and larger.',
+                'default' => 'always',
+                'options' => [
+                    'always' => 'Always',
+                    's' => 'Small (Phone Landscape)',
+                    'm' => 'Medium (Tablet Landscape)',
+                    'l' => 'Large (Desktop)',
+                    'xl' => 'X-Large (Large Screens)'
+                ],
+                'name' => 'particles.jldivider.parallax_bg_breakpoint'
+            ],
+            'particles.jldivider.parallax_bg_visibility' => [
+                'type' => 'select.select',
+                'label' => 'Image Visibility',
+                'description' => 'Display the image only on this device width and larger.',
+                'default' => 'always',
+                'options' => [
+                    'always' => 'Always',
+                    's' => 'Small (Phone Landscape)',
+                    'm' => 'Medium (Tablet Landscape)',
+                    'l' => 'Large (Desktop)',
+                    'xl' => 'X-Large (Large Screens)'
+                ],
+                'name' => 'particles.jldivider.parallax_bg_visibility'
+            ],
+            'particles.jldivider.parallax_bg_color' => [
+                'type' => 'input.colorpicker',
+                'label' => 'Background Color',
+                'description' => 'Use the background color in combination with blend modes, a transparent image or to fill the area, if the image doesn\'t cover the whole section.',
+                'name' => 'particles.jldivider.parallax_bg_color'
+            ],
+            'particles.jldivider.blendmode' => [
+                'type' => 'select.select',
+                'label' => 'Blend Mode',
+                'description' => 'Determine how the image will blend with the background color.',
+                'default' => 'inherit',
+                'options' => [
+                    'inherit' => 'Normal',
+                    'multiply' => 'Multiply',
+                    'screen' => 'Screen',
+                    'overlay' => 'Overlay',
+                    'darken' => 'Darken',
+                    'lighten' => 'Lighten',
+                    'color-dodge' => 'Color-dodge',
+                    'color-burn' => 'Color-burn',
+                    'hard-light' => 'Hard-light',
+                    'soft-light' => 'Soft-light',
+                    'difference' => 'Difference',
+                    'exclusion' => 'Exclusion',
+                    'hue' => 'Hue',
+                    'saturation' => 'Saturation',
+                    'color' => 'Color',
+                    'luminosity' => 'Luminosity'
+                ],
+                'name' => 'particles.jldivider.blendmode'
+            ],
+            'particles.jldivider.parallax_bg_overlay' => [
+                'type' => 'input.colorpicker',
+                'label' => 'Overlay Color',
+                'description' => 'Set an additional transparent overlay to soften the image.',
+                'name' => 'particles.jldivider.parallax_bg_overlay'
+            ],
+            'particles.jldivider.horizontal_start' => [
+                'type' => 'input.number',
+                'label' => 'Horizontal Start',
+                'description' => 'Animate the horizontal position (translateX) in pixels. Min -600 and Max 600.',
+                'min' => -600,
+                'max' => 600,
+                'default' => 0,
+                'name' => 'particles.jldivider.horizontal_start'
+            ],
+            'particles.jldivider.horizontal_end' => [
+                'type' => 'input.number',
+                'label' => 'Horizontal End',
+                'description' => 'Animate the horizontal position (translateX) in pixels. Min -600 and Max 600.',
+                'min' => -600,
+                'max' => 600,
+                'default' => 0,
+                'name' => 'particles.jldivider.horizontal_end'
+            ],
+            'particles.jldivider.vertical_start' => [
+                'type' => 'input.number',
+                'label' => 'Vertical Start',
+                'description' => 'Animate the vertical position (translateY) in pixels. Min -600 and Max 600.',
+                'min' => -600,
+                'max' => 600,
+                'default' => 0,
+                'name' => 'particles.jldivider.vertical_start'
+            ],
+            'particles.jldivider.vertical_end' => [
+                'type' => 'input.number',
+                'label' => 'Vertical End',
+                'description' => 'Animate the vertical position (translateY) in pixels. Min -600 and Max 600.',
+                'min' => -600,
+                'max' => 600,
+                'default' => 0,
+                'name' => 'particles.jldivider.vertical_end'
+            ],
+            'particles.jldivider.container' => [
+                'type' => 'input.checkbox',
+                'label' => 'Add Container',
+                'description' => 'If you set the Fullwidth (Flushed Content) for parent section, you can use this option to define the container width for the particles inside this section.',
+                'overridable' => false,
+                'default' => false,
+                'name' => 'particles.jldivider.container'
+            ],
+            'particles.jldivider.viewport_height' => [
+                'type' => 'select.select',
+                'label' => 'Height',
+                'description' => 'Enabling viewport height on a section that directly follows the header will subtract the header\'s height from it. On short pages, a section can be expanded to fill the browser window.',
+                'default' => 'none',
+                'options' => [
+                    'none' => 'None',
+                    'full' => 'Viewport',
+                    'percent' => 'Viewport (Minus 20%)',
+                    'section' => 'Viewport (Minus 50%)',
+                    'expand' => 'Expand'
+                ],
+                'name' => 'particles.jldivider.viewport_height'
+            ],
+            'particles.jldivider.padding' => [
+                'type' => 'select.select',
+                'label' => 'Padding',
+                'description' => 'Set the vertical padding of the particle inside section. The padding is not needed if you set Height to Viewport mode.',
+                'default' => 'default',
+                'options' => [
+                    'default' => 'Default',
+                    'xsmall' => 'X-Small',
+                    'small' => 'Small',
+                    'large' => 'Large',
+                    'xlarge' => 'X-Large'
+                ],
+                'name' => 'particles.jldivider.padding'
+            ],
+            'particles.jldivider.vertical_alignment' => [
+                'type' => 'select.select',
+                'label' => 'Vertical Alignment',
+                'description' => 'Align the section content vertically, if the section height is larger than the content itself.',
+                'default' => 'none',
+                'options' => [
+                    'none' => 'Top',
+                    'middle' => 'Middle',
+                    'bottom' => 'Bottom'
+                ],
+                'name' => 'particles.jldivider.vertical_alignment'
+            ],
+            'particles.jldivider.parallax_text_color' => [
+                'type' => 'select.select',
+                'label' => 'Inverse Color',
+                'description' => 'Set light or dark color mode for text, buttons and controls.',
+                'default' => 'default',
+                'options' => [
+                    'default' => 'Default',
+                    'light' => 'Light',
+                    'dark' => 'Dark'
+                ],
+                'name' => 'particles.jldivider.parallax_text_color'
+            ],
+            'particles.jldivider._tab_parallax' => [
+                'label' => 'Parallax Background',
+                'overridable' => false,
+                'name' => 'particles.jldivider._tab_parallax'
             ],
             'particles.contentcubes' => [
                 'type' => '_root',
@@ -4024,6 +4898,100 @@ return [
                     'secondtrigger' => 'particles.fixed-header.secondtrigger',
                     'secondoffset' => 'particles.fixed-header.secondoffset'
                 ],
+                'gp_iconblock1' => [
+                    'enabled' => 'particles.gp_iconblock1.enabled',
+                    'tab_bg_styles' => 'particles.gp_iconblock1.tab_bg_styles',
+                    'class' => 'particles.gp_iconblock1.class',
+                    'icon_opacity' => 'particles.gp_iconblock1.icon_opacity',
+                    'text_color' => 'particles.gp_iconblock1.text_color',
+                    'font_size' => 'particles.gp_iconblock1.font_size',
+                    'text_align' => 'particles.gp_iconblock1.text_align',
+                    'padding' => 'particles.gp_iconblock1.padding',
+                    'mobile_padding' => 'particles.gp_iconblock1.mobile_padding',
+                    'tab_heading' => 'particles.gp_iconblock1.tab_heading',
+                    'heading_title' => 'particles.gp_iconblock1.heading_title',
+                    'heading_title_tag' => 'particles.gp_iconblock1.heading_title_tag',
+                    'heading_desc' => 'particles.gp_iconblock1.heading_desc',
+                    'heading_text_align' => 'particles.gp_iconblock1.heading_text_align',
+                    'tab_main_contents' => 'particles.gp_iconblock1.tab_main_contents',
+                    'columns' => 'particles.gp_iconblock1.columns',
+                    'gp_items' => [
+                        '*' => [
+                            'name' => 'particles.gp_iconblock1.gp_items.*.name',
+                            'icon' => 'particles.gp_iconblock1.gp_items.*.icon',
+                            'icon_color' => 'particles.gp_iconblock1.gp_items.*.icon_color',
+                            'title' => 'particles.gp_iconblock1.gp_items.*.title',
+                            'description' => 'particles.gp_iconblock1.gp_items.*.description',
+                            'class' => 'particles.gp_iconblock1.gp_items.*.class',
+                            'variations' => 'particles.gp_iconblock1.gp_items.*.variations'
+                        ]
+                    ],
+                    'button_text' => 'particles.gp_iconblock1.button_text',
+                    'button_url' => 'particles.gp_iconblock1.button_url',
+                    'button_class' => 'particles.gp_iconblock1.button_class'
+                ],
+                'jldivider' => [
+                    'enabled' => 'particles.jldivider.enabled',
+                    '_tab_content' => 'particles.jldivider._tab_content',
+                    'divider_style' => 'particles.jldivider.divider_style',
+                    'divider_element' => 'particles.jldivider.divider_element',
+                    'divider_align' => 'particles.jldivider.divider_align',
+                    'divider_breakpoint' => 'particles.jldivider.divider_breakpoint',
+                    'divider_fallback' => 'particles.jldivider.divider_fallback',
+                    'class' => 'particles.jldivider.class',
+                    '_tab_general' => 'particles.jldivider._tab_general',
+                    'particle_title' => 'particles.jldivider.particle_title',
+                    'particle_title_style' => 'particles.jldivider.particle_title_style',
+                    'particle_title_decoration' => 'particles.jldivider.particle_title_decoration',
+                    'particle_title_align' => 'particles.jldivider.particle_title_align',
+                    'particle_predefined_color' => 'particles.jldivider.particle_predefined_color',
+                    'particle_title_color' => 'particles.jldivider.particle_title_color',
+                    'particle_title_fontsize' => 'particles.jldivider.particle_title_fontsize',
+                    'particle_title_element' => 'particles.jldivider.particle_title_element',
+                    'align' => 'particles.jldivider.align',
+                    'breakpoint' => 'particles.jldivider.breakpoint',
+                    'fallback' => 'particles.jldivider.fallback',
+                    'g_maxwidth' => 'particles.jldivider.g_maxwidth',
+                    'g_maxwidth_alignment' => 'particles.jldivider.g_maxwidth_alignment',
+                    'g_maxwidth_breakpoint' => 'particles.jldivider.g_maxwidth_breakpoint',
+                    'margin' => 'particles.jldivider.margin',
+                    'visibility' => 'particles.jldivider.visibility',
+                    'animation' => 'particles.jldivider.animation',
+                    'animation_delay' => 'particles.jldivider.animation_delay',
+                    'animation_repeat' => 'particles.jldivider.animation_repeat',
+                    '_tab_parallax_animation' => 'particles.jldivider._tab_parallax_animation',
+                    'pa_horizontal_start' => 'particles.jldivider.pa_horizontal_start',
+                    'pa_horizontal_end' => 'particles.jldivider.pa_horizontal_end',
+                    'pa_vertical_start' => 'particles.jldivider.pa_vertical_start',
+                    'pa_vertical_end' => 'particles.jldivider.pa_vertical_end',
+                    'scale_start' => 'particles.jldivider.scale_start',
+                    'scale_end' => 'particles.jldivider.scale_end',
+                    'rotate_start' => 'particles.jldivider.rotate_start',
+                    'rotate_end' => 'particles.jldivider.rotate_end',
+                    'opacity_start' => 'particles.jldivider.opacity_start',
+                    'opacity_end' => 'particles.jldivider.opacity_end',
+                    'easing' => 'particles.jldivider.easing',
+                    'pa_viewport' => 'particles.jldivider.pa_viewport',
+                    'pa_breakpoint' => 'particles.jldivider.pa_breakpoint',
+                    '_tab_parallax' => 'particles.jldivider._tab_parallax',
+                    'parallax_image' => 'particles.jldivider.parallax_image',
+                    'background_image_size' => 'particles.jldivider.background_image_size',
+                    'background_image_position' => 'particles.jldivider.background_image_position',
+                    'parallax_bg_breakpoint' => 'particles.jldivider.parallax_bg_breakpoint',
+                    'parallax_bg_visibility' => 'particles.jldivider.parallax_bg_visibility',
+                    'parallax_bg_color' => 'particles.jldivider.parallax_bg_color',
+                    'blendmode' => 'particles.jldivider.blendmode',
+                    'parallax_bg_overlay' => 'particles.jldivider.parallax_bg_overlay',
+                    'horizontal_start' => 'particles.jldivider.horizontal_start',
+                    'horizontal_end' => 'particles.jldivider.horizontal_end',
+                    'vertical_start' => 'particles.jldivider.vertical_start',
+                    'vertical_end' => 'particles.jldivider.vertical_end',
+                    'container' => 'particles.jldivider.container',
+                    'viewport_height' => 'particles.jldivider.viewport_height',
+                    'padding' => 'particles.jldivider.padding',
+                    'vertical_alignment' => 'particles.jldivider.vertical_alignment',
+                    'parallax_text_color' => 'particles.jldivider.parallax_text_color'
+                ],
                 'contentcubes' => [
                     'enabled' => 'particles.contentcubes.enabled',
                     'css' => [
@@ -4659,6 +5627,16 @@ return [
         ],
         'configuration' => [
             'particles' => [
+                'gp_iconblock1' => [
+                    'caching' => [
+                        'type' => 'static'
+                    ]
+                ],
+                'jldivider' => [
+                    'caching' => [
+                        'type' => 'static'
+                    ]
+                ],
                 'contentcubes' => [
                     'caching' => [
                         'type' => 'static'

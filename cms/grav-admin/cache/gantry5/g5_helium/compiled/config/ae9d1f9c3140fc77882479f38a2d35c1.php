@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1568899385,
-    'checksum' => 'ae57b02305069adce6d450c408f82216',
+    'timestamp' => 1568901245,
+    'checksum' => '5fb32085afbc1653eb6dac66a401e203',
     'files' => [
         'user/data/gantry5/themes/g5_helium/config/_error' => [
             'index' => [
@@ -17,11 +17,11 @@ return [
         'user/data/gantry5/themes/g5_helium/config/default' => [
             'index' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/index.yaml',
-                'modified' => 1568899341
+                'modified' => 1568901242
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-                'modified' => 1568899341
+                'modified' => 1568901242
             ],
             'page/assets' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/assets.yaml',
@@ -145,6 +145,59 @@ return [
     ],
     'data' => [
         'particles' => [
+            'gp_iconblock1' => [
+                'caching' => [
+                    'type' => 'static'
+                ],
+                'enabled' => true,
+                'icon_opacity' => 0.6,
+                'text_color' => '',
+                'text_align' => 'center',
+                'heading_title_tag' => 'h1',
+                'heading_text_align' => 'center',
+                'columns' => '33-3'
+            ],
+            'jldivider' => [
+                'caching' => [
+                    'type' => 'static'
+                ],
+                'enabled' => true,
+                'divider_style' => 'default',
+                'divider_element' => 'hr',
+                'divider_align' => 'inherit',
+                'divider_breakpoint' => 'always',
+                'divider_fallback' => 'inherit',
+                'particle_title_style' => 'h3',
+                'particle_title_decoration' => 'none',
+                'particle_title_align' => 'inherit',
+                'particle_predefined_color' => 'default',
+                'particle_title_element' => 'h3',
+                'align' => 'inherit',
+                'breakpoint' => 'always',
+                'fallback' => 'inherit',
+                'g_maxwidth' => 'inherit',
+                'g_maxwidth_alignment' => 'left',
+                'g_maxwidth_breakpoint' => 'always',
+                'margin' => 'inherit',
+                'visibility' => 'inherit',
+                'animation' => 'inherit',
+                'animation_repeat' => 'disabled',
+                'pa_breakpoint' => 'always',
+                'background_image_size' => 'auto',
+                'background_image_position' => 'center-center',
+                'parallax_bg_breakpoint' => 'always',
+                'parallax_bg_visibility' => 'always',
+                'blendmode' => 'inherit',
+                'horizontal_start' => 0,
+                'horizontal_end' => 0,
+                'vertical_start' => 0,
+                'vertical_end' => 0,
+                'container' => false,
+                'viewport_height' => 'none',
+                'padding' => 'default',
+                'vertical_alignment' => 'none',
+                'parallax_text_color' => 'default'
+            ],
             'contentcubes' => [
                 'caching' => [
                     'type' => 'static'
