@@ -9,7 +9,7 @@ imageOverlay: disable
 items:
   -
     class: ''
-    image: 'gantry-media://g5_helium/above/slider1.jpg'
+    image: 'gantry-media://above/slider2.jpg'
     title: '<h1>Graphic Designer</h1>'
     desc: 'Photoshop, InDesign, Illustrator, UX / UI and more...'
     link: 'http://www.google.pl'

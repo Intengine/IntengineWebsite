@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/blueprints.yaml',
-    'modified' => 1568818403,
+    'modified' => 1568995194,
     'data' => [
         'name' => 'Gantry 5 Framework',
         'version' => '5.4.29',

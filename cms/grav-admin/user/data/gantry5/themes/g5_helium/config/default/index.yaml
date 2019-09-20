@@ -1,5 +1,5 @@
 name: default
-timestamp: 1568901242
+timestamp: 1568997026
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -37,7 +37,6 @@ particles:
     gp_iconblock1-7932: 'Gp Icon Block 1'
   jldivider:
     jldivider-2272: 'JL Divider'
-    jldivider-9419: 'JL Divider'
   position:
     position-position-4734: Aside
     position-position-3949: Sidebar

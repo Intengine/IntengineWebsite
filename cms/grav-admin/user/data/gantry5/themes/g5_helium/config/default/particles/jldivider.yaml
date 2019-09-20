@@ -1,0 +1,6 @@
+enabled: '1'
+divider_style: vertical
+divider_element: hr
+divider_align: center
+divider_breakpoint: always
+divider_fallback: center

@@ -209,6 +209,6 @@ class __TwigTemplate_ad2d091a4af157c587931b9b854c6f3c0d8d5b4beadacf28d9b61b2accb
     {% endif %}
 </ul>
 
-", "partials/nav-quick-tray.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/nav-quick-tray.html.twig");
+", "partials/nav-quick-tray.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/nav-quick-tray.html.twig");
     }
 }

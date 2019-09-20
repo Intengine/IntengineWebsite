@@ -1,7 +1,7 @@
 <?php
 return [
     'file' => 'gantry-theme://css-compiled/custom__offline.css',
-    'timestamp' => 1568899387,
+    'timestamp' => 1568995717,
     'md5' => '76409eda08dc6d5acbab915ed8c6e4a1',
     'variables' => [
         'above-text-color' => '#ffffff',
@@ -22,7 +22,7 @@ return [
         'footer-background' => '#ffffff',
         'footer-text-color' => '#60606e',
         'header-background-image' => '\'gantry-media://g5_helium/above/slider1.jpg\'',
-        'header-background-overlay' => '\'enabled\'',
+        'header-background-overlay' => '\'disabled\'',
         'header-text-color' => '#ffffff',
         'intro-background' => '#ffffff',
         'intro-text-color' => '#60606e',

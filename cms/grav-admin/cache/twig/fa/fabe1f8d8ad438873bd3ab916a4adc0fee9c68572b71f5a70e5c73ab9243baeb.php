@@ -162,6 +162,6 @@ class __TwigTemplate_c2d08df7ab6db7a2e59ffbb571d5768afbf97f5b3e5289df14b55df673f
         {% endif %}
     {% if particle.link == true %}</a>{% else %}</div>{% endif %}
 {% endblock %}
-", "@particles/logo.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/engines/nucleus/particles/logo.html.twig");
+", "@particles/logo.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/engines/nucleus/particles/logo.html.twig");
     }
 }

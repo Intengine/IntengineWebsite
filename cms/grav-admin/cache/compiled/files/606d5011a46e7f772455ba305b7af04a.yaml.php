@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/core-service-manager/blueprints.yaml',
-    'modified' => 1568818403,
+    'modified' => 1568995194,
     'data' => [
         'name' => 'Core Service Manager',
         'version' => '1.0.18',

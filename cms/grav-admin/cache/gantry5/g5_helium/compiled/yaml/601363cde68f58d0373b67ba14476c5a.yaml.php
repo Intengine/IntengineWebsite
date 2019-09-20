@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/config/default/particles/social.yaml',
-    'modified' => 1568819629,
+    'modified' => 1568996958,
     'data' => [
         'enabled' => '1',
         'css' => [
@@ -13,22 +13,18 @@ return [
         'display' => 'both',
         'items' => [
             0 => [
-                'icon' => 'fa fa-twitter fa-fw',
-                'text' => '',
-                'link' => 'http://www.twitter.com/rockettheme',
-                'name' => 'Twitter'
-            ],
-            1 => [
                 'icon' => 'fa fa-facebook fa-fw',
                 'text' => '',
-                'link' => 'http://www.facebook.com/RocketTheme',
+                'title' => '',
+                'link' => 'http://www.facebook.com/sylwester.pilarz',
                 'name' => 'Facebook'
             ],
-            2 => [
-                'icon' => 'fa fa-google-plus fa-fw',
+            1 => [
+                'icon' => 'fa fa-github',
                 'text' => '',
-                'link' => 'https://plus.google.com/+rockettheme',
-                'name' => 'Google+'
+                'title' => '',
+                'link' => 'http://www.github.com/intengine',
+                'name' => 'GitHub'
             ]
         ]
     ]

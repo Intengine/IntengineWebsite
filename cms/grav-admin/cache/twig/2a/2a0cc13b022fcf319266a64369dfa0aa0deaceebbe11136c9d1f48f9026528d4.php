@@ -184,6 +184,6 @@ class __TwigTemplate_5b3eee3b316ff0b1755cc02d58464b1bdafd76e6f91a0e0631da0b2a751
         </div>
     </form>
 </div>
-", "partials/modal-remove-package.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/modal-remove-package.html.twig");
+", "partials/modal-remove-package.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/modal-remove-package.html.twig");
     }
 }

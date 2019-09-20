@@ -21,8 +21,6 @@ layout:
   /utility/:
     -
       - jldivider-2272
-    -
-      - jldivider-9419
   /above/: {  }
   /testimonials/: {  }
   /expanded/: {  }
@@ -192,14 +190,14 @@ content:
   jldivider-2272:
     title: 'JL Divider'
     attributes:
-      divider_style: icon
-      divider_element: div
+      divider_style: vertical
+      divider_element: hr
       divider_align: center
       divider_breakpoint: always
       divider_fallback: center
       class: ''
       particle_title: ''
-      particle_title_style: h3
+      particle_title_style: default
       particle_title_decoration: bullet
       particle_title_align: center
       particle_predefined_color: default
@@ -211,64 +209,6 @@ content:
       fallback: inherit
       g_maxwidth: inherit
       g_maxwidth_alignment: left
-      g_maxwidth_breakpoint: always
-      margin: inherit
-      visibility: inherit
-      animation: inherit
-      animation_delay: ''
-      animation_repeat: disabled
-      pa_horizontal_start: ''
-      pa_horizontal_end: ''
-      pa_vertical_start: ''
-      pa_vertical_end: ''
-      scale_start: ''
-      scale_end: ''
-      rotate_start: ''
-      rotate_end: ''
-      opacity_start: ''
-      opacity_end: ''
-      easing: ''
-      pa_viewport: ''
-      pa_breakpoint: always
-      parallax_image: ''
-      background_image_size: auto
-      background_image_position: center-center
-      parallax_bg_breakpoint: always
-      parallax_bg_visibility: always
-      parallax_bg_color: ''
-      blendmode: inherit
-      parallax_bg_overlay: ''
-      horizontal_start: '0'
-      horizontal_end: '0'
-      vertical_start: '0'
-      vertical_end: '0'
-      container: '0'
-      viewport_height: none
-      padding: default
-      vertical_alignment: none
-      parallax_text_color: default
-  jldivider-9419:
-    title: 'JL Divider'
-    attributes:
-      divider_style: vertical
-      divider_element: hr
-      divider_align: center
-      divider_breakpoint: l
-      divider_fallback: center
-      class: ''
-      particle_title: ''
-      particle_title_style: h3
-      particle_title_decoration: none
-      particle_title_align: inherit
-      particle_predefined_color: default
-      particle_title_color: ''
-      particle_title_fontsize: ''
-      particle_title_element: h3
-      align: inherit
-      breakpoint: always
-      fallback: inherit
-      g_maxwidth: medium
-      g_maxwidth_alignment: center
       g_maxwidth_breakpoint: always
       margin: inherit
       visibility: inherit

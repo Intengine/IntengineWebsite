@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/themes/halcyon/blueprints.yaml',
-    'modified' => 1568818404,
+    'modified' => 1568995194,
     'data' => [
         'name' => 'Halcyon',
         'version' => '1.2.0',

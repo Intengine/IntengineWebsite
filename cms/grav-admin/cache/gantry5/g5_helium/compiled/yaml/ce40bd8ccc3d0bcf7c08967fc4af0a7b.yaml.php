@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/engines/nucleus/blueprints/pages/blog_list.yaml',
-    'modified' => 1568818403,
+    'modified' => 1568995194,
     'data' => [
         'title' => 'Blog',
         'extends@' => [

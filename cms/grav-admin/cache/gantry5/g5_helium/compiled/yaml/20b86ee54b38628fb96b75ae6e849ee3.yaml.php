@@ -2,10 +2,10 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/config/_body_only/index.yaml',
-    'modified' => 1568819785,
+    'modified' => 1568995452,
     'data' => [
         'name' => '_body_only',
-        'timestamp' => 1568818402,
+        'timestamp' => 1568995193,
         'version' => 7,
         'preset' => [
             'image' => 'gantry-admin://images/layouts/body-only.png',
@@ -21,9 +21,6 @@ return [
         'particles' => [
             'messages' => [
                 'system-messages-6659' => 'System Messages'
-            ],
-            'content' => [
-                'system-content-5845' => 'Page Content'
             ]
         ],
         'inherit' => [

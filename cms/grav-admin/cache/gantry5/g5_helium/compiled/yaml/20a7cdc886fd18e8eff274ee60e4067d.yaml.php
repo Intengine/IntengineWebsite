@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/config/default/particles/owlcarousel.yaml',
-    'modified' => 1568819629,
+    'modified' => 1568996958,
     'data' => [
         'enabled' => '1',
         'class' => '',
@@ -15,7 +15,7 @@ return [
         'items' => [
             0 => [
                 'class' => '',
-                'image' => 'gantry-media://g5_helium/above/slider1.jpg',
+                'image' => 'gantry-media://above/slider2.jpg',
                 'title' => '<h1>Graphic Designer</h1>',
                 'desc' => 'Photoshop, InDesign, Illustrator, UX / UI and more...',
                 'link' => 'http://www.google.pl',

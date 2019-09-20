@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'plugins://editor/editor.yaml',
-    'modified' => 1568875648,
+    'modified' => 1568995194,
     'data' => [
         'enabled' => true,
         'js_enabled' => true,

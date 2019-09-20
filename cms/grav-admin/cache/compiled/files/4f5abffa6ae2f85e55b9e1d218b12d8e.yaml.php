@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/form/blueprints.yaml',
-    'modified' => 1568818403,
+    'modified' => 1568995382,
     'data' => [
         'name' => 'Form',
-        'version' => '3.0.8',
+        'version' => '3.0.9',
         'testing' => false,
         'description' => 'Enables the forms handling',
         'icon' => 'check-square',

@@ -152,6 +152,6 @@ class __TwigTemplate_5a16d9f18f0d3545543383b4dc4e1626731b09adbdfa09d3b5367f4d295
 {% catch %}
     <div class=\"alert alert-error\"><strong>Error</strong> while rendering {{ segment.subtype|default('position') }}.</div>
 {% endtry %}
-", "@nucleus/content/position.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/engines/nucleus/templates/content/position.html.twig");
+", "@nucleus/content/position.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/engines/nucleus/templates/content/position.html.twig");
     }
 }

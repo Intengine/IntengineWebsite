@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/config/default/styles.yaml',
-    'modified' => 1568820677,
+    'modified' => 1568995713,
     'data' => [
         'preset' => 'preset6',
         'base' => [
@@ -28,15 +28,15 @@ return [
         'header' => [
             'background' => '',
             'background-image' => 'gantry-media://g5_helium/above/slider1.jpg',
-            'background-overlay' => 'enabled',
+            'background-overlay' => 'disabled',
             'text-color' => '#ffffff'
         ],
         'intro' => [
-            'background' => '',
-            'text-color' => '#ffffff'
+            'background' => '#ffffff',
+            'text-color' => '#60606e'
         ],
         'features' => [
-            'background' => '',
+            'background' => '#60606e',
             'text-color' => '#ffffff'
         ],
         'utility' => [

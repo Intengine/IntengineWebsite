@@ -17,7 +17,7 @@ navigation:
 header:
   background: ''
   background-image: 'gantry-media://g5_helium/above/slider1.jpg'
-  background-overlay: enabled
+  background-overlay: disabled
   text-color: '#ffffff'
 intro:
   background: '#ffffff'
