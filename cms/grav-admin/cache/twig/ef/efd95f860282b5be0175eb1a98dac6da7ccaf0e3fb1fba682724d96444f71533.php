@@ -693,6 +693,6 @@ class __TwigTemplate_09c6e3037186b0958e94b0fa66e02a4b83eb97f5cd58aad595bbecded8d
         {%- endif -%}
     </div>
 {% endblock %}
-", "dashboard.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/core-service-manager/templates/grav-1.6/admin-1.10/dashboard.html.twig");
+", "dashboard.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/core-service-manager/templates/grav-1.6/admin-1.10/dashboard.html.twig");
     }
 }

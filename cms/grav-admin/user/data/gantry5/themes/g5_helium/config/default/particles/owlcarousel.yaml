@@ -17,23 +17,3 @@ items:
     buttonclass: button-outline
     disable: '0'
     name: 'Graphic Designer'
-  -
-    class: ''
-    image: 'gantry-media://above/slider1.jpg'
-    title: '<h1>Movie Director</h1>'
-    desc: 'After Effects, Final Cut Pro X, Motion and more...'
-    link: 'http://www.google.pl'
-    linktext: 'read more'
-    buttonclass: button-outline
-    disable: '0'
-    name: 'Movie Director'
-  -
-    class: ''
-    image: 'gantry-media://above/slider1.jpg'
-    title: '<h1>Game Developer</h1>'
-    desc: 'Unity 3D, Unreal Engine 4, GODOT and more...'
-    link: 'http://www.google.pl'
-    linktext: 'read more'
-    buttonclass: button-outline
-    disable: '0'
-    name: 'Game Developer'

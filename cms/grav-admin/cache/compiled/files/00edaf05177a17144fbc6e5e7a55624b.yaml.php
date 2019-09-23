@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/system/blueprints/config/security.yaml',
-    'modified' => 1568995304,
+    'modified' => 1569251813,
     'data' => [
         'title' => 'PLUGIN_ADMIN.SECURITY',
         'form' => [

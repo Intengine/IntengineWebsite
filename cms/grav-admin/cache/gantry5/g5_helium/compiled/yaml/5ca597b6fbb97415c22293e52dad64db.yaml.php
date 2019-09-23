@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'gantry-theme://config/default/page/head.yaml',
-    'modified' => 1569222453,
+    'modified' => 1569256822,
     'data' => [
         'meta' => [
             
@@ -10,6 +10,15 @@ return [
         'head_bottom' => '',
         'atoms' => [
             0 => [
+                'id' => 'scrollreveal-js-9593',
+                'type' => 'scrollreveal-js',
+                'title' => 'ScrollReveal.js',
+                'attributes' => [
+                    'enabled' => '0',
+                    'mobile' => 'false'
+                ]
+            ],
+            1 => [
                 'id' => 'fixed-header-1886',
                 'type' => 'fixed-header',
                 'title' => 'Fixed Header',
@@ -21,13 +30,19 @@ return [
                     'secondoffset' => ''
                 ]
             ],
-            1 => [
-                'title' => 'Custom CSS / JS',
+            2 => [
+                'id' => 'assets-3348',
                 'type' => 'assets',
+                'title' => 'Custom CSS / JS',
                 'attributes' => [
-                    'enabled' => true
-                ],
-                'id' => 'assets-3348'
+                    'enabled' => '1',
+                    'css' => [
+                        
+                    ],
+                    'javascript' => [
+                        
+                    ]
+                ]
             ]
         ]
     ]

@@ -94,6 +94,6 @@ class __TwigTemplate_7063c8f8221947fbb314f8335e4ee8a2c81205eec4ea813f58274eb51e0
 \t\t\twindow.sr = new scrollReveal({ mobile: {{ particle.mobile|default(\"false\")|e }} });
 \t\t</script>
 \t{% endif %}
-{% endblock %}", "@particles/scrollreveal-js.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/particles/scrollreveal-js.html.twig");
+{% endblock %}", "@particles/scrollreveal-js.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/particles/scrollreveal-js.html.twig");
     }
 }

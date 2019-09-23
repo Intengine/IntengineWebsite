@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/core-service-manager/blueprints.yaml',
-    'modified' => 1568995194,
+    'modified' => 1569251814,
     'data' => [
         'name' => 'Core Service Manager',
-        'version' => '1.0.18',
+        'version' => '1.0.20',
         'description' => 'Adds a service manager layer to the Grav API.',
         'icon' => 'plug',
         'author' => [

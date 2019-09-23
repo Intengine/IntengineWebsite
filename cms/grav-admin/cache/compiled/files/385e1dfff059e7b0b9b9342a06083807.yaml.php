@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/bootstrapper/bootstrapper.yaml',
-    'modified' => 1568995194,
+    'modified' => 1569251814,
     'data' => [
         'enabled' => true,
         'version' => 'v3',

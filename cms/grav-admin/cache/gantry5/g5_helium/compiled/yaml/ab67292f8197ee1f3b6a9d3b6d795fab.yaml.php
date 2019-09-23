@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/config/default/page/head.yaml',
-    'modified' => 1568995193,
+    'modified' => 1569256935,
     'data' => [
         'meta' => [
             
@@ -10,6 +10,25 @@ return [
         'head_bottom' => '',
         'atoms' => [
             0 => [
+                'id' => 'wow-js-3776',
+                'type' => 'wow-js',
+                'title' => 'WOW.js',
+                'attributes' => [
+                    'enabled' => '1',
+                    'offset' => '200',
+                    'mobile' => 'true'
+                ]
+            ],
+            1 => [
+                'id' => 'scrollreveal-js-9593',
+                'type' => 'scrollreveal-js',
+                'title' => 'ScrollReveal.js',
+                'attributes' => [
+                    'enabled' => '0',
+                    'mobile' => 'false'
+                ]
+            ],
+            2 => [
                 'id' => 'fixed-header-1886',
                 'type' => 'fixed-header',
                 'title' => 'Fixed Header',
@@ -21,13 +40,19 @@ return [
                     'secondoffset' => ''
                 ]
             ],
-            1 => [
-                'title' => 'Custom CSS / JS',
+            3 => [
+                'id' => 'assets-3348',
                 'type' => 'assets',
+                'title' => 'Custom CSS / JS',
                 'attributes' => [
-                    'enabled' => true
-                ],
-                'id' => 'assets-3348'
+                    'enabled' => '1',
+                    'css' => [
+                        
+                    ],
+                    'javascript' => [
+                        
+                    ]
+                ]
             ]
         ]
     ]

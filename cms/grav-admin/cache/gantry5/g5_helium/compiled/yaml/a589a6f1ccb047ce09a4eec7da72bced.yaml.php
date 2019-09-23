@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-    'modified' => 1568997026,
+    'modified' => 1569257088,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -34,9 +34,7 @@ return [
                 ]
             ],
             '/utility/' => [
-                0 => [
-                    0 => 'jldivider-2272'
-                ]
+                
             ],
             '/above/' => [
                 
@@ -224,116 +222,66 @@ return [
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>'
                 ],
                 'block' => [
+                    'class' => 'wow fadeInDown',
                     'variations' => 'center title-center'
                 ]
             ],
             'gp_iconblock1-7932' => [
                 'title' => 'Gp Icon Block 1',
                 'attributes' => [
-                    'class' => '',
+                    'class' => 'wow fadeInUp',
                     'icon_opacity' => '1',
                     'text_color' => '',
                     'font_size' => '',
                     'text_align' => 'center',
                     'padding' => '',
                     'mobile_padding' => '',
-                    'heading_title' => 'FEATURES',
+                    'heading_title' => 'WHAT WE DO',
                     'heading_title_tag' => 'h1',
                     'heading_desc' => '',
                     'heading_text_align' => 'center',
                     'columns' => '33-3',
                     'gp_items' => [
                         0 => [
-                            'icon' => 'fa fa-apple fa-lg',
+                            'icon' => 'fa fa-desktop fa-lg',
                             'icon_color' => '',
-                            'title' => 'APPLE',
-                            'description' => 'Lorem Ipsum',
-                            'class' => '',
-                            'variations' => '',
-                            'name' => 'New item'
+                            'title' => 'WEB DESIGN',
+                            'description' => '- HTML5<br>
+- CSS3 + Bootstrap 4<br>
+- JavaScript<br>
+- CMS (Grav + Gantry5, Drupal 8)<br>',
+                            'class' => 'features',
+                            'variations' => 'center',
+                            'name' => 'Web Design'
                         ],
                         1 => [
-                            'icon' => 'fa fa-automobile',
+                            'icon' => 'fa fa-paint-brush',
                             'icon_color' => '',
-                            'title' => 'CAR',
-                            'description' => 'Ipsum Lorem',
-                            'class' => '',
+                            'title' => 'GRAPHIC DESIGN',
+                            'description' => '- DTP<br>
+- 3D visualisation<br>
+- Illustration<br>
+- Animation (2D / 3D)',
+                            'class' => 'features',
                             'variations' => '',
-                            'name' => 'New item'
+                            'name' => 'Graphic Design'
                         ],
                         2 => [
                             'icon' => 'fa fa-camera',
                             'icon_color' => '',
-                            'title' => 'NIKON',
-                            'description' => 'Aparat & Camera',
-                            'class' => '',
+                            'title' => 'PHOTOGRAPHY',
+                            'description' => '- Movie editing<br>
+- Photomanipulation<br>
+- Landscapes<br>
+- Color correction',
+                            'class' => 'features',
                             'variations' => '',
-                            'name' => 'New item'
+                            'name' => 'Photography'
                         ]
                     ],
                     'button_text' => '',
                     'button_url' => '',
                     'button_class' => ''
-                ]
-            ],
-            'jldivider-2272' => [
-                'title' => 'JL Divider',
-                'attributes' => [
-                    'divider_style' => 'vertical',
-                    'divider_element' => 'hr',
-                    'divider_align' => 'center',
-                    'divider_breakpoint' => 'always',
-                    'divider_fallback' => 'center',
-                    'class' => '',
-                    'particle_title' => '',
-                    'particle_title_style' => 'default',
-                    'particle_title_decoration' => 'bullet',
-                    'particle_title_align' => 'center',
-                    'particle_predefined_color' => 'default',
-                    'particle_title_color' => '',
-                    'particle_title_fontsize' => '',
-                    'particle_title_element' => 'h3',
-                    'align' => 'inherit',
-                    'breakpoint' => 'always',
-                    'fallback' => 'inherit',
-                    'g_maxwidth' => 'inherit',
-                    'g_maxwidth_alignment' => 'left',
-                    'g_maxwidth_breakpoint' => 'always',
-                    'margin' => 'inherit',
-                    'visibility' => 'inherit',
-                    'animation' => 'inherit',
-                    'animation_delay' => '',
-                    'animation_repeat' => 'disabled',
-                    'pa_horizontal_start' => '',
-                    'pa_horizontal_end' => '',
-                    'pa_vertical_start' => '',
-                    'pa_vertical_end' => '',
-                    'scale_start' => '',
-                    'scale_end' => '',
-                    'rotate_start' => '',
-                    'rotate_end' => '',
-                    'opacity_start' => '',
-                    'opacity_end' => '',
-                    'easing' => '',
-                    'pa_viewport' => '',
-                    'pa_breakpoint' => 'always',
-                    'parallax_image' => '',
-                    'background_image_size' => 'auto',
-                    'background_image_position' => 'center-center',
-                    'parallax_bg_breakpoint' => 'always',
-                    'parallax_bg_visibility' => 'always',
-                    'parallax_bg_color' => '',
-                    'blendmode' => 'inherit',
-                    'parallax_bg_overlay' => '',
-                    'horizontal_start' => '0',
-                    'horizontal_end' => '0',
-                    'vertical_start' => '0',
-                    'vertical_end' => '0',
-                    'container' => '0',
-                    'viewport_height' => 'none',
-                    'padding' => 'default',
-                    'vertical_alignment' => 'none',
-                    'parallax_text_color' => 'default'
                 ]
             ],
             'position-position-4734' => [

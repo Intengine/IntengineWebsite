@@ -2,6 +2,21 @@ meta: {  }
 head_bottom: ''
 atoms:
   -
+    id: wow-js-3776
+    type: wow-js
+    title: WOW.js
+    attributes:
+      enabled: '1'
+      offset: '200'
+      mobile: 'true'
+  -
+    id: scrollreveal-js-9593
+    type: scrollreveal-js
+    title: ScrollReveal.js
+    attributes:
+      enabled: '0'
+      mobile: 'false'
+  -
     id: fixed-header-1886
     type: fixed-header
     title: 'Fixed Header'
@@ -12,15 +27,10 @@ atoms:
       secondtrigger: '0'
       secondoffset: ''
   -
-    title: 'Custom CSS / JS'
-    type: assets
-    attributes:
-      enabled: true
     id: assets-3348
-  -
-    id: scrollreveal-js-9593
-    type: scrollreveal-js
-    title: ScrollReveal.js
+    type: assets
+    title: 'Custom CSS / JS'
     attributes:
       enabled: '1'
-      mobile: 'true'
+      css: {  }
+      javascript: {  }

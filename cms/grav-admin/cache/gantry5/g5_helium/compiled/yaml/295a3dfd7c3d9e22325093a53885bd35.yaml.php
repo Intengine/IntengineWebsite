@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/themes/g5_helium/particles/contenttabs.yaml',
-    'modified' => 1568995194,
+    'modified' => 1569251815,
     'data' => [
         'name' => 'Content Tabs',
         'description' => 'Displays Content Tabs.',

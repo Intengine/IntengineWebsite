@@ -1,7 +1,7 @@
 <?php
 return [
     'file' => 'gantry-theme://css-compiled/custom.css',
-    'timestamp' => 1569245757,
+    'timestamp' => 1569251883,
     'md5' => '76409eda08dc6d5acbab915ed8c6e4a1',
     'variables' => [
         'above-text-color' => '#ffffff',

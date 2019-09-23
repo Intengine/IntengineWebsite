@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/blueprints.yaml',
-    'modified' => 1568995194,
+    'modified' => 1569251814,
     'data' => [
         'name' => 'Admin Panel',
-        'version' => '1.9.9',
+        'version' => '1.9.10',
         'testing' => false,
         'description' => 'Adds an advanced administration panel to manage your site',
         'icon' => 'empire',
@@ -22,7 +22,7 @@ return [
         'dependencies' => [
             0 => [
                 'name' => 'grav',
-                'version' => '>=1.6.7'
+                'version' => '>=1.6.8'
             ],
             1 => [
                 'name' => 'form',

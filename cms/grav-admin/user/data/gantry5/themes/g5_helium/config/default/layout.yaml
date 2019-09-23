@@ -141,11 +141,12 @@ content:
     attributes:
       html: "<h1>Welcome to INTENGINE</h1>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
     block:
+      class: 'wow fadeInDown'
       variations: 'center title-center'
   gp_iconblock1-7932:
     title: 'Gp Icon Block 1'
     attributes:
-      class: ''
+      class: 'wow fadeInUp'
       icon_opacity: '1'
       text_color: ''
       font_size: ''

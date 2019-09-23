@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/particles/fixed-header.yaml',
-    'modified' => 1568995193,
+    'modified' => 1569251813,
     'data' => [
         'name' => 'Fixed Header',
         'description' => 'Configure Fixed Header.',
