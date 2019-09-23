@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'gantry-theme://config/default/page/head.yaml',
-    'modified' => 1569256822,
+    'modified' => 1569256935,
     'data' => [
         'meta' => [
             
@@ -10,6 +10,16 @@ return [
         'head_bottom' => '',
         'atoms' => [
             0 => [
+                'id' => 'wow-js-3776',
+                'type' => 'wow-js',
+                'title' => 'WOW.js',
+                'attributes' => [
+                    'enabled' => '1',
+                    'offset' => '200',
+                    'mobile' => 'true'
+                ]
+            ],
+            1 => [
                 'id' => 'scrollreveal-js-9593',
                 'type' => 'scrollreveal-js',
                 'title' => 'ScrollReveal.js',
@@ -18,7 +28,7 @@ return [
                     'mobile' => 'false'
                 ]
             ],
-            1 => [
+            2 => [
                 'id' => 'fixed-header-1886',
                 'type' => 'fixed-header',
                 'title' => 'Fixed Header',
@@ -30,7 +40,7 @@ return [
                     'secondoffset' => ''
                 ]
             ],
-            2 => [
+            3 => [
                 'id' => 'assets-3348',
                 'type' => 'assets',
                 'title' => 'Custom CSS / JS',

@@ -12,7 +12,7 @@ items:
     image: 'gantry-media://above/slider2.jpg'
     title: '<h1>Graphic Designer</h1>'
     desc: 'Photoshop, InDesign, Illustrator, UX / UI and more...'
-    link: 'http://www.google.pl'
+    link: '#g-intro'
     linktext: 'read more'
     buttonclass: button-outline
     disable: '0'

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/config/default/page/head.yaml',
-    'modified' => 1569256935,
+    'modified' => 1569257633,
     'data' => [
         'meta' => [
             
@@ -20,12 +20,13 @@ return [
                 ]
             ],
             1 => [
-                'id' => 'scrollreveal-js-9593',
-                'type' => 'scrollreveal-js',
-                'title' => 'ScrollReveal.js',
+                'id' => 'smoothscroll-5768',
+                'type' => 'smoothscroll',
+                'title' => 'Smooth Scrolling',
                 'attributes' => [
-                    'enabled' => '0',
-                    'mobile' => 'false'
+                    'enabled' => '1',
+                    'duration' => '900',
+                    'easing' => 'swing'
                 ]
             ],
             2 => [

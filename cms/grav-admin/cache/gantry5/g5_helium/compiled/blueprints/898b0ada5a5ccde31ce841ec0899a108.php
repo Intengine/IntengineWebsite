@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledBlueprints',
-    'timestamp' => 1569256814,
-    'checksum' => 'b9266260e9944e1f688a83c999cf0460',
+    'timestamp' => 1569257633,
+    'checksum' => '50cd3f1349e2fa8ac08bff6f0b8e93eb',
     'files' => [
         'user/data/gantry5/themes/g5_helium/particles' => [
             'particles/fixed-header' => [
@@ -20,6 +20,10 @@ return [
             'particles/scrollreveal-js' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/particles/scrollreveal-js.yaml',
                 'modified' => 1569251813
+            ],
+            'particles/smoothscroll' => [
+                'file' => 'user/data/gantry5/themes/g5_helium/particles/smoothscroll.yaml',
+                'modified' => 1569257535
             ],
             'particles/wow-js' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/particles/wow-js.yaml',
@@ -1188,6 +1192,38 @@ return [
                     'false' => 'Disabled'
                 ],
                 'name' => 'particles.scrollreveal-js.mobile'
+            ],
+            'particles.smoothscroll' => [
+                'type' => '_root',
+                'form_field' => false,
+                'form' => [
+                    
+                ]
+            ],
+            'particles.smoothscroll.enabled' => [
+                'type' => 'input.checkbox',
+                'label' => 'Enabled',
+                'description' => 'Globally enable Smooth Scrolling atom.',
+                'default' => true,
+                'name' => 'particles.smoothscroll.enabled'
+            ],
+            'particles.smoothscroll.duration' => [
+                'type' => 'input.text',
+                'description' => 'Enter the duration (time in milliseconds).',
+                'label' => 'Duration (ms)',
+                'default' => 900,
+                'name' => 'particles.smoothscroll.duration'
+            ],
+            'particles.smoothscroll.easing' => [
+                'type' => 'select.selectize',
+                'description' => 'Choose the easing type',
+                'label' => 'Easing',
+                'default' => 'swing',
+                'options' => [
+                    'swing' => 'swing',
+                    'linear' => 'linear'
+                ],
+                'name' => 'particles.smoothscroll.easing'
             ],
             'particles.wow-js' => [
                 'type' => '_root',
@@ -5060,6 +5096,11 @@ return [
                 'scrollreveal-js' => [
                     'enabled' => 'particles.scrollreveal-js.enabled',
                     'mobile' => 'particles.scrollreveal-js.mobile'
+                ],
+                'smoothscroll' => [
+                    'enabled' => 'particles.smoothscroll.enabled',
+                    'duration' => 'particles.smoothscroll.duration',
+                    'easing' => 'particles.smoothscroll.easing'
                 ],
                 'wow-js' => [
                     'enabled' => 'particles.wow-js.enabled',
