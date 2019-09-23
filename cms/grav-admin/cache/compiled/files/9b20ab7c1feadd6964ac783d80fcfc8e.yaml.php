@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'plugins://core-service-manager/core-service-manager.yaml',
-    'modified' => 1568995194,
+    'modified' => 1569235743,
     'data' => [
         'enabled' => true,
         'override_admin_twigs' => true,

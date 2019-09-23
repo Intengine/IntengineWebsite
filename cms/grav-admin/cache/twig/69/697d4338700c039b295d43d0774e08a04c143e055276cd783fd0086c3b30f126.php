@@ -283,6 +283,6 @@ class __TwigTemplate_143ec9b06c1014fb203f23d73e44f8c645de55afa040a6538284f21c084
         </div>
 
     </form>
-</div>", "partials/modal-add-package.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/modal-add-package.html.twig");
+</div>", "partials/modal-add-package.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/modal-add-package.html.twig");
     }
 }

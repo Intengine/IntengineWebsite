@@ -170,6 +170,6 @@ class __TwigTemplate_f78a5cffd2b7845d87c0a90ac368035d57f51db9e06b40d0bc2a1146eef
         </div>
     </form>
 </div>
-", "partials/modal-reinstall-package.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/modal-reinstall-package.html.twig");
+", "partials/modal-reinstall-package.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/modal-reinstall-package.html.twig");
     }
 }

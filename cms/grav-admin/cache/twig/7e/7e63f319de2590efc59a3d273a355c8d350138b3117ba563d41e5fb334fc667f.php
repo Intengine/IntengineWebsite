@@ -83,6 +83,6 @@ class __TwigTemplate_d1337282491ab0d50edf32effff960541b3a2bceacb6f568267bc00d1c6
     <h1>{{ 'PLUGIN_ERROR.ERROR'|t }} {{ header.http_response_code }}</h1>
 
     {{ content|raw }}
-{% endblock %}", "error.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/engines/nucleus/templates/error.html.twig");
+{% endblock %}", "error.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/engines/nucleus/templates/error.html.twig");
     }
 }

@@ -693,6 +693,6 @@ rotate: {% if particle.rotate_start == '' %}0{% else %}{{particle.rotate_start}}
 {{endparallaxbackground}}
 {% endif %}
 {% endblock %}
-", "@particles/jldivider.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/particles/jldivider.html.twig");
+", "@particles/jldivider.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/particles/jldivider.html.twig");
     }
 }

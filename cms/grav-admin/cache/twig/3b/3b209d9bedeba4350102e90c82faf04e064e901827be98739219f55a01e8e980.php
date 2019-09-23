@@ -372,6 +372,6 @@ class __TwigTemplate_bf20874bd802e984cf73cc735d8471fc81b2bcc5d26ca2c94d1064353b6
         {% endif %}
     </div>
 {% endblock %}
-", "plugins.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/plugins.html.twig");
+", "plugins.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/plugins.html.twig");
     }
 }

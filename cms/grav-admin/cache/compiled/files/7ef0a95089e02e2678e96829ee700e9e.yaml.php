@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'themes://halcyon/halcyon.yaml',
-    'modified' => 1568995194,
+    'modified' => 1569222455,
     'data' => [
         'enabled' => true,
         'color' => 'blue',

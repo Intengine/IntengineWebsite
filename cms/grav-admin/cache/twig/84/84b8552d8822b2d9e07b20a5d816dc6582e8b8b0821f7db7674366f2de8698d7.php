@@ -60,6 +60,6 @@ class __TwigTemplate_49ee4cb46d99d0fc5aea932701691dd6eadcfc28ab5799c66ea65de0c3b
     public function getSourceContext()
     {
         return new Source("{% extends 'partials/base-root.html.twig' %}
-", "partials/base.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/base.html.twig");
+", "partials/base.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/base.html.twig");
     }
 }
