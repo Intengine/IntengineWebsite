@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1569235760,
-    'checksum' => '822c18ab84aa027c2528b66711001605',
+    'timestamp' => 1569245627,
+    'checksum' => '14a23b6cf8606d79ec86a3a65db54380',
     'files' => [
         'user/config' => [
             'backups' => [
@@ -12,6 +12,10 @@ return [
             'media' => [
                 'file' => 'user/config/media.yaml',
                 'modified' => 1569222453
+            ],
+            'plugins/gantry5' => [
+                'file' => 'user/config/plugins/gantry5.yaml',
+                'modified' => 1569245612
             ],
             'scheduler' => [
                 'file' => 'user/config/scheduler.yaml',

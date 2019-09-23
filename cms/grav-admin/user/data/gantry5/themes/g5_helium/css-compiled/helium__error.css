@@ -270,6 +270,11 @@ hr {
   margin: 1.5rem 0;
   border-bottom: 1px solid #e0e0e5;
 }
+/* line 82, user/themes/g5_helium/scss/helium/styles/_typography.scss */
+.features {
+  font-family: 'Helvetica';
+  font-size: 0.8rem;
+}
 /* line 1, user/themes/g5_helium/scss/helium/styles/_utilities.scss */
 .noliststyle {
   list-style: none;

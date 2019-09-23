@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledBlueprints',
-    'timestamp' => 1569235663,
-    'checksum' => '22fc8c415bf648907e92c91d0be6231e',
+    'timestamp' => 1569245973,
+    'checksum' => 'f2bbdd364fa2162e73508bc93e0d4273',
     'files' => [
         'user/data/gantry5/themes/g5_helium/particles' => [
             'particles/fixed-header' => [
@@ -16,6 +16,10 @@ return [
             'particles/jldivider' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/particles/jldivider.yaml',
                 'modified' => 1569222453
+            ],
+            'particles/scrollreveal-js' => [
+                'file' => 'user/data/gantry5/themes/g5_helium/particles/scrollreveal-js.yaml',
+                'modified' => 1456580188
             ]
         ],
         'user/themes/g5_helium/particles' => [
@@ -1155,6 +1159,31 @@ return [
                 'label' => 'Parallax Background',
                 'overridable' => false,
                 'name' => 'particles.jldivider._tab_parallax'
+            ],
+            'particles.scrollreveal-js' => [
+                'type' => '_root',
+                'form_field' => false,
+                'form' => [
+                    
+                ]
+            ],
+            'particles.scrollreveal-js.enabled' => [
+                'type' => 'input.checkbox',
+                'label' => 'Enabled',
+                'description' => 'Globally enable ScrollReveal.js particles.',
+                'default' => true,
+                'name' => 'particles.scrollreveal-js.enabled'
+            ],
+            'particles.scrollreveal-js.mobile' => [
+                'type' => 'select.select',
+                'label' => 'Mobile',
+                'description' => 'Enable or disable the animations on mobile devices.',
+                'default' => 'false',
+                'options' => [
+                    'true' => 'Enabled',
+                    'false' => 'Disabled'
+                ],
+                'name' => 'particles.scrollreveal-js.mobile'
             ],
             'particles.contentcubes' => [
                 'type' => '_root',
@@ -4991,6 +5020,10 @@ return [
                     'padding' => 'particles.jldivider.padding',
                     'vertical_alignment' => 'particles.jldivider.vertical_alignment',
                     'parallax_text_color' => 'particles.jldivider.parallax_text_color'
+                ],
+                'scrollreveal-js' => [
+                    'enabled' => 'particles.scrollreveal-js.enabled',
+                    'mobile' => 'particles.scrollreveal-js.mobile'
                 ],
                 'contentcubes' => [
                     'enabled' => 'particles.contentcubes.enabled',

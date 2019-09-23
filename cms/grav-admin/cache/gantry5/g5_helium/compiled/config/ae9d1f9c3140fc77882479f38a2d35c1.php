@@ -1,13 +1,13 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1569235669,
-    'checksum' => 'dd75faade2c7901da9a84221e0590663',
+    'timestamp' => 1569246267,
+    'checksum' => '993a7345c718101755ea2752719757f4',
     'files' => [
         'user/data/gantry5/themes/g5_helium/config/_error' => [
             'index' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/_error/index.yaml',
-                'modified' => 1569222453
+                'modified' => 1569243832
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/_error/layout.yaml',
@@ -17,23 +17,23 @@ return [
         'user/data/gantry5/themes/g5_helium/config/default' => [
             'index' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/index.yaml',
-                'modified' => 1569222453
+                'modified' => 1569246264
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-                'modified' => 1569222453
+                'modified' => 1569246264
             ],
             'page/assets' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/assets.yaml',
-                'modified' => 1569222453
+                'modified' => 1569245973
             ],
             'page/body' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/body.yaml',
-                'modified' => 1569222453
+                'modified' => 1569245973
             ],
             'page/head' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/head.yaml',
-                'modified' => 1569222453
+                'modified' => 1569245973
             ],
             'particles/branding' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/branding.yaml',
@@ -415,6 +415,10 @@ return [
                 'mobile' => 'disable',
                 'secondtrigger' => false
             ],
+            'scrollreveal-js' => [
+                'enabled' => true,
+                'mobile' => 'false'
+            ],
             'analytics' => [
                 'enabled' => true,
                 'ua' => [
@@ -661,6 +665,15 @@ return [
                             'enabled' => true
                         ],
                         'id' => 'assets-3348'
+                    ],
+                    2 => [
+                        'id' => 'scrollreveal-js-9593',
+                        'type' => 'scrollreveal-js',
+                        'title' => 'ScrollReveal.js',
+                        'attributes' => [
+                            'enabled' => '1',
+                            'mobile' => 'true'
+                        ]
                     ]
                 ]
             ]
@@ -732,7 +745,7 @@ return [
         ],
         'index' => [
             'name' => '_error',
-            'timestamp' => 1568995193,
+            'timestamp' => 1569222453,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',

@@ -17,3 +17,10 @@ atoms:
     attributes:
       enabled: true
     id: assets-3348
+  -
+    id: scrollreveal-js-9593
+    type: scrollreveal-js
+    title: ScrollReveal.js
+    attributes:
+      enabled: '1'
+      mobile: 'true'
