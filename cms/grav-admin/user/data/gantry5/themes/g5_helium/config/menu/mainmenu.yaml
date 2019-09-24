@@ -2,13 +2,14 @@ settings:
   title: Mainmenu
 ordering:
   __particle-7ypYy: ''
-  home: {  }
+  home: ''
 items:
   home:
     enabled: '0'
     dropdown_dir: right
     dropdown_hide: '0'
     width: auto
+    anchor_class: ''
   __particle-7ypYy:
     type: particle
     particle: horizontalmenu
@@ -29,7 +30,7 @@ items:
             name: ABOUT
           -
             text: PORTFOLIO
-            link: ''
+            link: '#g-utility'
             name: PORTFOLIO
           -
             text: CONTACT

@@ -2,23 +2,22 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/config/menu/mainmenu.yaml',
-    'modified' => 1569258218,
+    'modified' => 1569348261,
     'data' => [
         'settings' => [
             'title' => 'Mainmenu'
         ],
         'ordering' => [
             '__particle-7ypYy' => '',
-            'home' => [
-                
-            ]
+            'home' => ''
         ],
         'items' => [
             'home' => [
                 'enabled' => '0',
                 'dropdown_dir' => 'right',
                 'dropdown_hide' => '0',
-                'width' => 'auto'
+                'width' => 'auto',
+                'anchor_class' => ''
             ],
             '__particle-7ypYy' => [
                 'type' => 'particle',
@@ -42,7 +41,7 @@ return [
                             ],
                             2 => [
                                 'text' => 'PORTFOLIO',
-                                'link' => '',
+                                'link' => '#g-utility',
                                 'name' => 'PORTFOLIO'
                             ],
                             3 => [
