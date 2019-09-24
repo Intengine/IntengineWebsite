@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'gantry-theme://config/default/page/head.yaml',
-    'modified' => 1569345127,
+    'modified' => 1569347405,
     'data' => [
         'meta' => [
             
@@ -48,18 +48,37 @@ return [
                 'attributes' => [
                     'enabled' => '1',
                     'css' => [
-                        
+                        0 => [
+                            'location' => '',
+                            'inline' => '.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}',
+                            'extra' => [
+                                
+                            ],
+                            'priority' => '0',
+                            'name' => 'MenuOnScroll'
+                        ]
                     ],
                     'javascript' => [
-                        
+                        0 => [
+                            'location' => '',
+                            'inline' => '$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar-fixed-top");
+    $nav.toggleClass(\'scrolled\', $(this).scrollTop() > $nav.height());
+  });
+});',
+                            'in_footer' => '0',
+                            'extra' => [
+                                
+                            ],
+                            'priority' => '0',
+                            'name' => 'MenuOnScroll'
+                        ]
                     ]
                 ]
-            ],
-            4 => [
-                'title' => 'JL Video Background',
-                'type' => 'jlvideobackground',
-                'attributes' => NULL,
-                'id' => 'jlvideobackground-9272'
             ]
         ]
     ]

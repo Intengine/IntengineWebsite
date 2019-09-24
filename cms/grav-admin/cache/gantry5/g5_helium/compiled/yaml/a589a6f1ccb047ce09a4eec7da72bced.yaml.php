@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-    'modified' => 1569257088,
+    'modified' => 1569348009,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -14,8 +14,8 @@ return [
             '/navigation/' => [
                 0 => [
                     0 => 'logo-9322 33',
-                    1 => 'menu-6409 34',
-                    2 => 'social-3171 32.9'
+                    1 => 'menu-6409 50',
+                    2 => 'social-3171 16.9'
                 ]
             ],
             '/header/' => [
@@ -34,7 +34,19 @@ return [
                 ]
             ],
             '/utility/' => [
-                
+                0 => [
+                    0 => 'custom-7633'
+                ],
+                1 => [
+                    0 => 'logo-5608 33.3',
+                    1 => 'logo-1564 33.3',
+                    2 => 'logo-3491 33.3'
+                ],
+                2 => [
+                    0 => 'logo-9072 33.3',
+                    1 => 'logo-9887 33.3',
+                    2 => 'logo-8101 33.3'
+                ]
             ],
             '/above/' => [
                 
@@ -87,7 +99,9 @@ return [
             'navigation' => [
                 'type' => 'section',
                 'attributes' => [
-                    'boxed' => ''
+                    'boxed' => '',
+                    'class' => '',
+                    'variations' => ''
                 ]
             ],
             'header' => [
@@ -282,6 +296,48 @@ return [
                     'button_text' => '',
                     'button_url' => '',
                     'button_class' => ''
+                ]
+            ],
+            'custom-7633' => [
+                'title' => 'Custom HTML',
+                'attributes' => [
+                    'html' => '<h1>PORTFOLIO</h1>'
+                ]
+            ],
+            'logo-5608' => [
+                'title' => 'Logo / Image',
+                'attributes' => [
+                    'image' => 'gantry-media://media/thumb-3dm.png'
+                ]
+            ],
+            'logo-1564' => [
+                'title' => 'Logo / Image',
+                'attributes' => [
+                    'image' => 'gantry-media://media/thumb-3g2.png'
+                ]
+            ],
+            'logo-3491' => [
+                'title' => 'Logo / Image',
+                'attributes' => [
+                    'image' => 'gantry-media://media/thumb-ai.png'
+                ]
+            ],
+            'logo-9072' => [
+                'title' => 'Logo / Image',
+                'attributes' => [
+                    'image' => 'gantry-media://media/thumb-asx.png'
+                ]
+            ],
+            'logo-9887' => [
+                'title' => 'Logo / Image',
+                'attributes' => [
+                    'image' => 'gantry-media://media/thumb-com.png'
+                ]
+            ],
+            'logo-8101' => [
+                'title' => 'Logo / Image',
+                'attributes' => [
+                    'image' => 'gantry-media://media/thumb-csr.png'
                 ]
             ],
             'position-position-4734' => [

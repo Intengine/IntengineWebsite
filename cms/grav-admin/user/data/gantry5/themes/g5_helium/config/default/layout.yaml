@@ -7,8 +7,8 @@ layout:
   /navigation/:
     -
       - 'logo-9322 33'
-      - 'menu-6409 34'
-      - 'social-3171 32.9'
+      - 'menu-6409 50'
+      - 'social-3171 16.9'
   /header/:
     -
       - owlcarousel-7244
@@ -18,7 +18,17 @@ layout:
   /features/:
     -
       - gp_iconblock1-7932
-  /utility/: {  }
+  /utility/:
+    -
+      - custom-7633
+    -
+      - 'logo-5608 33.3'
+      - 'logo-1564 33.3'
+      - 'logo-3491 33.3'
+    -
+      - 'logo-9072 33.3'
+      - 'logo-9887 33.3'
+      - 'logo-8101 33.3'
   /above/: {  }
   /testimonials/: {  }
   /expanded/: {  }
@@ -49,6 +59,8 @@ structure:
     type: section
     attributes:
       boxed: ''
+      class: ''
+      variations: ''
   header:
     attributes:
       boxed: '2'
@@ -186,6 +198,34 @@ content:
       button_text: ''
       button_url: ''
       button_class: ''
+  custom-7633:
+    title: 'Custom HTML'
+    attributes:
+      html: '<h1>PORTFOLIO</h1>'
+  logo-5608:
+    title: 'Logo / Image'
+    attributes:
+      image: 'gantry-media://media/thumb-3dm.png'
+  logo-1564:
+    title: 'Logo / Image'
+    attributes:
+      image: 'gantry-media://media/thumb-3g2.png'
+  logo-3491:
+    title: 'Logo / Image'
+    attributes:
+      image: 'gantry-media://media/thumb-ai.png'
+  logo-9072:
+    title: 'Logo / Image'
+    attributes:
+      image: 'gantry-media://media/thumb-asx.png'
+  logo-9887:
+    title: 'Logo / Image'
+    attributes:
+      image: 'gantry-media://media/thumb-com.png'
+  logo-8101:
+    title: 'Logo / Image'
+    attributes:
+      image: 'gantry-media://media/thumb-csr.png'
   position-position-4734:
     title: Aside
     attributes:

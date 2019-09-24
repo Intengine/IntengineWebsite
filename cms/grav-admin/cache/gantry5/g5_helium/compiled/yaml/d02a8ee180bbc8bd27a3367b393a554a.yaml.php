@@ -2,10 +2,10 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/config/default/index.yaml',
-    'modified' => 1569257088,
+    'modified' => 1569348009,
     'data' => [
         'name' => 'default',
-        'timestamp' => 1569257088,
+        'timestamp' => 1569348009,
         'version' => 7,
         'preset' => [
             'image' => 'gantry-admin://images/layouts/default.png',
@@ -33,7 +33,13 @@ return [
         ],
         'particles' => [
             'logo' => [
-                'logo-9322' => 'Logo / Image'
+                'logo-9322' => 'Logo / Image',
+                'logo-5608' => 'Logo / Image',
+                'logo-1564' => 'Logo / Image',
+                'logo-3491' => 'Logo / Image',
+                'logo-9072' => 'Logo / Image',
+                'logo-9887' => 'Logo / Image',
+                'logo-8101' => 'Logo / Image'
             ],
             'menu' => [
                 'menu-6409' => 'Menu'
@@ -45,7 +51,8 @@ return [
                 'owlcarousel-7244' => 'Owl Carousel'
             ],
             'custom' => [
-                'custom-3577' => 'Custom HTML'
+                'custom-3577' => 'Custom HTML',
+                'custom-7633' => 'Custom HTML'
             ],
             'gp_iconblock1' => [
                 'gp_iconblock1-7932' => 'Gp Icon Block 1'

@@ -1,8 +1,8 @@
 <?php
 return [
     'file' => 'gantry-theme://css-compiled/helium__error.css',
-    'timestamp' => 1569251888,
-    'md5' => '53bb05b89b51add3db2ca55300b59193',
+    'timestamp' => 1569347124,
+    'md5' => '0949d4026732226a8b7e5fb38c5c85b4',
     'variables' => [
         'above-text-color' => '#ffffff',
         'accent-color-1' => '#ffffff',
@@ -30,6 +30,7 @@ return [
         'link-hover' => '#60606e',
         'menu-col-width' => '180px',
         'menu-animation' => '\'g-fade\'',
+        'navigation-background' => 'rgba(0, 0, 0, 0)',
         'navigation-text-color' => '#ffffff',
         'offcanvas-text-color' => '#ffffff',
         'offcanvas-toggle-color' => '#ffffff',
@@ -183,7 +184,7 @@ return [
         'gantry-theme://scss/helium/particles/_contentcubes.scss' => 1569251815,
         'gantry-theme://scss/helium/particles/_contenttabs.scss' => 1569251815,
         'gantry-theme://scss/helium/particles/_owlcarousel.scss' => 1569251815,
-        'gantry-theme://scss/helium/particles/_horizontalmenu.scss' => 1569251815,
+        'gantry-theme://scss/helium/particles/_horizontalmenu.scss' => 1569346426,
         'gantry-theme://scss/helium/particles/_totop.scss' => 1569251815,
         'gantry-engine://scss/nucleus/theme/breakpoints/_base.scss' => 1569251814,
         'gantry-engine://scss/nucleus/theme/breakpoints/_flex.scss' => 1569251814,

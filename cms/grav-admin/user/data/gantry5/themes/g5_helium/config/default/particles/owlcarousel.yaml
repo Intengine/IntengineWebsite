@@ -17,3 +17,13 @@ items:
     buttonclass: button-outline
     disable: '0'
     name: 'Graphic Designer'
+  -
+    class: ''
+    image: 'gantry-media://above/slider1.jpg'
+    title: '<h1>Movie Director</h1>'
+    desc: 'Final Cut Pro X, After Effects, 3D Animation and more...'
+    link: '#g-intro'
+    linktext: 'read more'
+    buttonclass: button-outline
+    disable: '0'
+    name: 'Movie Director'

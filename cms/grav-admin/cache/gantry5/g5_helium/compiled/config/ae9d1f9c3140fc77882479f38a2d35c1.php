@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1569345393,
-    'checksum' => '3cb49ef4cc72316ab418b762611492ed',
+    'timestamp' => 1569348013,
+    'checksum' => '7905ba416521c97fff7ab00f8c788e05',
     'files' => [
         'user/data/gantry5/themes/g5_helium/config/_error' => [
             'index' => [
@@ -17,111 +17,111 @@ return [
         'user/data/gantry5/themes/g5_helium/config/default' => [
             'index' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/index.yaml',
-                'modified' => 1569257088
+                'modified' => 1569348009
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-                'modified' => 1569257088
+                'modified' => 1569348009
             ],
             'page/assets' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/assets.yaml',
-                'modified' => 1569345391
+                'modified' => 1569347534
             ],
             'page/body' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/body.yaml',
-                'modified' => 1569345391
+                'modified' => 1569347534
             ],
             'page/head' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/head.yaml',
-                'modified' => 1569345391
+                'modified' => 1569347534
             ],
             'particles/branding' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/branding.yaml',
-                'modified' => 1569257244
+                'modified' => 1569346024
             ],
             'particles/content' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/content.yaml',
-                'modified' => 1569257244
+                'modified' => 1569346024
             ],
             'particles/contentarray' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/contentarray.yaml',
-                'modified' => 1569257244
+                'modified' => 1569346024
             ],
             'particles/contentcubes' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/contentcubes.yaml',
-                'modified' => 1569257244
+                'modified' => 1569346024
             ],
             'particles/contenttabs' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/contenttabs.yaml',
-                'modified' => 1569257244
+                'modified' => 1569346024
             ],
             'particles/copyright' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/copyright.yaml',
-                'modified' => 1569257244
+                'modified' => 1569346024
             ],
             'particles/custom' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/custom.yaml',
-                'modified' => 1569257244
+                'modified' => 1569346024
             ],
             'particles/date' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/date.yaml',
-                'modified' => 1569257244
+                'modified' => 1569346024
             ],
             'particles/gp_iconblock1' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/gp_iconblock1.yaml',
-                'modified' => 1569257244
+                'modified' => 1569346024
             ],
             'particles/horizontalmenu' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/horizontalmenu.yaml',
-                'modified' => 1569257244
+                'modified' => 1569346024
             ],
             'particles/jldivider' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/jldivider.yaml',
-                'modified' => 1569257244
+                'modified' => 1569346024
             ],
             'particles/login' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/login.yaml',
-                'modified' => 1569257244
+                'modified' => 1569346024
             ],
             'particles/logo' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/logo.yaml',
-                'modified' => 1569257244
+                'modified' => 1569346024
             ],
             'particles/menu' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/menu.yaml',
-                'modified' => 1569257244
+                'modified' => 1569346024
             ],
             'particles/messages' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/messages.yaml',
-                'modified' => 1569257244
+                'modified' => 1569346024
             ],
             'particles/mobile-menu' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/mobile-menu.yaml',
-                'modified' => 1569257244
+                'modified' => 1569346024
             ],
             'particles/owlcarousel' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/owlcarousel.yaml',
-                'modified' => 1569257244
+                'modified' => 1569346024
             ],
             'particles/position' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/position.yaml',
-                'modified' => 1569257244
+                'modified' => 1569346024
             ],
             'particles/social' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/social.yaml',
-                'modified' => 1569257244
+                'modified' => 1569346024
             ],
             'particles/spacer' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/spacer.yaml',
-                'modified' => 1569257244
+                'modified' => 1569346024
             ],
             'particles/totop' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/totop.yaml',
-                'modified' => 1569257244
+                'modified' => 1569346024
             ],
             'styles' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/styles.yaml',
-                'modified' => 1569251813
+                'modified' => 1569347120
             ]
         ],
         'user/themes/g5_helium/config/default' => [
@@ -284,6 +284,17 @@ return [
                         'buttonclass' => 'button-outline',
                         'disable' => '0',
                         'name' => 'Graphic Designer'
+                    ],
+                    1 => [
+                        'class' => '',
+                        'image' => 'gantry-media://above/slider1.jpg',
+                        'title' => '<h1>Movie Director</h1>',
+                        'desc' => 'Final Cut Pro X, After Effects, 3D Animation and more...',
+                        'link' => '#g-intro',
+                        'linktext' => 'read more',
+                        'buttonclass' => 'button-outline',
+                        'disable' => '0',
+                        'name' => 'Movie Director'
                     ]
                 ]
             ],
@@ -392,9 +403,6 @@ return [
                 'enabled' => true,
                 'mobile' => 'disable',
                 'secondtrigger' => false
-            ],
-            'jlvideobackground' => [
-                'enabled' => true
             ],
             'scrollreveal-js' => [
                 'enabled' => true,
@@ -583,7 +591,7 @@ return [
                 'animation' => 'g-fade'
             ],
             'navigation' => [
-                'background' => '',
+                'background' => 'rgba(0, 0, 0, 0)',
                 'text-color' => '#ffffff'
             ],
             'offcanvas' => [

@@ -305,14 +305,12 @@ hr {
   padding-right: 10%;
 }
 @media only all and (min-width: 48rem) and (max-width: 59.938rem) {
-  /* line 13, user/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_breakpoints.scss */
   .section-horizontal-paddings {
     padding-left: 0;
     padding-right: 0;
   }
 }
 @media only all and (max-width: 47.938rem) {
-  /* line 25, user/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_breakpoints.scss */
   .section-horizontal-paddings {
     padding-left: 0;
     padding-right: 0;
@@ -1337,7 +1335,6 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* line 2, user/themes/g5_helium/scss/helium/styles/_helium-style.scss */
 /* line 4, user/themes/g5_helium/scss/helium/styles/_helium-style.scss */
 @media only all and (min-width: 48rem) {
-  /* line 22, user/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_breakpoints.scss */
   .g-home-particles.g-helium-style #g-navigation {
     background: transparent;
   }
@@ -1382,7 +1379,6 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   }
 }
 @media only all and (min-width: 30.062rem) and (max-width: 47.938rem) {
-  /* line 16, user/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_breakpoints.scss */
   .g-home-particles.g-helium-style #g-header {
     padding-top: 2rem;
   }
@@ -1543,7 +1539,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   padding: 3rem 0;
   position: relative;
   z-index: 10;
-  background-image: url('../../../../../images/g5_helium/above/slider1.jpg?5d88e1e5');
+  background-image: url('../../../../../images/g5_helium/above/slider1.jpg?5d8a5151');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1593,7 +1589,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 1, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation {
-  background: #312f38;
+  background: rgba(0, 0, 0, 0);
   color: #fff;
   position: relative;
   z-index: 11;
@@ -1699,7 +1695,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 112, user/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-dropdown {
-  background: #36343e;
+  background: rgba(5, 5, 5, 0);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 0.25rem;
 }
@@ -2237,7 +2233,6 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   color: rgba(255, 255, 255, 0.6);
 }
 @media only all and (max-width: 48rem) {
-  /* line 54, user/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
   .g-offcanvas-toggle {
     display: block;
   }
@@ -2644,7 +2639,6 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   margin: 0 auto;
 }
 @media only all and (min-width: 60rem) and (max-width: 74.938rem) {
-  /* line 7, user/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_breakpoints.scss */
   .g-contentcubes .cube-items-wrapper .cube-content-wrapper {
     padding: 4.6rem 0;
   }
@@ -2661,7 +2655,6 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   }
 }
 @media only all and (max-width: 30rem) {
-  /* line 19, user/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_breakpoints.scss */
   .g-contentcubes .cube-items-wrapper .cube-content-wrapper {
     max-width: 14.5rem;
   }
@@ -3200,7 +3193,6 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   transform-style: preserve-3d;
 }
 @media only all and (min-width: 75rem) {
-  /* line 4, user/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_breakpoints.scss */
   .g-owlcarousel .g-owlcarousel-item-wrapper .g-owlcarousel-item-content-container {
     width: 75rem;
   }
@@ -3480,18 +3472,19 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 .g-horizontalmenu li {
   display: inline-block;
   padding: 0 1rem;
+  letter-spacing: 6px;
 }
-/* line 16, user/themes/g5_helium/scss/helium/particles/_horizontalmenu.scss */
+/* line 17, user/themes/g5_helium/scss/helium/particles/_horizontalmenu.scss */
 .g-horizontalmenu li a {
   display: inline-block;
   padding: 0 0 0.5rem;
   margin-bottom: 0.5rem;
 }
-/* line 22, user/themes/g5_helium/scss/helium/particles/_horizontalmenu.scss */
+/* line 23, user/themes/g5_helium/scss/helium/particles/_horizontalmenu.scss */
 .g-horizontalmenu li:first-child {
   padding-left: 0;
 }
-/* line 26, user/themes/g5_helium/scss/helium/particles/_horizontalmenu.scss */
+/* line 27, user/themes/g5_helium/scss/helium/particles/_horizontalmenu.scss */
 .g-horizontalmenu li:last-child {
   padding-right: 0;
 }

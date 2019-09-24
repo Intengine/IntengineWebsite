@@ -1,8 +1,8 @@
 <?php
 return [
     'file' => 'gantry-theme://css-compiled/helium-grav__error.css',
-    'timestamp' => 1569251888,
-    'md5' => '2f9ec7a2548ce145afc9c9d266d72127',
+    'timestamp' => 1569347124,
+    'md5' => '5e20100fec94795a022154355020cdc9',
     'variables' => [
         'above-text-color' => '#ffffff',
         'accent-color-1' => '#ffffff',
@@ -30,6 +30,7 @@ return [
         'link-hover' => '#60606e',
         'menu-col-width' => '180px',
         'menu-animation' => '\'g-fade\'',
+        'navigation-background' => 'rgba(0, 0, 0, 0)',
         'navigation-text-color' => '#ffffff',
         'offcanvas-text-color' => '#ffffff',
         'offcanvas-toggle-color' => '#ffffff',

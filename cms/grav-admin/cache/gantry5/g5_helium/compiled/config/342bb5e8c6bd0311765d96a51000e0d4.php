@@ -1,153 +1,153 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1568996191,
-    'checksum' => '0acf422a707b9c72887fecd13da979e6',
+    'timestamp' => 1569347122,
+    'checksum' => '0caf7e7f2b4c619bea1d1cef95823df8',
     'files' => [
         'user/data/gantry5/themes/g5_helium/config/_body_only' => [
             'index' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/_body_only/index.yaml',
-                'modified' => 1568995452
+                'modified' => 1569252667
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/_body_only/layout.yaml',
-                'modified' => 1568995193
+                'modified' => 1569251813
             ]
         ],
         'user/data/gantry5/themes/g5_helium/config/default' => [
             'index' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/index.yaml',
-                'modified' => 1568996041
+                'modified' => 1569346454
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-                'modified' => 1568996041
+                'modified' => 1569346454
             ],
             'page/assets' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/assets.yaml',
-                'modified' => 1568995193
+                'modified' => 1569345391
             ],
             'page/body' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/body.yaml',
-                'modified' => 1568995193
+                'modified' => 1569345391
             ],
             'page/head' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/head.yaml',
-                'modified' => 1568995193
+                'modified' => 1569345391
             ],
             'particles/branding' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/branding.yaml',
-                'modified' => 1568996026
+                'modified' => 1569346024
             ],
             'particles/content' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/content.yaml',
-                'modified' => 1568996026
+                'modified' => 1569346024
             ],
             'particles/contentarray' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/contentarray.yaml',
-                'modified' => 1568996026
+                'modified' => 1569346024
             ],
             'particles/contentcubes' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/contentcubes.yaml',
-                'modified' => 1568996026
+                'modified' => 1569346024
             ],
             'particles/contenttabs' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/contenttabs.yaml',
-                'modified' => 1568996026
+                'modified' => 1569346024
             ],
             'particles/copyright' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/copyright.yaml',
-                'modified' => 1568996026
+                'modified' => 1569346024
             ],
             'particles/custom' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/custom.yaml',
-                'modified' => 1568996026
+                'modified' => 1569346024
             ],
             'particles/date' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/date.yaml',
-                'modified' => 1568996026
+                'modified' => 1569346024
             ],
             'particles/gp_iconblock1' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/gp_iconblock1.yaml',
-                'modified' => 1568996026
+                'modified' => 1569346024
             ],
             'particles/horizontalmenu' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/horizontalmenu.yaml',
-                'modified' => 1568996026
+                'modified' => 1569346024
             ],
             'particles/jldivider' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/jldivider.yaml',
-                'modified' => 1568996026
+                'modified' => 1569346024
             ],
             'particles/login' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/login.yaml',
-                'modified' => 1568996026
+                'modified' => 1569346024
             ],
             'particles/logo' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/logo.yaml',
-                'modified' => 1568996026
+                'modified' => 1569346024
             ],
             'particles/menu' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/menu.yaml',
-                'modified' => 1568996026
+                'modified' => 1569346024
             ],
             'particles/messages' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/messages.yaml',
-                'modified' => 1568996026
+                'modified' => 1569346024
             ],
             'particles/mobile-menu' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/mobile-menu.yaml',
-                'modified' => 1568996026
+                'modified' => 1569346024
             ],
             'particles/owlcarousel' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/owlcarousel.yaml',
-                'modified' => 1568996026
+                'modified' => 1569346024
             ],
             'particles/position' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/position.yaml',
-                'modified' => 1568996026
+                'modified' => 1569346024
             ],
             'particles/social' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/social.yaml',
-                'modified' => 1568996026
+                'modified' => 1569346024
             ],
             'particles/spacer' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/spacer.yaml',
-                'modified' => 1568996026
+                'modified' => 1569346024
             ],
             'particles/totop' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/totop.yaml',
-                'modified' => 1568996026
+                'modified' => 1569346024
             ],
             'styles' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/styles.yaml',
-                'modified' => 1568995713
+                'modified' => 1569347120
             ]
         ],
         'user/themes/g5_helium/config/default' => [
             'page/body' => [
                 'file' => 'user/themes/g5_helium/config/default/page/body.yaml',
-                'modified' => 1568995194
+                'modified' => 1569251814
             ],
             'particles/branding' => [
                 'file' => 'user/themes/g5_helium/config/default/particles/branding.yaml',
-                'modified' => 1568995194
+                'modified' => 1569251814
             ],
             'particles/copyright' => [
                 'file' => 'user/themes/g5_helium/config/default/particles/copyright.yaml',
-                'modified' => 1568995194
+                'modified' => 1569251814
             ],
             'particles/logo' => [
                 'file' => 'user/themes/g5_helium/config/default/particles/logo.yaml',
-                'modified' => 1568995194
+                'modified' => 1569251814
             ],
             'particles/social' => [
                 'file' => 'user/themes/g5_helium/config/default/particles/social.yaml',
-                'modified' => 1568995194
+                'modified' => 1569251814
             ],
             'particles/totop' => [
                 'file' => 'user/themes/g5_helium/config/default/particles/totop.yaml',
-                'modified' => 1568995194
+                'modified' => 1569251814
             ]
         ]
     ],
@@ -158,7 +158,7 @@ return [
                     'type' => 'static'
                 ],
                 'enabled' => '1',
-                'icon_opacity' => '0.6',
+                'icon_opacity' => '0.4',
                 'text_color' => '',
                 'text_align' => 'center',
                 'heading_title_tag' => 'h1',
@@ -276,10 +276,10 @@ return [
                 'items' => [
                     0 => [
                         'class' => '',
-                        'image' => 'gantry-media://g5_helium/above/slider1.jpg',
+                        'image' => 'gantry-media://above/slider2.jpg',
                         'title' => '<h1>Graphic Designer</h1>',
                         'desc' => 'Photoshop, InDesign, Illustrator, UX / UI and more...',
-                        'link' => 'http://www.google.pl',
+                        'link' => '#g-intro',
                         'linktext' => 'read more',
                         'buttonclass' => 'button-outline',
                         'disable' => '0',
@@ -289,23 +289,12 @@ return [
                         'class' => '',
                         'image' => 'gantry-media://above/slider1.jpg',
                         'title' => '<h1>Movie Director</h1>',
-                        'desc' => 'After Effects, Final Cut Pro X, Motion and more...',
-                        'link' => 'http://www.google.pl',
+                        'desc' => 'Final Cut Pro X, After Effects, 3D Animation and more...',
+                        'link' => '#g-intro',
                         'linktext' => 'read more',
                         'buttonclass' => 'button-outline',
                         'disable' => '0',
                         'name' => 'Movie Director'
-                    ],
-                    2 => [
-                        'class' => '',
-                        'image' => 'gantry-media://above/slider1.jpg',
-                        'title' => '<h1>Game Developer</h1>',
-                        'desc' => 'Unity 3D, Unreal Engine 4, GODOT and more...',
-                        'link' => 'http://www.google.pl',
-                        'linktext' => 'read more',
-                        'buttonclass' => 'button-outline',
-                        'disable' => '0',
-                        'name' => 'Game Developer'
                     ]
                 ]
             ],
@@ -378,22 +367,18 @@ return [
                 'title' => '',
                 'items' => [
                     0 => [
-                        'icon' => 'fa fa-twitter fa-fw',
-                        'text' => '',
-                        'link' => 'http://www.twitter.com/rockettheme',
-                        'name' => 'Twitter'
-                    ],
-                    1 => [
                         'icon' => 'fa fa-facebook fa-fw',
                         'text' => '',
-                        'link' => 'http://www.facebook.com/RocketTheme',
+                        'title' => '',
+                        'link' => 'http://www.facebook.com/sylwester.pilarz',
                         'name' => 'Facebook'
                     ],
-                    2 => [
-                        'icon' => 'fa fa-google-plus fa-fw',
+                    1 => [
+                        'icon' => 'fa fa-github',
                         'text' => '',
-                        'link' => 'https://plus.google.com/+rockettheme',
-                        'name' => 'Google+'
+                        'title' => '',
+                        'link' => 'http://www.github.com/intengine',
+                        'name' => 'GitHub'
                     ]
                 ]
             ],
@@ -418,6 +403,20 @@ return [
                 'enabled' => true,
                 'mobile' => 'disable',
                 'secondtrigger' => false
+            ],
+            'scrollreveal-js' => [
+                'enabled' => true,
+                'mobile' => 'false'
+            ],
+            'smoothscroll' => [
+                'enabled' => true,
+                'duration' => 900,
+                'easing' => 'swing'
+            ],
+            'wow-js' => [
+                'enabled' => true,
+                'offset' => '200',
+                'mobile' => 'true'
             ],
             'analytics' => [
                 'enabled' => true,
@@ -592,7 +591,7 @@ return [
                 'animation' => 'g-fade'
             ],
             'navigation' => [
-                'background' => '',
+                'background' => 'rgba(0, 0, 0, 0)',
                 'text-color' => '#ffffff'
             ],
             'offcanvas' => [
@@ -647,6 +646,26 @@ return [
                 'head_bottom' => '',
                 'atoms' => [
                     0 => [
+                        'id' => 'wow-js-3776',
+                        'type' => 'wow-js',
+                        'title' => 'WOW.js',
+                        'attributes' => [
+                            'enabled' => '1',
+                            'offset' => '200',
+                            'mobile' => 'true'
+                        ]
+                    ],
+                    1 => [
+                        'id' => 'smoothscroll-5768',
+                        'type' => 'smoothscroll',
+                        'title' => 'Smooth Scrolling',
+                        'attributes' => [
+                            'enabled' => '1',
+                            'duration' => '900',
+                            'easing' => 'swing'
+                        ]
+                    ],
+                    2 => [
                         'id' => 'fixed-header-1886',
                         'type' => 'fixed-header',
                         'title' => 'Fixed Header',
@@ -658,13 +677,19 @@ return [
                             'secondoffset' => ''
                         ]
                     ],
-                    1 => [
-                        'title' => 'Custom CSS / JS',
+                    3 => [
+                        'id' => 'assets-3348',
                         'type' => 'assets',
+                        'title' => 'Custom CSS / JS',
                         'attributes' => [
-                            'enabled' => true
-                        ],
-                        'id' => 'assets-3348'
+                            'enabled' => '1',
+                            'css' => [
+                                
+                            ],
+                            'javascript' => [
+                                
+                            ]
+                        ]
                     ]
                 ]
             ]
@@ -736,7 +761,7 @@ return [
         ],
         'index' => [
             'name' => '_body_only',
-            'timestamp' => 1568995193,
+            'timestamp' => 1569251813,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/body-only.png',
@@ -829,116 +854,66 @@ return [
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>'
                     ],
                     'block' => [
+                        'class' => 'wow fadeInDown',
                         'variations' => 'center title-center'
                     ]
                 ],
                 'gp_iconblock1-7932' => [
                     'title' => 'Gp Icon Block 1',
                     'attributes' => [
-                        'class' => '',
+                        'class' => 'wow fadeInUp',
                         'icon_opacity' => '1',
                         'text_color' => '',
                         'font_size' => '',
                         'text_align' => 'center',
                         'padding' => '',
                         'mobile_padding' => '',
-                        'heading_title' => 'FEATURES',
+                        'heading_title' => 'WHAT WE DO',
                         'heading_title_tag' => 'h1',
                         'heading_desc' => '',
                         'heading_text_align' => 'center',
                         'columns' => '33-3',
                         'gp_items' => [
                             0 => [
-                                'icon' => 'fa fa-apple fa-lg',
+                                'icon' => 'fa fa-desktop fa-lg',
                                 'icon_color' => '',
-                                'title' => 'APPLE',
-                                'description' => 'Lorem Ipsum',
-                                'class' => '',
-                                'variations' => '',
-                                'name' => 'New item'
+                                'title' => 'WEB DESIGN',
+                                'description' => '- HTML5<br>
+- CSS3 + Bootstrap 4<br>
+- JavaScript<br>
+- CMS (Grav + Gantry5, Drupal 8)<br>',
+                                'class' => 'features',
+                                'variations' => 'center',
+                                'name' => 'Web Design'
                             ],
                             1 => [
-                                'icon' => 'fa fa-automobile',
+                                'icon' => 'fa fa-paint-brush',
                                 'icon_color' => '',
-                                'title' => 'CAR',
-                                'description' => 'Ipsum Lorem',
-                                'class' => '',
+                                'title' => 'GRAPHIC DESIGN',
+                                'description' => '- DTP<br>
+- 3D visualisation<br>
+- Illustration<br>
+- Animation (2D / 3D)',
+                                'class' => 'features',
                                 'variations' => '',
-                                'name' => 'New item'
+                                'name' => 'Graphic Design'
                             ],
                             2 => [
                                 'icon' => 'fa fa-camera',
                                 'icon_color' => '',
-                                'title' => 'NIKON',
-                                'description' => 'Aparat & Camera',
-                                'class' => '',
+                                'title' => 'PHOTOGRAPHY',
+                                'description' => '- Movie editing<br>
+- Photomanipulation<br>
+- Landscapes<br>
+- Color correction',
+                                'class' => 'features',
                                 'variations' => '',
-                                'name' => 'New item'
+                                'name' => 'Photography'
                             ]
                         ],
                         'button_text' => '',
                         'button_url' => '',
                         'button_class' => ''
-                    ]
-                ],
-                'jldivider-2272' => [
-                    'title' => 'JL Divider',
-                    'attributes' => [
-                        'divider_style' => 'vertical',
-                        'divider_element' => 'hr',
-                        'divider_align' => 'center',
-                        'divider_breakpoint' => 'always',
-                        'divider_fallback' => 'center',
-                        'class' => '',
-                        'particle_title' => '',
-                        'particle_title_style' => 'h3',
-                        'particle_title_decoration' => 'bullet',
-                        'particle_title_align' => 'center',
-                        'particle_predefined_color' => 'default',
-                        'particle_title_color' => '',
-                        'particle_title_fontsize' => '',
-                        'particle_title_element' => 'h3',
-                        'align' => 'inherit',
-                        'breakpoint' => 'always',
-                        'fallback' => 'inherit',
-                        'g_maxwidth' => 'inherit',
-                        'g_maxwidth_alignment' => 'left',
-                        'g_maxwidth_breakpoint' => 'always',
-                        'margin' => 'inherit',
-                        'visibility' => 'inherit',
-                        'animation' => 'inherit',
-                        'animation_delay' => '',
-                        'animation_repeat' => 'disabled',
-                        'pa_horizontal_start' => '',
-                        'pa_horizontal_end' => '',
-                        'pa_vertical_start' => '',
-                        'pa_vertical_end' => '',
-                        'scale_start' => '',
-                        'scale_end' => '',
-                        'rotate_start' => '',
-                        'rotate_end' => '',
-                        'opacity_start' => '',
-                        'opacity_end' => '',
-                        'easing' => '',
-                        'pa_viewport' => '',
-                        'pa_breakpoint' => 'always',
-                        'parallax_image' => '',
-                        'background_image_size' => 'auto',
-                        'background_image_position' => 'center-center',
-                        'parallax_bg_breakpoint' => 'always',
-                        'parallax_bg_visibility' => 'always',
-                        'parallax_bg_color' => '',
-                        'blendmode' => 'inherit',
-                        'parallax_bg_overlay' => '',
-                        'horizontal_start' => '0',
-                        'horizontal_end' => '0',
-                        'vertical_start' => '0',
-                        'vertical_end' => '0',
-                        'container' => '0',
-                        'viewport_height' => 'none',
-                        'padding' => 'default',
-                        'vertical_alignment' => 'none',
-                        'parallax_text_color' => 'default'
                     ]
                 ],
                 'position-position-4734' => [
