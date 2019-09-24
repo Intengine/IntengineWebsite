@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledBlueprints',
-    'timestamp' => 1569257633,
-    'checksum' => '50cd3f1349e2fa8ac08bff6f0b8e93eb',
+    'timestamp' => 1569345127,
+    'checksum' => 'da9d507b2caa8665b2275b0fec07c3b3',
     'files' => [
         'user/data/gantry5/themes/g5_helium/particles' => [
             'particles/fixed-header' => [
@@ -16,6 +16,10 @@ return [
             'particles/jldivider' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/particles/jldivider.yaml',
                 'modified' => 1569251813
+            ],
+            'particles/jlvideobackground' => [
+                'file' => 'user/data/gantry5/themes/g5_helium/particles/jlvideobackground.yaml',
+                'modified' => 1564679258
             ],
             'particles/scrollreveal-js' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/particles/scrollreveal-js.yaml',
@@ -1167,6 +1171,139 @@ return [
                 'label' => 'Parallax Background',
                 'overridable' => false,
                 'name' => 'particles.jldivider._tab_parallax'
+            ],
+            'particles.jlvideobackground' => [
+                'type' => '_root',
+                'form_field' => false,
+                'form' => [
+                    'overrideable' => false
+                ]
+            ],
+            'particles.jlvideobackground.enabled' => [
+                'type' => 'input.checkbox',
+                'label' => 'Enabled',
+                'description' => 'Globally enable to the particles.',
+                'default' => true,
+                'name' => 'particles.jlvideobackground.enabled'
+            ],
+            'particles.jlvideobackground.items' => [
+                'type' => 'collection.list',
+                'array' => true,
+                'label' => 'Items',
+                'description' => 'Create a list of items.',
+                'value' => 'name',
+                'ajax' => true,
+                'name' => 'particles.jlvideobackground.items'
+            ],
+            'particles.jlvideobackground.items.*' => [
+                'type' => '_parent',
+                'name' => 'particles.jlvideobackground.items.*',
+                'form_field' => false
+            ],
+            'particles.jlvideobackground.items.*.element' => [
+                'type' => 'input.text',
+                'label' => 'Element ID',
+                'description' => 'Enter your unique section/element id to display the video as background.',
+                'name' => 'particles.jlvideobackground.items.*.element'
+            ],
+            'particles.jlvideobackground.items.*.url' => [
+                'type' => 'input.text',
+                'label' => 'URL',
+                'description' => 'Enter the Youtube URL of the page containing the video, the short URL or the video <b>ID</b>. https://www.youtube.com/watch?v=<b>ID</b>. Example, <b>ID</b> of https://www.youtube.com/watch?v=<b>bMv_4enya6E</b>, so the video id is <b>bMv_4enya6E</v>',
+                'name' => 'particles.jlvideobackground.items.*.url'
+            ],
+            'particles.jlvideobackground.items.*.vol' => [
+                'type' => 'input.number',
+                'label' => 'Volume',
+                'min' => 0,
+                'max' => 100,
+                'description' => 'Set the volume level of the video (1 to 100, 0 to mute the video).',
+                'default' => 80,
+                'name' => 'particles.jlvideobackground.items.*.vol'
+            ],
+            'particles.jlvideobackground.items.*.start' => [
+                'type' => 'input.number',
+                'label' => 'Start at',
+                'description' => 'Set the seconds the video should start at.',
+                'default' => 0,
+                'name' => 'particles.jlvideobackground.items.*.start'
+            ],
+            'particles.jlvideobackground.items.*.addraster' => [
+                'type' => 'input.checkbox',
+                'label' => 'Add Raster',
+                'description' => 'Show or hide a raster image over the video.',
+                'default' => false,
+                'name' => 'particles.jlvideobackground.items.*.addraster'
+            ],
+            'particles.jlvideobackground.items.*.controls' => [
+                'type' => 'input.checkbox',
+                'label' => 'Show Controls',
+                'description' => 'Show or hide the player controls.',
+                'default' => false,
+                'name' => 'particles.jlvideobackground.items.*.controls'
+            ],
+            'particles.jlvideobackground.items.*.autoplay' => [
+                'type' => 'input.checkbox',
+                'label' => 'Autoplay',
+                'description' => 'Auto play the video once ready.',
+                'default' => true,
+                'name' => 'particles.jlvideobackground.items.*.autoplay'
+            ],
+            'particles.jlvideobackground.items.*.loop' => [
+                'type' => 'input.number',
+                'label' => 'Loop',
+                'description' => 'How many times the video should loops once ended.',
+                'default' => 0,
+                'name' => 'particles.jlvideobackground.items.*.loop'
+            ],
+            'particles.jlvideobackground.items.*.logo' => [
+                'type' => 'input.checkbox',
+                'label' => 'Show Youtube logo',
+                'description' => 'Show the YT logo and the link to the original video URL.',
+                'default' => false,
+                'name' => 'particles.jlvideobackground.items.*.logo'
+            ],
+            'particles.jlvideobackground.items.*.stopvideo' => [
+                'type' => 'input.checkbox',
+                'label' => 'Pause video',
+                'description' => 'Pause the video when the window loose focus.',
+                'default' => true,
+                'name' => 'particles.jlvideobackground.items.*.stopvideo'
+            ],
+            'particles.jlvideobackground.items.*.quality' => [
+                'type' => 'select.select',
+                'label' => 'Quality',
+                'description' => 'Select the quality of the video.',
+                'default' => 'best',
+                'options' => [
+                    'default' => 'Default',
+                    'small' => 'Small',
+                    'medium' => 'Medium',
+                    'large' => 'Large',
+                    'hd720' => 'HD720p',
+                    'hd1080' => 'HD1080p',
+                    'highres' => 'High Resolution'
+                ],
+                'name' => 'particles.jlvideobackground.items.*.quality'
+            ],
+            'particles.jlvideobackground.items.*.ratio' => [
+                'type' => 'select.select',
+                'label' => 'Ratio',
+                'description' => 'Select the aspect ratio of the movie.',
+                'default' => 'auto',
+                'options' => [
+                    'auto' => 'Auto',
+                    '4/3' => '4/3',
+                    '16/9' => '16/9'
+                ],
+                'name' => 'particles.jlvideobackground.items.*.ratio'
+            ],
+            'particles.jlvideobackground.items.*.opacity' => [
+                'type' => 'input.text',
+                'label' => 'Opacity',
+                'description' => 'Define the opacity of the video (0 to 1).',
+                'default' => 1,
+                'name' => 'particles.jlvideobackground.items.*.opacity'
             ],
             'particles.scrollreveal-js' => [
                 'type' => '_root',
@@ -5092,6 +5229,26 @@ return [
                     'padding' => 'particles.jldivider.padding',
                     'vertical_alignment' => 'particles.jldivider.vertical_alignment',
                     'parallax_text_color' => 'particles.jldivider.parallax_text_color'
+                ],
+                'jlvideobackground' => [
+                    'enabled' => 'particles.jlvideobackground.enabled',
+                    'items' => [
+                        '*' => [
+                            'element' => 'particles.jlvideobackground.items.*.element',
+                            'url' => 'particles.jlvideobackground.items.*.url',
+                            'vol' => 'particles.jlvideobackground.items.*.vol',
+                            'start' => 'particles.jlvideobackground.items.*.start',
+                            'addraster' => 'particles.jlvideobackground.items.*.addraster',
+                            'controls' => 'particles.jlvideobackground.items.*.controls',
+                            'autoplay' => 'particles.jlvideobackground.items.*.autoplay',
+                            'loop' => 'particles.jlvideobackground.items.*.loop',
+                            'logo' => 'particles.jlvideobackground.items.*.logo',
+                            'stopvideo' => 'particles.jlvideobackground.items.*.stopvideo',
+                            'quality' => 'particles.jlvideobackground.items.*.quality',
+                            'ratio' => 'particles.jlvideobackground.items.*.ratio',
+                            'opacity' => 'particles.jlvideobackground.items.*.opacity'
+                        ]
+                    ]
                 ],
                 'scrollreveal-js' => [
                     'enabled' => 'particles.scrollreveal-js.enabled',

@@ -2,9 +2,9 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/data/feed/9292e04d7d7733bcbfbb7f4c1bcd1f6d.yaml',
-    'modified' => 1569251813,
+    'modified' => 1569251922,
     'data' => [
-        'last_checked' => 1569243819,
+        'last_checked' => 1569251922,
         'data' => [
             0 => [
                 'title' => 'Grav 1.6 Released!',

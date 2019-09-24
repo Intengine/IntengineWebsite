@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'gantry-theme://config/default/page/head.yaml',
-    'modified' => 1569256935,
+    'modified' => 1569345127,
     'data' => [
         'meta' => [
             
@@ -20,12 +20,13 @@ return [
                 ]
             ],
             1 => [
-                'id' => 'scrollreveal-js-9593',
-                'type' => 'scrollreveal-js',
-                'title' => 'ScrollReveal.js',
+                'id' => 'smoothscroll-5768',
+                'type' => 'smoothscroll',
+                'title' => 'Smooth Scrolling',
                 'attributes' => [
-                    'enabled' => '0',
-                    'mobile' => 'false'
+                    'enabled' => '1',
+                    'duration' => '900',
+                    'easing' => 'swing'
                 ]
             ],
             2 => [
@@ -53,6 +54,12 @@ return [
                         
                     ]
                 ]
+            ],
+            4 => [
+                'title' => 'JL Video Background',
+                'type' => 'jlvideobackground',
+                'attributes' => NULL,
+                'id' => 'jlvideobackground-9272'
             ]
         ]
     ]

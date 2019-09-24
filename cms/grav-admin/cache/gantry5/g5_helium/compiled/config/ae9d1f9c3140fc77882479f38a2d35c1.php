@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1569257639,
-    'checksum' => 'c7b6aa11118ab9ace2bbb9f81c82454f',
+    'timestamp' => 1569345393,
+    'checksum' => '3cb49ef4cc72316ab418b762611492ed',
     'files' => [
         'user/data/gantry5/themes/g5_helium/config/_error' => [
             'index' => [
@@ -25,15 +25,15 @@ return [
             ],
             'page/assets' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/assets.yaml',
-                'modified' => 1569257633
+                'modified' => 1569345391
             ],
             'page/body' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/body.yaml',
-                'modified' => 1569257633
+                'modified' => 1569345391
             ],
             'page/head' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/head.yaml',
-                'modified' => 1569257633
+                'modified' => 1569345391
             ],
             'particles/branding' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/branding.yaml',
@@ -392,6 +392,9 @@ return [
                 'enabled' => true,
                 'mobile' => 'disable',
                 'secondtrigger' => false
+            ],
+            'jlvideobackground' => [
+                'enabled' => true
             ],
             'scrollreveal-js' => [
                 'enabled' => true,

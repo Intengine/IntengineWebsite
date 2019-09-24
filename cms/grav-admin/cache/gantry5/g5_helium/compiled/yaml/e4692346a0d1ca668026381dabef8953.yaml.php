@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/config/default/page/assets.yaml',
-    'modified' => 1569257633,
+    'modified' => 1569345391,
     'data' => [
         'favicon' => '/Users/mac/Desktop/IntengineWebsite/strona/img/icons/favicon.png',
         'touchicon' => '',
