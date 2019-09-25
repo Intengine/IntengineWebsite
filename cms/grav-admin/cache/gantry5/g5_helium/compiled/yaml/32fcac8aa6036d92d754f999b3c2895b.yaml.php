@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'gantry-admin://blueprints/layout/section.yaml',
-    'modified' => 1569251814,
+    'modified' => 1569407019,
     'data' => [
         'name' => 'Section',
         'description' => 'Layout section.',

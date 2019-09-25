@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/core-service-manager/core-service-manager.yaml',
-    'modified' => 1569235743,
+    'modified' => 1569407019,
     'data' => [
         'enabled' => true,
         'override_admin_twigs' => true,

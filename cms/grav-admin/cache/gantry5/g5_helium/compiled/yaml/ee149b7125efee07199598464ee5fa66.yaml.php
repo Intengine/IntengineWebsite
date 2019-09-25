@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/themes/g5_helium/blueprints/styles/footer.yaml',
-    'modified' => 1569222455,
+    'modified' => 1569407020,
     'data' => [
         'name' => 'Footer Styles',
         'description' => 'Footer section styles for the Helium theme',

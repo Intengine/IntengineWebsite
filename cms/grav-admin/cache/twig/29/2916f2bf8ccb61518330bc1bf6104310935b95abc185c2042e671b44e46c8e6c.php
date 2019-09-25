@@ -318,6 +318,6 @@ class __TwigTemplate_80ac095c1bef2169938f0e42fca657cb04f93a81f3fbc4489a57b0f4d5d
         });
     </script>
 {% endblock %}
-", "@particles/owlcarousel.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/themes/g5_helium/particles/owlcarousel.html.twig");
+", "@particles/owlcarousel.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/themes/g5_helium/particles/owlcarousel.html.twig");
     }
 }

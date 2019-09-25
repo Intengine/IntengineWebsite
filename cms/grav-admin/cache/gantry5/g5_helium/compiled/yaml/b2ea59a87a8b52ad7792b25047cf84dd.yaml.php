@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-    'modified' => 1569246301,
+    'modified' => 1569416756,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -14,8 +14,8 @@ return [
             '/navigation/' => [
                 0 => [
                     0 => 'logo-9322 33',
-                    1 => 'menu-6409 34',
-                    2 => 'social-3171 32.9'
+                    1 => 'menu-6409 50',
+                    2 => 'social-3171 16.9'
                 ]
             ],
             '/header/' => [
@@ -34,7 +34,19 @@ return [
                 ]
             ],
             '/utility/' => [
-                
+                0 => [
+                    0 => 'custom-7633'
+                ],
+                1 => [
+                    0 => 'logo-5608 33.3',
+                    1 => 'logo-1564 33.3',
+                    2 => 'logo-3491 33.3'
+                ],
+                2 => [
+                    0 => 'logo-9072 33.3',
+                    1 => 'logo-9887 33.3',
+                    2 => 'logo-8101 33.3'
+                ]
             ],
             '/above/' => [
                 
@@ -87,7 +99,9 @@ return [
             'navigation' => [
                 'type' => 'section',
                 'attributes' => [
-                    'boxed' => ''
+                    'boxed' => '',
+                    'class' => '',
+                    'variations' => ''
                 ]
             ],
             'header' => [
@@ -115,7 +129,8 @@ return [
                 'type' => 'section',
                 'attributes' => [
                     'boxed' => '',
-                    'class' => ''
+                    'class' => '',
+                    'variations' => 'nopaddingall nomarginall'
                 ]
             ],
             'above' => [
@@ -222,18 +237,14 @@ return [
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>'
                 ],
                 'block' => [
-                    'variations' => 'center title-center',
-                    'extra' => [
-                        0 => [
-                            'data-sr' => 'enter bottom and move 50px after 1s'
-                        ]
-                    ]
+                    'class' => 'wow fadeInDown',
+                    'variations' => 'center title-center'
                 ]
             ],
             'gp_iconblock1-7932' => [
                 'title' => 'Gp Icon Block 1',
                 'attributes' => [
-                    'class' => '',
+                    'class' => 'wow fadeInUp',
                     'icon_opacity' => '1',
                     'text_color' => '',
                     'font_size' => '',
@@ -286,6 +297,69 @@ return [
                     'button_text' => '',
                     'button_url' => '',
                     'button_class' => ''
+                ]
+            ],
+            'custom-7633' => [
+                'title' => 'Custom HTML',
+                'attributes' => [
+                    'html' => '<h1>PORTFOLIO</h1>'
+                ],
+                'block' => [
+                    'class' => 'wow fadeInUp'
+                ]
+            ],
+            'logo-5608' => [
+                'title' => 'Logo / Image',
+                'attributes' => [
+                    'image' => 'gantry-media://media/thumb-3dm.png'
+                ],
+                'block' => [
+                    'class' => 'wow fadeInLeft'
+                ]
+            ],
+            'logo-1564' => [
+                'title' => 'Logo / Image',
+                'attributes' => [
+                    'image' => 'gantry-media://media/thumb-3g2.png'
+                ],
+                'block' => [
+                    'class' => 'wow fadeInUp'
+                ]
+            ],
+            'logo-3491' => [
+                'title' => 'Logo / Image',
+                'attributes' => [
+                    'image' => 'gantry-media://media/thumb-ai.png'
+                ],
+                'block' => [
+                    'class' => 'wow fadeInRight'
+                ]
+            ],
+            'logo-9072' => [
+                'title' => 'Logo / Image',
+                'attributes' => [
+                    'image' => 'gantry-media://media/thumb-asx.png'
+                ],
+                'block' => [
+                    'class' => 'wow fadeInLeft'
+                ]
+            ],
+            'logo-9887' => [
+                'title' => 'Logo / Image',
+                'attributes' => [
+                    'image' => 'gantry-media://media/thumb-com.png'
+                ],
+                'block' => [
+                    'class' => 'wow fadeInUp'
+                ]
+            ],
+            'logo-8101' => [
+                'title' => 'Logo / Image',
+                'attributes' => [
+                    'image' => 'gantry-media://media/thumb-csr.png'
+                ],
+                'block' => [
+                    'class' => 'wow fadeInRight'
                 ]
             ],
             'position-position-4734' => [

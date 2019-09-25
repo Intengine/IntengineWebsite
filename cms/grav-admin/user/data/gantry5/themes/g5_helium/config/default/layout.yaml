@@ -81,6 +81,7 @@ structure:
     attributes:
       boxed: ''
       class: ''
+      variations: 'nopaddingall nomarginall'
   above:
     type: section
     attributes:
@@ -202,30 +203,44 @@ content:
     title: 'Custom HTML'
     attributes:
       html: '<h1>PORTFOLIO</h1>'
+    block:
+      class: 'wow fadeInUp'
   logo-5608:
     title: 'Logo / Image'
     attributes:
       image: 'gantry-media://media/thumb-3dm.png'
+    block:
+      class: 'wow fadeInLeft'
   logo-1564:
     title: 'Logo / Image'
     attributes:
       image: 'gantry-media://media/thumb-3g2.png'
+    block:
+      class: 'wow fadeInUp'
   logo-3491:
     title: 'Logo / Image'
     attributes:
       image: 'gantry-media://media/thumb-ai.png'
+    block:
+      class: 'wow fadeInRight'
   logo-9072:
     title: 'Logo / Image'
     attributes:
       image: 'gantry-media://media/thumb-asx.png'
+    block:
+      class: 'wow fadeInLeft'
   logo-9887:
     title: 'Logo / Image'
     attributes:
       image: 'gantry-media://media/thumb-com.png'
+    block:
+      class: 'wow fadeInUp'
   logo-8101:
     title: 'Logo / Image'
     attributes:
       image: 'gantry-media://media/thumb-csr.png'
+    block:
+      class: 'wow fadeInRight'
   position-position-4734:
     title: Aside
     attributes:
