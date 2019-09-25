@@ -1,17 +1,17 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1569416759,
-    'checksum' => '27c3bc0742b592d6e42b751e0271730f',
+    'timestamp' => 1569418107,
+    'checksum' => '8a117a3d34ae429bfc9cc00a292e90e8',
     'files' => [
         'user/data/gantry5/themes/g5_helium/config/default' => [
             'index' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/index.yaml',
-                'modified' => 1569416756
+                'modified' => 1569418103
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-                'modified' => 1569416756
+                'modified' => 1569418103
             ],
             'page/assets' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/assets.yaml',
@@ -195,6 +195,48 @@ return [
                 'padding' => 'default',
                 'vertical_alignment' => 'none',
                 'parallax_text_color' => 'default'
+            ],
+            'logo-image-hover' => [
+                'caching' => [
+                    'type' => 'static'
+                ],
+                'enabled' => true,
+                'css' => [
+                    'class' => 'g-logo'
+                ],
+                'render' => 'default',
+                'link' => [
+                    'enabled' => 1,
+                    'target' => 'none'
+                ],
+                'text' => [
+                    'position' => 'after',
+                    'style' => 'none'
+                ],
+                'image' => [
+                    'default' => [
+                        'lazy_load' => 0
+                    ],
+                    'hover' => [
+                        'lazy_load' => 0
+                    ]
+                ],
+                'effect' => [
+                    'overflow' => 0,
+                    'single' => 'none',
+                    'multi' => 't1'
+                ],
+                'js' => [
+                    'handle' => 'inline',
+                    'placement' => 'head',
+                    'priority' => 0,
+                    'option' => 'disabled',
+                    'path' => 'logo-image-hover.min.js',
+                    'execution' => 'both'
+                ],
+                'cdn' => [
+                    'base_url' => 'https://cdn.jsdelivr.net/gh/thexmanxyz/Logo-Image-Hover-Gantry@latest/src/js'
+                ]
             ],
             'contentcubes' => [
                 'caching' => [
@@ -751,7 +793,7 @@ return [
         ],
         'index' => [
             'name' => 'default',
-            'timestamp' => 1569416756,
+            'timestamp' => 1569418103,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -802,6 +844,9 @@ return [
                 ],
                 'gp_iconblock1' => [
                     'gp_iconblock1-7932' => 'Gp Icon Block 1'
+                ],
+                'logo-image-hover' => [
+                    'logo-image-hover-3607' => 'Logo | Image | Hover'
                 ],
                 'position' => [
                     'position-position-4734' => 'Aside',
@@ -873,7 +918,9 @@ return [
                     ]
                 ],
                 '/above/' => [
-                    
+                    0 => [
+                        0 => 'logo-image-hover-3607'
+                    ]
                 ],
                 '/testimonials/' => [
                     
@@ -1184,6 +1231,20 @@ return [
                     ],
                     'block' => [
                         'class' => 'wow fadeInRight'
+                    ]
+                ],
+                'logo-image-hover-3607' => [
+                    'title' => 'Logo | Image | Hover',
+                    'attributes' => [
+                        'image' => [
+                            'default' => [
+                                'url' => 'gantry-media://above/img02.jpeg'
+                            ]
+                        ],
+                        'effect' => [
+                            'overflow' => '1',
+                            'single' => 'h1'
+                        ]
                     ]
                 ],
                 'position-position-4734' => [

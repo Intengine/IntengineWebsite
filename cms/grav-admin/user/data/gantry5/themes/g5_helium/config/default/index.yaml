@@ -1,5 +1,5 @@
 name: default
-timestamp: 1569416756
+timestamp: 1569418103
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -42,6 +42,8 @@ particles:
     custom-7633: 'Custom HTML'
   gp_iconblock1:
     gp_iconblock1-7932: 'Gp Icon Block 1'
+  logo-image-hover:
+    logo-image-hover-3607: 'Logo | Image | Hover'
   position:
     position-position-4734: Aside
     position-position-3949: Sidebar

@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1569416759,
-    'checksum' => '4a9a591d8b05d829a114a31fbc7461e8',
+    'timestamp' => 1569418106,
+    'checksum' => '5d2fb749b71b8ffb812baeddd43b15fa',
     'files' => [
         'user/data/gantry5/themes/g5_helium/config/_error' => [
             'index' => [
@@ -17,11 +17,11 @@ return [
         'user/data/gantry5/themes/g5_helium/config/default' => [
             'index' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/index.yaml',
-                'modified' => 1569416756
+                'modified' => 1569418103
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-                'modified' => 1569416756
+                'modified' => 1569418103
             ],
             'page/assets' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/assets.yaml',
@@ -205,6 +205,48 @@ return [
                 'padding' => 'default',
                 'vertical_alignment' => 'none',
                 'parallax_text_color' => 'default'
+            ],
+            'logo-image-hover' => [
+                'caching' => [
+                    'type' => 'static'
+                ],
+                'enabled' => true,
+                'css' => [
+                    'class' => 'g-logo'
+                ],
+                'render' => 'default',
+                'link' => [
+                    'enabled' => 1,
+                    'target' => 'none'
+                ],
+                'text' => [
+                    'position' => 'after',
+                    'style' => 'none'
+                ],
+                'image' => [
+                    'default' => [
+                        'lazy_load' => 0
+                    ],
+                    'hover' => [
+                        'lazy_load' => 0
+                    ]
+                ],
+                'effect' => [
+                    'overflow' => 0,
+                    'single' => 'none',
+                    'multi' => 't1'
+                ],
+                'js' => [
+                    'handle' => 'inline',
+                    'placement' => 'head',
+                    'priority' => 0,
+                    'option' => 'disabled',
+                    'path' => 'logo-image-hover.min.js',
+                    'execution' => 'both'
+                ],
+                'cdn' => [
+                    'base_url' => 'https://cdn.jsdelivr.net/gh/thexmanxyz/Logo-Image-Hover-Gantry@latest/src/js'
+                ]
             ],
             'contentcubes' => [
                 'caching' => [

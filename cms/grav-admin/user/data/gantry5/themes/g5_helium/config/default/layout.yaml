@@ -29,7 +29,9 @@ layout:
       - 'logo-9072 33.3'
       - 'logo-9887 33.3'
       - 'logo-8101 33.3'
-  /above/: {  }
+  /above/:
+    -
+      - logo-image-hover-3607
   /testimonials/: {  }
   /expanded/: {  }
   /container-main/:
@@ -241,6 +243,15 @@ content:
       image: 'gantry-media://media/thumb-csr.png'
     block:
       class: 'wow fadeInRight'
+  logo-image-hover-3607:
+    title: 'Logo | Image | Hover'
+    attributes:
+      image:
+        default:
+          url: 'gantry-media://above/img02.jpeg'
+      effect:
+        overflow: '1'
+        single: h1
   position-position-4734:
     title: Aside
     attributes:

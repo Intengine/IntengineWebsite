@@ -94,7 +94,6 @@
   padding-right: 7rem;
 }
 @media only all and (min-width: 60rem) {
-  /* line 10, user/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_breakpoints.scss */
   .padding-horiz {
     padding-left: 4rem;
     padding-right: 4rem;
