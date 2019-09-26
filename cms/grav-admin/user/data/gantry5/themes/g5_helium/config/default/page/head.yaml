@@ -35,3 +35,10 @@ atoms:
       enabled: '1'
       css: {  }
       javascript: {  }
+  -
+    id: jluikit-8909
+    type: jluikit
+    title: 'UIkit3 for Gantry5'
+    attributes:
+      enabled: '1'
+      jslocation: footer

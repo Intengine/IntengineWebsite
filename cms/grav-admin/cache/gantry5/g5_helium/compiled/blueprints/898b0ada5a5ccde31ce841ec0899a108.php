@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledBlueprints',
-    'timestamp' => 1569498256,
-    'checksum' => '827b24a9581f906cc5a370bc7fede2f5',
+    'timestamp' => 1569499560,
+    'checksum' => 'a4a5c66b194c5d92a460bdf511a2bf48',
     'files' => [
         'user/data/gantry5/themes/g5_helium/particles' => [
             'particles/fixed-header' => [
@@ -16,6 +16,14 @@ return [
             'particles/jldivider' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/particles/jldivider.yaml',
                 'modified' => 1569407018
+            ],
+            'particles/jloverlay' => [
+                'file' => 'user/data/gantry5/themes/g5_helium/particles/jloverlay.yaml',
+                'modified' => 1564677114
+            ],
+            'particles/jluikit' => [
+                'file' => 'user/data/gantry5/themes/g5_helium/particles/jluikit.yaml',
+                'modified' => 1558036754
             ],
             'particles/scrollreveal-js' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/particles/scrollreveal-js.yaml',
@@ -1167,6 +1175,1327 @@ return [
                 'label' => 'Parallax Background',
                 'overridable' => false,
                 'name' => 'particles.jldivider._tab_parallax'
+            ],
+            'particles.jloverlay' => [
+                'type' => '_root',
+                'form_field' => false,
+                'form' => [
+                    'overrideable' => false
+                ]
+            ],
+            'particles.jloverlay.enabled' => [
+                'type' => 'input.checkbox',
+                'label' => 'Enabled',
+                'description' => 'Globally enable to the particles.',
+                'default' => true,
+                'name' => 'particles.jloverlay.enabled'
+            ],
+            'particles.jloverlay.image' => [
+                'type' => 'input.imagepicker',
+                'label' => 'Image',
+                'description' => 'An image field with an image picker.',
+                'name' => 'particles.jloverlay.image'
+            ],
+            'particles.jloverlay.image_alt' => [
+                'type' => 'input.text',
+                'label' => 'Image Alt',
+                'description' => 'Enter the image\'s alt attribute.',
+                'name' => 'particles.jloverlay.image_alt'
+            ],
+            'particles.jloverlay.title' => [
+                'type' => 'input.text',
+                'label' => 'Title',
+                'description' => 'Customize the Title.',
+                'name' => 'particles.jloverlay.title'
+            ],
+            'particles.jloverlay.meta' => [
+                'type' => 'input.text',
+                'label' => 'Meta',
+                'description' => 'Customize the Meta.',
+                'name' => 'particles.jloverlay.meta'
+            ],
+            'particles.jloverlay.content' => [
+                'type' => 'textarea.textarea',
+                'label' => 'Description',
+                'description' => 'Customize the description.',
+                'name' => 'particles.jloverlay.content'
+            ],
+            'particles.jloverlay.link' => [
+                'type' => 'input.text',
+                'label' => 'Link',
+                'description' => 'Enter the image\'s link if needed.',
+                'name' => 'particles.jloverlay.link'
+            ],
+            'particles.jloverlay.buttontext' => [
+                'type' => 'input.text',
+                'label' => 'Link Text',
+                'description' => 'Specify the button label.',
+                'name' => 'particles.jloverlay.buttontext'
+            ],
+            'particles.jloverlay.target' => [
+                'type' => 'select.selectize',
+                'label' => 'Target',
+                'description' => 'Target browser window when item is clicked.',
+                'default' => '_self',
+                'options' => [
+                    '_self' => 'Self',
+                    '_blank' => 'New Window'
+                ],
+                'name' => 'particles.jloverlay.target'
+            ],
+            'particles.jloverlay.hover_image' => [
+                'type' => 'input.imagepicker',
+                'label' => 'Hover Image',
+                'description' => 'Select an optional image that appears on hover.',
+                'name' => 'particles.jloverlay.hover_image'
+            ],
+            'particles.jloverlay.class' => [
+                'type' => 'input.selectize',
+                'label' => 'CSS Classes',
+                'description' => 'CSS class name for the particle.',
+                'name' => 'particles.jloverlay.class'
+            ],
+            'particles.jloverlay._tab_content' => [
+                'label' => 'Content',
+                'overridable' => false,
+                'name' => 'particles.jloverlay._tab_content'
+            ],
+            'particles.jloverlay.overlay_mode' => [
+                'type' => 'select.select',
+                'label' => 'Mode',
+                'description' => 'When using cover mode, you need to set the text color manually.',
+                'default' => 'cover',
+                'options' => [
+                    'cover' => 'Cover',
+                    'caption' => 'Caption'
+                ],
+                'name' => 'particles.jloverlay.overlay_mode'
+            ],
+            'particles.jloverlay.overlay_hover' => [
+                'type' => 'input.checkbox',
+                'label' => 'Overlay On Hover',
+                'description' => 'Display content overlay on hover.',
+                'default' => false,
+                'name' => 'particles.jloverlay.overlay_hover'
+            ],
+            'particles.jloverlay.overlay_style' => [
+                'type' => 'select.select',
+                'label' => 'Overlay Style',
+                'description' => 'Select the style for the overlay.',
+                'default' => 'jl-overlay-primary',
+                'options' => [
+                    'none' => 'None',
+                    'jl-overlay-default' => 'Overlay Default',
+                    'jl-overlay-primary' => 'Overlay Primary',
+                    'jl-tile-default' => 'Tile Default',
+                    'jl-tile-muted' => 'Tile Muted',
+                    'jl-tile-primary' => 'Tile Primary',
+                    'jl-tile-secondary' => 'Tile Secondary'
+                ],
+                'name' => 'particles.jloverlay.overlay_style'
+            ],
+            'particles.jloverlay.overlay_color' => [
+                'type' => 'select.select',
+                'label' => 'Color',
+                'description' => 'Set light or dark color mode.',
+                'default' => 'light',
+                'options' => [
+                    'default' => 'Default',
+                    'light' => 'Light',
+                    'dark' => 'Dark'
+                ],
+                'name' => 'particles.jloverlay.overlay_color'
+            ],
+            'particles.jloverlay.overlay_padding' => [
+                'type' => 'select.select',
+                'label' => 'Padding',
+                'description' => 'Set the padding between the overlay and its content.',
+                'default' => 'default',
+                'options' => [
+                    'default' => 'Default',
+                    'small' => 'Small',
+                    'remove' => 'None',
+                    'large' => 'Large'
+                ],
+                'name' => 'particles.jloverlay.overlay_padding'
+            ],
+            'particles.jloverlay.overlay_position' => [
+                'type' => 'select.select',
+                'label' => 'Position',
+                'description' => 'Set the padding between the overlay and its content.',
+                'default' => 'center',
+                'options' => [
+                    'top' => 'Top',
+                    'bottom' => 'Bottom',
+                    'left' => 'Left',
+                    'right' => 'Right',
+                    'top-left' => 'Top Left',
+                    'top-center' => 'Top Center',
+                    'top-right' => 'Top Right',
+                    'bottom-left' => 'Bottom Left',
+                    'bottom-center' => 'Bottom Center',
+                    'bottom-right' => 'Bottom Right',
+                    'center' => 'Center',
+                    'center-left' => 'Center Left',
+                    'center-right' => 'Center Right'
+                ],
+                'name' => 'particles.jloverlay.overlay_position'
+            ],
+            'particles.jloverlay.overlay_margin' => [
+                'type' => 'select.select',
+                'label' => 'Margin',
+                'description' => 'Apply a margin between the overlay and the image container IF the overlay style is Selected.',
+                'default' => 'none',
+                'options' => [
+                    'none' => 'None',
+                    'small' => 'Small',
+                    'medium' => 'Medium',
+                    'large' => 'Large'
+                ],
+                'name' => 'particles.jloverlay.overlay_margin'
+            ],
+            'particles.jloverlay.overlay_maxwidth' => [
+                'type' => 'select.select',
+                'label' => 'Max Width',
+                'description' => 'Set the maximum content width.',
+                'default' => 'none',
+                'options' => [
+                    'none' => 'None',
+                    'small' => 'Small',
+                    'medium' => 'Medium',
+                    'large' => 'Large',
+                    'xlarge' => 'X-Large'
+                ],
+                'name' => 'particles.jloverlay.overlay_maxwidth'
+            ],
+            'particles.jloverlay.overlay_transition' => [
+                'type' => 'select.select',
+                'label' => 'Overlay Transition',
+                'description' => 'Select a hover transition for the overlay.',
+                'default' => 'fade',
+                'options' => [
+                    'fade' => 'Fade',
+                    'scale-up' => 'Scale Up',
+                    'scale-down' => 'Scale Down',
+                    'slide-top-small' => 'Slide Top Small',
+                    'slide-bottom-small' => 'Slide Bottom Small',
+                    'slide-left-small' => 'Slide Left Small',
+                    'slide-right-small' => 'Slide Right Small',
+                    'slide-top-medium' => 'Slide Top Medium',
+                    'slide-bottom-medium' => 'Slide Bottom Medium',
+                    'slide-left-medium' => 'Slide Left Medium',
+                    'slide-right-medium' => 'Slide Right Medium',
+                    'slide-top' => 'Slide Top 100%',
+                    'slide-bottom' => 'Slide Bottom 100%',
+                    'slide-left' => 'Slide Left 100%',
+                    'slide-right' => 'Slide Right 100%'
+                ],
+                'name' => 'particles.jloverlay.overlay_transition'
+            ],
+            'particles.jloverlay._tab_overlay' => [
+                'label' => 'Overlay',
+                'overridable' => false,
+                'name' => 'particles.jloverlay._tab_overlay'
+            ],
+            'particles.jloverlay.image_transition' => [
+                'type' => 'select.select',
+                'label' => 'Image Transition',
+                'description' => 'Select a hover transition for the overlay.',
+                'default' => 'none',
+                'options' => [
+                    'none' => 'None (Fade if hover image)',
+                    'scale-up' => 'Scale Up',
+                    'scale-down' => 'Scale Down'
+                ],
+                'name' => 'particles.jloverlay.image_transition'
+            ],
+            'particles.jloverlay.box_shadow' => [
+                'type' => 'select.select',
+                'label' => 'Box Shadow',
+                'description' => 'Select the image\'s box shadow size.',
+                'default' => 'none',
+                'options' => [
+                    'none' => 'None',
+                    'small' => 'Small',
+                    'medium' => 'Medium',
+                    'large' => 'Large',
+                    'xlarge' => 'X-Large'
+                ],
+                'name' => 'particles.jloverlay.box_shadow'
+            ],
+            'particles.jloverlay.box_shadow_hover' => [
+                'type' => 'select.select',
+                'label' => 'Hover Box Shadow',
+                'description' => 'Select the image\'s box shadow size on hover.',
+                'default' => 'none',
+                'options' => [
+                    'none' => 'None',
+                    'small' => 'Small',
+                    'medium' => 'Medium',
+                    'large' => 'Large',
+                    'xlarge' => 'X-Large'
+                ],
+                'name' => 'particles.jloverlay.box_shadow_hover'
+            ],
+            'particles.jloverlay.image_width' => [
+                'type' => 'input.number',
+                'label' => 'Width',
+                'description' => 'Enter the image\'s width',
+                'min' => 0,
+                'name' => 'particles.jloverlay.image_width'
+            ],
+            'particles.jloverlay.image_height' => [
+                'type' => 'input.number',
+                'label' => 'Height',
+                'description' => 'Enter the image\'s height',
+                'min' => 0,
+                'name' => 'particles.jloverlay.image_height'
+            ],
+            'particles.jloverlay.title_transition' => [
+                'type' => 'select.select',
+                'label' => 'Transition',
+                'description' => 'Select a hover transition for the title.',
+                'default' => 'none',
+                'options' => [
+                    'none' => 'None',
+                    'fade' => 'Fade',
+                    'scale-up' => 'Scale Up',
+                    'scale-down' => 'Scale Down',
+                    'slide-top-small' => 'Slide Top Small',
+                    'slide-bottom-small' => 'Slide Bottom Small',
+                    'slide-left-small' => 'Slide Left Small',
+                    'slide-right-small' => 'Slide Right Small',
+                    'slide-top-medium' => 'Slide Top Medium',
+                    'slide-bottom-medium' => 'Slide Bottom Medium',
+                    'slide-left-medium' => 'Slide Left Medium',
+                    'slide-right-medium' => 'Slide Right Medium',
+                    'slide-top' => 'Slide Top 100%',
+                    'slide-bottom' => 'Slide Bottom 100%',
+                    'slide-left' => 'Slide Left 100%',
+                    'slide-right' => 'Slide Right 100%'
+                ],
+                'name' => 'particles.jloverlay.title_transition'
+            ],
+            'particles.jloverlay.title_style' => [
+                'type' => 'select.select',
+                'label' => 'Style',
+                'description' => 'Heading styles differ in font-size but may also come with a predefined color, size and font.',
+                'default' => 'h3',
+                'options' => [
+                    'default' => 'Default',
+                    'heading-small' => 'Small',
+                    'heading-medium' => 'Medium',
+                    'heading-large' => 'Large',
+                    'heading-xlarge' => 'XLarge',
+                    'heading-2xlarge' => '2XLarge',
+                    'h1' => 'H1',
+                    'h2' => 'H2',
+                    'h3' => 'H3',
+                    'h4' => 'H4',
+                    'h5' => 'H5',
+                    'h6' => 'H6'
+                ],
+                'name' => 'particles.jloverlay.title_style'
+            ],
+            'particles.jloverlay.title_decoration' => [
+                'type' => 'select.select',
+                'label' => 'Decoration',
+                'description' => 'Decorate the headline with a divider, bullet or a line that is vertically centered to the heading.',
+                'default' => 'none',
+                'options' => [
+                    'none' => 'None',
+                    'divider' => 'Divider',
+                    'bullet' => 'Bullet',
+                    'line' => 'Line'
+                ],
+                'name' => 'particles.jloverlay.title_decoration'
+            ],
+            'particles.jloverlay.predefined_title_color' => [
+                'type' => 'select.select',
+                'label' => 'Predefined Color',
+                'description' => 'Select the text color. If the Background option is selected, styles that don\'t apply a background image use the primary color instead.',
+                'default' => 'default',
+                'options' => [
+                    'default' => 'Default',
+                    'muted' => 'Muted',
+                    'emphasis' => 'Emphasis',
+                    'primary' => 'Primary',
+                    'secondary' => 'Secondary',
+                    'success' => 'Success',
+                    'warning' => 'Warning',
+                    'danger' => 'Danger',
+                    'background' => 'Background'
+                ],
+                'name' => 'particles.jloverlay.predefined_title_color'
+            ],
+            'particles.jloverlay.title_color' => [
+                'type' => 'input.colorpicker',
+                'label' => 'Custom Color',
+                'description' => 'Customize the title color instead using predefined title color mode.',
+                'name' => 'particles.jloverlay.title_color'
+            ],
+            'particles.jloverlay.title_fontsize' => [
+                'type' => 'input.number',
+                'label' => 'Font Size',
+                'min' => 0,
+                'description' => 'Customize the title text font size',
+                'name' => 'particles.jloverlay.title_fontsize'
+            ],
+            'particles.jloverlay.title_text_transform' => [
+                'type' => 'select.select',
+                'label' => 'Transform',
+                'description' => 'The following options will transform text into uppercased, capitalized or lowercased characters.',
+                'default' => '',
+                'options' => [
+                    '' => 'Inherit',
+                    'uppercase' => 'Uppercase',
+                    'capitalize' => 'Capitalize',
+                    'lowercase' => 'Lowercase'
+                ],
+                'name' => 'particles.jloverlay.title_text_transform'
+            ],
+            'particles.jloverlay.title_element' => [
+                'type' => 'select.select',
+                'label' => 'HTML Element',
+                'description' => 'Choose one of the elements to fit your semantic structure.',
+                'default' => 'h3',
+                'options' => [
+                    'h1' => 'H1',
+                    'h2' => 'H2',
+                    'h3' => 'H3',
+                    'h4' => 'H4',
+                    'h5' => 'H5',
+                    'h6' => 'H6',
+                    'div' => 'div'
+                ],
+                'name' => 'particles.jloverlay.title_element'
+            ],
+            'particles.jloverlay.title_margin' => [
+                'type' => 'select.select',
+                'label' => 'Margin Top',
+                'description' => 'Set the top margin.',
+                'default' => 'default',
+                'options' => [
+                    'small' => 'Small',
+                    'default' => 'Default',
+                    'medium' => 'Medium',
+                    'large' => 'Large',
+                    'xlarge' => 'X-Large',
+                    'remove' => 'None'
+                ],
+                'name' => 'particles.jloverlay.title_margin'
+            ],
+            'particles.jloverlay.meta_transition' => [
+                'type' => 'select.select',
+                'label' => 'Transition',
+                'description' => 'Select a hover transition for the meta.',
+                'default' => 'none',
+                'options' => [
+                    'none' => 'None',
+                    'fade' => 'Fade',
+                    'scale-up' => 'Scale Up',
+                    'scale-down' => 'Scale Down',
+                    'slide-top-small' => 'Slide Top Small',
+                    'slide-bottom-small' => 'Slide Bottom Small',
+                    'slide-left-small' => 'Slide Left Small',
+                    'slide-right-small' => 'Slide Right Small',
+                    'slide-top-medium' => 'Slide Top Medium',
+                    'slide-bottom-medium' => 'Slide Bottom Medium',
+                    'slide-left-medium' => 'Slide Left Medium',
+                    'slide-right-medium' => 'Slide Right Medium',
+                    'slide-top' => 'Slide Top 100%',
+                    'slide-bottom' => 'Slide Bottom 100%',
+                    'slide-left' => 'Slide Left 100%',
+                    'slide-right' => 'Slide Right 100%'
+                ],
+                'name' => 'particles.jloverlay.meta_transition'
+            ],
+            'particles.jloverlay.meta_style' => [
+                'type' => 'select.select',
+                'label' => 'Style',
+                'description' => 'Select a predefined meta text style, including color, size and font-family.',
+                'default' => 'text-meta',
+                'options' => [
+                    'default' => 'Default',
+                    'text-meta' => 'Meta',
+                    'heading-2xlarge' => '2XLarge',
+                    'heading-xlarge' => 'XLarge',
+                    'heading-large' => 'Large',
+                    'heading-medium' => 'Medium',
+                    'heading-small' => 'Small',
+                    'h1' => 'H1',
+                    'h2' => 'H2',
+                    'h3' => 'H3',
+                    'h4' => 'H4',
+                    'h5' => 'H5',
+                    'h6' => 'H6'
+                ],
+                'name' => 'particles.jloverlay.meta_style'
+            ],
+            'particles.jloverlay.pre_meta_color' => [
+                'type' => 'select.select',
+                'label' => 'Predefined Color',
+                'description' => 'Select the predefined meta color.',
+                'default' => 'default',
+                'options' => [
+                    'default' => 'Default',
+                    'muted' => 'Muted',
+                    'emphasis' => 'Emphasis',
+                    'primary' => 'Primary',
+                    'secondary' => 'Secondary',
+                    'success' => 'Success',
+                    'warning' => 'Warning',
+                    'danger' => 'Danger'
+                ],
+                'name' => 'particles.jloverlay.pre_meta_color'
+            ],
+            'particles.jloverlay.meta_color' => [
+                'type' => 'input.colorpicker',
+                'label' => 'Custom Color',
+                'description' => 'Customize the meta color. You need to set the Predefined Color to Default before using the color customization.',
+                'name' => 'particles.jloverlay.meta_color'
+            ],
+            'particles.jloverlay.meta_fontsize' => [
+                'type' => 'input.number',
+                'label' => 'Font Size',
+                'min' => 0,
+                'description' => 'Customize the meta text font size',
+                'name' => 'particles.jloverlay.meta_fontsize'
+            ],
+            'particles.jloverlay.meta_text_transform' => [
+                'type' => 'select.select',
+                'label' => 'Transform',
+                'description' => 'The following options will transform text into uppercased, capitalized or lowercased characters.',
+                'default' => '',
+                'options' => [
+                    '' => 'Inherit',
+                    'uppercase' => 'Uppercase',
+                    'capitalize' => 'Capitalize',
+                    'lowercase' => 'Lowercase'
+                ],
+                'name' => 'particles.jloverlay.meta_text_transform'
+            ],
+            'particles.jloverlay.meta_alignment' => [
+                'type' => 'select.select',
+                'label' => 'Alignment',
+                'description' => 'Align the meta text above/below the title or below the content.',
+                'default' => 'bottom',
+                'options' => [
+                    'top' => 'Above Title',
+                    'bottom' => 'Below Title',
+                    'content' => 'Below Content'
+                ],
+                'name' => 'particles.jloverlay.meta_alignment'
+            ],
+            'particles.jloverlay.meta_margin' => [
+                'type' => 'select.select',
+                'label' => 'Margin Top',
+                'description' => 'Set the top margin.',
+                'default' => 'default',
+                'options' => [
+                    'small' => 'Small',
+                    'default' => 'Default',
+                    'medium' => 'Medium',
+                    'large' => 'Large',
+                    'xlarge' => 'X-Large',
+                    'remove' => 'None'
+                ],
+                'name' => 'particles.jloverlay.meta_margin'
+            ],
+            'particles.jloverlay.content_transition' => [
+                'type' => 'select.select',
+                'label' => 'Transition',
+                'description' => 'Select a hover transition for the content.',
+                'default' => 'none',
+                'options' => [
+                    'none' => 'None',
+                    'fade' => 'Fade',
+                    'scale-up' => 'Scale Up',
+                    'scale-down' => 'Scale Down',
+                    'slide-top-small' => 'Slide Top Small',
+                    'slide-bottom-small' => 'Slide Bottom Small',
+                    'slide-left-small' => 'Slide Left Small',
+                    'slide-right-small' => 'Slide Right Small',
+                    'slide-top-medium' => 'Slide Top Medium',
+                    'slide-bottom-medium' => 'Slide Bottom Medium',
+                    'slide-left-medium' => 'Slide Left Medium',
+                    'slide-right-medium' => 'Slide Right Medium',
+                    'slide-top' => 'Slide Top 100%',
+                    'slide-bottom' => 'Slide Bottom 100%',
+                    'slide-left' => 'Slide Left 100%',
+                    'slide-right' => 'Slide Right 100%'
+                ],
+                'name' => 'particles.jloverlay.content_transition'
+            ],
+            'particles.jloverlay.content_style' => [
+                'type' => 'select.select',
+                'label' => 'Style',
+                'description' => 'Select a predefined content style.',
+                'default' => 'default',
+                'options' => [
+                    'default' => 'Default',
+                    'lead' => 'Lead'
+                ],
+                'name' => 'particles.jloverlay.content_style'
+            ],
+            'particles.jloverlay.content_text_color' => [
+                'type' => 'select.select',
+                'label' => 'Predefined Color',
+                'description' => 'Select the text color. If the Background option is selected, styles that don\'t apply a background image use the primary color instead.',
+                'default' => 'default',
+                'options' => [
+                    'default' => 'Default',
+                    'muted' => 'Muted',
+                    'emphasis' => 'Emphasis',
+                    'primary' => 'Primary',
+                    'secondary' => 'Secondary',
+                    'success' => 'Success',
+                    'warning' => 'Warning',
+                    'danger' => 'Danger'
+                ],
+                'name' => 'particles.jloverlay.content_text_color'
+            ],
+            'particles.jloverlay.customize_content_color' => [
+                'type' => 'input.colorpicker',
+                'label' => 'Customize Color',
+                'description' => 'Customize the content color instead using predefined text color. You need to set the Predefined Color to Default before using the color customization.',
+                'name' => 'particles.jloverlay.customize_content_color'
+            ],
+            'particles.jloverlay.customize_content_fontsize' => [
+                'type' => 'input.number',
+                'label' => 'Font Size',
+                'min' => 0,
+                'description' => 'Customize the content text font size',
+                'name' => 'particles.jloverlay.customize_content_fontsize'
+            ],
+            'particles.jloverlay.content_text_transform' => [
+                'type' => 'select.select',
+                'label' => 'Transform',
+                'description' => 'The following options will transform text into uppercased, capitalized or lowercased characters.',
+                'default' => '',
+                'options' => [
+                    '' => 'Inherit',
+                    'uppercase' => 'Uppercase',
+                    'capitalize' => 'Capitalize',
+                    'lowercase' => 'Lowercase'
+                ],
+                'name' => 'particles.jloverlay.content_text_transform'
+            ],
+            'particles.jloverlay.content_margin_top' => [
+                'type' => 'select.select',
+                'label' => 'Margin Top',
+                'description' => 'Set the top margin.',
+                'default' => 'default',
+                'options' => [
+                    'small' => 'Small',
+                    'default' => 'Default',
+                    'medium' => 'Medium',
+                    'large' => 'Large',
+                    'xlarge' => 'X-Large',
+                    'remove' => 'None'
+                ],
+                'name' => 'particles.jloverlay.content_margin_top'
+            ],
+            'particles.jloverlay.link_transition' => [
+                'type' => 'select.select',
+                'label' => 'Transition',
+                'description' => 'Select a hover transition for the the button.',
+                'default' => 'none',
+                'options' => [
+                    'none' => 'None',
+                    'fade' => 'Fade',
+                    'scale-up' => 'Scale Up',
+                    'scale-down' => 'Scale Down',
+                    'slide-top-small' => 'Slide Top Small',
+                    'slide-bottom-small' => 'Slide Bottom Small',
+                    'slide-left-small' => 'Slide Left Small',
+                    'slide-right-small' => 'Slide Right Small',
+                    'slide-top-medium' => 'Slide Top Medium',
+                    'slide-bottom-medium' => 'Slide Bottom Medium',
+                    'slide-left-medium' => 'Slide Left Medium',
+                    'slide-right-medium' => 'Slide Right Medium',
+                    'slide-top' => 'Slide Top 100%',
+                    'slide-bottom' => 'Slide Bottom 100%',
+                    'slide-left' => 'Slide Left 100%',
+                    'slide-right' => 'Slide Right 100%'
+                ],
+                'name' => 'particles.jloverlay.link_transition'
+            ],
+            'particles.jloverlay.link_type' => [
+                'type' => 'select.select',
+                'label' => 'Type',
+                'description' => 'Show the link as a button or choose between linking just the image and title or the whole particle.<br/>Style/Button Size and Margin top no longer working if you set link type to Particle',
+                'default' => 'button',
+                'options' => [
+                    'button' => 'Button',
+                    'content' => 'Title',
+                    'element' => 'Particle'
+                ],
+                'name' => 'particles.jloverlay.link_type'
+            ],
+            'particles.jloverlay.buttontarget' => [
+                'type' => 'select.selectize',
+                'label' => 'Target',
+                'description' => 'Open the link in a same or new window.',
+                'default' => '_self',
+                'options' => [
+                    '_self' => 'Self',
+                    '_blank' => 'New Window'
+                ],
+                'name' => 'particles.jloverlay.buttontarget'
+            ],
+            'particles.jloverlay.buttonclass' => [
+                'type' => 'select.select',
+                'label' => 'Style',
+                'description' => 'Set the button style.',
+                'default' => 'default',
+                'options' => [
+                    'link' => 'Link',
+                    'link-muted' => 'Link Muted',
+                    'link-text' => 'Link Text',
+                    'default' => 'Button Default',
+                    'primary' => 'Button Primary',
+                    'secondary' => 'Button Secondary',
+                    'danger' => 'Button Danger',
+                    'text' => 'Button Text'
+                ],
+                'name' => 'particles.jloverlay.buttonclass'
+            ],
+            'particles.jloverlay.link_button_size' => [
+                'type' => 'select.select',
+                'label' => 'Button Size',
+                'description' => 'Set the button size. Button size not working with Link button style like Link, Link Muted, Link Text and Button text.',
+                'default' => 'default',
+                'options' => [
+                    'small' => 'Small',
+                    'default' => 'Default',
+                    'large' => 'Large'
+                ],
+                'name' => 'particles.jloverlay.link_button_size'
+            ],
+            'particles.jloverlay.link_margin_top' => [
+                'type' => 'select.select',
+                'label' => 'Margin Top',
+                'description' => 'Set the top margin.',
+                'default' => 'default',
+                'options' => [
+                    'small' => 'Small',
+                    'default' => 'Default',
+                    'medium' => 'Medium',
+                    'large' => 'Large',
+                    'xlarge' => 'X-Large',
+                    'remove' => 'None'
+                ],
+                'name' => 'particles.jloverlay.link_margin_top'
+            ],
+            'particles.jloverlay._tab_style' => [
+                'label' => 'Style',
+                'overridable' => false,
+                'name' => 'particles.jloverlay._tab_style'
+            ],
+            'particles.jloverlay.particle_title' => [
+                'type' => 'input.text',
+                'label' => 'Title',
+                'description' => 'Add an optional particle title.',
+                'name' => 'particles.jloverlay.particle_title'
+            ],
+            'particles.jloverlay.particle_title_style' => [
+                'type' => 'select.select',
+                'label' => 'Style',
+                'description' => 'Heading styles differ in font-size but may also come with a predefined color, size and font.',
+                'default' => 'h3',
+                'options' => [
+                    'default' => 'Default',
+                    'heading-small' => 'Small',
+                    'heading-medium' => 'Medium',
+                    'heading-large' => 'Large',
+                    'heading-xlarge' => 'XLarge',
+                    'heading-2xlarge' => '2XLarge',
+                    'h1' => 'H1',
+                    'h2' => 'H2',
+                    'h3' => 'H3',
+                    'h4' => 'H4',
+                    'h5' => 'H5',
+                    'h6' => 'H6'
+                ],
+                'name' => 'particles.jloverlay.particle_title_style'
+            ],
+            'particles.jloverlay.particle_title_decoration' => [
+                'type' => 'select.select',
+                'label' => 'Decoration',
+                'description' => 'Decorate the headline with a divider, bullet or a line that is vertically centered to the heading.',
+                'default' => 'none',
+                'options' => [
+                    'none' => 'None',
+                    'divider' => 'Divider',
+                    'bullet' => 'Bullet',
+                    'line' => 'Line'
+                ],
+                'name' => 'particles.jloverlay.particle_title_decoration'
+            ],
+            'particles.jloverlay.particle_title_align' => [
+                'type' => 'select.select',
+                'label' => 'Alignment',
+                'description' => 'Center, left and right alignment for Particle title.',
+                'default' => 'inherit',
+                'options' => [
+                    'inherit' => 'Inherit',
+                    'left' => 'Left',
+                    'center' => 'Center',
+                    'right' => 'Right',
+                    'justify' => 'Justify'
+                ],
+                'name' => 'particles.jloverlay.particle_title_align'
+            ],
+            'particles.jloverlay.particle_predefined_color' => [
+                'type' => 'select.select',
+                'label' => 'Predefined Color',
+                'description' => 'Select the text color. If the Background option is selected, styles that don\'t apply a background image use the primary color instead.',
+                'default' => 'default',
+                'options' => [
+                    'default' => 'Default',
+                    'muted' => 'Muted',
+                    'emphasis' => 'Emphasis',
+                    'primary' => 'Primary',
+                    'secondary' => 'Secondary',
+                    'success' => 'Success',
+                    'warning' => 'Warning',
+                    'danger' => 'Danger'
+                ],
+                'name' => 'particles.jloverlay.particle_predefined_color'
+            ],
+            'particles.jloverlay.particle_title_color' => [
+                'type' => 'input.colorpicker',
+                'label' => 'Custom Color',
+                'description' => 'Customize the title color instead using predefined color mode. Set the Predefined color to default before using this color customization mode.',
+                'name' => 'particles.jloverlay.particle_title_color'
+            ],
+            'particles.jloverlay.particle_title_fontsize' => [
+                'type' => 'input.number',
+                'label' => 'Font Size',
+                'description' => 'Customize the particle title font size.',
+                'min' => 0,
+                'name' => 'particles.jloverlay.particle_title_fontsize'
+            ],
+            'particles.jloverlay.particle_title_element' => [
+                'type' => 'select.select',
+                'label' => 'HTML Element',
+                'description' => 'Choose one of the elements to fit your semantic structure.',
+                'default' => 'h3',
+                'options' => [
+                    'h1' => 'H1',
+                    'h2' => 'H2',
+                    'h3' => 'H3',
+                    'h4' => 'H4',
+                    'h5' => 'H5',
+                    'h6' => 'H6',
+                    'div' => 'div'
+                ],
+                'name' => 'particles.jloverlay.particle_title_element'
+            ],
+            'particles.jloverlay.align' => [
+                'type' => 'select.select',
+                'label' => 'Text Alignment',
+                'description' => 'Center, left and right alignment may depend on a breakpoint and require a fallback.',
+                'default' => 'inherit',
+                'options' => [
+                    'inherit' => 'Inherit',
+                    'left' => 'Left',
+                    'center' => 'Center',
+                    'right' => 'Right',
+                    'justify' => 'Justify'
+                ],
+                'name' => 'particles.jloverlay.align'
+            ],
+            'particles.jloverlay.breakpoint' => [
+                'type' => 'select.select',
+                'label' => 'Alignment Breakpoint',
+                'description' => 'Define the device width from which the alignment will apply.',
+                'default' => 'always',
+                'options' => [
+                    'always' => 'Always',
+                    's' => 'Small (Phone Landscape)',
+                    'm' => 'Medium (Tablet Landscape)',
+                    'l' => 'Large (Desktop)',
+                    'xl' => 'X-Large (Large Screens)'
+                ],
+                'name' => 'particles.jloverlay.breakpoint'
+            ],
+            'particles.jloverlay.fallback' => [
+                'type' => 'select.select',
+                'label' => 'Alignment Fallback',
+                'description' => 'Define an alignment fallback for device widths below the breakpoint.',
+                'default' => 'inherit',
+                'options' => [
+                    'inherit' => 'Inherit',
+                    'left' => 'Left',
+                    'center' => 'Center',
+                    'right' => 'Right',
+                    'justify' => 'Justify'
+                ],
+                'name' => 'particles.jloverlay.fallback'
+            ],
+            'particles.jloverlay.g_maxwidth' => [
+                'type' => 'select.select',
+                'label' => 'Max Width',
+                'description' => 'Set the maximum content width.',
+                'default' => 'inherit',
+                'options' => [
+                    'inherit' => 'None',
+                    'small' => 'Small',
+                    'medium' => 'Medium',
+                    'large' => 'Large',
+                    'xlarge' => 'X-Large',
+                    'xxlarge' => 'XX-Large'
+                ],
+                'name' => 'particles.jloverlay.g_maxwidth'
+            ],
+            'particles.jloverlay.g_maxwidth_alignment' => [
+                'type' => 'select.select',
+                'label' => 'Max Width Alignment',
+                'description' => 'Define the alignment in case the container exceeds the element\'s max-width.',
+                'default' => 'left',
+                'options' => [
+                    'left' => 'Left',
+                    'center' => 'Center',
+                    'right' => 'Right'
+                ],
+                'name' => 'particles.jloverlay.g_maxwidth_alignment'
+            ],
+            'particles.jloverlay.g_maxwidth_breakpoint' => [
+                'type' => 'select.select',
+                'label' => 'Max Width Breakpoint',
+                'description' => 'Define the device width from which the element\'s max-width will apply.',
+                'default' => 'always',
+                'options' => [
+                    'always' => 'Always',
+                    's' => 'Small (Phone Landscape)',
+                    'm' => 'Medium (Tablet Landscape)',
+                    'l' => 'Large (Desktop)',
+                    'xl' => 'X-Large (Large Screens)'
+                ],
+                'name' => 'particles.jloverlay.g_maxwidth_breakpoint'
+            ],
+            'particles.jloverlay.margin' => [
+                'type' => 'select.select',
+                'label' => 'Margin',
+                'description' => 'Set the vertical margin.',
+                'default' => 'inherit',
+                'options' => [
+                    'inherit' => 'Keep existing',
+                    'small' => 'Small',
+                    'default' => 'Default',
+                    'medium' => 'Medium',
+                    'large' => 'Large',
+                    'xlarge' => 'X-Large',
+                    'remove-vertical' => 'None'
+                ],
+                'name' => 'particles.jloverlay.margin'
+            ],
+            'particles.jloverlay.visibility' => [
+                'type' => 'select.select',
+                'label' => 'Visibility',
+                'description' => 'Display the element only on this device width and larger.',
+                'default' => 'inherit',
+                'options' => [
+                    'inherit' => 'Always',
+                    's' => 'Small (Phone Landscape)',
+                    'm' => 'Medium (Tablet Landscape)',
+                    'l' => 'Large (Desktop)',
+                    'xl' => 'X-Large (Large Screens)'
+                ],
+                'name' => 'particles.jloverlay.visibility'
+            ],
+            'particles.jloverlay.animation' => [
+                'type' => 'select.select',
+                'label' => 'Animation',
+                'description' => 'Apply an animation to particles once they enter the viewport. This will animate all particles inside the section.',
+                'default' => 'inherit',
+                'options' => [
+                    'inherit' => 'None',
+                    'fade' => 'Fade',
+                    'scale-up' => 'Scale Up',
+                    'scale-down' => 'Scale Down',
+                    'slide-top-small' => 'Slide Top Small',
+                    'slide-bottom-small' => 'Slide Bottom Small',
+                    'slide-left-small' => 'Slide Left Small',
+                    'slide-right-small' => 'Slide Right Small',
+                    'slide-top-medium' => 'Slide Top Medium',
+                    'slide-bottom-medium' => 'Slide Bottom Medium',
+                    'slide-left-medium' => 'Slide Left Medium',
+                    'slide-right-medium' => 'Slide Right Medium',
+                    'slide-top' => 'Slide Top 100%',
+                    'slide-bottom' => 'Slide Bottom 100%',
+                    'slide-left' => 'Slide Left 100%',
+                    'slide-right' => 'Slide Right 100%',
+                    'parallax' => 'Parallax'
+                ],
+                'name' => 'particles.jloverlay.animation'
+            ],
+            'particles.jloverlay.animation_delay' => [
+                'type' => 'input.number',
+                'label' => 'Animation Delay',
+                'description' => 'Set the delay animations for particle. Delay time in ms.',
+                'min' => 0,
+                'name' => 'particles.jloverlay.animation_delay'
+            ],
+            'particles.jloverlay.animation_repeat' => [
+                'type' => 'select.select',
+                'label' => 'Animation Repeat',
+                'description' => 'Repeat an animation to particle once it enter the viewport.',
+                'default' => 'disabled',
+                'options' => [
+                    'enabled' => 'Enable',
+                    'disabled' => 'Disable'
+                ],
+                'name' => 'particles.jloverlay.animation_repeat'
+            ],
+            'particles.jloverlay._tab_general' => [
+                'label' => 'General',
+                'overridable' => false,
+                'name' => 'particles.jloverlay._tab_general'
+            ],
+            'particles.jloverlay.pa_horizontal_start' => [
+                'type' => 'input.number',
+                'label' => 'Horizontal Start',
+                'description' => 'Animate the horizontal position (translateX) in pixels. Min -600 and Max 600.',
+                'min' => -600,
+                'max' => 600,
+                'name' => 'particles.jloverlay.pa_horizontal_start'
+            ],
+            'particles.jloverlay.pa_horizontal_end' => [
+                'type' => 'input.number',
+                'label' => 'Horizontal End',
+                'description' => 'Animate the horizontal position (translateX) in pixels. Min -600 and Max 600.',
+                'min' => -600,
+                'max' => 600,
+                'name' => 'particles.jloverlay.pa_horizontal_end'
+            ],
+            'particles.jloverlay.pa_vertical_start' => [
+                'type' => 'input.number',
+                'label' => 'Vertical Start',
+                'description' => 'Animate the vertical position (translateY) in pixels. Min -600 and Max 600.',
+                'min' => -600,
+                'max' => 600,
+                'name' => 'particles.jloverlay.pa_vertical_start'
+            ],
+            'particles.jloverlay.pa_vertical_end' => [
+                'type' => 'input.number',
+                'label' => 'Vertical End',
+                'description' => 'Animate the vertical position (translateY) in pixels. Min -600 and Max 600.',
+                'min' => -600,
+                'max' => 600,
+                'name' => 'particles.jloverlay.pa_vertical_end'
+            ],
+            'particles.jloverlay.scale_start' => [
+                'type' => 'input.number',
+                'label' => 'Scale Start',
+                'description' => 'Animate the scaling. 100 means 100% scale, 200 means 200% scale, and 50 means 50% scale. Min 50 and Max 200',
+                'min' => 50,
+                'max' => 200,
+                'name' => 'particles.jloverlay.scale_start'
+            ],
+            'particles.jloverlay.scale_end' => [
+                'type' => 'input.number',
+                'label' => 'Scale End',
+                'description' => 'Animate the scaling. 100 means 100% scale, 200 means 200% scale, and 50 means 50% scale. Min 50 and Max 200',
+                'min' => 50,
+                'max' => 200,
+                'name' => 'particles.jloverlay.scale_end'
+            ],
+            'particles.jloverlay.rotate_start' => [
+                'type' => 'input.number',
+                'label' => 'Rotate Start',
+                'description' => 'Animate the rotation clockwise in degrees. Min 0 and Max 360',
+                'min' => 0,
+                'max' => 360,
+                'name' => 'particles.jloverlay.rotate_start'
+            ],
+            'particles.jloverlay.rotate_end' => [
+                'type' => 'input.number',
+                'label' => 'Rotate End',
+                'description' => 'Animate the rotation clockwise in degrees. Min 0 and Max 360',
+                'min' => 0,
+                'max' => 360,
+                'name' => 'particles.jloverlay.rotate_end'
+            ],
+            'particles.jloverlay.opacity_start' => [
+                'type' => 'input.number',
+                'label' => 'Opacity Start',
+                'description' => 'Animate the opacity. 100 means 100% opacity, 0 means 0% opacity and 50 means 50%. Min 0 and Max 100',
+                'min' => 0,
+                'max' => 100,
+                'name' => 'particles.jloverlay.opacity_start'
+            ],
+            'particles.jloverlay.opacity_end' => [
+                'type' => 'input.number',
+                'label' => 'Opacity End',
+                'description' => 'Animate the opacity. 100 means 100% opacity, 0 means 0% opacity and 50 means 50%. Min 0 and Max 100',
+                'min' => 0,
+                'max' => 100,
+                'name' => 'particles.jloverlay.opacity_end'
+            ],
+            'particles.jloverlay.easing' => [
+                'type' => 'input.number',
+                'label' => 'Easing',
+                'description' => 'Determine how the speed of the animation behaves over time. A value below 100 is faster in the beginning and slower towards the end while a value above 100 behaves inversely. Min 10 and Max 200',
+                'min' => 10,
+                'max' => 200,
+                'name' => 'particles.jloverlay.easing'
+            ],
+            'particles.jloverlay.pa_viewport' => [
+                'type' => 'input.number',
+                'label' => 'Viewport',
+                'description' => 'Set the animation end point relative to viewport height, e.g. 50 for 50% of the viewport. Min 10 and Max 100',
+                'min' => 10,
+                'max' => 100,
+                'name' => 'particles.jloverlay.pa_viewport'
+            ],
+            'particles.jloverlay.pa_breakpoint' => [
+                'type' => 'select.select',
+                'label' => 'Breakpoint',
+                'description' => 'Display the parallax effect only on this device width and larger.',
+                'default' => 'always',
+                'options' => [
+                    'always' => 'Always',
+                    's' => 'Small (Phone Landscape)',
+                    'm' => 'Medium (Tablet Landscape)',
+                    'l' => 'Large (Desktop)',
+                    'xl' => 'X-Large (Large Screens)'
+                ],
+                'name' => 'particles.jloverlay.pa_breakpoint'
+            ],
+            'particles.jloverlay._tab_parallax_animation' => [
+                'label' => 'Parallax',
+                'overridable' => false,
+                'name' => 'particles.jloverlay._tab_parallax_animation'
+            ],
+            'particles.jloverlay.parallax_image' => [
+                'type' => 'input.imagepicker',
+                'label' => 'Background Image',
+                'description' => 'Select parallax background image for particle.',
+                'name' => 'particles.jloverlay.parallax_image'
+            ],
+            'particles.jloverlay.background_image_size' => [
+                'type' => 'select.select',
+                'label' => 'Image Size',
+                'description' => 'Determine whether the image will fit the section dimensions by clipping it or by filling the empty areas with the background color.',
+                'default' => 'auto',
+                'options' => [
+                    'auto' => 'Auto',
+                    'cover' => 'Cover',
+                    'contain' => 'Contain'
+                ],
+                'name' => 'particles.jloverlay.background_image_size'
+            ],
+            'particles.jloverlay.background_image_position' => [
+                'type' => 'select.select',
+                'label' => 'Image Position',
+                'description' => 'Set the initial background position, relative to the section layer.',
+                'default' => 'center-center',
+                'options' => [
+                    'top-left' => 'Top Left',
+                    'top-center' => 'Top Center',
+                    'top-right' => 'Top Right',
+                    'center-left' => 'Center Left',
+                    'center-center' => 'Center Center',
+                    'center-right' => 'Center Right',
+                    'bottom-left' => 'Bottom Left',
+                    'bottom-center' => 'Bottom Center',
+                    'bottom-right' => 'Bottom Right'
+                ],
+                'name' => 'particles.jloverlay.background_image_position'
+            ],
+            'particles.jloverlay.parallax_bg_breakpoint' => [
+                'type' => 'select.select',
+                'label' => 'Parallax Breakpoint',
+                'description' => 'Display the parallax effect only on this device width and larger.',
+                'default' => 'always',
+                'options' => [
+                    'always' => 'Always',
+                    's' => 'Small (Phone Landscape)',
+                    'm' => 'Medium (Tablet Landscape)',
+                    'l' => 'Large (Desktop)',
+                    'xl' => 'X-Large (Large Screens)'
+                ],
+                'name' => 'particles.jloverlay.parallax_bg_breakpoint'
+            ],
+            'particles.jloverlay.parallax_bg_visibility' => [
+                'type' => 'select.select',
+                'label' => 'Image Visibility',
+                'description' => 'Display the image only on this device width and larger.',
+                'default' => 'always',
+                'options' => [
+                    'always' => 'Always',
+                    's' => 'Small (Phone Landscape)',
+                    'm' => 'Medium (Tablet Landscape)',
+                    'l' => 'Large (Desktop)',
+                    'xl' => 'X-Large (Large Screens)'
+                ],
+                'name' => 'particles.jloverlay.parallax_bg_visibility'
+            ],
+            'particles.jloverlay.parallax_bg_color' => [
+                'type' => 'input.colorpicker',
+                'label' => 'Background Color',
+                'description' => 'Use the background color in combination with blend modes, a transparent image or to fill the area, if the image doesn\'t cover the whole section.',
+                'name' => 'particles.jloverlay.parallax_bg_color'
+            ],
+            'particles.jloverlay.blendmode' => [
+                'type' => 'select.select',
+                'label' => 'Blend Mode',
+                'description' => 'Determine how the image will blend with the background color.',
+                'default' => 'inherit',
+                'options' => [
+                    'inherit' => 'Normal',
+                    'multiply' => 'Multiply',
+                    'screen' => 'Screen',
+                    'overlay' => 'Overlay',
+                    'darken' => 'Darken',
+                    'lighten' => 'Lighten',
+                    'color-dodge' => 'Color-dodge',
+                    'color-burn' => 'Color-burn',
+                    'hard-light' => 'Hard-light',
+                    'soft-light' => 'Soft-light',
+                    'difference' => 'Difference',
+                    'exclusion' => 'Exclusion',
+                    'hue' => 'Hue',
+                    'saturation' => 'Saturation',
+                    'color' => 'Color',
+                    'luminosity' => 'Luminosity'
+                ],
+                'name' => 'particles.jloverlay.blendmode'
+            ],
+            'particles.jloverlay.parallax_bg_overlay' => [
+                'type' => 'input.colorpicker',
+                'label' => 'Overlay Color',
+                'description' => 'Set an additional transparent overlay to soften the image.',
+                'name' => 'particles.jloverlay.parallax_bg_overlay'
+            ],
+            'particles.jloverlay.horizontal_start' => [
+                'type' => 'input.number',
+                'label' => 'Horizontal Start',
+                'description' => 'Animate the horizontal position (translateX) in pixels. Min -600 and Max 600.',
+                'min' => -600,
+                'max' => 600,
+                'default' => 0,
+                'name' => 'particles.jloverlay.horizontal_start'
+            ],
+            'particles.jloverlay.horizontal_end' => [
+                'type' => 'input.number',
+                'label' => 'Horizontal End',
+                'description' => 'Animate the horizontal position (translateX) in pixels. Min -600 and Max 600.',
+                'min' => -600,
+                'max' => 600,
+                'default' => 0,
+                'name' => 'particles.jloverlay.horizontal_end'
+            ],
+            'particles.jloverlay.vertical_start' => [
+                'type' => 'input.number',
+                'label' => 'Vertical Start',
+                'description' => 'Animate the vertical position (translateY) in pixels. Min -600 and Max 600.',
+                'min' => -600,
+                'max' => 600,
+                'default' => 0,
+                'name' => 'particles.jloverlay.vertical_start'
+            ],
+            'particles.jloverlay.vertical_end' => [
+                'type' => 'input.number',
+                'label' => 'Vertical End',
+                'description' => 'Animate the vertical position (translateY) in pixels. Min -600 and Max 600.',
+                'min' => -600,
+                'max' => 600,
+                'default' => 0,
+                'name' => 'particles.jloverlay.vertical_end'
+            ],
+            'particles.jloverlay.container' => [
+                'type' => 'input.checkbox',
+                'label' => 'Add Container',
+                'description' => 'If you set the Fullwidth (Flushed Content) for parent section, you can use this option to define the container width for the particles inside this section.',
+                'overridable' => false,
+                'default' => false,
+                'name' => 'particles.jloverlay.container'
+            ],
+            'particles.jloverlay.viewport_height' => [
+                'type' => 'select.select',
+                'label' => 'Height',
+                'description' => 'Enabling viewport height on a section that directly follows the header will subtract the header\'s height from it. On short pages, a section can be expanded to fill the browser window.',
+                'default' => 'none',
+                'options' => [
+                    'none' => 'None',
+                    'full' => 'Viewport',
+                    'percent' => 'Viewport (Minus 20%)',
+                    'section' => 'Viewport (Minus 50%)',
+                    'expand' => 'Expand'
+                ],
+                'name' => 'particles.jloverlay.viewport_height'
+            ],
+            'particles.jloverlay.padding' => [
+                'type' => 'select.select',
+                'label' => 'Padding',
+                'description' => 'Set the vertical padding of the particle inside section. The padding is not needed if you set Height to Viewport mode.',
+                'default' => 'default',
+                'options' => [
+                    'default' => 'Default',
+                    'xsmall' => 'X-Small',
+                    'small' => 'Small',
+                    'large' => 'Large',
+                    'xlarge' => 'X-Large'
+                ],
+                'name' => 'particles.jloverlay.padding'
+            ],
+            'particles.jloverlay.vertical_alignment' => [
+                'type' => 'select.select',
+                'label' => 'Vertical Alignment',
+                'description' => 'Align the section content vertically, if the section height is larger than the content itself.',
+                'default' => 'none',
+                'options' => [
+                    'none' => 'Top',
+                    'middle' => 'Middle',
+                    'bottom' => 'Bottom'
+                ],
+                'name' => 'particles.jloverlay.vertical_alignment'
+            ],
+            'particles.jloverlay.parallax_text_color' => [
+                'type' => 'select.select',
+                'label' => 'Inverse Color',
+                'description' => 'Set light or dark color mode for text, buttons and controls.',
+                'default' => 'default',
+                'options' => [
+                    'default' => 'Default',
+                    'light' => 'Light',
+                    'dark' => 'Dark'
+                ],
+                'name' => 'particles.jloverlay.parallax_text_color'
+            ],
+            'particles.jloverlay._tab_parallax' => [
+                'label' => 'Parallax Background',
+                'overridable' => false,
+                'name' => 'particles.jloverlay._tab_parallax'
+            ],
+            'particles.jluikit' => [
+                'type' => '_root',
+                'form_field' => false,
+                'form' => [
+                    
+                ]
+            ],
+            'particles.jluikit.enabled' => [
+                'type' => 'input.checkbox',
+                'label' => 'Enabled',
+                'description' => 'Globally enable atom.',
+                'default' => true,
+                'name' => 'particles.jluikit.enabled'
+            ],
+            'particles.jluikit.jslocation' => [
+                'type' => 'select.select',
+                'label' => 'JS Location',
+                'description' => 'Select where the UIkit JS assets should be loaded. The default is added to the head tag.',
+                'default' => 'head',
+                'options' => [
+                    'footer' => 'Footer',
+                    'head' => 'Head'
+                ],
+                'name' => 'particles.jluikit.jslocation'
             ],
             'particles.scrollreveal-js' => [
                 'type' => '_root',
@@ -5093,6 +6422,122 @@ return [
                     'vertical_alignment' => 'particles.jldivider.vertical_alignment',
                     'parallax_text_color' => 'particles.jldivider.parallax_text_color'
                 ],
+                'jloverlay' => [
+                    'enabled' => 'particles.jloverlay.enabled',
+                    '_tab_content' => 'particles.jloverlay._tab_content',
+                    'image' => 'particles.jloverlay.image',
+                    'image_alt' => 'particles.jloverlay.image_alt',
+                    'title' => 'particles.jloverlay.title',
+                    'meta' => 'particles.jloverlay.meta',
+                    'content' => 'particles.jloverlay.content',
+                    'link' => 'particles.jloverlay.link',
+                    'buttontext' => 'particles.jloverlay.buttontext',
+                    'target' => 'particles.jloverlay.target',
+                    'hover_image' => 'particles.jloverlay.hover_image',
+                    'class' => 'particles.jloverlay.class',
+                    '_tab_overlay' => 'particles.jloverlay._tab_overlay',
+                    'overlay_mode' => 'particles.jloverlay.overlay_mode',
+                    'overlay_hover' => 'particles.jloverlay.overlay_hover',
+                    'overlay_style' => 'particles.jloverlay.overlay_style',
+                    'overlay_color' => 'particles.jloverlay.overlay_color',
+                    'overlay_padding' => 'particles.jloverlay.overlay_padding',
+                    'overlay_position' => 'particles.jloverlay.overlay_position',
+                    'overlay_margin' => 'particles.jloverlay.overlay_margin',
+                    'overlay_maxwidth' => 'particles.jloverlay.overlay_maxwidth',
+                    'overlay_transition' => 'particles.jloverlay.overlay_transition',
+                    '_tab_style' => 'particles.jloverlay._tab_style',
+                    'image_transition' => 'particles.jloverlay.image_transition',
+                    'box_shadow' => 'particles.jloverlay.box_shadow',
+                    'box_shadow_hover' => 'particles.jloverlay.box_shadow_hover',
+                    'image_width' => 'particles.jloverlay.image_width',
+                    'image_height' => 'particles.jloverlay.image_height',
+                    'title_transition' => 'particles.jloverlay.title_transition',
+                    'title_style' => 'particles.jloverlay.title_style',
+                    'title_decoration' => 'particles.jloverlay.title_decoration',
+                    'predefined_title_color' => 'particles.jloverlay.predefined_title_color',
+                    'title_color' => 'particles.jloverlay.title_color',
+                    'title_fontsize' => 'particles.jloverlay.title_fontsize',
+                    'title_text_transform' => 'particles.jloverlay.title_text_transform',
+                    'title_element' => 'particles.jloverlay.title_element',
+                    'title_margin' => 'particles.jloverlay.title_margin',
+                    'meta_transition' => 'particles.jloverlay.meta_transition',
+                    'meta_style' => 'particles.jloverlay.meta_style',
+                    'pre_meta_color' => 'particles.jloverlay.pre_meta_color',
+                    'meta_color' => 'particles.jloverlay.meta_color',
+                    'meta_fontsize' => 'particles.jloverlay.meta_fontsize',
+                    'meta_text_transform' => 'particles.jloverlay.meta_text_transform',
+                    'meta_alignment' => 'particles.jloverlay.meta_alignment',
+                    'meta_margin' => 'particles.jloverlay.meta_margin',
+                    'content_transition' => 'particles.jloverlay.content_transition',
+                    'content_style' => 'particles.jloverlay.content_style',
+                    'content_text_color' => 'particles.jloverlay.content_text_color',
+                    'customize_content_color' => 'particles.jloverlay.customize_content_color',
+                    'customize_content_fontsize' => 'particles.jloverlay.customize_content_fontsize',
+                    'content_text_transform' => 'particles.jloverlay.content_text_transform',
+                    'content_margin_top' => 'particles.jloverlay.content_margin_top',
+                    'link_transition' => 'particles.jloverlay.link_transition',
+                    'link_type' => 'particles.jloverlay.link_type',
+                    'buttontarget' => 'particles.jloverlay.buttontarget',
+                    'buttonclass' => 'particles.jloverlay.buttonclass',
+                    'link_button_size' => 'particles.jloverlay.link_button_size',
+                    'link_margin_top' => 'particles.jloverlay.link_margin_top',
+                    '_tab_general' => 'particles.jloverlay._tab_general',
+                    'particle_title' => 'particles.jloverlay.particle_title',
+                    'particle_title_style' => 'particles.jloverlay.particle_title_style',
+                    'particle_title_decoration' => 'particles.jloverlay.particle_title_decoration',
+                    'particle_title_align' => 'particles.jloverlay.particle_title_align',
+                    'particle_predefined_color' => 'particles.jloverlay.particle_predefined_color',
+                    'particle_title_color' => 'particles.jloverlay.particle_title_color',
+                    'particle_title_fontsize' => 'particles.jloverlay.particle_title_fontsize',
+                    'particle_title_element' => 'particles.jloverlay.particle_title_element',
+                    'align' => 'particles.jloverlay.align',
+                    'breakpoint' => 'particles.jloverlay.breakpoint',
+                    'fallback' => 'particles.jloverlay.fallback',
+                    'g_maxwidth' => 'particles.jloverlay.g_maxwidth',
+                    'g_maxwidth_alignment' => 'particles.jloverlay.g_maxwidth_alignment',
+                    'g_maxwidth_breakpoint' => 'particles.jloverlay.g_maxwidth_breakpoint',
+                    'margin' => 'particles.jloverlay.margin',
+                    'visibility' => 'particles.jloverlay.visibility',
+                    'animation' => 'particles.jloverlay.animation',
+                    'animation_delay' => 'particles.jloverlay.animation_delay',
+                    'animation_repeat' => 'particles.jloverlay.animation_repeat',
+                    '_tab_parallax_animation' => 'particles.jloverlay._tab_parallax_animation',
+                    'pa_horizontal_start' => 'particles.jloverlay.pa_horizontal_start',
+                    'pa_horizontal_end' => 'particles.jloverlay.pa_horizontal_end',
+                    'pa_vertical_start' => 'particles.jloverlay.pa_vertical_start',
+                    'pa_vertical_end' => 'particles.jloverlay.pa_vertical_end',
+                    'scale_start' => 'particles.jloverlay.scale_start',
+                    'scale_end' => 'particles.jloverlay.scale_end',
+                    'rotate_start' => 'particles.jloverlay.rotate_start',
+                    'rotate_end' => 'particles.jloverlay.rotate_end',
+                    'opacity_start' => 'particles.jloverlay.opacity_start',
+                    'opacity_end' => 'particles.jloverlay.opacity_end',
+                    'easing' => 'particles.jloverlay.easing',
+                    'pa_viewport' => 'particles.jloverlay.pa_viewport',
+                    'pa_breakpoint' => 'particles.jloverlay.pa_breakpoint',
+                    '_tab_parallax' => 'particles.jloverlay._tab_parallax',
+                    'parallax_image' => 'particles.jloverlay.parallax_image',
+                    'background_image_size' => 'particles.jloverlay.background_image_size',
+                    'background_image_position' => 'particles.jloverlay.background_image_position',
+                    'parallax_bg_breakpoint' => 'particles.jloverlay.parallax_bg_breakpoint',
+                    'parallax_bg_visibility' => 'particles.jloverlay.parallax_bg_visibility',
+                    'parallax_bg_color' => 'particles.jloverlay.parallax_bg_color',
+                    'blendmode' => 'particles.jloverlay.blendmode',
+                    'parallax_bg_overlay' => 'particles.jloverlay.parallax_bg_overlay',
+                    'horizontal_start' => 'particles.jloverlay.horizontal_start',
+                    'horizontal_end' => 'particles.jloverlay.horizontal_end',
+                    'vertical_start' => 'particles.jloverlay.vertical_start',
+                    'vertical_end' => 'particles.jloverlay.vertical_end',
+                    'container' => 'particles.jloverlay.container',
+                    'viewport_height' => 'particles.jloverlay.viewport_height',
+                    'padding' => 'particles.jloverlay.padding',
+                    'vertical_alignment' => 'particles.jloverlay.vertical_alignment',
+                    'parallax_text_color' => 'particles.jloverlay.parallax_text_color'
+                ],
+                'jluikit' => [
+                    'enabled' => 'particles.jluikit.enabled',
+                    'jslocation' => 'particles.jluikit.jslocation'
+                ],
                 'scrollreveal-js' => [
                     'enabled' => 'particles.scrollreveal-js.enabled',
                     'mobile' => 'particles.scrollreveal-js.mobile'
@@ -5748,6 +7193,11 @@ return [
                     ]
                 ],
                 'jldivider' => [
+                    'caching' => [
+                        'type' => 'static'
+                    ]
+                ],
+                'jloverlay' => [
                     'caching' => [
                         'type' => 'static'
                     ]

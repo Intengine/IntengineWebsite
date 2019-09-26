@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'gantry-theme://config/default/page/head.yaml',
-    'modified' => 1569497875,
+    'modified' => 1569497975,
     'data' => [
         'meta' => [
             
@@ -48,15 +48,7 @@ return [
                 'attributes' => [
                     'enabled' => '1',
                     'css' => [
-                        0 => [
-                            'location' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/custom/_logo-image-hover.scss',
-                            'inline' => '',
-                            'extra' => [
-                                
-                            ],
-                            'priority' => '0',
-                            'name' => 'Hover'
-                        ]
+                        
                     ],
                     'javascript' => [
                         

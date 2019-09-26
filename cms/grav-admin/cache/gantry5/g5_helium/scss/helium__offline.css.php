@@ -1,7 +1,7 @@
 <?php
 return [
     'file' => 'gantry-theme://css-compiled/helium__offline.css',
-    'timestamp' => 1569417978,
+    'timestamp' => 1569499680,
     'md5' => '59455447ce787df8a8d5444856475bec',
     'variables' => [
         'above-text-color' => '#ffffff',

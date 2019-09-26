@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1569498191,
-    'checksum' => '5e28033468e549f380746bddc906a977',
+    'timestamp' => 1569500146,
+    'checksum' => '7b64dcd875c30cc0c9f9021565afba83',
     'files' => [
         'user/data/gantry5/themes/g5_helium/config/_error' => [
             'index' => [
@@ -17,23 +17,23 @@ return [
         'user/data/gantry5/themes/g5_helium/config/default' => [
             'index' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/index.yaml',
-                'modified' => 1569498188
+                'modified' => 1569500144
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-                'modified' => 1569498188
+                'modified' => 1569500144
             ],
             'page/assets' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/assets.yaml',
-                'modified' => 1569497975
+                'modified' => 1569499576
             ],
             'page/body' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/body.yaml',
-                'modified' => 1569497975
+                'modified' => 1569499576
             ],
             'page/head' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/head.yaml',
-                'modified' => 1569497975
+                'modified' => 1569499576
             ],
             'particles/branding' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/branding.yaml',
@@ -206,47 +206,78 @@ return [
                 'vertical_alignment' => 'none',
                 'parallax_text_color' => 'default'
             ],
-            'logo-image-hover' => [
+            'jloverlay' => [
                 'caching' => [
                     'type' => 'static'
                 ],
                 'enabled' => true,
-                'css' => [
-                    'class' => 'g-logo'
-                ],
-                'render' => 'default',
-                'link' => [
-                    'enabled' => 1,
-                    'target' => 'none'
-                ],
-                'text' => [
-                    'position' => 'after',
-                    'style' => 'none'
-                ],
-                'image' => [
-                    'default' => [
-                        'lazy_load' => 0
-                    ],
-                    'hover' => [
-                        'lazy_load' => 0
-                    ]
-                ],
-                'effect' => [
-                    'overflow' => 0,
-                    'single' => 'none',
-                    'multi' => 't1'
-                ],
-                'js' => [
-                    'handle' => 'inline',
-                    'placement' => 'head',
-                    'priority' => 0,
-                    'option' => 'disabled',
-                    'path' => 'logo-image-hover.min.js',
-                    'execution' => 'both'
-                ],
-                'cdn' => [
-                    'base_url' => 'https://cdn.jsdelivr.net/gh/thexmanxyz/Logo-Image-Hover-Gantry@latest/src/js'
-                ]
+                'target' => '_self',
+                'overlay_mode' => 'cover',
+                'overlay_hover' => false,
+                'overlay_style' => 'jl-overlay-primary',
+                'overlay_color' => 'light',
+                'overlay_padding' => 'default',
+                'overlay_position' => 'center',
+                'overlay_margin' => 'none',
+                'overlay_maxwidth' => 'none',
+                'overlay_transition' => 'fade',
+                'image_transition' => 'none',
+                'box_shadow' => 'none',
+                'box_shadow_hover' => 'none',
+                'title_transition' => 'none',
+                'title_style' => 'h3',
+                'title_decoration' => 'none',
+                'predefined_title_color' => 'default',
+                'title_text_transform' => '',
+                'title_element' => 'h3',
+                'title_margin' => 'default',
+                'meta_transition' => 'none',
+                'meta_style' => 'text-meta',
+                'pre_meta_color' => 'default',
+                'meta_text_transform' => '',
+                'meta_alignment' => 'bottom',
+                'meta_margin' => 'default',
+                'content_transition' => 'none',
+                'content_style' => 'default',
+                'content_text_color' => 'default',
+                'content_text_transform' => '',
+                'content_margin_top' => 'default',
+                'link_transition' => 'none',
+                'link_type' => 'button',
+                'buttontarget' => '_self',
+                'buttonclass' => 'default',
+                'link_button_size' => 'default',
+                'link_margin_top' => 'default',
+                'particle_title_style' => 'h3',
+                'particle_title_decoration' => 'none',
+                'particle_title_align' => 'inherit',
+                'particle_predefined_color' => 'default',
+                'particle_title_element' => 'h3',
+                'align' => 'inherit',
+                'breakpoint' => 'always',
+                'fallback' => 'inherit',
+                'g_maxwidth' => 'inherit',
+                'g_maxwidth_alignment' => 'left',
+                'g_maxwidth_breakpoint' => 'always',
+                'margin' => 'inherit',
+                'visibility' => 'inherit',
+                'animation' => 'inherit',
+                'animation_repeat' => 'disabled',
+                'pa_breakpoint' => 'always',
+                'background_image_size' => 'auto',
+                'background_image_position' => 'center-center',
+                'parallax_bg_breakpoint' => 'always',
+                'parallax_bg_visibility' => 'always',
+                'blendmode' => 'inherit',
+                'horizontal_start' => 0,
+                'horizontal_end' => 0,
+                'vertical_start' => 0,
+                'vertical_end' => 0,
+                'container' => false,
+                'viewport_height' => 'none',
+                'padding' => 'default',
+                'vertical_alignment' => 'none',
+                'parallax_text_color' => 'default'
             ],
             'contentcubes' => [
                 'caching' => [
@@ -445,6 +476,10 @@ return [
                 'enabled' => true,
                 'mobile' => 'disable',
                 'secondtrigger' => false
+            ],
+            'jluikit' => [
+                'enabled' => true,
+                'jslocation' => 'head'
             ],
             'scrollreveal-js' => [
                 'enabled' => true,
@@ -731,6 +766,15 @@ return [
                             'javascript' => [
                                 
                             ]
+                        ]
+                    ],
+                    4 => [
+                        'id' => 'jluikit-8909',
+                        'type' => 'jluikit',
+                        'title' => 'UIkit3 for Gantry5',
+                        'attributes' => [
+                            'enabled' => '1',
+                            'jslocation' => 'footer'
                         ]
                     ]
                 ]

@@ -1,29 +1,29 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1569498256,
-    'checksum' => 'f9780dd20970477f952972882f48e446',
+    'timestamp' => 1569500147,
+    'checksum' => '397c79d0d9f4a0f1a9b065ee54a94041',
     'files' => [
         'user/data/gantry5/themes/g5_helium/config/default' => [
             'index' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/index.yaml',
-                'modified' => 1569498255
+                'modified' => 1569500144
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-                'modified' => 1569498255
+                'modified' => 1569500144
             ],
             'page/assets' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/assets.yaml',
-                'modified' => 1569497975
+                'modified' => 1569499576
             ],
             'page/body' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/body.yaml',
-                'modified' => 1569497975
+                'modified' => 1569499576
             ],
             'page/head' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/head.yaml',
-                'modified' => 1569497975
+                'modified' => 1569499576
             ],
             'particles/branding' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/branding.yaml',
@@ -165,6 +165,79 @@ return [
                 'divider_align' => 'center',
                 'divider_breakpoint' => 'always',
                 'divider_fallback' => 'center',
+                'particle_title_style' => 'h3',
+                'particle_title_decoration' => 'none',
+                'particle_title_align' => 'inherit',
+                'particle_predefined_color' => 'default',
+                'particle_title_element' => 'h3',
+                'align' => 'inherit',
+                'breakpoint' => 'always',
+                'fallback' => 'inherit',
+                'g_maxwidth' => 'inherit',
+                'g_maxwidth_alignment' => 'left',
+                'g_maxwidth_breakpoint' => 'always',
+                'margin' => 'inherit',
+                'visibility' => 'inherit',
+                'animation' => 'inherit',
+                'animation_repeat' => 'disabled',
+                'pa_breakpoint' => 'always',
+                'background_image_size' => 'auto',
+                'background_image_position' => 'center-center',
+                'parallax_bg_breakpoint' => 'always',
+                'parallax_bg_visibility' => 'always',
+                'blendmode' => 'inherit',
+                'horizontal_start' => 0,
+                'horizontal_end' => 0,
+                'vertical_start' => 0,
+                'vertical_end' => 0,
+                'container' => false,
+                'viewport_height' => 'none',
+                'padding' => 'default',
+                'vertical_alignment' => 'none',
+                'parallax_text_color' => 'default'
+            ],
+            'jloverlay' => [
+                'caching' => [
+                    'type' => 'static'
+                ],
+                'enabled' => true,
+                'target' => '_self',
+                'overlay_mode' => 'cover',
+                'overlay_hover' => false,
+                'overlay_style' => 'jl-overlay-primary',
+                'overlay_color' => 'light',
+                'overlay_padding' => 'default',
+                'overlay_position' => 'center',
+                'overlay_margin' => 'none',
+                'overlay_maxwidth' => 'none',
+                'overlay_transition' => 'fade',
+                'image_transition' => 'none',
+                'box_shadow' => 'none',
+                'box_shadow_hover' => 'none',
+                'title_transition' => 'none',
+                'title_style' => 'h3',
+                'title_decoration' => 'none',
+                'predefined_title_color' => 'default',
+                'title_text_transform' => '',
+                'title_element' => 'h3',
+                'title_margin' => 'default',
+                'meta_transition' => 'none',
+                'meta_style' => 'text-meta',
+                'pre_meta_color' => 'default',
+                'meta_text_transform' => '',
+                'meta_alignment' => 'bottom',
+                'meta_margin' => 'default',
+                'content_transition' => 'none',
+                'content_style' => 'default',
+                'content_text_color' => 'default',
+                'content_text_transform' => '',
+                'content_margin_top' => 'default',
+                'link_transition' => 'none',
+                'link_type' => 'button',
+                'buttontarget' => '_self',
+                'buttonclass' => 'default',
+                'link_button_size' => 'default',
+                'link_margin_top' => 'default',
                 'particle_title_style' => 'h3',
                 'particle_title_decoration' => 'none',
                 'particle_title_align' => 'inherit',
@@ -393,6 +466,10 @@ return [
                 'enabled' => true,
                 'mobile' => 'disable',
                 'secondtrigger' => false
+            ],
+            'jluikit' => [
+                'enabled' => true,
+                'jslocation' => 'head'
             ],
             'scrollreveal-js' => [
                 'enabled' => true,
@@ -680,6 +757,15 @@ return [
                                 
                             ]
                         ]
+                    ],
+                    4 => [
+                        'id' => 'jluikit-8909',
+                        'type' => 'jluikit',
+                        'title' => 'UIkit3 for Gantry5',
+                        'attributes' => [
+                            'enabled' => '1',
+                            'jslocation' => 'footer'
+                        ]
                     ]
                 ]
             ]
@@ -751,7 +837,7 @@ return [
         ],
         'index' => [
             'name' => 'default',
-            'timestamp' => 1569498255,
+            'timestamp' => 1569500144,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -780,7 +866,6 @@ return [
             'particles' => [
                 'logo' => [
                     'logo-9322' => 'Logo / Image',
-                    'logo-5608' => 'Logo / Image',
                     'logo-1564' => 'Logo / Image',
                     'logo-3491' => 'Logo / Image',
                     'logo-9072' => 'Logo / Image',
@@ -802,6 +887,9 @@ return [
                 ],
                 'gp_iconblock1' => [
                     'gp_iconblock1-7932' => 'Gp Icon Block 1'
+                ],
+                'jloverlay' => [
+                    'jloverlay-8611' => 'JL Overlay'
                 ],
                 'position' => [
                     'position-position-4734' => 'Aside',
@@ -862,7 +950,7 @@ return [
                         0 => 'custom-7633'
                     ],
                     1 => [
-                        0 => 'logo-5608 33.3',
+                        0 => 'jloverlay-8611 33.3',
                         1 => 'logo-1564 33.3',
                         2 => 'logo-3491 33.3'
                     ],
@@ -1132,11 +1220,112 @@ return [
                         'class' => 'wow fadeInUp'
                     ]
                 ],
-                'logo-5608' => [
-                    'title' => 'Logo / Image',
+                'jloverlay-8611' => [
+                    'title' => 'JL Overlay',
                     'attributes' => [
                         'image' => 'gantry-media://media/thumb-3dm.png',
-                        'class' => 'g-logo img.t5.front'
+                        'image_alt' => '',
+                        'title' => 'Lorem Ipsum',
+                        'meta' => '',
+                        'content' => '',
+                        'link' => '',
+                        'buttontext' => '',
+                        'target' => '_self',
+                        'hover_image' => '',
+                        'class' => '',
+                        'overlay_mode' => 'cover',
+                        'overlay_hover' => '1',
+                        'overlay_style' => 'jl-overlay-primary',
+                        'overlay_color' => 'light',
+                        'overlay_padding' => 'default',
+                        'overlay_position' => 'center',
+                        'overlay_margin' => 'none',
+                        'overlay_maxwidth' => 'none',
+                        'overlay_transition' => 'fade',
+                        'image_transition' => 'scale-up',
+                        'box_shadow' => 'none',
+                        'box_shadow_hover' => 'none',
+                        'image_width' => '',
+                        'image_height' => '',
+                        'title_transition' => 'fade',
+                        'title_style' => 'h2',
+                        'title_decoration' => 'none',
+                        'predefined_title_color' => 'secondary',
+                        'title_color' => '#000000',
+                        'title_fontsize' => '',
+                        'title_text_transform' => '',
+                        'title_element' => 'h3',
+                        'title_margin' => 'default',
+                        'meta_transition' => 'fade',
+                        'meta_style' => 'h3',
+                        'pre_meta_color' => 'default',
+                        'meta_color' => '#ffffff',
+                        'meta_fontsize' => '',
+                        'meta_text_transform' => '',
+                        'meta_alignment' => 'bottom',
+                        'meta_margin' => 'default',
+                        'content_transition' => 'fade',
+                        'content_style' => 'default',
+                        'content_text_color' => 'default',
+                        'customize_content_color' => '#000000',
+                        'customize_content_fontsize' => '',
+                        'content_text_transform' => '',
+                        'content_margin_top' => 'default',
+                        'link_transition' => 'none',
+                        'link_type' => 'button',
+                        'buttontarget' => '_self',
+                        'buttonclass' => 'default',
+                        'link_button_size' => 'default',
+                        'link_margin_top' => 'default',
+                        'particle_title' => '',
+                        'particle_title_style' => 'h3',
+                        'particle_title_decoration' => 'none',
+                        'particle_title_align' => 'inherit',
+                        'particle_predefined_color' => 'default',
+                        'particle_title_color' => '#000000',
+                        'particle_title_fontsize' => '',
+                        'particle_title_element' => 'h3',
+                        'align' => 'inherit',
+                        'breakpoint' => 'always',
+                        'fallback' => 'inherit',
+                        'g_maxwidth' => 'inherit',
+                        'g_maxwidth_alignment' => 'left',
+                        'g_maxwidth_breakpoint' => 'always',
+                        'margin' => 'inherit',
+                        'visibility' => 'inherit',
+                        'animation' => 'inherit',
+                        'animation_delay' => '',
+                        'animation_repeat' => 'disabled',
+                        'pa_horizontal_start' => '',
+                        'pa_horizontal_end' => '',
+                        'pa_vertical_start' => '',
+                        'pa_vertical_end' => '',
+                        'scale_start' => '',
+                        'scale_end' => '',
+                        'rotate_start' => '',
+                        'rotate_end' => '',
+                        'opacity_start' => '',
+                        'opacity_end' => '',
+                        'easing' => '',
+                        'pa_viewport' => '',
+                        'pa_breakpoint' => 'always',
+                        'parallax_image' => '',
+                        'background_image_size' => 'auto',
+                        'background_image_position' => 'center-center',
+                        'parallax_bg_breakpoint' => 'always',
+                        'parallax_bg_visibility' => 'always',
+                        'parallax_bg_color' => '#000000',
+                        'blendmode' => 'inherit',
+                        'parallax_bg_overlay' => '#000000',
+                        'horizontal_start' => '0',
+                        'horizontal_end' => '0',
+                        'vertical_start' => '0',
+                        'vertical_end' => '0',
+                        'container' => '0',
+                        'viewport_height' => 'none',
+                        'padding' => 'default',
+                        'vertical_alignment' => 'none',
+                        'parallax_text_color' => 'default'
                     ],
                     'block' => [
                         'class' => 'wow fadeInLeft'
