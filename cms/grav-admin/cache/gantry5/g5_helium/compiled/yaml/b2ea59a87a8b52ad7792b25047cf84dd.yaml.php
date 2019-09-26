@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-    'modified' => 1569418103,
+    'modified' => 1569498255,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -49,9 +49,7 @@ return [
                 ]
             ],
             '/above/' => [
-                0 => [
-                    0 => 'logo-image-hover-3607'
-                ]
+                
             ],
             '/testimonials/' => [
                 
@@ -313,7 +311,8 @@ return [
             'logo-5608' => [
                 'title' => 'Logo / Image',
                 'attributes' => [
-                    'image' => 'gantry-media://media/thumb-3dm.png'
+                    'image' => 'gantry-media://media/thumb-3dm.png',
+                    'class' => 'g-logo img.t5.front'
                 ],
                 'block' => [
                     'class' => 'wow fadeInLeft'
@@ -362,20 +361,6 @@ return [
                 ],
                 'block' => [
                     'class' => 'wow fadeInRight'
-                ]
-            ],
-            'logo-image-hover-3607' => [
-                'title' => 'Logo | Image | Hover',
-                'attributes' => [
-                    'image' => [
-                        'default' => [
-                            'url' => 'gantry-media://above/img02.jpeg'
-                        ]
-                    ],
-                    'effect' => [
-                        'overflow' => '1',
-                        'single' => 'h1'
-                    ]
                 ]
             ],
             'position-position-4734' => [
