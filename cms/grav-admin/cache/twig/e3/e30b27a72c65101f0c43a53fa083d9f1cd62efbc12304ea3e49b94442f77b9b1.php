@@ -132,6 +132,6 @@ class __TwigTemplate_ad820ec18c65ad08716e6c3364b93af94eda295b2f25628b6378ff0d24b
 {% else %}
     <div class=\"padding\">You don't have sufficient access to view the dashboard...</div>
 {% endif %}
-", "partials/dashboard-pages.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin-power-tools/admin/templates/partials/dashboard-pages.html.twig");
+", "partials/dashboard-pages.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/admin-power-tools/admin/templates/partials/dashboard-pages.html.twig");
     }
 }

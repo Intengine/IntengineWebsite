@@ -190,6 +190,6 @@ class __TwigTemplate_9bfb3a9e35c0b23be0cc7792069a1b5bfe2c08dd006f7fc3c39ff6c9052
 {% catch %}
     <div class=\"alert alert-error\"><strong>Error</strong> while rendering {{ segment.subtype }} particle.</div>
 {% endtry %}
-", "@nucleus/content/particle.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/engines/nucleus/templates/content/particle.html.twig");
+", "@nucleus/content/particle.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/engines/nucleus/templates/content/particle.html.twig");
     }
 }

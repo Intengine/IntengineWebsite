@@ -514,6 +514,6 @@ $context["childName"], "field" => $context["child"], "value" => null, "current_v
 
     public function getSourceContext()
     {
-        return new Source("", "forms/fields/collection/list.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/admin/templates/forms/fields/collection/list.html.twig");
+        return new Source("", "forms/fields/collection/list.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/admin/templates/forms/fields/collection/list.html.twig");
     }
 }

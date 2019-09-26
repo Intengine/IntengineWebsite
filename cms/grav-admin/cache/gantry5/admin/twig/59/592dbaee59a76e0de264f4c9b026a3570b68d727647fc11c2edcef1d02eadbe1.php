@@ -231,6 +231,6 @@ class __TwigTemplate_4cee49e345d17068cf9603424c9af159d14687e0d09d77f8672c2b85499
 
     public function getSourceContext()
     {
-        return new Source("", "@gantry-admin/pages/configurations/layouts/particle.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/admin/templates/pages/configurations/layouts/particle.html.twig");
+        return new Source("", "@gantry-admin/pages/configurations/layouts/particle.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/admin/templates/pages/configurations/layouts/particle.html.twig");
     }
 }

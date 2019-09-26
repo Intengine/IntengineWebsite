@@ -394,6 +394,6 @@ class __TwigTemplate_e6af5e12d898060082637638bb8d83d73530e99a519c402e11d9753b0cf
 \t\t</div>
 \t\t{{ gp_buttons }}
 \t{{ containerblock_end }}
-{% endblock %}", "@particles/gp_iconblock1.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/particles/gp_iconblock1.html.twig");
+{% endblock %}", "@particles/gp_iconblock1.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/particles/gp_iconblock1.html.twig");
     }
 }

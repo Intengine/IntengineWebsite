@@ -73,6 +73,6 @@ class __TwigTemplate_848c19338d3956c3e813fe664e0d5c48a8a5e7410a99cfbcd236b906669
 
     public function getSourceContext()
     {
-        return new Source("", "forms/fields/input/imagepicker.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/admin/templates/forms/fields/input/imagepicker.html.twig");
+        return new Source("", "forms/fields/input/imagepicker.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/admin/templates/forms/fields/input/imagepicker.html.twig");
     }
 }

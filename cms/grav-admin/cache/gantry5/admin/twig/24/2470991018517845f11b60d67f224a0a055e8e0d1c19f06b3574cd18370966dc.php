@@ -167,6 +167,6 @@ class __TwigTemplate_eb5231eed6c6af72c0ba0c6d82414340a0652473b68cac5368f1c105dd3
 
     public function getSourceContext()
     {
-        return new Source("", "@gantry-admin/partials/js-translations.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/admin/templates/partials/js-translations.html.twig");
+        return new Source("", "@gantry-admin/partials/js-translations.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/admin/templates/partials/js-translations.html.twig");
     }
 }

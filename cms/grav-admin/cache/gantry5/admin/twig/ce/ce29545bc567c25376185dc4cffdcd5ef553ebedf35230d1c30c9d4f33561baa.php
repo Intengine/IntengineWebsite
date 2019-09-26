@@ -225,6 +225,6 @@ class __TwigTemplate_8708cfb3d40c39229abc737935f09f99988146111627337b292746e3001
 
     public function getSourceContext()
     {
-        return new Source("", "@gantry-admin/partials/navigation.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/admin/templates/partials/navigation.html.twig");
+        return new Source("", "@gantry-admin/partials/navigation.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/admin/templates/partials/navigation.html.twig");
     }
 }

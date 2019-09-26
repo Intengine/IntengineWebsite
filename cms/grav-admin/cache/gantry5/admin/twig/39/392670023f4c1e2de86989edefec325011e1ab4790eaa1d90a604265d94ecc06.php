@@ -126,6 +126,6 @@ class __TwigTemplate_7ddb06d4cc7a656ece0b3f22b34eeae3982f776a44756e08e8ee9cdec47
 
     public function getSourceContext()
     {
-        return new Source("", "forms/fields/input/colorpicker.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/admin/templates/forms/fields/input/colorpicker.html.twig");
+        return new Source("", "forms/fields/input/colorpicker.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/admin/templates/forms/fields/input/colorpicker.html.twig");
     }
 }

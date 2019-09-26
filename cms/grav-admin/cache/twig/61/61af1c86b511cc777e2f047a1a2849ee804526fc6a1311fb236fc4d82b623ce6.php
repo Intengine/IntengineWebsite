@@ -105,6 +105,6 @@ class __TwigTemplate_dd54237d8e1b7dfd79796d81cb1fb6ffecbb9f4df4cad1bcd6bdaced47e
     {% do assets.addCss(theme_url~'/css/nucleus-ie9.css') %}
     {% do assets.addCss(theme_url~'/css/pure-0.5.0/grids-min.css') %}
 {% endif %}
-", "partials/stylesheets.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/stylesheets.html.twig");
+", "partials/stylesheets.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/stylesheets.html.twig");
     }
 }

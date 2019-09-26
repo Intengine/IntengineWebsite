@@ -115,6 +115,6 @@ class __TwigTemplate_4eb18442a98e776e094558c0544670b150e92323342f93fa1d68219c8c4
 
     public function getSourceContext()
     {
-        return new Source("", "@gantry-admin/pages/configurations/layouts/particle-card.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/admin/templates/pages/configurations/layouts/particle-card.html.twig");
+        return new Source("", "@gantry-admin/pages/configurations/layouts/particle-card.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/admin/templates/pages/configurations/layouts/particle-card.html.twig");
     }
 }

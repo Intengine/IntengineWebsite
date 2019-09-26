@@ -56,6 +56,6 @@ class __TwigTemplate_2dd43f1a086cbc5e29572c43d2d047bace6aad6390e2f4504035691761d
         return new Source("<button class=\"lines-button x\" type=\"button\" role=\"button\" aria-label=\"Toggle Navigation\" data-sidebar-mobile-toggle>
     <span class=\"lines\"></span>
 </button>
-", "partials/nav-toggle.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/nav-toggle.html.twig");
+", "partials/nav-toggle.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/nav-toggle.html.twig");
     }
 }
