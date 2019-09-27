@@ -2,10 +2,10 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/config/default/index.yaml',
-    'modified' => 1569586407,
+    'modified' => 1569586486,
     'data' => [
         'name' => 'default',
-        'timestamp' => 1569586407,
+        'timestamp' => 1569586485,
         'version' => 7,
         'preset' => [
             'image' => 'gantry-admin://images/layouts/default.png',
@@ -33,10 +33,7 @@ return [
         ],
         'particles' => [
             'logo' => [
-                'logo-9322' => 'Logo / Image',
-                'logo-9072' => 'Logo / Image',
-                'logo-9887' => 'Logo / Image',
-                'logo-8101' => 'Logo / Image'
+                'logo-9322' => 'Logo / Image'
             ],
             'menu' => [
                 'menu-6409' => 'Menu'

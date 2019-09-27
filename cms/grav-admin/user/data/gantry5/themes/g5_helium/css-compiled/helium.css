@@ -2183,7 +2183,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 1, user/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
 #g-offcanvas {
-  background: #4db2b3;
+  background: #60606e;
   width: 12rem;
   color: #fff;
 }
@@ -2272,7 +2272,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* line 96, user/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
 /* line 97, user/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
 #g-offcanvas #g-mobilemenu-container ul {
-  background: #4db2b3;
+  background: #60606e;
 }
 /* line 100, user/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
 /* line 101, user/themes/g5_helium/scss/helium/sections/_offcanvas.scss */

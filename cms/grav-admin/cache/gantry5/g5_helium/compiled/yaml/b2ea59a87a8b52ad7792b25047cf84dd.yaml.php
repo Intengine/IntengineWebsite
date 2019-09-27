@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-    'modified' => 1569586407,
+    'modified' => 1569586485,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -41,11 +41,6 @@ return [
                     0 => 'jloverlay-8611 33.3',
                     1 => 'jloverlay-3905 33.3',
                     2 => 'jloverlay-7854 33.3'
-                ],
-                2 => [
-                    0 => 'logo-9072 33.3',
-                    1 => 'logo-9887 33.3',
-                    2 => 'logo-8101 33.3'
                 ]
             ],
             '/above/' => [
@@ -642,33 +637,6 @@ return [
                     'padding' => 'default',
                     'vertical_alignment' => 'none',
                     'parallax_text_color' => 'default'
-                ],
-                'block' => [
-                    'class' => 'wow fadeInRight'
-                ]
-            ],
-            'logo-9072' => [
-                'title' => 'Logo / Image',
-                'attributes' => [
-                    'image' => 'gantry-media://media/thumb-asx.png'
-                ],
-                'block' => [
-                    'class' => 'wow fadeInLeft'
-                ]
-            ],
-            'logo-9887' => [
-                'title' => 'Logo / Image',
-                'attributes' => [
-                    'image' => 'gantry-media://media/thumb-com.png'
-                ],
-                'block' => [
-                    'class' => 'wow fadeInUp'
-                ]
-            ],
-            'logo-8101' => [
-                'title' => 'Logo / Image',
-                'attributes' => [
-                    'image' => 'gantry-media://media/thumb-csr.png'
                 ],
                 'block' => [
                     'class' => 'wow fadeInRight'

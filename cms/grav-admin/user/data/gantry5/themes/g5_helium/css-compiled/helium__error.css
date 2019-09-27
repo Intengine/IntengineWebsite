@@ -305,14 +305,12 @@ hr {
   padding-right: 10%;
 }
 @media only all and (min-width: 48rem) and (max-width: 59.938rem) {
-  /* line 13, user/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_breakpoints.scss */
   .section-horizontal-paddings {
     padding-left: 0;
     padding-right: 0;
   }
 }
 @media only all and (max-width: 47.938rem) {
-  /* line 25, user/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_breakpoints.scss */
   .section-horizontal-paddings {
     padding-left: 0;
     padding-right: 0;
@@ -1337,7 +1335,6 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* line 2, user/themes/g5_helium/scss/helium/styles/_helium-style.scss */
 /* line 4, user/themes/g5_helium/scss/helium/styles/_helium-style.scss */
 @media only all and (min-width: 48rem) {
-  /* line 22, user/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_breakpoints.scss */
   .g-home-particles.g-helium-style #g-navigation {
     background: transparent;
   }
@@ -1382,7 +1379,6 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   }
 }
 @media only all and (min-width: 30.062rem) and (max-width: 47.938rem) {
-  /* line 16, user/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_breakpoints.scss */
   .g-home-particles.g-helium-style #g-header {
     padding-top: 2rem;
   }
@@ -2183,7 +2179,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 1, user/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
 #g-offcanvas {
-  background: #4db2b3;
+  background: #60606e;
   width: 12rem;
   color: #fff;
 }
@@ -2237,7 +2233,6 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   color: rgba(255, 255, 255, 0.6);
 }
 @media only all and (max-width: 48rem) {
-  /* line 54, user/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
   .g-offcanvas-toggle {
     display: block;
   }
@@ -2272,7 +2267,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* line 96, user/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
 /* line 97, user/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
 #g-offcanvas #g-mobilemenu-container ul {
-  background: #4db2b3;
+  background: #60606e;
 }
 /* line 100, user/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
 /* line 101, user/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
@@ -2644,7 +2639,6 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   margin: 0 auto;
 }
 @media only all and (min-width: 60rem) and (max-width: 74.938rem) {
-  /* line 7, user/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_breakpoints.scss */
   .g-contentcubes .cube-items-wrapper .cube-content-wrapper {
     padding: 4.6rem 0;
   }
@@ -2661,7 +2655,6 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   }
 }
 @media only all and (max-width: 30rem) {
-  /* line 19, user/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_breakpoints.scss */
   .g-contentcubes .cube-items-wrapper .cube-content-wrapper {
     max-width: 14.5rem;
   }
@@ -3200,7 +3193,6 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   transform-style: preserve-3d;
 }
 @media only all and (min-width: 75rem) {
-  /* line 4, user/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_breakpoints.scss */
   .g-owlcarousel .g-owlcarousel-item-wrapper .g-owlcarousel-item-content-container {
     width: 75rem;
   }

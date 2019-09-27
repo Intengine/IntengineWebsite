@@ -43,7 +43,7 @@ footer:
   background: '#ffffff'
   text-color: '#60606e'
 offcanvas:
-  background: ''
+  background: '#60606e'
   text-color: '#ffffff'
   toggle-color: '#ffffff'
   toggle-visibility: '1'

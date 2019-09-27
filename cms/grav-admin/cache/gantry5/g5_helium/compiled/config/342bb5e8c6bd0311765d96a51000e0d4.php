@@ -1,153 +1,153 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1569499676,
-    'checksum' => '192b24c022b1b680fb89fa80b50ef9b8',
+    'timestamp' => 1569586886,
+    'checksum' => '2ed5d5bb66d2ba7f0a597ec1852b7345',
     'files' => [
         'user/data/gantry5/themes/g5_helium/config/_body_only' => [
             'index' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/_body_only/index.yaml',
-                'modified' => 1569416467
+                'modified' => 1569569827
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/_body_only/layout.yaml',
-                'modified' => 1569407018
+                'modified' => 1569569722
             ]
         ],
         'user/data/gantry5/themes/g5_helium/config/default' => [
             'index' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/index.yaml',
-                'modified' => 1569499204
+                'modified' => 1569586486
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-                'modified' => 1569499204
+                'modified' => 1569586485
             ],
             'page/assets' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/assets.yaml',
-                'modified' => 1569499576
+                'modified' => 1569569722
             ],
             'page/body' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/body.yaml',
-                'modified' => 1569499576
+                'modified' => 1569569722
             ],
             'page/head' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/head.yaml',
-                'modified' => 1569499576
+                'modified' => 1569569722
             ],
             'particles/branding' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/branding.yaml',
-                'modified' => 1569407018
+                'modified' => 1569569722
             ],
             'particles/content' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/content.yaml',
-                'modified' => 1569407018
+                'modified' => 1569569722
             ],
             'particles/contentarray' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/contentarray.yaml',
-                'modified' => 1569407018
+                'modified' => 1569569722
             ],
             'particles/contentcubes' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/contentcubes.yaml',
-                'modified' => 1569407018
+                'modified' => 1569569722
             ],
             'particles/contenttabs' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/contenttabs.yaml',
-                'modified' => 1569407018
+                'modified' => 1569569722
             ],
             'particles/copyright' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/copyright.yaml',
-                'modified' => 1569407018
+                'modified' => 1569569722
             ],
             'particles/custom' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/custom.yaml',
-                'modified' => 1569407018
+                'modified' => 1569569722
             ],
             'particles/date' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/date.yaml',
-                'modified' => 1569407018
+                'modified' => 1569569722
             ],
             'particles/gp_iconblock1' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/gp_iconblock1.yaml',
-                'modified' => 1569407018
+                'modified' => 1569569722
             ],
             'particles/horizontalmenu' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/horizontalmenu.yaml',
-                'modified' => 1569407018
+                'modified' => 1569569722
             ],
             'particles/jldivider' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/jldivider.yaml',
-                'modified' => 1569407018
+                'modified' => 1569569722
             ],
             'particles/login' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/login.yaml',
-                'modified' => 1569407018
+                'modified' => 1569569722
             ],
             'particles/logo' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/logo.yaml',
-                'modified' => 1569407018
+                'modified' => 1569569722
             ],
             'particles/menu' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/menu.yaml',
-                'modified' => 1569407018
+                'modified' => 1569569722
             ],
             'particles/messages' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/messages.yaml',
-                'modified' => 1569407018
+                'modified' => 1569569722
             ],
             'particles/mobile-menu' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/mobile-menu.yaml',
-                'modified' => 1569407018
+                'modified' => 1569569722
             ],
             'particles/owlcarousel' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/owlcarousel.yaml',
-                'modified' => 1569407018
+                'modified' => 1569569722
             ],
             'particles/position' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/position.yaml',
-                'modified' => 1569407018
+                'modified' => 1569569722
             ],
             'particles/social' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/social.yaml',
-                'modified' => 1569407018
+                'modified' => 1569569722
             ],
             'particles/spacer' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/spacer.yaml',
-                'modified' => 1569407018
+                'modified' => 1569569722
             ],
             'particles/totop' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/totop.yaml',
-                'modified' => 1569407018
+                'modified' => 1569569722
             ],
             'styles' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/styles.yaml',
-                'modified' => 1569407018
+                'modified' => 1569586884
             ]
         ],
         'user/themes/g5_helium/config/default' => [
             'page/body' => [
                 'file' => 'user/themes/g5_helium/config/default/page/body.yaml',
-                'modified' => 1569407020
+                'modified' => 1569569725
             ],
             'particles/branding' => [
                 'file' => 'user/themes/g5_helium/config/default/particles/branding.yaml',
-                'modified' => 1569407020
+                'modified' => 1569569725
             ],
             'particles/copyright' => [
                 'file' => 'user/themes/g5_helium/config/default/particles/copyright.yaml',
-                'modified' => 1569407020
+                'modified' => 1569569725
             ],
             'particles/logo' => [
                 'file' => 'user/themes/g5_helium/config/default/particles/logo.yaml',
-                'modified' => 1569407020
+                'modified' => 1569569725
             ],
             'particles/social' => [
                 'file' => 'user/themes/g5_helium/config/default/particles/social.yaml',
-                'modified' => 1569407020
+                'modified' => 1569569725
             ],
             'particles/totop' => [
                 'file' => 'user/themes/g5_helium/config/default/particles/totop.yaml',
-                'modified' => 1569407020
+                'modified' => 1569569725
             ]
         ]
     ],
@@ -672,7 +672,7 @@ return [
                 'text-color' => '#ffffff'
             ],
             'offcanvas' => [
-                'background' => '',
+                'background' => '#60606e',
                 'text-color' => '#ffffff',
                 'toggle-color' => '#ffffff',
                 'toggle-visibility' => '1',
@@ -847,7 +847,7 @@ return [
         ],
         'index' => [
             'name' => '_body_only',
-            'timestamp' => 1569407018,
+            'timestamp' => 1569569722,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/body-only.png',
@@ -937,7 +937,13 @@ return [
                     'title' => 'Custom HTML',
                     'attributes' => [
                         'html' => '<h1>Welcome to INTENGINE</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>'
+<p>Love console games. Have PSone, PS2, PS3 and PS4. Playing on emulators too (mostly NES, SNES and Amiga). Designer. Movie-maniac.</p>
+
+<p>Trying to create something new and fresh. By the last 4 years I was studying graphic design, programming and game development for mobiles (Android, iOS) and PC\'s as well (Unity, Unreal Engine 4). Learned some JAVA and C#.</p>
+
+<p>I like to create websites too. In my academy\'s years I was studying a lot of HTML, CSS and JavaScript with AngularJS and jQuery. I also learned how to use the Bootstrap and other cool stuff to build amazing sites.</p>
+
+<p>My main goal for this year is to build an RPG game with beautiful story and fantastic characters in Unity. The second goal is to make a full-time movie for the greatest cinemas in Poland.</p>'
                     ],
                     'block' => [
                         'class' => 'wow fadeInDown',
@@ -1005,65 +1011,10 @@ return [
                 'custom-7633' => [
                     'title' => 'Custom HTML',
                     'attributes' => [
-                        'html' => '<h1>PORTFOLIO</h1>'
+                        'html' => '<br><h1>PORTFOLIO</h1>'
                     ],
                     'block' => [
                         'class' => 'wow fadeInUp'
-                    ]
-                ],
-                'logo-5608' => [
-                    'title' => 'Logo / Image',
-                    'attributes' => [
-                        'image' => 'gantry-media://media/thumb-3dm.png',
-                        'class' => 'g-logo img.t5.front'
-                    ],
-                    'block' => [
-                        'class' => 'wow fadeInLeft'
-                    ]
-                ],
-                'logo-1564' => [
-                    'title' => 'Logo / Image',
-                    'attributes' => [
-                        'image' => 'gantry-media://media/thumb-3g2.png'
-                    ],
-                    'block' => [
-                        'class' => 'wow fadeInUp'
-                    ]
-                ],
-                'logo-3491' => [
-                    'title' => 'Logo / Image',
-                    'attributes' => [
-                        'image' => 'gantry-media://media/thumb-ai.png'
-                    ],
-                    'block' => [
-                        'class' => 'wow fadeInRight'
-                    ]
-                ],
-                'logo-9072' => [
-                    'title' => 'Logo / Image',
-                    'attributes' => [
-                        'image' => 'gantry-media://media/thumb-asx.png'
-                    ],
-                    'block' => [
-                        'class' => 'wow fadeInLeft'
-                    ]
-                ],
-                'logo-9887' => [
-                    'title' => 'Logo / Image',
-                    'attributes' => [
-                        'image' => 'gantry-media://media/thumb-com.png'
-                    ],
-                    'block' => [
-                        'class' => 'wow fadeInUp'
-                    ]
-                ],
-                'logo-8101' => [
-                    'title' => 'Logo / Image',
-                    'attributes' => [
-                        'image' => 'gantry-media://media/thumb-csr.png'
-                    ],
-                    'block' => [
-                        'class' => 'wow fadeInRight'
                     ]
                 ],
                 'jloverlay-8611' => [
@@ -1073,47 +1024,47 @@ return [
                         'image_alt' => '',
                         'title' => 'Lorem Ipsum',
                         'meta' => '',
-                        'content' => 'Ipsum Lorem',
+                        'content' => '',
                         'link' => '',
                         'buttontext' => '',
                         'target' => '_self',
-                        'hover_image' => 'gantry-media://media/thumb-3ds.png',
+                        'hover_image' => '',
                         'class' => '',
                         'overlay_mode' => 'cover',
                         'overlay_hover' => '1',
                         'overlay_style' => 'jl-overlay-primary',
-                        'overlay_color' => 'dark',
+                        'overlay_color' => 'light',
                         'overlay_padding' => 'default',
                         'overlay_position' => 'center',
                         'overlay_margin' => 'none',
                         'overlay_maxwidth' => 'none',
                         'overlay_transition' => 'fade',
-                        'image_transition' => 'none',
+                        'image_transition' => 'scale-up',
                         'box_shadow' => 'none',
                         'box_shadow_hover' => 'none',
                         'image_width' => '',
                         'image_height' => '',
                         'title_transition' => 'fade',
-                        'title_style' => 'h3',
+                        'title_style' => 'h2',
                         'title_decoration' => 'none',
-                        'predefined_title_color' => 'default',
-                        'title_color' => '',
+                        'predefined_title_color' => 'secondary',
+                        'title_color' => '#000000',
                         'title_fontsize' => '',
                         'title_text_transform' => '',
                         'title_element' => 'h3',
                         'title_margin' => 'default',
-                        'meta_transition' => 'none',
-                        'meta_style' => 'text-meta',
+                        'meta_transition' => 'fade',
+                        'meta_style' => 'h3',
                         'pre_meta_color' => 'default',
-                        'meta_color' => '',
+                        'meta_color' => '#ffffff',
                         'meta_fontsize' => '',
                         'meta_text_transform' => '',
                         'meta_alignment' => 'bottom',
                         'meta_margin' => 'default',
-                        'content_transition' => 'none',
+                        'content_transition' => 'fade',
                         'content_style' => 'default',
                         'content_text_color' => 'default',
-                        'customize_content_color' => '',
+                        'customize_content_color' => '#000000',
                         'customize_content_fontsize' => '',
                         'content_text_transform' => '',
                         'content_margin_top' => 'default',
@@ -1128,7 +1079,7 @@ return [
                         'particle_title_decoration' => 'none',
                         'particle_title_align' => 'inherit',
                         'particle_predefined_color' => 'default',
-                        'particle_title_color' => '',
+                        'particle_title_color' => '#000000',
                         'particle_title_fontsize' => '',
                         'particle_title_element' => 'h3',
                         'align' => 'inherit',
@@ -1160,9 +1111,9 @@ return [
                         'background_image_position' => 'center-center',
                         'parallax_bg_breakpoint' => 'always',
                         'parallax_bg_visibility' => 'always',
-                        'parallax_bg_color' => '',
+                        'parallax_bg_color' => '#000000',
                         'blendmode' => 'inherit',
-                        'parallax_bg_overlay' => '',
+                        'parallax_bg_overlay' => '#000000',
                         'horizontal_start' => '0',
                         'horizontal_end' => '0',
                         'vertical_start' => '0',
@@ -1172,6 +1123,231 @@ return [
                         'padding' => 'default',
                         'vertical_alignment' => 'none',
                         'parallax_text_color' => 'default'
+                    ],
+                    'block' => [
+                        'class' => 'wow fadeInLeft'
+                    ]
+                ],
+                'jloverlay-3905' => [
+                    'title' => 'JL Overlay',
+                    'attributes' => [
+                        'image' => 'gantry-media://media/thumb-asp.png',
+                        'image_alt' => '',
+                        'title' => 'Ipsum Lorem',
+                        'meta' => '',
+                        'content' => '',
+                        'link' => '',
+                        'buttontext' => '',
+                        'target' => '_self',
+                        'hover_image' => '',
+                        'class' => '',
+                        'overlay_mode' => 'cover',
+                        'overlay_hover' => '1',
+                        'overlay_style' => 'jl-overlay-primary',
+                        'overlay_color' => 'light',
+                        'overlay_padding' => 'default',
+                        'overlay_position' => 'center',
+                        'overlay_margin' => 'none',
+                        'overlay_maxwidth' => 'none',
+                        'overlay_transition' => 'fade',
+                        'image_transition' => 'scale-up',
+                        'box_shadow' => 'none',
+                        'box_shadow_hover' => 'none',
+                        'image_width' => '',
+                        'image_height' => '',
+                        'title_transition' => 'fade',
+                        'title_style' => 'h2',
+                        'title_decoration' => 'none',
+                        'predefined_title_color' => 'secondary',
+                        'title_color' => '#000000',
+                        'title_fontsize' => '',
+                        'title_text_transform' => '',
+                        'title_element' => 'h3',
+                        'title_margin' => 'default',
+                        'meta_transition' => 'fade',
+                        'meta_style' => 'h3',
+                        'pre_meta_color' => 'default',
+                        'meta_color' => '#ffffff',
+                        'meta_fontsize' => '',
+                        'meta_text_transform' => '',
+                        'meta_alignment' => 'bottom',
+                        'meta_margin' => 'default',
+                        'content_transition' => 'fade',
+                        'content_style' => 'default',
+                        'content_text_color' => 'default',
+                        'customize_content_color' => '#000000',
+                        'customize_content_fontsize' => '',
+                        'content_text_transform' => '',
+                        'content_margin_top' => 'default',
+                        'link_transition' => 'none',
+                        'link_type' => 'button',
+                        'buttontarget' => '_self',
+                        'buttonclass' => 'default',
+                        'link_button_size' => 'default',
+                        'link_margin_top' => 'default',
+                        'particle_title' => '',
+                        'particle_title_style' => 'h3',
+                        'particle_title_decoration' => 'none',
+                        'particle_title_align' => 'inherit',
+                        'particle_predefined_color' => 'default',
+                        'particle_title_color' => '#000000',
+                        'particle_title_fontsize' => '',
+                        'particle_title_element' => 'h3',
+                        'align' => 'inherit',
+                        'breakpoint' => 'always',
+                        'fallback' => 'inherit',
+                        'g_maxwidth' => 'inherit',
+                        'g_maxwidth_alignment' => 'left',
+                        'g_maxwidth_breakpoint' => 'always',
+                        'margin' => 'inherit',
+                        'visibility' => 'inherit',
+                        'animation' => 'inherit',
+                        'animation_delay' => '',
+                        'animation_repeat' => 'disabled',
+                        'pa_horizontal_start' => '',
+                        'pa_horizontal_end' => '',
+                        'pa_vertical_start' => '',
+                        'pa_vertical_end' => '',
+                        'scale_start' => '',
+                        'scale_end' => '',
+                        'rotate_start' => '',
+                        'rotate_end' => '',
+                        'opacity_start' => '',
+                        'opacity_end' => '',
+                        'easing' => '',
+                        'pa_viewport' => '',
+                        'pa_breakpoint' => 'always',
+                        'parallax_image' => '',
+                        'background_image_size' => 'auto',
+                        'background_image_position' => 'center-center',
+                        'parallax_bg_breakpoint' => 'always',
+                        'parallax_bg_visibility' => 'always',
+                        'parallax_bg_color' => '#000000',
+                        'blendmode' => 'inherit',
+                        'parallax_bg_overlay' => '#000000',
+                        'horizontal_start' => '0',
+                        'horizontal_end' => '0',
+                        'vertical_start' => '0',
+                        'vertical_end' => '0',
+                        'container' => '0',
+                        'viewport_height' => 'none',
+                        'padding' => 'default',
+                        'vertical_alignment' => 'none',
+                        'parallax_text_color' => 'default'
+                    ],
+                    'block' => [
+                        'class' => 'wow fadeInUp'
+                    ]
+                ],
+                'jloverlay-7854' => [
+                    'title' => 'JL Overlay',
+                    'attributes' => [
+                        'image' => 'gantry-media://media/thumb-app.png',
+                        'image_alt' => '',
+                        'title' => 'Lorem Ipsum',
+                        'meta' => '',
+                        'content' => '',
+                        'link' => '',
+                        'buttontext' => '',
+                        'target' => '_self',
+                        'hover_image' => '',
+                        'class' => '',
+                        'overlay_mode' => 'cover',
+                        'overlay_hover' => '1',
+                        'overlay_style' => 'jl-overlay-primary',
+                        'overlay_color' => 'light',
+                        'overlay_padding' => 'default',
+                        'overlay_position' => 'center',
+                        'overlay_margin' => 'none',
+                        'overlay_maxwidth' => 'none',
+                        'overlay_transition' => 'fade',
+                        'image_transition' => 'scale-up',
+                        'box_shadow' => 'none',
+                        'box_shadow_hover' => 'none',
+                        'image_width' => '',
+                        'image_height' => '',
+                        'title_transition' => 'fade',
+                        'title_style' => 'h2',
+                        'title_decoration' => 'none',
+                        'predefined_title_color' => 'secondary',
+                        'title_color' => '#000000',
+                        'title_fontsize' => '',
+                        'title_text_transform' => '',
+                        'title_element' => 'h3',
+                        'title_margin' => 'default',
+                        'meta_transition' => 'fade',
+                        'meta_style' => 'h3',
+                        'pre_meta_color' => 'default',
+                        'meta_color' => '#ffffff',
+                        'meta_fontsize' => '',
+                        'meta_text_transform' => '',
+                        'meta_alignment' => 'bottom',
+                        'meta_margin' => 'default',
+                        'content_transition' => 'fade',
+                        'content_style' => 'default',
+                        'content_text_color' => 'default',
+                        'customize_content_color' => '#000000',
+                        'customize_content_fontsize' => '',
+                        'content_text_transform' => '',
+                        'content_margin_top' => 'default',
+                        'link_transition' => 'none',
+                        'link_type' => 'button',
+                        'buttontarget' => '_self',
+                        'buttonclass' => 'default',
+                        'link_button_size' => 'default',
+                        'link_margin_top' => 'default',
+                        'particle_title' => '',
+                        'particle_title_style' => 'h3',
+                        'particle_title_decoration' => 'none',
+                        'particle_title_align' => 'inherit',
+                        'particle_predefined_color' => 'default',
+                        'particle_title_color' => '#000000',
+                        'particle_title_fontsize' => '',
+                        'particle_title_element' => 'h3',
+                        'align' => 'inherit',
+                        'breakpoint' => 'always',
+                        'fallback' => 'inherit',
+                        'g_maxwidth' => 'inherit',
+                        'g_maxwidth_alignment' => 'left',
+                        'g_maxwidth_breakpoint' => 'always',
+                        'margin' => 'inherit',
+                        'visibility' => 'inherit',
+                        'animation' => 'inherit',
+                        'animation_delay' => '',
+                        'animation_repeat' => 'disabled',
+                        'pa_horizontal_start' => '',
+                        'pa_horizontal_end' => '',
+                        'pa_vertical_start' => '',
+                        'pa_vertical_end' => '',
+                        'scale_start' => '',
+                        'scale_end' => '',
+                        'rotate_start' => '',
+                        'rotate_end' => '',
+                        'opacity_start' => '',
+                        'opacity_end' => '',
+                        'easing' => '',
+                        'pa_viewport' => '',
+                        'pa_breakpoint' => 'always',
+                        'parallax_image' => '',
+                        'background_image_size' => 'auto',
+                        'background_image_position' => 'center-center',
+                        'parallax_bg_breakpoint' => 'always',
+                        'parallax_bg_visibility' => 'always',
+                        'parallax_bg_color' => '#000000',
+                        'blendmode' => 'inherit',
+                        'parallax_bg_overlay' => '#000000',
+                        'horizontal_start' => '0',
+                        'horizontal_end' => '0',
+                        'vertical_start' => '0',
+                        'vertical_end' => '0',
+                        'container' => '0',
+                        'viewport_height' => 'none',
+                        'padding' => 'default',
+                        'vertical_alignment' => 'none',
+                        'parallax_text_color' => 'default'
+                    ],
+                    'block' => [
+                        'class' => 'wow fadeInRight'
                     ]
                 ],
                 'position-position-4734' => [

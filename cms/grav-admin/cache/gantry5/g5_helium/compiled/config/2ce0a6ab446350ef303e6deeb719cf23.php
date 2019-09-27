@@ -1,17 +1,17 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1569586408,
-    'checksum' => 'dc0a8e40febaea909b043778de989aa6',
+    'timestamp' => 1569586884,
+    'checksum' => 'e8c6d41a17de476080ded59db37f4b90',
     'files' => [
         'user/data/gantry5/themes/g5_helium/config/default' => [
             'index' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/index.yaml',
-                'modified' => 1569586407
+                'modified' => 1569586486
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-                'modified' => 1569586407
+                'modified' => 1569586485
             ],
             'page/assets' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/assets.yaml',
@@ -111,7 +111,7 @@ return [
             ],
             'styles' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/styles.yaml',
-                'modified' => 1569569722
+                'modified' => 1569586884
             ]
         ],
         'user/themes/g5_helium/config/default' => [
@@ -662,7 +662,7 @@ return [
                 'text-color' => '#ffffff'
             ],
             'offcanvas' => [
-                'background' => '',
+                'background' => '#60606e',
                 'text-color' => '#ffffff',
                 'toggle-color' => '#ffffff',
                 'toggle-visibility' => '1',
@@ -837,7 +837,7 @@ return [
         ],
         'index' => [
             'name' => 'default',
-            'timestamp' => 1569586407,
+            'timestamp' => 1569586485,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -865,10 +865,7 @@ return [
             ],
             'particles' => [
                 'logo' => [
-                    'logo-9322' => 'Logo / Image',
-                    'logo-9072' => 'Logo / Image',
-                    'logo-9887' => 'Logo / Image',
-                    'logo-8101' => 'Logo / Image'
+                    'logo-9322' => 'Logo / Image'
                 ],
                 'menu' => [
                     'menu-6409' => 'Menu'
@@ -953,11 +950,6 @@ return [
                         0 => 'jloverlay-8611 33.3',
                         1 => 'jloverlay-3905 33.3',
                         2 => 'jloverlay-7854 33.3'
-                    ],
-                    2 => [
-                        0 => 'logo-9072 33.3',
-                        1 => 'logo-9887 33.3',
-                        2 => 'logo-8101 33.3'
                     ]
                 ],
                 '/above/' => [
@@ -1554,33 +1546,6 @@ return [
                         'padding' => 'default',
                         'vertical_alignment' => 'none',
                         'parallax_text_color' => 'default'
-                    ],
-                    'block' => [
-                        'class' => 'wow fadeInRight'
-                    ]
-                ],
-                'logo-9072' => [
-                    'title' => 'Logo / Image',
-                    'attributes' => [
-                        'image' => 'gantry-media://media/thumb-asx.png'
-                    ],
-                    'block' => [
-                        'class' => 'wow fadeInLeft'
-                    ]
-                ],
-                'logo-9887' => [
-                    'title' => 'Logo / Image',
-                    'attributes' => [
-                        'image' => 'gantry-media://media/thumb-com.png'
-                    ],
-                    'block' => [
-                        'class' => 'wow fadeInUp'
-                    ]
-                ],
-                'logo-8101' => [
-                    'title' => 'Logo / Image',
-                    'attributes' => [
-                        'image' => 'gantry-media://media/thumb-csr.png'
                     ],
                     'block' => [
                         'class' => 'wow fadeInRight'

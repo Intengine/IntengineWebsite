@@ -1,8 +1,8 @@
 <?php
 return [
     'file' => 'gantry-theme://css-compiled/helium.css',
-    'timestamp' => 1569569758,
-    'md5' => 'be4dd71c60c695ee9c59465bd5b55e09',
+    'timestamp' => 1569586894,
+    'md5' => 'c59da23e32e856cd1fca07f895ea5af6',
     'variables' => [
         'above-text-color' => '#ffffff',
         'accent-color-1' => '#ffffff',
@@ -32,6 +32,7 @@ return [
         'menu-animation' => '\'g-fade\'',
         'navigation-background' => 'rgba(0, 0, 0, 0)',
         'navigation-text-color' => '#ffffff',
+        'offcanvas-background' => '#60606e',
         'offcanvas-text-color' => '#ffffff',
         'offcanvas-toggle-color' => '#ffffff',
         'offcanvas-toggle-visibility' => '\'1\'',

@@ -1,7 +1,7 @@
 <?php
 return [
     'file' => 'gantry-theme://css-compiled/custom.css',
-    'timestamp' => 1569569759,
+    'timestamp' => 1569586894,
     'md5' => '2f92e61a26218ce29059c11d68daf64d',
     'variables' => [
         'above-text-color' => '#ffffff',
@@ -32,6 +32,7 @@ return [
         'menu-animation' => '\'g-fade\'',
         'navigation-background' => 'rgba(0, 0, 0, 0)',
         'navigation-text-color' => '#ffffff',
+        'offcanvas-background' => '#60606e',
         'offcanvas-text-color' => '#ffffff',
         'offcanvas-toggle-color' => '#ffffff',
         'offcanvas-toggle-visibility' => '\'1\'',
