@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'gantry-theme://config/default/page/head.yaml',
-    'modified' => 1569497975,
+    'modified' => 1569569722,
     'data' => [
         'meta' => [
             
@@ -53,6 +53,15 @@ return [
                     'javascript' => [
                         
                     ]
+                ]
+            ],
+            4 => [
+                'id' => 'jluikit-8909',
+                'type' => 'jluikit',
+                'title' => 'UIkit3 for Gantry5',
+                'attributes' => [
+                    'enabled' => '1',
+                    'jslocation' => 'footer'
                 ]
             ]
         ]

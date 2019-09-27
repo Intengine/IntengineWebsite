@@ -62,6 +62,6 @@ class __TwigTemplate_f3412b9535f81e60afee1947cc6323991e826453ec1974cc9d1868d22cb
         return new Source("{% extends '@nucleus/content/particle.html.twig' %}
 
 {# Handle atoms, which are special case of particles #}
-", "@nucleus/content/atom.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/engines/nucleus/templates/content/atom.html.twig");
+", "@nucleus/content/atom.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/engines/nucleus/templates/content/atom.html.twig");
     }
 }

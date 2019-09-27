@@ -105,6 +105,6 @@ class __TwigTemplate_165400d93fc02dc107692e5aa790c42cb97e7c4ef46d4b1efe5dc2e586e
         {% endif %}
     </h1>
 {% endif %}
-", "partials/login-logo.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/login-logo.html.twig");
+", "partials/login-logo.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/login-logo.html.twig");
     }
 }

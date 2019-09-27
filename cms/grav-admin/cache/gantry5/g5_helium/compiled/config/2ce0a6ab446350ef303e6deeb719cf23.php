@@ -1,143 +1,143 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1569508648,
-    'checksum' => '45fae038bca1e90060034089bbbe0ce7',
+    'timestamp' => 1569570878,
+    'checksum' => 'dbc1d507c7a32ba347b8b903747db39d',
     'files' => [
         'user/data/gantry5/themes/g5_helium/config/default' => [
             'index' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/index.yaml',
-                'modified' => 1569508647
+                'modified' => 1569570875
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-                'modified' => 1569508647
+                'modified' => 1569570875
             ],
             'page/assets' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/assets.yaml',
-                'modified' => 1569508330
+                'modified' => 1569569722
             ],
             'page/body' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/body.yaml',
-                'modified' => 1569508330
+                'modified' => 1569569722
             ],
             'page/head' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/head.yaml',
-                'modified' => 1569508330
+                'modified' => 1569569722
             ],
             'particles/branding' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/branding.yaml',
-                'modified' => 1569508330
+                'modified' => 1569569722
             ],
             'particles/content' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/content.yaml',
-                'modified' => 1569508330
+                'modified' => 1569569722
             ],
             'particles/contentarray' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/contentarray.yaml',
-                'modified' => 1569508330
+                'modified' => 1569569722
             ],
             'particles/contentcubes' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/contentcubes.yaml',
-                'modified' => 1569508330
+                'modified' => 1569569722
             ],
             'particles/contenttabs' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/contenttabs.yaml',
-                'modified' => 1569508330
+                'modified' => 1569569722
             ],
             'particles/copyright' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/copyright.yaml',
-                'modified' => 1569508330
+                'modified' => 1569569722
             ],
             'particles/custom' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/custom.yaml',
-                'modified' => 1569508330
+                'modified' => 1569569722
             ],
             'particles/date' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/date.yaml',
-                'modified' => 1569508330
+                'modified' => 1569569722
             ],
             'particles/gp_iconblock1' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/gp_iconblock1.yaml',
-                'modified' => 1569508330
+                'modified' => 1569569722
             ],
             'particles/horizontalmenu' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/horizontalmenu.yaml',
-                'modified' => 1569508330
+                'modified' => 1569569722
             ],
             'particles/jldivider' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/jldivider.yaml',
-                'modified' => 1569508330
+                'modified' => 1569569722
             ],
             'particles/login' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/login.yaml',
-                'modified' => 1569508330
+                'modified' => 1569569722
             ],
             'particles/logo' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/logo.yaml',
-                'modified' => 1569508330
+                'modified' => 1569569722
             ],
             'particles/menu' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/menu.yaml',
-                'modified' => 1569508330
+                'modified' => 1569569722
             ],
             'particles/messages' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/messages.yaml',
-                'modified' => 1569508330
+                'modified' => 1569569722
             ],
             'particles/mobile-menu' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/mobile-menu.yaml',
-                'modified' => 1569508330
+                'modified' => 1569569722
             ],
             'particles/owlcarousel' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/owlcarousel.yaml',
-                'modified' => 1569508330
+                'modified' => 1569569722
             ],
             'particles/position' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/position.yaml',
-                'modified' => 1569508330
+                'modified' => 1569569722
             ],
             'particles/social' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/social.yaml',
-                'modified' => 1569508330
+                'modified' => 1569569722
             ],
             'particles/spacer' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/spacer.yaml',
-                'modified' => 1569508330
+                'modified' => 1569569722
             ],
             'particles/totop' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/totop.yaml',
-                'modified' => 1569508330
+                'modified' => 1569569722
             ],
             'styles' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/styles.yaml',
-                'modified' => 1569508330
+                'modified' => 1569569722
             ]
         ],
         'user/themes/g5_helium/config/default' => [
             'page/body' => [
                 'file' => 'user/themes/g5_helium/config/default/page/body.yaml',
-                'modified' => 1569508331
+                'modified' => 1569569725
             ],
             'particles/branding' => [
                 'file' => 'user/themes/g5_helium/config/default/particles/branding.yaml',
-                'modified' => 1569508331
+                'modified' => 1569569725
             ],
             'particles/copyright' => [
                 'file' => 'user/themes/g5_helium/config/default/particles/copyright.yaml',
-                'modified' => 1569508331
+                'modified' => 1569569725
             ],
             'particles/logo' => [
                 'file' => 'user/themes/g5_helium/config/default/particles/logo.yaml',
-                'modified' => 1569508331
+                'modified' => 1569569725
             ],
             'particles/social' => [
                 'file' => 'user/themes/g5_helium/config/default/particles/social.yaml',
-                'modified' => 1569508331
+                'modified' => 1569569725
             ],
             'particles/totop' => [
                 'file' => 'user/themes/g5_helium/config/default/particles/totop.yaml',
-                'modified' => 1569508331
+                'modified' => 1569569725
             ]
         ]
     ],
@@ -837,7 +837,7 @@ return [
         ],
         'index' => [
             'name' => 'default',
-            'timestamp' => 1569508647,
+            'timestamp' => 1569570875,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -866,8 +866,6 @@ return [
             'particles' => [
                 'logo' => [
                     'logo-9322' => 'Logo / Image',
-                    'logo-1564' => 'Logo / Image',
-                    'logo-3491' => 'Logo / Image',
                     'logo-9072' => 'Logo / Image',
                     'logo-9887' => 'Logo / Image',
                     'logo-8101' => 'Logo / Image'
@@ -889,7 +887,9 @@ return [
                     'gp_iconblock1-7932' => 'Gp Icon Block 1'
                 ],
                 'jloverlay' => [
-                    'jloverlay-8611' => 'JL Overlay'
+                    'jloverlay-8611' => 'JL Overlay',
+                    'jloverlay-3905' => 'JL Overlay',
+                    'jloverlay-7854' => 'JL Overlay'
                 ],
                 'position' => [
                     'position-position-4734' => 'Aside',
@@ -951,8 +951,8 @@ return [
                     ],
                     1 => [
                         0 => 'jloverlay-8611 33.3',
-                        1 => 'logo-1564 33.3',
-                        2 => 'logo-3491 33.3'
+                        1 => 'jloverlay-3905 33.3',
+                        2 => 'jloverlay-7854 33.3'
                     ],
                     2 => [
                         0 => 'logo-9072 33.3',
@@ -1337,19 +1337,223 @@ return [
                         'class' => 'wow fadeInLeft'
                     ]
                 ],
-                'logo-1564' => [
-                    'title' => 'Logo / Image',
+                'jloverlay-3905' => [
+                    'title' => 'JL Overlay',
                     'attributes' => [
-                        'image' => 'gantry-media://media/thumb-3g2.png'
+                        'image' => 'gantry-media://media/thumb-asp.png',
+                        'image_alt' => '',
+                        'title' => 'Ipsum Lorem',
+                        'meta' => '',
+                        'content' => '',
+                        'link' => '',
+                        'buttontext' => '',
+                        'target' => '_self',
+                        'hover_image' => '',
+                        'class' => '',
+                        'overlay_mode' => 'cover',
+                        'overlay_hover' => '0',
+                        'overlay_style' => 'jl-overlay-primary',
+                        'overlay_color' => 'light',
+                        'overlay_padding' => 'default',
+                        'overlay_position' => 'center',
+                        'overlay_margin' => 'none',
+                        'overlay_maxwidth' => 'none',
+                        'overlay_transition' => 'fade',
+                        'image_transition' => 'scale-up',
+                        'box_shadow' => 'none',
+                        'box_shadow_hover' => 'none',
+                        'image_width' => '',
+                        'image_height' => '',
+                        'title_transition' => 'fade',
+                        'title_style' => 'h2',
+                        'title_decoration' => 'none',
+                        'predefined_title_color' => 'default',
+                        'title_color' => '#000000',
+                        'title_fontsize' => '',
+                        'title_text_transform' => '',
+                        'title_element' => 'h3',
+                        'title_margin' => 'default',
+                        'meta_transition' => 'fade',
+                        'meta_style' => 'text-meta',
+                        'pre_meta_color' => 'default',
+                        'meta_color' => '#000000',
+                        'meta_fontsize' => '',
+                        'meta_text_transform' => '',
+                        'meta_alignment' => 'bottom',
+                        'meta_margin' => 'default',
+                        'content_transition' => 'fade',
+                        'content_style' => 'default',
+                        'content_text_color' => 'default',
+                        'customize_content_color' => '#000000',
+                        'customize_content_fontsize' => '',
+                        'content_text_transform' => '',
+                        'content_margin_top' => 'default',
+                        'link_transition' => 'fade',
+                        'link_type' => 'button',
+                        'buttontarget' => '_self',
+                        'buttonclass' => 'default',
+                        'link_button_size' => 'default',
+                        'link_margin_top' => 'default',
+                        'particle_title' => '',
+                        'particle_title_style' => 'h3',
+                        'particle_title_decoration' => 'none',
+                        'particle_title_align' => 'inherit',
+                        'particle_predefined_color' => 'default',
+                        'particle_title_color' => '',
+                        'particle_title_fontsize' => '',
+                        'particle_title_element' => 'h3',
+                        'align' => 'inherit',
+                        'breakpoint' => 'always',
+                        'fallback' => 'inherit',
+                        'g_maxwidth' => 'inherit',
+                        'g_maxwidth_alignment' => 'left',
+                        'g_maxwidth_breakpoint' => 'always',
+                        'margin' => 'inherit',
+                        'visibility' => 'inherit',
+                        'animation' => 'inherit',
+                        'animation_delay' => '',
+                        'animation_repeat' => 'disabled',
+                        'pa_horizontal_start' => '',
+                        'pa_horizontal_end' => '',
+                        'pa_vertical_start' => '',
+                        'pa_vertical_end' => '',
+                        'scale_start' => '',
+                        'scale_end' => '',
+                        'rotate_start' => '',
+                        'rotate_end' => '',
+                        'opacity_start' => '',
+                        'opacity_end' => '',
+                        'easing' => '',
+                        'pa_viewport' => '',
+                        'pa_breakpoint' => 'always',
+                        'parallax_image' => '',
+                        'background_image_size' => 'auto',
+                        'background_image_position' => 'center-center',
+                        'parallax_bg_breakpoint' => 'always',
+                        'parallax_bg_visibility' => 'always',
+                        'parallax_bg_color' => '',
+                        'blendmode' => 'inherit',
+                        'parallax_bg_overlay' => '',
+                        'horizontal_start' => '0',
+                        'horizontal_end' => '0',
+                        'vertical_start' => '0',
+                        'vertical_end' => '0',
+                        'container' => '0',
+                        'viewport_height' => 'none',
+                        'padding' => 'default',
+                        'vertical_alignment' => 'none',
+                        'parallax_text_color' => 'default'
                     ],
                     'block' => [
                         'class' => 'wow fadeInUp'
                     ]
                 ],
-                'logo-3491' => [
-                    'title' => 'Logo / Image',
+                'jloverlay-7854' => [
+                    'title' => 'JL Overlay',
                     'attributes' => [
-                        'image' => 'gantry-media://media/thumb-ai.png'
+                        'image' => 'gantry-media://media/thumb-app.png',
+                        'image_alt' => '',
+                        'title' => 'Lorem Ipsum',
+                        'meta' => '',
+                        'content' => '',
+                        'link' => '',
+                        'buttontext' => '',
+                        'target' => '_self',
+                        'hover_image' => '',
+                        'class' => '',
+                        'overlay_mode' => 'cover',
+                        'overlay_hover' => '0',
+                        'overlay_style' => 'jl-overlay-primary',
+                        'overlay_color' => 'light',
+                        'overlay_padding' => 'default',
+                        'overlay_position' => 'center',
+                        'overlay_margin' => 'none',
+                        'overlay_maxwidth' => 'none',
+                        'overlay_transition' => 'fade',
+                        'image_transition' => 'none',
+                        'box_shadow' => 'none',
+                        'box_shadow_hover' => 'none',
+                        'image_width' => '',
+                        'image_height' => '',
+                        'title_transition' => 'none',
+                        'title_style' => 'h3',
+                        'title_decoration' => 'none',
+                        'predefined_title_color' => 'default',
+                        'title_color' => '',
+                        'title_fontsize' => '',
+                        'title_text_transform' => '',
+                        'title_element' => 'h3',
+                        'title_margin' => 'default',
+                        'meta_transition' => 'none',
+                        'meta_style' => 'text-meta',
+                        'pre_meta_color' => 'default',
+                        'meta_color' => '',
+                        'meta_fontsize' => '',
+                        'meta_text_transform' => '',
+                        'meta_alignment' => 'bottom',
+                        'meta_margin' => 'default',
+                        'content_transition' => 'none',
+                        'content_style' => 'default',
+                        'content_text_color' => 'default',
+                        'customize_content_color' => '',
+                        'customize_content_fontsize' => '',
+                        'content_text_transform' => '',
+                        'content_margin_top' => 'default',
+                        'link_transition' => 'none',
+                        'link_type' => 'button',
+                        'buttontarget' => '_self',
+                        'buttonclass' => 'default',
+                        'link_button_size' => 'default',
+                        'link_margin_top' => 'default',
+                        'particle_title' => '',
+                        'particle_title_style' => 'h3',
+                        'particle_title_decoration' => 'none',
+                        'particle_title_align' => 'inherit',
+                        'particle_predefined_color' => 'default',
+                        'particle_title_color' => '',
+                        'particle_title_fontsize' => '',
+                        'particle_title_element' => 'h3',
+                        'align' => 'inherit',
+                        'breakpoint' => 'always',
+                        'fallback' => 'inherit',
+                        'g_maxwidth' => 'inherit',
+                        'g_maxwidth_alignment' => 'left',
+                        'g_maxwidth_breakpoint' => 'always',
+                        'margin' => 'inherit',
+                        'visibility' => 'inherit',
+                        'animation' => 'inherit',
+                        'animation_delay' => '',
+                        'animation_repeat' => 'disabled',
+                        'pa_horizontal_start' => '',
+                        'pa_horizontal_end' => '',
+                        'pa_vertical_start' => '',
+                        'pa_vertical_end' => '',
+                        'scale_start' => '',
+                        'scale_end' => '',
+                        'rotate_start' => '',
+                        'rotate_end' => '',
+                        'opacity_start' => '',
+                        'opacity_end' => '',
+                        'easing' => '',
+                        'pa_viewport' => '',
+                        'pa_breakpoint' => 'always',
+                        'parallax_image' => '',
+                        'background_image_size' => 'auto',
+                        'background_image_position' => 'center-center',
+                        'parallax_bg_breakpoint' => 'always',
+                        'parallax_bg_visibility' => 'always',
+                        'parallax_bg_color' => '',
+                        'blendmode' => 'inherit',
+                        'parallax_bg_overlay' => '',
+                        'horizontal_start' => '0',
+                        'horizontal_end' => '0',
+                        'vertical_start' => '0',
+                        'vertical_end' => '0',
+                        'container' => '0',
+                        'viewport_height' => 'none',
+                        'padding' => 'default',
+                        'vertical_alignment' => 'none',
+                        'parallax_text_color' => 'default'
                     ],
                     'block' => [
                         'class' => 'wow fadeInRight'

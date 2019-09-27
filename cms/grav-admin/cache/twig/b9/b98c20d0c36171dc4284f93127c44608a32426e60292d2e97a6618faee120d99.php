@@ -603,6 +603,6 @@ class __TwigTemplate_765b4cf5eb36e941f6e04374828b986e57ddb10eda680a47ebd5d38ea9e
     {% endblock body %}
     </html>
 {% endif %}
-", "partials/base-root.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/base-root.html.twig");
+", "partials/base-root.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/base-root.html.twig");
     }
 }

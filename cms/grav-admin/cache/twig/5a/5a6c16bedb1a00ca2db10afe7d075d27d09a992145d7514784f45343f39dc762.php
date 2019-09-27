@@ -84,6 +84,6 @@ class __TwigTemplate_e8de095c4787376784ac28338b9cafddfd00facadca91e0e73a05c7e138
         <ul></ul>
     </div>
 </div>
-", "partials/dashboard-notifications.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/dashboard-notifications.html.twig");
+", "partials/dashboard-notifications.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/dashboard-notifications.html.twig");
     }
 }

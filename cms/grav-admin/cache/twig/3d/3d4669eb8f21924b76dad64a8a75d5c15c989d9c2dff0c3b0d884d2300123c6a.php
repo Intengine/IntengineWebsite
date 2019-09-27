@@ -130,6 +130,6 @@ class __TwigTemplate_a3bf4164db382343b4a853f12170213c23c3b4438e7130d3e9a01f580cf
     {{ offcanvas|raw -}}
 </div>
 {% endif %}
-", "@nucleus/layout/offcanvas.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/engines/nucleus/templates/layout/offcanvas.html.twig");
+", "@nucleus/layout/offcanvas.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/engines/nucleus/templates/layout/offcanvas.html.twig");
     }
 }

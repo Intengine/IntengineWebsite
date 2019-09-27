@@ -114,6 +114,6 @@ class __TwigTemplate_abb45ebea45d6cfd13e6f778159c59624cb03023247eec3f05f88b24c65
         <div class=\"{{ message.scope|e }} alert\">{{ message.message|raw }}</div>
     {%- endfor -%}
 </div>
-", "partials/messages.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/messages.html.twig");
+", "partials/messages.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/messages.html.twig");
     }
 }

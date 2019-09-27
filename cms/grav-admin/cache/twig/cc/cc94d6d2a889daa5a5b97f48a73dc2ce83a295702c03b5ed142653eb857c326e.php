@@ -142,6 +142,6 @@ class __TwigTemplate_5c8010336896f975999ec2bd196b78dee2b877a3c764740db2a4c5fd97e
 {% endif %}
 {% endassets -%}
 {% endblock %}
-", "@particles/jluikit.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/particles/jluikit.html.twig");
+", "@particles/jluikit.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/particles/jluikit.html.twig");
     }
 }

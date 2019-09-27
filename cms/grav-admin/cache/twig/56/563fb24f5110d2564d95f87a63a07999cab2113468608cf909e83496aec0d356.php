@@ -134,6 +134,6 @@ class __TwigTemplate_bb6ea6991ee90f4a147123b55d123379585452b0b35f3095cf94db5d134
         <a class=\"front-end hint--left\" data-hint=\"{{ \"PLUGIN_ADMIN.VIEW_SITE_TIP\"|tu }}\" target=\"_blank\" href=\"{{ base_url_relative_frontend }}\"> <i class=\"fa fa-external-link\"></i></a>
     </div>
 {% endif %}
-", "partials/logo.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/logo.html.twig");
+", "partials/logo.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/logo.html.twig");
     }
 }

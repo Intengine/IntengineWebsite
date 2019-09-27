@@ -62,6 +62,6 @@ class __TwigTemplate_1fe975d8f937917e738f38a8e825113cdc4f1607ec3e0f7d33a08891fd6
     {
         return new Source("{% set user_avatar = admin.user.getAvatarUrl() %}
 <img src=\"{{ '?' not in user_avatar ? user_avatar ~ '?s=80' : user_avatar }}\" />
-", "partials/nav-user-avatar.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/nav-user-avatar.html.twig");
+", "partials/nav-user-avatar.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/partials/nav-user-avatar.html.twig");
     }
 }

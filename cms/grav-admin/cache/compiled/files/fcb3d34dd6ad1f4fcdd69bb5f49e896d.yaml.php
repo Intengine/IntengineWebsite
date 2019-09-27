@@ -2,15 +2,15 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/data/feed/9292e04d7d7733bcbfbb7f4c1bcd1f6d.yaml',
-    'modified' => 1569416451,
+    'modified' => 1569569722,
     'data' => [
-        'last_checked' => 1569416451,
+        'last_checked' => 1569508489,
         'data' => [
             0 => [
                 'title' => 'Grav 1.6 Released!',
                 'url' => 'https://getgrav.org/blog/grav-1.6-released',
                 'date' => 1554987300,
-                'nicetime' => '5 miesięcy temu'
+                'nicetime' => '6 miesięcy temu'
             ],
             1 => [
                 'title' => 'Important Theme Updates',
@@ -58,13 +58,13 @@ return [
                 'title' => 'macOS 10.14 Mojave Apache Setup: Upgrading Homebrew',
                 'url' => 'https://getgrav.org/blog/macos-mojave-apache-upgrade-homebrew',
                 'date' => 1537876800,
-                'nicetime' => '12 miesięcy temu'
+                'nicetime' => '1 lat temu'
             ],
             9 => [
                 'title' => 'macOS 10.14 Mojave Apache Setup: SSL',
                 'url' => 'https://getgrav.org/blog/macos-mojave-apache-ssl',
                 'date' => 1537873380,
-                'nicetime' => '12 miesięcy temu'
+                'nicetime' => '1 lat temu'
             ]
         ]
     ]

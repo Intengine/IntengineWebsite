@@ -96,6 +96,6 @@ class __TwigTemplate_04bc4e6901d71519b44b2f8859357970af3cc059c924b4163b069833e89
     {% if field.disabled or isDisabledToggleable %}disabled=\"disabled\"{% endif %}
     name=\"{{ (scope ~ field.name)|fieldName }}\"
     value=\"{{ blueprints.name }}\" />
-{% endblock %}", "forms/fields/blueprint/blueprint.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/forms/fields/blueprint/blueprint.html.twig");
+{% endblock %}", "forms/fields/blueprint/blueprint.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin/themes/grav/templates/forms/fields/blueprint/blueprint.html.twig");
     }
 }

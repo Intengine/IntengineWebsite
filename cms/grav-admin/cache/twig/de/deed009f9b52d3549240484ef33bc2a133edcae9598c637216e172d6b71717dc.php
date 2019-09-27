@@ -130,6 +130,6 @@ class __TwigTemplate_6403591af21de78c965fbc35d331dc83b134534f74b6a5ff1c8aa151955
     {% if particle.additional.text is not empty %}<br />{{ particle.additional.text|raw }}{% endif %}
 </div>
 {% endblock %}
-", "@particles/copyright.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/themes/g5_helium/particles/copyright.html.twig");
+", "@particles/copyright.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/themes/g5_helium/particles/copyright.html.twig");
     }
 }

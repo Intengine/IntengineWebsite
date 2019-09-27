@@ -64,6 +64,6 @@ class __TwigTemplate_3322a99261e63b55821c38165ce6a7ab60c9ab6ba5d5ac68ab0589c1c98
 
     public function getSourceContext()
     {
-        return new Source("", "forms/fields/gantry/inherit.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/admin/templates/forms/fields/gantry/inherit.html.twig");
+        return new Source("", "forms/fields/gantry/inherit.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/admin/templates/forms/fields/gantry/inherit.html.twig");
     }
 }
