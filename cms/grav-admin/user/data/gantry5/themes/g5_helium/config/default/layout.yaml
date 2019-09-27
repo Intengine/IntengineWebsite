@@ -25,10 +25,6 @@ layout:
       - 'jloverlay-8611 33.3'
       - 'jloverlay-3905 33.3'
       - 'jloverlay-7854 33.3'
-    -
-      - 'logo-9072 33.3'
-      - 'logo-9887 33.3'
-      - 'logo-8101 33.3'
   /above/: {  }
   /testimonials/: {  }
   /expanded/: {  }
@@ -202,7 +198,7 @@ content:
   custom-7633:
     title: 'Custom HTML'
     attributes:
-      html: '<h1>PORTFOLIO</h1>'
+      html: '<br><h1>PORTFOLIO</h1>'
     block:
       class: 'wow fadeInUp'
   jloverlay-8611:
@@ -327,7 +323,7 @@ content:
       hover_image: ''
       class: ''
       overlay_mode: cover
-      overlay_hover: '0'
+      overlay_hover: '1'
       overlay_style: jl-overlay-primary
       overlay_color: light
       overlay_padding: default
@@ -343,16 +339,16 @@ content:
       title_transition: fade
       title_style: h2
       title_decoration: none
-      predefined_title_color: default
+      predefined_title_color: secondary
       title_color: '#000000'
       title_fontsize: ''
       title_text_transform: ''
       title_element: h3
       title_margin: default
       meta_transition: fade
-      meta_style: text-meta
+      meta_style: h3
       pre_meta_color: default
-      meta_color: '#000000'
+      meta_color: '#ffffff'
       meta_fontsize: ''
       meta_text_transform: ''
       meta_alignment: bottom
@@ -364,7 +360,7 @@ content:
       customize_content_fontsize: ''
       content_text_transform: ''
       content_margin_top: default
-      link_transition: fade
+      link_transition: none
       link_type: button
       buttontarget: _self
       buttonclass: default
@@ -375,7 +371,7 @@ content:
       particle_title_decoration: none
       particle_title_align: inherit
       particle_predefined_color: default
-      particle_title_color: ''
+      particle_title_color: '#000000'
       particle_title_fontsize: ''
       particle_title_element: h3
       align: inherit
@@ -407,9 +403,9 @@ content:
       background_image_position: center-center
       parallax_bg_breakpoint: always
       parallax_bg_visibility: always
-      parallax_bg_color: ''
+      parallax_bg_color: '#000000'
       blendmode: inherit
-      parallax_bg_overlay: ''
+      parallax_bg_overlay: '#000000'
       horizontal_start: '0'
       horizontal_end: '0'
       vertical_start: '0'
@@ -435,7 +431,7 @@ content:
       hover_image: ''
       class: ''
       overlay_mode: cover
-      overlay_hover: '0'
+      overlay_hover: '1'
       overlay_style: jl-overlay-primary
       overlay_color: light
       overlay_padding: default
@@ -443,32 +439,32 @@ content:
       overlay_margin: none
       overlay_maxwidth: none
       overlay_transition: fade
-      image_transition: none
+      image_transition: scale-up
       box_shadow: none
       box_shadow_hover: none
       image_width: ''
       image_height: ''
-      title_transition: none
-      title_style: h3
+      title_transition: fade
+      title_style: h2
       title_decoration: none
-      predefined_title_color: default
-      title_color: ''
+      predefined_title_color: secondary
+      title_color: '#000000'
       title_fontsize: ''
       title_text_transform: ''
       title_element: h3
       title_margin: default
-      meta_transition: none
-      meta_style: text-meta
+      meta_transition: fade
+      meta_style: h3
       pre_meta_color: default
-      meta_color: ''
+      meta_color: '#ffffff'
       meta_fontsize: ''
       meta_text_transform: ''
       meta_alignment: bottom
       meta_margin: default
-      content_transition: none
+      content_transition: fade
       content_style: default
       content_text_color: default
-      customize_content_color: ''
+      customize_content_color: '#000000'
       customize_content_fontsize: ''
       content_text_transform: ''
       content_margin_top: default
@@ -483,7 +479,7 @@ content:
       particle_title_decoration: none
       particle_title_align: inherit
       particle_predefined_color: default
-      particle_title_color: ''
+      particle_title_color: '#000000'
       particle_title_fontsize: ''
       particle_title_element: h3
       align: inherit
@@ -515,9 +511,9 @@ content:
       background_image_position: center-center
       parallax_bg_breakpoint: always
       parallax_bg_visibility: always
-      parallax_bg_color: ''
+      parallax_bg_color: '#000000'
       blendmode: inherit
-      parallax_bg_overlay: ''
+      parallax_bg_overlay: '#000000'
       horizontal_start: '0'
       horizontal_end: '0'
       vertical_start: '0'
@@ -527,24 +523,6 @@ content:
       padding: default
       vertical_alignment: none
       parallax_text_color: default
-    block:
-      class: 'wow fadeInRight'
-  logo-9072:
-    title: 'Logo / Image'
-    attributes:
-      image: 'gantry-media://media/thumb-asx.png'
-    block:
-      class: 'wow fadeInLeft'
-  logo-9887:
-    title: 'Logo / Image'
-    attributes:
-      image: 'gantry-media://media/thumb-com.png'
-    block:
-      class: 'wow fadeInUp'
-  logo-8101:
-    title: 'Logo / Image'
-    attributes:
-      image: 'gantry-media://media/thumb-csr.png'
     block:
       class: 'wow fadeInRight'
   position-position-4734:
