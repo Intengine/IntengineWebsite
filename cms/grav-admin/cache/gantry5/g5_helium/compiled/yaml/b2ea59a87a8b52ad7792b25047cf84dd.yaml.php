@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-    'modified' => 1569586485,
+    'modified' => 1569831713,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -417,7 +417,12 @@ return [
                     'parallax_text_color' => 'default'
                 ],
                 'block' => [
-                    'class' => 'wow fadeInLeft'
+                    'class' => 'wow fadeInLeft',
+                    'extra' => [
+                        0 => [
+                            'data-' => 'rel'
+                        ]
+                    ]
                 ]
             ],
             'jloverlay-3905' => [

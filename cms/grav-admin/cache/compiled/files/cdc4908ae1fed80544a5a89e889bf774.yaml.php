@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/editor/editor.yaml',
-    'modified' => 1569569724,
+    'modified' => 1569830830,
     'data' => [
         'enabled' => true,
         'js_enabled' => true,

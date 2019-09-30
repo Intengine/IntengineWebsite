@@ -42,3 +42,9 @@ atoms:
     attributes:
       enabled: '1'
       jslocation: footer
+  -
+    id: lightcase-3834
+    type: lightcase
+    title: Lightcase
+    attributes:
+      enabled: '1'

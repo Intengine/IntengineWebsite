@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/login/languages/hu.yaml',
-    'modified' => 1569569725,
+    'modified' => 1569830831,
     'data' => [
         'PLUGIN_LOGIN' => [
             'ACCESS_DENIED' => 'Hozzáférés megtagadva...',

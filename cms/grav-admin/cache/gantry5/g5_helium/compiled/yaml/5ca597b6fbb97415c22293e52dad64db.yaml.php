@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'gantry-theme://config/default/page/head.yaml',
-    'modified' => 1569569722,
+    'modified' => 1569831039,
     'data' => [
         'meta' => [
             
@@ -62,6 +62,14 @@ return [
                 'attributes' => [
                     'enabled' => '1',
                     'jslocation' => 'footer'
+                ]
+            ],
+            5 => [
+                'id' => 'lightcase-3834',
+                'type' => 'lightcase',
+                'title' => 'Lightcase',
+                'attributes' => [
+                    'enabled' => '1'
                 ]
             ]
         ]
