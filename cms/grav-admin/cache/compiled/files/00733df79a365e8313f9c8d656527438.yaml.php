@@ -2,15 +2,15 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/data/feed/9292e04d7d7733bcbfbb7f4c1bcd1f6d.yaml',
-    'modified' => 1569251922,
+    'modified' => 1569855699,
     'data' => [
-        'last_checked' => 1569251922,
+        'last_checked' => 1569830902,
         'data' => [
             0 => [
                 'title' => 'Grav 1.6 Released!',
                 'url' => 'https://getgrav.org/blog/grav-1.6-released',
                 'date' => 1554987300,
-                'nicetime' => '5 miesięcy temu'
+                'nicetime' => '6 miesięcy temu'
             ],
             1 => [
                 'title' => 'Important Theme Updates',
@@ -28,7 +28,7 @@ return [
                 'title' => 'We\'re Moving Chat from Slack to Discord',
                 'url' => 'https://getgrav.org/blog/chat-moving-to-discord',
                 'date' => 1542203100,
-                'nicetime' => '10 miesięcy temu'
+                'nicetime' => '11 miesięcy temu'
             ],
             4 => [
                 'title' => 'RocketTheme\'s Halloween Sale is Going on Right Now',
@@ -46,7 +46,7 @@ return [
                 'title' => 'Vote for Grav in the 2018 CMS Critic People\'s Choice Awards',
                 'url' => 'https://getgrav.org/blog/cms-critic-award-finalists-2018',
                 'date' => 1539096480,
-                'nicetime' => '11 miesięcy temu'
+                'nicetime' => '12 miesięcy temu'
             ],
             7 => [
                 'title' => 'New XSS Protection Available in Grav 1.5.2',
@@ -58,13 +58,13 @@ return [
                 'title' => 'macOS 10.14 Mojave Apache Setup: Upgrading Homebrew',
                 'url' => 'https://getgrav.org/blog/macos-mojave-apache-upgrade-homebrew',
                 'date' => 1537876800,
-                'nicetime' => '12 miesięcy temu'
+                'nicetime' => '1 lat temu'
             ],
             9 => [
                 'title' => 'macOS 10.14 Mojave Apache Setup: SSL',
                 'url' => 'https://getgrav.org/blog/macos-mojave-apache-ssl',
                 'date' => 1537873380,
-                'nicetime' => '12 miesięcy temu'
+                'nicetime' => '1 lat temu'
             ]
         ]
     ]

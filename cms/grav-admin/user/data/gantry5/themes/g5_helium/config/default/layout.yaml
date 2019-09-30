@@ -206,7 +206,7 @@ content:
     attributes:
       image: 'gantry-media://media/thumb-3dm.png'
       image_alt: ''
-      title: 'Lorem Ipsum'
+      title: '<a href="gantry-media://media/thumb-3dm.png" class="title" data-rel="lightcase">Lorem Ipsum</a>'
       meta: ''
       content: ''
       link: ''
@@ -216,8 +216,8 @@ content:
       class: ''
       overlay_mode: cover
       overlay_hover: '1'
-      overlay_style: jl-overlay-primary
-      overlay_color: light
+      overlay_style: jl-tile-secondary
+      overlay_color: dark
       overlay_padding: default
       overlay_position: center
       overlay_margin: none
@@ -308,13 +308,13 @@ content:
       vertical_alignment: none
       parallax_text_color: default
     block:
-      class: 'wow fadeInLeft'
+      class: 'wow fadeInLeft title'
   jloverlay-3905:
     title: 'JL Overlay'
     attributes:
       image: 'gantry-media://media/thumb-asp.png'
       image_alt: ''
-      title: 'Ipsum Lorem'
+      title: '<a href="path/to/media.jpg" class="title" data-rel="lightcase">Lorem Ipsum</a>'
       meta: ''
       content: ''
       link: ''
@@ -324,8 +324,8 @@ content:
       class: ''
       overlay_mode: cover
       overlay_hover: '1'
-      overlay_style: jl-overlay-primary
-      overlay_color: light
+      overlay_style: jl-tile-secondary
+      overlay_color: dark
       overlay_padding: default
       overlay_position: center
       overlay_margin: none
@@ -422,7 +422,7 @@ content:
     attributes:
       image: 'gantry-media://media/thumb-app.png'
       image_alt: ''
-      title: 'Lorem Ipsum'
+      title: '<a href="path/to/media.jpg" class="title" data-rel="lightcase">Lorem Ipsum</a>'
       meta: ''
       content: ''
       link: ''
@@ -432,8 +432,8 @@ content:
       class: ''
       overlay_mode: cover
       overlay_hover: '1'
-      overlay_style: jl-overlay-primary
-      overlay_color: light
+      overlay_style: jl-tile-secondary
+      overlay_color: dark
       overlay_padding: default
       overlay_position: center
       overlay_margin: none
