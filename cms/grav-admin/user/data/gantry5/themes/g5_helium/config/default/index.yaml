@@ -1,5 +1,5 @@
 name: default
-timestamp: 1569857344
+timestamp: 1569858120
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -40,6 +40,7 @@ particles:
     jloverlay-8611: 'JL Overlay'
     jloverlay-3905: 'JL Overlay'
     jloverlay-7854: 'JL Overlay'
+    jloverlay-4314: 'JL Overlay'
   position:
     position-position-4734: Aside
     position-position-3949: Sidebar

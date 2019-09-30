@@ -1,17 +1,17 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1569857345,
-    'checksum' => '9948bb520168aae01775888a86ac5af2',
+    'timestamp' => 1569858123,
+    'checksum' => '0f8902962fcb352758de41addf257efc',
     'files' => [
         'user/data/gantry5/themes/g5_helium/config/default' => [
             'index' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/index.yaml',
-                'modified' => 1569857344
+                'modified' => 1569858120
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-                'modified' => 1569857344
+                'modified' => 1569858120
             ],
             'page/assets' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/assets.yaml',
@@ -845,7 +845,7 @@ return [
         ],
         'index' => [
             'name' => 'default',
-            'timestamp' => 1569857344,
+            'timestamp' => 1569858120,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -894,7 +894,8 @@ return [
                 'jloverlay' => [
                     'jloverlay-8611' => 'JL Overlay',
                     'jloverlay-3905' => 'JL Overlay',
-                    'jloverlay-7854' => 'JL Overlay'
+                    'jloverlay-7854' => 'JL Overlay',
+                    'jloverlay-4314' => 'JL Overlay'
                 ],
                 'position' => [
                     'position-position-4734' => 'Aside',
@@ -955,9 +956,10 @@ return [
                         0 => 'custom-7633'
                     ],
                     1 => [
-                        0 => 'jloverlay-8611 33.3',
-                        1 => 'jloverlay-3905 33.3',
-                        2 => 'jloverlay-7854 33.3'
+                        0 => 'jloverlay-8611 25',
+                        1 => 'jloverlay-3905 25',
+                        2 => 'jloverlay-7854 25',
+                        3 => 'jloverlay-4314 25'
                     ]
                 ],
                 '/above/' => [
@@ -1229,9 +1231,9 @@ return [
                 'jloverlay-8611' => [
                     'title' => 'JL Overlay',
                     'attributes' => [
-                        'image' => 'gantry-media://media/thumb-3dm.png',
+                        'image' => 'gantry-media://g5_helium/narty-wisla-logo-min.jpg',
                         'image_alt' => '',
-                        'title' => '<a href="gantry-media://media/thumb-3dm.png" class="title" data-rel="lightcase">Lorem Ipsum</a>',
+                        'title' => '<a href="gantry-media://g5_helium/narty-wisla-logo.jpg" data-rel="lightcase">NARTY WISŁA<br>logo</a>',
                         'meta' => '',
                         'content' => '',
                         'link' => '',
@@ -1557,6 +1559,114 @@ return [
                     ],
                     'block' => [
                         'class' => 'wow fadeInRight'
+                    ]
+                ],
+                'jloverlay-4314' => [
+                    'title' => 'JL Overlay',
+                    'attributes' => [
+                        'image' => 'gantry-media://g5_helium/narty-wisla-logo-min.jpg',
+                        'image_alt' => '',
+                        'title' => '',
+                        'meta' => '',
+                        'content' => '',
+                        'link' => '',
+                        'buttontext' => '',
+                        'target' => '_self',
+                        'hover_image' => '',
+                        'class' => '',
+                        'overlay_mode' => 'cover',
+                        'overlay_hover' => '0',
+                        'overlay_style' => 'jl-overlay-primary',
+                        'overlay_color' => 'light',
+                        'overlay_padding' => 'default',
+                        'overlay_position' => 'center',
+                        'overlay_margin' => 'none',
+                        'overlay_maxwidth' => 'none',
+                        'overlay_transition' => 'fade',
+                        'image_transition' => 'none',
+                        'box_shadow' => 'none',
+                        'box_shadow_hover' => 'none',
+                        'image_width' => '',
+                        'image_height' => '',
+                        'title_transition' => 'none',
+                        'title_style' => 'h3',
+                        'title_decoration' => 'none',
+                        'predefined_title_color' => 'default',
+                        'title_color' => '',
+                        'title_fontsize' => '',
+                        'title_text_transform' => '',
+                        'title_element' => 'h3',
+                        'title_margin' => 'default',
+                        'meta_transition' => 'none',
+                        'meta_style' => 'text-meta',
+                        'pre_meta_color' => 'default',
+                        'meta_color' => '',
+                        'meta_fontsize' => '',
+                        'meta_text_transform' => '',
+                        'meta_alignment' => 'bottom',
+                        'meta_margin' => 'default',
+                        'content_transition' => 'none',
+                        'content_style' => 'default',
+                        'content_text_color' => 'default',
+                        'customize_content_color' => '',
+                        'customize_content_fontsize' => '',
+                        'content_text_transform' => '',
+                        'content_margin_top' => 'default',
+                        'link_transition' => 'none',
+                        'link_type' => 'button',
+                        'buttontarget' => '_self',
+                        'buttonclass' => 'default',
+                        'link_button_size' => 'default',
+                        'link_margin_top' => 'default',
+                        'particle_title' => '',
+                        'particle_title_style' => 'h3',
+                        'particle_title_decoration' => 'none',
+                        'particle_title_align' => 'inherit',
+                        'particle_predefined_color' => 'default',
+                        'particle_title_color' => '',
+                        'particle_title_fontsize' => '',
+                        'particle_title_element' => 'h3',
+                        'align' => 'inherit',
+                        'breakpoint' => 'always',
+                        'fallback' => 'inherit',
+                        'g_maxwidth' => 'inherit',
+                        'g_maxwidth_alignment' => 'left',
+                        'g_maxwidth_breakpoint' => 'always',
+                        'margin' => 'inherit',
+                        'visibility' => 'inherit',
+                        'animation' => 'inherit',
+                        'animation_delay' => '',
+                        'animation_repeat' => 'disabled',
+                        'pa_horizontal_start' => '',
+                        'pa_horizontal_end' => '',
+                        'pa_vertical_start' => '',
+                        'pa_vertical_end' => '',
+                        'scale_start' => '',
+                        'scale_end' => '',
+                        'rotate_start' => '',
+                        'rotate_end' => '',
+                        'opacity_start' => '',
+                        'opacity_end' => '',
+                        'easing' => '',
+                        'pa_viewport' => '',
+                        'pa_breakpoint' => 'always',
+                        'parallax_image' => '',
+                        'background_image_size' => 'auto',
+                        'background_image_position' => 'center-center',
+                        'parallax_bg_breakpoint' => 'always',
+                        'parallax_bg_visibility' => 'always',
+                        'parallax_bg_color' => '',
+                        'blendmode' => 'inherit',
+                        'parallax_bg_overlay' => '',
+                        'horizontal_start' => '0',
+                        'horizontal_end' => '0',
+                        'vertical_start' => '0',
+                        'vertical_end' => '0',
+                        'container' => '0',
+                        'viewport_height' => 'none',
+                        'padding' => 'default',
+                        'vertical_alignment' => 'none',
+                        'parallax_text_color' => 'default'
                     ]
                 ],
                 'position-position-4734' => [
