@@ -27,7 +27,9 @@ layout:
       - 'jloverlay-7854 20'
       - 'jloverlay-4314 20'
       - 'jloverlay-4658 20'
-  /above/: {  }
+  /above/:
+    -
+      - custom-5184
   /testimonials/: {  }
   /expanded/: {  }
   /container-main/:
@@ -739,6 +741,10 @@ content:
       padding: default
       vertical_alignment: none
       parallax_text_color: default
+  custom-5184:
+    title: 'Custom HTML'
+    attributes:
+      html: '<h1>CONTACT</h1>'
   position-position-4734:
     title: Aside
     attributes:

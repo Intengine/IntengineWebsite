@@ -1,153 +1,153 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1569856921,
-    'checksum' => '4096c5e99947c15bffe369cef1146067',
+    'timestamp' => 1570015177,
+    'checksum' => '37f2c28c89bc69503e378d5ee6c3b539',
     'files' => [
         'user/data/gantry5/themes/g5_helium/config/_body_only' => [
             'index' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/_body_only/index.yaml',
-                'modified' => 1569856022
+                'modified' => 1570015106
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/_body_only/layout.yaml',
-                'modified' => 1569251813
+                'modified' => 1570014717
             ]
         ],
         'user/data/gantry5/themes/g5_helium/config/default' => [
             'index' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/index.yaml',
-                'modified' => 1569856862
+                'modified' => 1570015121
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-                'modified' => 1569856862
+                'modified' => 1570015121
             ],
             'page/assets' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/assets.yaml',
-                'modified' => 1569347534
+                'modified' => 1570014717
             ],
             'page/body' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/body.yaml',
-                'modified' => 1569347534
+                'modified' => 1570014717
             ],
             'page/head' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/head.yaml',
-                'modified' => 1569855699
+                'modified' => 1570014717
             ],
             'particles/branding' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/branding.yaml',
-                'modified' => 1569346024
+                'modified' => 1570014717
             ],
             'particles/content' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/content.yaml',
-                'modified' => 1569346024
+                'modified' => 1570014717
             ],
             'particles/contentarray' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/contentarray.yaml',
-                'modified' => 1569346024
+                'modified' => 1570014717
             ],
             'particles/contentcubes' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/contentcubes.yaml',
-                'modified' => 1569346024
+                'modified' => 1570014717
             ],
             'particles/contenttabs' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/contenttabs.yaml',
-                'modified' => 1569346024
+                'modified' => 1570014717
             ],
             'particles/copyright' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/copyright.yaml',
-                'modified' => 1569346024
+                'modified' => 1570014717
             ],
             'particles/custom' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/custom.yaml',
-                'modified' => 1569346024
+                'modified' => 1570014717
             ],
             'particles/date' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/date.yaml',
-                'modified' => 1569346024
+                'modified' => 1570014717
             ],
             'particles/gp_iconblock1' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/gp_iconblock1.yaml',
-                'modified' => 1569346024
+                'modified' => 1570014717
             ],
             'particles/horizontalmenu' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/horizontalmenu.yaml',
-                'modified' => 1569346024
+                'modified' => 1570014717
             ],
             'particles/jldivider' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/jldivider.yaml',
-                'modified' => 1569346024
+                'modified' => 1570014717
             ],
             'particles/login' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/login.yaml',
-                'modified' => 1569346024
+                'modified' => 1570014717
             ],
             'particles/logo' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/logo.yaml',
-                'modified' => 1569346024
+                'modified' => 1570014717
             ],
             'particles/menu' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/menu.yaml',
-                'modified' => 1569346024
+                'modified' => 1570014717
             ],
             'particles/messages' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/messages.yaml',
-                'modified' => 1569346024
+                'modified' => 1570014717
             ],
             'particles/mobile-menu' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/mobile-menu.yaml',
-                'modified' => 1569346024
+                'modified' => 1570014717
             ],
             'particles/owlcarousel' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/owlcarousel.yaml',
-                'modified' => 1569346024
+                'modified' => 1570014717
             ],
             'particles/position' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/position.yaml',
-                'modified' => 1569346024
+                'modified' => 1570014717
             ],
             'particles/social' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/social.yaml',
-                'modified' => 1569346024
+                'modified' => 1570014717
             ],
             'particles/spacer' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/spacer.yaml',
-                'modified' => 1569346024
+                'modified' => 1570014717
             ],
             'particles/totop' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/totop.yaml',
-                'modified' => 1569346024
+                'modified' => 1570014717
             ],
             'styles' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/styles.yaml',
-                'modified' => 1569855699
+                'modified' => 1570015174
             ]
         ],
         'user/themes/g5_helium/config/default' => [
             'page/body' => [
                 'file' => 'user/themes/g5_helium/config/default/page/body.yaml',
-                'modified' => 1569251814
+                'modified' => 1570014719
             ],
             'particles/branding' => [
                 'file' => 'user/themes/g5_helium/config/default/particles/branding.yaml',
-                'modified' => 1569251814
+                'modified' => 1570014719
             ],
             'particles/copyright' => [
                 'file' => 'user/themes/g5_helium/config/default/particles/copyright.yaml',
-                'modified' => 1569251814
+                'modified' => 1570014719
             ],
             'particles/logo' => [
                 'file' => 'user/themes/g5_helium/config/default/particles/logo.yaml',
-                'modified' => 1569251814
+                'modified' => 1570014719
             ],
             'particles/social' => [
                 'file' => 'user/themes/g5_helium/config/default/particles/social.yaml',
-                'modified' => 1569251814
+                'modified' => 1570014719
             ],
             'particles/totop' => [
                 'file' => 'user/themes/g5_helium/config/default/particles/totop.yaml',
-                'modified' => 1569251814
+                'modified' => 1570014719
             ]
         ]
     ],
@@ -616,7 +616,7 @@ return [
         'styles' => [
             'above' => [
                 'background' => '',
-                'text-color' => '#ffffff'
+                'text-color' => '#60606e'
             ],
             'accent' => [
                 'color-1' => '#ffffff',
@@ -855,7 +855,7 @@ return [
         ],
         'index' => [
             'name' => '_body_only',
-            'timestamp' => 1569251813,
+            'timestamp' => 1570014717,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/body-only.png',
@@ -1028,9 +1028,9 @@ return [
                 'jloverlay-8611' => [
                     'title' => 'JL Overlay',
                     'attributes' => [
-                        'image' => 'gantry-media://media/thumb-3dm.png',
+                        'image' => 'gantry-media://g5_helium/narty-wisla-logo-min.jpg',
                         'image_alt' => '',
-                        'title' => '<a href="path/to/media.jpg" class="title" data-rel="lightcase">Lorem Ipsum</a>',
+                        'title' => '<a href="gantry-media://g5_helium/narty-wisla-logo.jpg" data-rel="lightcase">NARTY WISŁA<br>branding</a>',
                         'meta' => '',
                         'content' => '',
                         'link' => '',
@@ -1040,8 +1040,8 @@ return [
                         'class' => '',
                         'overlay_mode' => 'cover',
                         'overlay_hover' => '1',
-                        'overlay_style' => 'jl-overlay-primary',
-                        'overlay_color' => 'light',
+                        'overlay_style' => 'jl-tile-secondary',
+                        'overlay_color' => 'dark',
                         'overlay_padding' => 'default',
                         'overlay_position' => 'center',
                         'overlay_margin' => 'none',
@@ -1139,9 +1139,9 @@ return [
                 'jloverlay-3905' => [
                     'title' => 'JL Overlay',
                     'attributes' => [
-                        'image' => 'gantry-media://media/thumb-asp.png',
+                        'image' => 'gantry-media://g5_helium/groomer-logo-min.jpg',
                         'image_alt' => '',
-                        'title' => 'Ipsum Lorem',
+                        'title' => '<a href="gantry-media://g5_helium/groomer-logo.jpg" class="title" data-rel="lightcase">GROOMER<br>logo</a>',
                         'meta' => '',
                         'content' => '',
                         'link' => '',
@@ -1151,8 +1151,8 @@ return [
                         'class' => '',
                         'overlay_mode' => 'cover',
                         'overlay_hover' => '1',
-                        'overlay_style' => 'jl-overlay-primary',
-                        'overlay_color' => 'light',
+                        'overlay_style' => 'jl-tile-secondary',
+                        'overlay_color' => 'dark',
                         'overlay_padding' => 'default',
                         'overlay_position' => 'center',
                         'overlay_margin' => 'none',
@@ -1252,7 +1252,7 @@ return [
                     'attributes' => [
                         'image' => 'gantry-media://media/thumb-app.png',
                         'image_alt' => '',
-                        'title' => 'Lorem Ipsum',
+                        'title' => '<a href="path/to/media.jpg" class="title" data-rel="lightcase">Lorem Ipsum</a>',
                         'meta' => '',
                         'content' => '',
                         'link' => '',
@@ -1262,8 +1262,8 @@ return [
                         'class' => '',
                         'overlay_mode' => 'cover',
                         'overlay_hover' => '1',
-                        'overlay_style' => 'jl-overlay-primary',
-                        'overlay_color' => 'light',
+                        'overlay_style' => 'jl-tile-secondary',
+                        'overlay_color' => 'dark',
                         'overlay_padding' => 'default',
                         'overlay_position' => 'center',
                         'overlay_margin' => 'none',
@@ -1356,6 +1356,228 @@ return [
                     ],
                     'block' => [
                         'class' => 'wow fadeInRight'
+                    ]
+                ],
+                'jloverlay-4314' => [
+                    'title' => 'JL Overlay',
+                    'attributes' => [
+                        'image' => 'gantry-media://g5_helium/narty-wisla-logo-min.jpg',
+                        'image_alt' => '',
+                        'title' => '',
+                        'meta' => '',
+                        'content' => '',
+                        'link' => '',
+                        'buttontext' => '',
+                        'target' => '_self',
+                        'hover_image' => '',
+                        'class' => '',
+                        'overlay_mode' => 'cover',
+                        'overlay_hover' => '0',
+                        'overlay_style' => 'jl-overlay-primary',
+                        'overlay_color' => 'light',
+                        'overlay_padding' => 'default',
+                        'overlay_position' => 'center',
+                        'overlay_margin' => 'none',
+                        'overlay_maxwidth' => 'none',
+                        'overlay_transition' => 'fade',
+                        'image_transition' => 'none',
+                        'box_shadow' => 'none',
+                        'box_shadow_hover' => 'none',
+                        'image_width' => '',
+                        'image_height' => '',
+                        'title_transition' => 'none',
+                        'title_style' => 'h3',
+                        'title_decoration' => 'none',
+                        'predefined_title_color' => 'default',
+                        'title_color' => '',
+                        'title_fontsize' => '',
+                        'title_text_transform' => '',
+                        'title_element' => 'h3',
+                        'title_margin' => 'default',
+                        'meta_transition' => 'none',
+                        'meta_style' => 'text-meta',
+                        'pre_meta_color' => 'default',
+                        'meta_color' => '',
+                        'meta_fontsize' => '',
+                        'meta_text_transform' => '',
+                        'meta_alignment' => 'bottom',
+                        'meta_margin' => 'default',
+                        'content_transition' => 'none',
+                        'content_style' => 'default',
+                        'content_text_color' => 'default',
+                        'customize_content_color' => '',
+                        'customize_content_fontsize' => '',
+                        'content_text_transform' => '',
+                        'content_margin_top' => 'default',
+                        'link_transition' => 'none',
+                        'link_type' => 'button',
+                        'buttontarget' => '_self',
+                        'buttonclass' => 'default',
+                        'link_button_size' => 'default',
+                        'link_margin_top' => 'default',
+                        'particle_title' => '',
+                        'particle_title_style' => 'h3',
+                        'particle_title_decoration' => 'none',
+                        'particle_title_align' => 'inherit',
+                        'particle_predefined_color' => 'default',
+                        'particle_title_color' => '',
+                        'particle_title_fontsize' => '',
+                        'particle_title_element' => 'h3',
+                        'align' => 'inherit',
+                        'breakpoint' => 'always',
+                        'fallback' => 'inherit',
+                        'g_maxwidth' => 'inherit',
+                        'g_maxwidth_alignment' => 'left',
+                        'g_maxwidth_breakpoint' => 'always',
+                        'margin' => 'inherit',
+                        'visibility' => 'inherit',
+                        'animation' => 'inherit',
+                        'animation_delay' => '',
+                        'animation_repeat' => 'disabled',
+                        'pa_horizontal_start' => '',
+                        'pa_horizontal_end' => '',
+                        'pa_vertical_start' => '',
+                        'pa_vertical_end' => '',
+                        'scale_start' => '',
+                        'scale_end' => '',
+                        'rotate_start' => '',
+                        'rotate_end' => '',
+                        'opacity_start' => '',
+                        'opacity_end' => '',
+                        'easing' => '',
+                        'pa_viewport' => '',
+                        'pa_breakpoint' => 'always',
+                        'parallax_image' => '',
+                        'background_image_size' => 'auto',
+                        'background_image_position' => 'center-center',
+                        'parallax_bg_breakpoint' => 'always',
+                        'parallax_bg_visibility' => 'always',
+                        'parallax_bg_color' => '',
+                        'blendmode' => 'inherit',
+                        'parallax_bg_overlay' => '',
+                        'horizontal_start' => '0',
+                        'horizontal_end' => '0',
+                        'vertical_start' => '0',
+                        'vertical_end' => '0',
+                        'container' => '0',
+                        'viewport_height' => 'none',
+                        'padding' => 'default',
+                        'vertical_alignment' => 'none',
+                        'parallax_text_color' => 'default'
+                    ]
+                ],
+                'jloverlay-4658' => [
+                    'title' => 'JL Overlay',
+                    'attributes' => [
+                        'image' => 'gantry-media://g5_helium/narty-wisla-logo-min.jpg',
+                        'image_alt' => '',
+                        'title' => '',
+                        'meta' => '',
+                        'content' => '',
+                        'link' => '',
+                        'buttontext' => '',
+                        'target' => '_self',
+                        'hover_image' => '',
+                        'class' => '',
+                        'overlay_mode' => 'cover',
+                        'overlay_hover' => '0',
+                        'overlay_style' => 'jl-overlay-primary',
+                        'overlay_color' => 'light',
+                        'overlay_padding' => 'default',
+                        'overlay_position' => 'center',
+                        'overlay_margin' => 'none',
+                        'overlay_maxwidth' => 'none',
+                        'overlay_transition' => 'fade',
+                        'image_transition' => 'none',
+                        'box_shadow' => 'none',
+                        'box_shadow_hover' => 'none',
+                        'image_width' => '',
+                        'image_height' => '',
+                        'title_transition' => 'none',
+                        'title_style' => 'h3',
+                        'title_decoration' => 'none',
+                        'predefined_title_color' => 'default',
+                        'title_color' => '',
+                        'title_fontsize' => '',
+                        'title_text_transform' => '',
+                        'title_element' => 'h3',
+                        'title_margin' => 'default',
+                        'meta_transition' => 'none',
+                        'meta_style' => 'text-meta',
+                        'pre_meta_color' => 'default',
+                        'meta_color' => '',
+                        'meta_fontsize' => '',
+                        'meta_text_transform' => '',
+                        'meta_alignment' => 'bottom',
+                        'meta_margin' => 'default',
+                        'content_transition' => 'none',
+                        'content_style' => 'default',
+                        'content_text_color' => 'default',
+                        'customize_content_color' => '',
+                        'customize_content_fontsize' => '',
+                        'content_text_transform' => '',
+                        'content_margin_top' => 'default',
+                        'link_transition' => 'none',
+                        'link_type' => 'button',
+                        'buttontarget' => '_self',
+                        'buttonclass' => 'default',
+                        'link_button_size' => 'default',
+                        'link_margin_top' => 'default',
+                        'particle_title' => '',
+                        'particle_title_style' => 'h3',
+                        'particle_title_decoration' => 'none',
+                        'particle_title_align' => 'inherit',
+                        'particle_predefined_color' => 'default',
+                        'particle_title_color' => '',
+                        'particle_title_fontsize' => '',
+                        'particle_title_element' => 'h3',
+                        'align' => 'inherit',
+                        'breakpoint' => 'always',
+                        'fallback' => 'inherit',
+                        'g_maxwidth' => 'inherit',
+                        'g_maxwidth_alignment' => 'left',
+                        'g_maxwidth_breakpoint' => 'always',
+                        'margin' => 'inherit',
+                        'visibility' => 'inherit',
+                        'animation' => 'inherit',
+                        'animation_delay' => '',
+                        'animation_repeat' => 'disabled',
+                        'pa_horizontal_start' => '',
+                        'pa_horizontal_end' => '',
+                        'pa_vertical_start' => '',
+                        'pa_vertical_end' => '',
+                        'scale_start' => '',
+                        'scale_end' => '',
+                        'rotate_start' => '',
+                        'rotate_end' => '',
+                        'opacity_start' => '',
+                        'opacity_end' => '',
+                        'easing' => '',
+                        'pa_viewport' => '',
+                        'pa_breakpoint' => 'always',
+                        'parallax_image' => '',
+                        'background_image_size' => 'auto',
+                        'background_image_position' => 'center-center',
+                        'parallax_bg_breakpoint' => 'always',
+                        'parallax_bg_visibility' => 'always',
+                        'parallax_bg_color' => '',
+                        'blendmode' => 'inherit',
+                        'parallax_bg_overlay' => '',
+                        'horizontal_start' => '0',
+                        'horizontal_end' => '0',
+                        'vertical_start' => '0',
+                        'vertical_end' => '0',
+                        'container' => '0',
+                        'viewport_height' => 'none',
+                        'padding' => 'default',
+                        'vertical_alignment' => 'none',
+                        'parallax_text_color' => 'default'
+                    ]
+                ],
+                'custom-5184' => [
+                    'title' => 'Custom HTML',
+                    'attributes' => [
+                        'html' => '<h1>CONTACT</h1>'
                     ]
                 ],
                 'position-position-4734' => [

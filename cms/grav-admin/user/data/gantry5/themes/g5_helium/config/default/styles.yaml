@@ -30,7 +30,7 @@ utility:
   text-color: '#ffffff'
 above:
   background: ''
-  text-color: '#ffffff'
+  text-color: '#60606e'
 testimonials:
   background: ''
   background-image: 'gantry-media://testimonials/img01.jpg'

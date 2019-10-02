@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin-power-tools/admin-power-tools.yaml',
-    'modified' => 1569830828,
+    'modified' => 1570014717,
     'data' => [
         'enabled' => true,
         'edit_page_enabled' => true,

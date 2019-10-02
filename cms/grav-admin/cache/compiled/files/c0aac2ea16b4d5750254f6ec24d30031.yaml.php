@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/config/security.yaml',
-    'modified' => 1569830828,
+    'modified' => 1570014717,
     'data' => [
         'salt' => 'gm2aueIilbZ6KD'
     ]

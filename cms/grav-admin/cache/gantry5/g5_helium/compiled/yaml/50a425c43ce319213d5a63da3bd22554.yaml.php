@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/engines/nucleus/blueprints/page/body.yaml',
-    'modified' => 1569830831,
+    'modified' => 1570014719,
     'data' => [
         'name' => 'Body Attributes',
         'description' => 'Settings that can be applied to the page.',
