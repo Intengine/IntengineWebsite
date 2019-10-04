@@ -1,121 +1,121 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1570014890,
-    'checksum' => '1beeacb3105e1027e144be51fb8beb26',
+    'timestamp' => 1570195162,
+    'checksum' => '8cc63608681551b2fa22d03f5643bd61',
     'files' => [
         'user/config' => [
             'backups' => [
                 'file' => 'user/config/backups.yaml',
-                'modified' => 1570014717
+                'modified' => 1570195091
             ],
             'media' => [
                 'file' => 'user/config/media.yaml',
-                'modified' => 1570014717
+                'modified' => 1570195091
             ],
             'plugins/gantry5' => [
                 'file' => 'user/config/plugins/gantry5.yaml',
-                'modified' => 1570014717
+                'modified' => 1570195091
             ],
             'scheduler' => [
                 'file' => 'user/config/scheduler.yaml',
-                'modified' => 1570014717
+                'modified' => 1570195091
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
-                'modified' => 1570014717
+                'modified' => 1570195091
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1570014717
+                'modified' => 1570195091
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
-                'modified' => 1570014717
+                'modified' => 1570195091
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1570014717
+                'modified' => 1570195091
             ]
         ],
         'system/config' => [
             'backups' => [
                 'file' => 'system/config/backups.yaml',
-                'modified' => 1570014717
+                'modified' => 1570195091
             ],
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1570014717
+                'modified' => 1570195091
             ],
             'security' => [
                 'file' => 'system/config/security.yaml',
-                'modified' => 1570014717
+                'modified' => 1570195091
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1570014717
+                'modified' => 1570195091
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1570014717
+                'modified' => 1570195091
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1570014717
+                'modified' => 1570195091
             ]
         ],
         'user/plugins' => [
             'plugins/markdown-notices' => [
                 'file' => 'user/plugins/markdown-notices/markdown-notices.yaml',
-                'modified' => 1570014719
+                'modified' => 1570195094
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1570014719
+                'modified' => 1570195093
             ],
             'plugins/admin-power-tools' => [
                 'file' => 'user/plugins/admin-power-tools/admin-power-tools.yaml',
-                'modified' => 1570014717
+                'modified' => 1570195092
             ],
             'plugins/gantry5' => [
                 'file' => 'user/plugins/gantry5/gantry5.yaml',
-                'modified' => 1570014719
+                'modified' => 1570195094
             ],
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/admin.yaml',
-                'modified' => 1570014718
+                'modified' => 1570195092
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/problems.yaml',
-                'modified' => 1570014719
+                'modified' => 1570195094
             ],
             'plugins/custom-css' => [
                 'file' => 'user/plugins/custom-css/custom-css.yaml',
-                'modified' => 1570014718
+                'modified' => 1570195093
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
-                'modified' => 1570014719
+                'modified' => 1570195093
             ],
             'plugins/bootstrapper' => [
                 'file' => 'user/plugins/bootstrapper/bootstrapper.yaml',
-                'modified' => 1570014718
+                'modified' => 1570195093
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
-                'modified' => 1570014719
+                'modified' => 1570195157
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
-                'modified' => 1570014718
+                'modified' => 1570195093
             ],
             'plugins/editor' => [
                 'file' => 'user/plugins/editor/editor.yaml',
-                'modified' => 1570014718
+                'modified' => 1570195161
             ],
             'plugins/core-service-manager' => [
                 'file' => 'user/plugins/core-service-manager/core-service-manager.yaml',
-                'modified' => 1570014718
+                'modified' => 1570195093
             ]
         ]
     ],
@@ -316,6 +316,7 @@ return [
                         ]
                     ],
                     'redirect_after_registration' => '',
+                    'redirect_after_activation' => '',
                     'options' => [
                         'validate_password1_and_password2' => true,
                         'set_user_disabled' => false,

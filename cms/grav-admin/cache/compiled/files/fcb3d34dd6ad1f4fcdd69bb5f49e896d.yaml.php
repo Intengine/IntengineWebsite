@@ -2,9 +2,9 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/data/feed/9292e04d7d7733bcbfbb7f4c1bcd1f6d.yaml',
-    'modified' => 1570014717,
+    'modified' => 1570195144,
     'data' => [
-        'last_checked' => 1569942028,
+        'last_checked' => 1570195144,
         'data' => [
             0 => [
                 'title' => 'Grav 1.6 Released!',
@@ -52,7 +52,7 @@ return [
                 'title' => 'New XSS Protection Available in Grav 1.5.2',
                 'url' => 'https://getgrav.org/blog/new-xss-protection',
                 'date' => 1538411400,
-                'nicetime' => '12 miesięcy temu'
+                'nicetime' => '1 lat temu'
             ],
             8 => [
                 'title' => 'macOS 10.14 Mojave Apache Setup: Upgrading Homebrew',

@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/login/blueprints.yaml',
-    'modified' => 1570014719,
+    'modified' => 1570195157,
     'data' => [
         'name' => 'Login',
-        'version' => '3.0.3',
+        'version' => '3.0.4',
         'testing' => false,
         'description' => 'Enables user authentication and login screen.',
         'icon' => 'sign-in',

@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/editor/blueprints.yaml',
-    'modified' => 1570014718,
+    'modified' => 1570195161,
     'data' => [
         'name' => 'Editor',
-        'version' => '0.1.9',
+        'version' => '0.1.10',
         'description' => 'Edit theme, plugin, and markdown files from the browser.',
         'icon' => 'edit',
         'author' => [
