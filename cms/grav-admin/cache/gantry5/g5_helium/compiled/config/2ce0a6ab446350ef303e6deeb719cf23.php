@@ -1,17 +1,17 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1570195118,
-    'checksum' => 'd7bf9325fcf7265616692c4f8552b69e',
+    'timestamp' => 1570195752,
+    'checksum' => 'd96deee930c38caf1db8a31318a5c036',
     'files' => [
         'user/data/gantry5/themes/g5_helium/config/default' => [
             'index' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/index.yaml',
-                'modified' => 1570195091
+                'modified' => 1570195749
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-                'modified' => 1570195091
+                'modified' => 1570195749
             ],
             'page/assets' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/assets.yaml',
@@ -845,7 +845,7 @@ return [
         ],
         'index' => [
             'name' => 'default',
-            'timestamp' => 1570015121,
+            'timestamp' => 1570195749,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -873,7 +873,11 @@ return [
             ],
             'particles' => [
                 'logo' => [
-                    'logo-9322' => 'Logo / Image'
+                    'logo-9322' => 'Logo / Image',
+                    'logo-6807' => 'Logo / Image',
+                    'logo-3593' => 'Logo / Image',
+                    'logo-4650' => 'Logo / Image',
+                    'logo-7601' => 'Logo / Image'
                 ],
                 'menu' => [
                     'menu-6409' => 'Menu'
@@ -968,6 +972,12 @@ return [
                 '/above/' => [
                     0 => [
                         0 => 'custom-5184'
+                    ],
+                    1 => [
+                        0 => 'logo-6807 25',
+                        1 => 'logo-3593 25',
+                        2 => 'logo-4650 25',
+                        3 => 'logo-7601 25'
                     ]
                 ],
                 '/testimonials/' => [
@@ -1785,8 +1795,37 @@ return [
                 'custom-5184' => [
                     'title' => 'Custom HTML',
                     'attributes' => [
-                        'html' => '<h1>CONTACT</h1>'
+                        'html' => '<h1>PARTNERS</h1>'
+                    ],
+                    'block' => [
+                        'class' => 'wow fadeInDown'
                     ]
+                ],
+                'logo-6807' => [
+                    'title' => 'Logo / Image',
+                    'attributes' => [
+                        'image' => 'gantry-media://g5_helium/logo_hrbemo.png'
+                    ],
+                    'block' => [
+                        'class' => 'wow fadeInUp',
+                        'variations' => 'nopaddingall'
+                    ]
+                ],
+                'logo-3593' => [
+                    'title' => 'Logo / Image',
+                    'attributes' => [
+                        'image' => 'gantry-media://g5_helium/logo_wiren.png'
+                    ],
+                    'block' => [
+                        'class' => 'wow fadeInUp',
+                        'variations' => 'nopaddingall'
+                    ]
+                ],
+                'logo-4650' => [
+                    'title' => 'Logo / Image'
+                ],
+                'logo-7601' => [
+                    'title' => 'Logo / Image'
                 ],
                 'position-position-4734' => [
                     'title' => 'Aside',

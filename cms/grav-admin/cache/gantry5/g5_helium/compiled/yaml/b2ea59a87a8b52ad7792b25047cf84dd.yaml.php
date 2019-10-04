@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-    'modified' => 1570195091,
+    'modified' => 1570195749,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -48,6 +48,12 @@ return [
             '/above/' => [
                 0 => [
                     0 => 'custom-5184'
+                ],
+                1 => [
+                    0 => 'logo-6807 25',
+                    1 => 'logo-3593 25',
+                    2 => 'logo-4650 25',
+                    3 => 'logo-7601 25'
                 ]
             ],
             '/testimonials/' => [
@@ -865,8 +871,37 @@ return [
             'custom-5184' => [
                 'title' => 'Custom HTML',
                 'attributes' => [
-                    'html' => '<h1>CONTACT</h1>'
+                    'html' => '<h1>PARTNERS</h1>'
+                ],
+                'block' => [
+                    'class' => 'wow fadeInDown'
                 ]
+            ],
+            'logo-6807' => [
+                'title' => 'Logo / Image',
+                'attributes' => [
+                    'image' => 'gantry-media://g5_helium/logo_hrbemo.png'
+                ],
+                'block' => [
+                    'class' => 'wow fadeInUp',
+                    'variations' => 'nopaddingall'
+                ]
+            ],
+            'logo-3593' => [
+                'title' => 'Logo / Image',
+                'attributes' => [
+                    'image' => 'gantry-media://g5_helium/logo_wiren.png'
+                ],
+                'block' => [
+                    'class' => 'wow fadeInUp',
+                    'variations' => 'nopaddingall'
+                ]
+            ],
+            'logo-4650' => [
+                'title' => 'Logo / Image'
+            ],
+            'logo-7601' => [
+                'title' => 'Logo / Image'
             ],
             'position-position-4734' => [
                 'title' => 'Aside',

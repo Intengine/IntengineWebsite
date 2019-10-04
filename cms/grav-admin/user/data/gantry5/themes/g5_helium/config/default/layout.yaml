@@ -30,6 +30,11 @@ layout:
   /above/:
     -
       - custom-5184
+    -
+      - 'logo-6807 25'
+      - 'logo-3593 25'
+      - 'logo-4650 25'
+      - 'logo-7601 25'
   /testimonials/: {  }
   /expanded/: {  }
   /container-main/:
@@ -744,7 +749,27 @@ content:
   custom-5184:
     title: 'Custom HTML'
     attributes:
-      html: '<h1>CONTACT</h1>'
+      html: '<h1>PARTNERS</h1>'
+    block:
+      class: 'wow fadeInDown'
+  logo-6807:
+    title: 'Logo / Image'
+    attributes:
+      image: 'gantry-media://g5_helium/logo_hrbemo.png'
+    block:
+      class: 'wow fadeInUp'
+      variations: nopaddingall
+  logo-3593:
+    title: 'Logo / Image'
+    attributes:
+      image: 'gantry-media://g5_helium/logo_wiren.png'
+    block:
+      class: 'wow fadeInUp'
+      variations: nopaddingall
+  logo-4650:
+    title: 'Logo / Image'
+  logo-7601:
+    title: 'Logo / Image'
   position-position-4734:
     title: Aside
     attributes:
