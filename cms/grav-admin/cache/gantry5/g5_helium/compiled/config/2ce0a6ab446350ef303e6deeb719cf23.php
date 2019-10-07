@@ -1,17 +1,17 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1570463066,
-    'checksum' => 'b8fbbbe1b2c03afac5847f9aa5cd5cb1',
+    'timestamp' => 1570465018,
+    'checksum' => '757da64010e7c6a67f9d24f96f55bcf8',
     'files' => [
         'user/data/gantry5/themes/g5_helium/config/default' => [
             'index' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/index.yaml',
-                'modified' => 1570463063
+                'modified' => 1570465013
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-                'modified' => 1570463063
+                'modified' => 1570465013
             ],
             'page/assets' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/assets.yaml',
@@ -323,6 +323,55 @@ return [
                 'items' => [
                     
                 ]
+            ],
+            'jlopenstreetmap' => [
+                'caching' => [
+                    'type' => 'static'
+                ],
+                'enabled' => true,
+                'map_style' => 'streets',
+                'map_height' => 300,
+                'map_zoom' => 11,
+                'map_maxzoom' => 18,
+                'zoom_control' => false,
+                'scroll_wheel' => false,
+                'popup' => false,
+                'double_click_zoom' => false,
+                'dragg' => false,
+                'accesstoken' => 'pk.eyJ1Ijoiam9vbWxlYWQiLCJhIjoiY2ptMWV4ZXh3MWhxbjNwbXRkbHd4MGJxbyJ9.6YlGbRxyQTs9XXw8fbGrMw',
+                'box_shadow' => 'none',
+                'box_shadow_hover' => 'none',
+                'contributors' => true,
+                'particle_title_style' => 'h3',
+                'particle_title_decoration' => 'none',
+                'particle_title_align' => 'inherit',
+                'particle_predefined_color' => 'default',
+                'particle_title_element' => 'h3',
+                'align' => 'inherit',
+                'breakpoint' => 'always',
+                'fallback' => 'inherit',
+                'g_maxwidth' => 'inherit',
+                'g_maxwidth_alignment' => 'left',
+                'g_maxwidth_breakpoint' => 'always',
+                'margin' => 'inherit',
+                'visibility' => 'inherit',
+                'animation' => 'inherit',
+                'animation_repeat' => 'disabled',
+                'pa_breakpoint' => 'always',
+                'background_image_size' => 'auto',
+                'background_image_position' => 'center-center',
+                'parallax_bg_breakpoint' => 'always',
+                'parallax_bg_visibility' => 'always',
+                'blendmode' => 'inherit',
+                'horizontal_start' => 0,
+                'horizontal_end' => 0,
+                'vertical_start' => 0,
+                'vertical_end' => 0,
+                'container' => false,
+                'viewport_height' => 'none',
+                'padding' => 'default',
+                'vertical_alignment' => 'none',
+                'parallax_text_color' => 'default'
             ],
             'owlcarousel' => [
                 'caching' => [
@@ -845,7 +894,7 @@ return [
         ],
         'index' => [
             'name' => 'default',
-            'timestamp' => 1570463063,
+            'timestamp' => 1570465013,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -891,7 +940,10 @@ return [
                 'custom' => [
                     'custom-3577' => 'Custom HTML',
                     'custom-7633' => 'Custom HTML',
-                    'custom-5184' => 'Custom HTML'
+                    'custom-5184' => 'Custom HTML',
+                    'custom-8302' => 'Custom HTML',
+                    'custom-9742' => 'Custom HTML',
+                    'custom-4266' => 'Custom HTML'
                 ],
                 'gp_iconblock1' => [
                     'gp_iconblock1-7932' => 'Gp Icon Block 1'
@@ -902,6 +954,9 @@ return [
                     'jloverlay-7854' => 'JL Overlay',
                     'jloverlay-4314' => 'JL Overlay',
                     'jloverlay-4658' => 'JL Overlay'
+                ],
+                'jldivider' => [
+                    'jldivider-6776' => 'JL Divider'
                 ],
                 'position' => [
                     'position-position-4734' => 'Aside',
@@ -981,7 +1036,14 @@ return [
                     ]
                 ],
                 '/testimonials/' => [
-                    
+                    0 => [
+                        0 => 'custom-8302'
+                    ],
+                    1 => [
+                        0 => 'custom-9742 33.3',
+                        1 => 'jldivider-6776 33.3',
+                        2 => 'custom-4266 33.3'
+                    ]
                 ],
                 '/expanded/' => [
                     
@@ -1841,6 +1903,95 @@ return [
                     ],
                     'block' => [
                         'class' => 'wow fadeInUp'
+                    ]
+                ],
+                'custom-8302' => [
+                    'title' => 'Custom HTML',
+                    'attributes' => [
+                        'html' => '<h1>CONTACT</h1>'
+                    ],
+                    'block' => [
+                        'class' => 'wow fadeInDown'
+                    ]
+                ],
+                'custom-9742' => [
+                    'title' => 'Custom HTML',
+                    'attributes' => [
+                        'html' => '<p style="text-align: left">E-MAIL: &nbsp; &nbsp; &nbsp; <a href="mailto: sylwester.pilarz93@gmail.com">sylwester.pilarz93@gmail.com</a></p>
+<p style="text-align: left">PHONE: &nbsp; &nbsp; &nbsp; +48 506 715 473</p>'
+                    ],
+                    'block' => [
+                        'class' => 'wow fadeInRight',
+                        'variations' => 'align-right'
+                    ]
+                ],
+                'jldivider-6776' => [
+                    'title' => 'JL Divider',
+                    'attributes' => [
+                        'divider_style' => 'vertical',
+                        'divider_element' => 'hr',
+                        'divider_align' => 'center',
+                        'divider_breakpoint' => 'always',
+                        'divider_fallback' => 'center',
+                        'class' => '',
+                        'particle_title' => '',
+                        'particle_title_style' => 'h3',
+                        'particle_title_decoration' => 'none',
+                        'particle_title_align' => 'inherit',
+                        'particle_predefined_color' => 'default',
+                        'particle_title_color' => '',
+                        'particle_title_fontsize' => '',
+                        'particle_title_element' => 'h3',
+                        'align' => 'inherit',
+                        'breakpoint' => 'always',
+                        'fallback' => 'inherit',
+                        'g_maxwidth' => 'inherit',
+                        'g_maxwidth_alignment' => 'left',
+                        'g_maxwidth_breakpoint' => 'always',
+                        'margin' => 'inherit',
+                        'visibility' => 'inherit',
+                        'animation' => 'inherit',
+                        'animation_delay' => '',
+                        'animation_repeat' => 'disabled',
+                        'pa_horizontal_start' => '',
+                        'pa_horizontal_end' => '',
+                        'pa_vertical_start' => '',
+                        'pa_vertical_end' => '',
+                        'scale_start' => '',
+                        'scale_end' => '',
+                        'rotate_start' => '',
+                        'rotate_end' => '',
+                        'opacity_start' => '',
+                        'opacity_end' => '',
+                        'easing' => '',
+                        'pa_viewport' => '',
+                        'pa_breakpoint' => 'always',
+                        'parallax_image' => '',
+                        'background_image_size' => 'auto',
+                        'background_image_position' => 'center-center',
+                        'parallax_bg_breakpoint' => 'always',
+                        'parallax_bg_visibility' => 'always',
+                        'parallax_bg_color' => '',
+                        'blendmode' => 'inherit',
+                        'parallax_bg_overlay' => '',
+                        'horizontal_start' => '0',
+                        'horizontal_end' => '0',
+                        'vertical_start' => '0',
+                        'vertical_end' => '0',
+                        'container' => '0',
+                        'viewport_height' => 'none',
+                        'padding' => 'default',
+                        'vertical_alignment' => 'none',
+                        'parallax_text_color' => 'default'
+                    ]
+                ],
+                'custom-4266' => [
+                    'title' => 'Custom HTML',
+                    'attributes' => [
+                        'html' => '<div class="mapouter"><div class="gmap_canvas"><iframe width="595" height="198" id="gmap_canvas" src="https://maps.google.com/maps?q=bielsko-bia%C5%82a&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.utilitysavingexpert.com">Utility Saving Expert</a></div><style>.mapouter{position:relative;text-align:right;height:198px;width:595px;}.gmap_canvas {overflow:hidden;background:none!important;height:198px;width:595px;}</style></div>'
+                    ],
+                    'block' => [
+                        'variations' => 'align-left'
                     ]
                 ],
                 'position-position-4734' => [

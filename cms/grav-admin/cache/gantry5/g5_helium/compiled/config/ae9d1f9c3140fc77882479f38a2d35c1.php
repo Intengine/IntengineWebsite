@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1570463066,
-    'checksum' => 'fdd376f460e260091c48adef78650fc4',
+    'timestamp' => 1570465019,
+    'checksum' => '820fdf75d9d158e5926bf9ebeabb59d3',
     'files' => [
         'user/data/gantry5/themes/g5_helium/config/_error' => [
             'index' => [
@@ -17,11 +17,11 @@ return [
         'user/data/gantry5/themes/g5_helium/config/default' => [
             'index' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/index.yaml',
-                'modified' => 1570463063
+                'modified' => 1570465013
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-                'modified' => 1570463063
+                'modified' => 1570465013
             ],
             'page/assets' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/assets.yaml',
@@ -333,6 +333,55 @@ return [
                 'items' => [
                     
                 ]
+            ],
+            'jlopenstreetmap' => [
+                'caching' => [
+                    'type' => 'static'
+                ],
+                'enabled' => true,
+                'map_style' => 'streets',
+                'map_height' => 300,
+                'map_zoom' => 11,
+                'map_maxzoom' => 18,
+                'zoom_control' => false,
+                'scroll_wheel' => false,
+                'popup' => false,
+                'double_click_zoom' => false,
+                'dragg' => false,
+                'accesstoken' => 'pk.eyJ1Ijoiam9vbWxlYWQiLCJhIjoiY2ptMWV4ZXh3MWhxbjNwbXRkbHd4MGJxbyJ9.6YlGbRxyQTs9XXw8fbGrMw',
+                'box_shadow' => 'none',
+                'box_shadow_hover' => 'none',
+                'contributors' => true,
+                'particle_title_style' => 'h3',
+                'particle_title_decoration' => 'none',
+                'particle_title_align' => 'inherit',
+                'particle_predefined_color' => 'default',
+                'particle_title_element' => 'h3',
+                'align' => 'inherit',
+                'breakpoint' => 'always',
+                'fallback' => 'inherit',
+                'g_maxwidth' => 'inherit',
+                'g_maxwidth_alignment' => 'left',
+                'g_maxwidth_breakpoint' => 'always',
+                'margin' => 'inherit',
+                'visibility' => 'inherit',
+                'animation' => 'inherit',
+                'animation_repeat' => 'disabled',
+                'pa_breakpoint' => 'always',
+                'background_image_size' => 'auto',
+                'background_image_position' => 'center-center',
+                'parallax_bg_breakpoint' => 'always',
+                'parallax_bg_visibility' => 'always',
+                'blendmode' => 'inherit',
+                'horizontal_start' => 0,
+                'horizontal_end' => 0,
+                'vertical_start' => 0,
+                'vertical_end' => 0,
+                'container' => false,
+                'viewport_height' => 'none',
+                'padding' => 'default',
+                'vertical_alignment' => 'none',
+                'parallax_text_color' => 'default'
             ],
             'owlcarousel' => [
                 'caching' => [

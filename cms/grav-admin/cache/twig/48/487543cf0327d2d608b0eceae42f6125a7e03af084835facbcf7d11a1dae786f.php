@@ -11,8 +11,8 @@ use Twig\Sandbox\SecurityNotAllowedFunctionError;
 use Twig\Source;
 use Twig\Template;
 
-/* @particles/jldivider.html.twig */
-class __TwigTemplate_918b068a9f24b6ec3ebf6db079469c03f6269376b1b0fd9d444619855f0357a4 extends \Twig\Template
+/* @particles/jlopenstreetmap.html.twig */
+class __TwigTemplate_96997ee8419284ec3051c8c5ed8d3208a1606e172533db52417ccc7651ecad3a extends \Twig\Template
 {
     public function __construct(Environment $env)
     {
@@ -21,6 +21,7 @@ class __TwigTemplate_918b068a9f24b6ec3ebf6db079469c03f6269376b1b0fd9d444619855f0
         $this->blocks = [
             'stylesheets' => [$this, 'block_stylesheets'],
             'particle' => [$this, 'block_particle'],
+            'javascript_footer' => [$this, 'block_javascript_footer'],
         ];
     }
 
@@ -401,35 +402,32 @@ class __TwigTemplate_918b068a9f24b6ec3ebf6db079469c03f6269376b1b0fd9d444619855f0
 ";
         }
         $context["particle_title_style"] = ('' === $tmp = ob_get_clean()) ? '' : new Markup($tmp, $this->env->getCharset());
-        // line 125
+        // line 124
         ob_start();
-        // line 126
-        if (($this->getAttribute(($context["particle"] ?? null), "divider_style", []) == "default")) {
-            echo " class=\"jl-hr\"";
-        } elseif (($this->getAttribute(($context["particle"] ?? null), "divider_style", []) == "icon")) {
-            echo " class=\"jl-divider-icon\"";
-        } elseif (($this->getAttribute(($context["particle"] ?? null), "divider_style", []) == "vertical")) {
-            echo " class=\"jl-divider-vertical\"";
-        } else {
-            echo " class=\"jl-divider-small";
-            if (($this->getAttribute(($context["particle"] ?? null), "divider_align", []) != "inherit")) {
-                echo " jl-text-";
-                echo twig_escape_filter($this->env, $this->getAttribute(($context["particle"] ?? null), "divider_align", []));
-                if (($this->getAttribute(($context["particle"] ?? null), "divider_breakpoint", []) != "always")) {
-                    echo "@";
-                    echo twig_escape_filter($this->env, $this->getAttribute(($context["particle"] ?? null), "divider_breakpoint", []));
-                }
-            }
-            if (($this->getAttribute(($context["particle"] ?? null), "divider_fallback", []) != "inherit")) {
-                echo " jl-text-";
-                echo twig_escape_filter($this->env, $this->getAttribute(($context["particle"] ?? null), "divider_fallback", []));
-            }
+        // line 125
+        echo "\t\t";
+        if (($this->getAttribute(($context["particle"] ?? null), "image_width", []) != "")) {
+            // line 126
+            echo "    width = \"";
+            echo twig_escape_filter($this->env, $this->getAttribute(($context["particle"] ?? null), "image_width", []), "html", null, true);
             echo "\"
-";
+    ";
         }
-        $context["dividerstyle"] = ('' === $tmp = ob_get_clean()) ? '' : new Markup($tmp, $this->env->getCharset());
+        $context["imagewidth"] = ('' === $tmp = ob_get_clean()) ? '' : new Markup($tmp, $this->env->getCharset());
+        // line 130
+        ob_start();
+        // line 131
+        echo "\t\t";
+        if (($this->getAttribute(($context["particle"] ?? null), "image_height", []) != "")) {
+            // line 132
+            echo "    height = \"";
+            echo twig_escape_filter($this->env, $this->getAttribute(($context["particle"] ?? null), "image_height", []), "html", null, true);
+            echo "\"
+    ";
+        }
+        $context["imageheight"] = ('' === $tmp = ob_get_clean()) ? '' : new Markup($tmp, $this->env->getCharset());
         // line 1
-        $this->parent = $this->loadTemplate("@nucleus/partials/particle.html.twig", "@particles/jldivider.html.twig", 1);
+        $this->parent = $this->loadTemplate("@nucleus/partials/particle.html.twig", "@particles/jlopenstreetmap.html.twig", 1);
         $this->parent->display($context, array_merge($this->blocks, $blocks));
     }
 
@@ -437,49 +435,54 @@ class __TwigTemplate_918b068a9f24b6ec3ebf6db079469c03f6269376b1b0fd9d444619855f0
     public function block_stylesheets($context, array $blocks = [])
     {
         // line 4
-        if (((((((($this->getAttribute(($context["particle"] ?? null), "particle_title_color", []) || $this->getAttribute(($context["particle"] ?? null), "particle_title_fontsize", [])) || $this->getAttribute(($context["particle"] ?? null), "title_color", [])) || $this->getAttribute(($context["particle"] ?? null), "title_fontsize", [])) || $this->getAttribute(($context["particle"] ?? null), "customize_content_color", [])) || $this->getAttribute(($context["particle"] ?? null), "customize_content_fontsize", [])) || $this->getAttribute(($context["particle"] ?? null), "meta_color", [])) || $this->getAttribute(($context["particle"] ?? null), "meta_fontsize", []))) {
-            // line 5
-            echo "<style>
+        echo "<link rel=\"stylesheet\" href=\"";
+        echo twig_escape_filter($this->env, $this->env->getExtension('Gantry\Component\Twig\TwigExtension')->urlFunc("gantry-theme://css/leaflet.css"), "html", null, true);
+        echo "\">
+<style>
 ";
-            // line 6
-            if (($this->getAttribute(($context["particle"] ?? null), "particle_title_color", []) || $this->getAttribute(($context["particle"] ?? null), "particle_title_fontsize", []))) {
-                // line 7
-                echo "#";
-                echo twig_escape_filter($this->env, ($context["id"] ?? null), "html", null, true);
-                echo ".g5-particle-title { ";
-                if ($this->getAttribute(($context["particle"] ?? null), "particle_title_color", [])) {
-                    echo "color: ";
-                    echo twig_escape_filter($this->env, $this->getAttribute(($context["particle"] ?? null), "particle_title_color", []), "html", null, true);
-                    echo ";";
-                }
-                if ($this->getAttribute(($context["particle"] ?? null), "particle_title_fontsize", [])) {
-                    echo "font-size: ";
-                    echo twig_escape_filter($this->env, $this->getAttribute(($context["particle"] ?? null), "particle_title_fontsize", []), "html", null, true);
-                    echo "px;";
-                }
-                echo " }
-";
+        // line 6
+        if (($this->getAttribute(($context["particle"] ?? null), "particle_title_color", []) || $this->getAttribute(($context["particle"] ?? null), "particle_title_fontsize", []))) {
+            // line 7
+            echo "#";
+            echo twig_escape_filter($this->env, ($context["id"] ?? null), "html", null, true);
+            echo ".g5-particle-title { ";
+            if ($this->getAttribute(($context["particle"] ?? null), "particle_title_color", [])) {
+                echo "color: ";
+                echo twig_escape_filter($this->env, $this->getAttribute(($context["particle"] ?? null), "particle_title_color", []), "html", null, true);
+                echo ";";
             }
-            // line 9
-            echo "</style>
+            if ($this->getAttribute(($context["particle"] ?? null), "particle_title_fontsize", [])) {
+                echo "font-size: ";
+                echo twig_escape_filter($this->env, $this->getAttribute(($context["particle"] ?? null), "particle_title_fontsize", []), "html", null, true);
+                echo "px;";
+            }
+            echo " }
 ";
         }
+        // line 9
+        echo "#map";
+        echo twig_escape_filter($this->env, ($context["id"] ?? null), "html", null, true);
+        echo " { height: ";
+        echo twig_escape_filter($this->env, (($this->getAttribute(($context["particle"] ?? null), "map_height", [], "any", true, true)) ? (_twig_default_filter($this->getAttribute(($context["particle"] ?? null), "map_height", []), "400")) : ("400")));
+        echo "px; z-index: 1;}
+</style>
+";
     }
 
-    // line 130
+    // line 137
     public function block_particle($context, array $blocks = [])
     {
-        // line 131
+        // line 138
         if ($this->getAttribute(($context["particle"] ?? null), "enabled", [])) {
-            // line 132
+            // line 139
             echo twig_escape_filter($this->env, ($context["parallaxbackground"] ?? null), "html", null, true);
             echo "
 ";
-            // line 133
+            // line 140
             echo twig_escape_filter($this->env, ($context["particle_title_style"] ?? null), "html", null, true);
             echo "
-<div class=\"tm-divider-wrapper";
-            // line 134
+<div class=\"tm-map-wrapper";
+            // line 141
             echo twig_escape_filter($this->env, ($context["content_maxwidth"] ?? null), "html", null, true);
             if ($this->getAttribute(($context["particle"] ?? null), "class", [])) {
                 echo " ";
@@ -497,37 +500,233 @@ class __TwigTemplate_918b068a9f24b6ec3ebf6db079469c03f6269376b1b0fd9d444619855f0
                 echo " jl-visible@";
                 echo twig_escape_filter($this->env, $this->getAttribute(($context["particle"] ?? null), "visibility", []));
             }
+            if (($this->getAttribute(($context["particle"] ?? null), "box_shadow", []) != "none")) {
+                echo " jl-box-shadow-";
+                echo twig_escape_filter($this->env, $this->getAttribute(($context["particle"] ?? null), "box_shadow", []));
+            }
+            if (($this->getAttribute(($context["particle"] ?? null), "box_shadow_hover", []) != "none")) {
+                echo " jl-box-shadow-hover-";
+                echo twig_escape_filter($this->env, $this->getAttribute(($context["particle"] ?? null), "box_shadow_hover", []));
+            }
             echo "\"";
             echo twig_escape_filter($this->env, ($context["animation"] ?? null), "html", null, true);
             echo ">
+ <div id=\"map";
+            // line 142
+            echo twig_escape_filter($this->env, ($context["id"] ?? null), "html", null, true);
+            echo "\"></div>
+</div>
 ";
-            // line 135
-            if (($this->getAttribute(($context["particle"] ?? null), "divider_element", []) == "hr")) {
-                // line 136
-                echo "<hr";
-                echo twig_escape_filter($this->env, ($context["dividerstyle"] ?? null), "html", null, true);
-                echo ">
-";
-            } else {
-                // line 138
-                echo "<div";
-                echo twig_escape_filter($this->env, ($context["dividerstyle"] ?? null), "html", null, true);
-                echo "></div>
-";
-            }
-            // line 140
-            echo "</div>
-";
-            // line 141
+            // line 144
             echo twig_escape_filter($this->env, ($context["endparallaxbackground"] ?? null), "html", null, true);
             echo "
 ";
         }
     }
 
+    // line 148
+    public function block_javascript_footer($context, array $blocks = [])
+    {
+        // line 149
+        echo "<script src=\"";
+        echo twig_escape_filter($this->env, $this->env->getExtension('Gantry\Component\Twig\TwigExtension')->urlFunc("gantry-theme://js/leaflet.js"), "html", null, true);
+        echo "\"></script>
+<script type=\"text/javascript\">
+
+";
+        // line 152
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable($this->getAttribute(($context["particle"] ?? null), "items", []));
+        $context['loop'] = [
+          'parent' => $context['_parent'],
+          'index0' => 0,
+          'index'  => 1,
+          'first'  => true,
+        ];
+        if (is_array($context['_seq']) || (is_object($context['_seq']) && $context['_seq'] instanceof \Countable)) {
+            $length = count($context['_seq']);
+            $context['loop']['revindex0'] = $length - 1;
+            $context['loop']['revindex'] = $length;
+            $context['loop']['length'] = $length;
+            $context['loop']['last'] = 1 === $length;
+        }
+        foreach ($context['_seq'] as $context["_key"] => $context["item"]) {
+            // line 153
+            if (($this->getAttribute($context["loop"], "index", []) == "1")) {
+                // line 154
+                echo "var mymap = L.map('map";
+                echo twig_escape_filter($this->env, ($context["id"] ?? null), "html", null, true);
+                echo "', {zoomControl: ";
+                if ($this->getAttribute(($context["particle"] ?? null), "zoom_control", [])) {
+                    echo "true";
+                } else {
+                    echo "false";
+                }
+                echo ", scrollWheelZoom: ";
+                if ($this->getAttribute(($context["particle"] ?? null), "scroll_wheel", [])) {
+                    echo "true";
+                } else {
+                    echo "false";
+                }
+                echo " }).setView([";
+                echo twig_escape_filter($this->env, $this->getAttribute($context["item"], "latitude", []));
+                echo ", ";
+                echo twig_escape_filter($this->env, $this->getAttribute($context["item"], "longitude", []));
+                echo "], ";
+                echo twig_escape_filter($this->env, (($this->getAttribute(($context["particle"] ?? null), "map_zoom", [], "any", true, true)) ? (_twig_default_filter($this->getAttribute(($context["particle"] ?? null), "map_zoom", []), "11")) : ("11")));
+                echo ");
+";
+            }
+            ++$context['loop']['index0'];
+            ++$context['loop']['index'];
+            $context['loop']['first'] = false;
+            if (isset($context['loop']['length'])) {
+                --$context['loop']['revindex0'];
+                --$context['loop']['revindex'];
+                $context['loop']['last'] = 0 === $context['loop']['revindex0'];
+            }
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['item'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 157
+        echo "mymap.dragging.";
+        if ($this->getAttribute(($context["particle"] ?? null), "dragg", [])) {
+            echo "enable";
+        } else {
+            echo "disable";
+        }
+        echo "();
+mymap.doubleClickZoom.";
+        // line 158
+        if ($this->getAttribute(($context["particle"] ?? null), "double_click_zoom", [])) {
+            echo "enable";
+        } else {
+            echo "disable";
+        }
+        echo "();
+L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+\t\t";
+        // line 160
+        if ($this->getAttribute(($context["particle"] ?? null), "contributors", [])) {
+            echo "attribution: 'Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery &copy; <a href=\"https://www.mapbox.com/\">Mapbox</a>',";
+        }
+        // line 161
+        echo "    maxZoom: ";
+        echo twig_escape_filter($this->env, $this->getAttribute(($context["particle"] ?? null), "map_maxzoom", []), "html", null, true);
+        echo ",
+    id: 'mapbox.";
+        // line 162
+        echo twig_escape_filter($this->env, $this->getAttribute(($context["particle"] ?? null), "map_style", []), "html", null, true);
+        echo "',
+    accessToken: '";
+        // line 163
+        echo twig_escape_filter($this->env, $this->getAttribute(($context["particle"] ?? null), "accesstoken", []), "html", null, true);
+        echo "'
+}).addTo(mymap);
+
+var LeafIcon = L.Icon.extend({
+    options: {
+\t\t\ticonSize: [25, 41],
+\t\t\ticonAnchor: [12, 41],
+\t\t\tpopupAnchor: [1, -34],
+\t\t\tshadowSize: [41, 41]
+    }
+});
+
+";
+        // line 175
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable($this->getAttribute(($context["particle"] ?? null), "items", []));
+        $context['loop'] = [
+          'parent' => $context['_parent'],
+          'index0' => 0,
+          'index'  => 1,
+          'first'  => true,
+        ];
+        if (is_array($context['_seq']) || (is_object($context['_seq']) && $context['_seq'] instanceof \Countable)) {
+            $length = count($context['_seq']);
+            $context['loop']['revindex0'] = $length - 1;
+            $context['loop']['revindex'] = $length;
+            $context['loop']['length'] = $length;
+            $context['loop']['last'] = 1 === $length;
+        }
+        foreach ($context['_seq'] as $context["_key"] => $context["item"]) {
+            // line 176
+            echo "
+";
+            // line 177
+            if ($this->getAttribute($context["item"], "icon", [])) {
+                // line 178
+                echo "
+
+
+var icon_";
+                // line 181
+                echo twig_escape_filter($this->env, $this->getAttribute($context["loop"], "index", []), "html", null, true);
+                echo " = new LeafIcon({iconUrl: '";
+                echo twig_escape_filter($this->env, $this->env->getExtension('Gantry\Component\Twig\TwigExtension')->urlFunc($this->getAttribute($context["item"], "icon", [])));
+                echo "', shadowUrl: '";
+                echo twig_escape_filter($this->env, $this->env->getExtension('Gantry\Component\Twig\TwigExtension')->urlFunc($this->getAttribute($context["item"], "icon_shadow", [])));
+                echo "'})
+
+var marker = L.marker([";
+                // line 183
+                echo twig_escape_filter($this->env, $this->getAttribute($context["item"], "latitude", []));
+                echo ", ";
+                echo twig_escape_filter($this->env, $this->getAttribute($context["item"], "longitude", []));
+                echo "], {icon: icon_";
+                echo twig_escape_filter($this->env, $this->getAttribute($context["loop"], "index", []), "html", null, true);
+                echo "}).addTo(mymap);
+";
+            } else {
+                // line 185
+                echo "var marker = L.marker([";
+                echo twig_escape_filter($this->env, $this->getAttribute($context["item"], "latitude", []));
+                echo ", ";
+                echo twig_escape_filter($this->env, $this->getAttribute($context["item"], "longitude", []));
+                echo "]).addTo(mymap);
+";
+            }
+            // line 187
+            echo "
+
+marker.bindPopup(\"";
+            // line 189
+            echo twig_escape_filter($this->env, twig_escape_filter($this->env, $this->getAttribute($context["item"], "pop_content", []), "js"), "html", null, true);
+            echo "\"";
+            if ($this->getAttribute($context["item"], "pop_content_width", [])) {
+                echo ", {maxWidth: \"";
+                echo twig_escape_filter($this->env, $this->getAttribute($context["item"], "pop_content_width", []));
+                echo "\"}";
+            }
+            echo ")";
+            if ($this->getAttribute(($context["particle"] ?? null), "popup", [])) {
+                echo ".openPopup()";
+            }
+            echo ";
+";
+            ++$context['loop']['index0'];
+            ++$context['loop']['index'];
+            $context['loop']['first'] = false;
+            if (isset($context['loop']['length'])) {
+                --$context['loop']['revindex0'];
+                --$context['loop']['revindex'];
+                $context['loop']['last'] = 0 === $context['loop']['revindex0'];
+            }
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['item'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 191
+        echo "
+</script>
+";
+    }
+
     public function getTemplateName()
     {
-        return "@particles/jldivider.html.twig";
+        return "@particles/jlopenstreetmap.html.twig";
     }
 
     public function isTraitable()
@@ -537,7 +736,7 @@ class __TwigTemplate_918b068a9f24b6ec3ebf6db079469c03f6269376b1b0fd9d444619855f0
 
     public function getDebugInfo()
     {
-        return array (  522 => 141,  519 => 140,  513 => 138,  507 => 136,  505 => 135,  483 => 134,  479 => 133,  475 => 132,  473 => 131,  470 => 130,  464 => 9,  447 => 7,  445 => 6,  442 => 5,  440 => 4,  437 => 3,  432 => 1,  407 => 126,  405 => 125,  398 => 120,  392 => 118,  385 => 117,  361 => 116,  359 => 115,  357 => 114,  341 => 110,  339 => 109,  324 => 104,  298 => 102,  296 => 101,  294 => 100,  277 => 96,  275 => 95,  259 => 91,  256 => 90,  238 => 86,  236 => 85,  219 => 81,  217 => 80,  200 => 76,  198 => 75,  191 => 69,  189 => 68,  187 => 67,  181 => 62,  123 => 61,  121 => 60,  119 => 59,  103 => 55,  101 => 54,  95 => 50,  93 => 49,  91 => 48,  87 => 44,  85 => 43,  83 => 42,  79 => 38,  77 => 37,  75 => 36,  67 => 31,  64 => 29,  62 => 28,  57 => 23,  55 => 22,  52 => 21,  50 => 20,  47 => 19,  45 => 18,  42 => 17,  40 => 16,  38 => 15,  36 => 14,  30 => 1,);
+        return array (  722 => 191,  696 => 189,  692 => 187,  684 => 185,  675 => 183,  666 => 181,  661 => 178,  659 => 177,  656 => 176,  639 => 175,  624 => 163,  620 => 162,  615 => 161,  611 => 160,  602 => 158,  593 => 157,  557 => 154,  555 => 153,  538 => 152,  531 => 149,  528 => 148,  521 => 144,  516 => 142,  486 => 141,  482 => 140,  478 => 139,  476 => 138,  473 => 137,  463 => 9,  446 => 7,  444 => 6,  438 => 4,  435 => 3,  430 => 1,  423 => 132,  420 => 131,  418 => 130,  411 => 126,  408 => 125,  406 => 124,  399 => 120,  393 => 118,  386 => 117,  362 => 116,  360 => 115,  358 => 114,  342 => 110,  340 => 109,  325 => 104,  299 => 102,  297 => 101,  295 => 100,  278 => 96,  276 => 95,  260 => 91,  257 => 90,  239 => 86,  237 => 85,  220 => 81,  218 => 80,  201 => 76,  199 => 75,  192 => 69,  190 => 68,  188 => 67,  182 => 62,  124 => 61,  122 => 60,  120 => 59,  104 => 55,  102 => 54,  96 => 50,  94 => 49,  92 => 48,  88 => 44,  86 => 43,  84 => 42,  80 => 38,  78 => 37,  76 => 36,  68 => 31,  65 => 29,  63 => 28,  58 => 23,  56 => 22,  53 => 21,  51 => 20,  48 => 19,  46 => 18,  43 => 17,  41 => 16,  39 => 15,  37 => 14,  31 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -553,13 +752,13 @@ class __TwigTemplate_918b068a9f24b6ec3ebf6db079469c03f6269376b1b0fd9d444619855f0
         return new Source("{% extends '@nucleus/partials/particle.html.twig' %}
 
 {% block stylesheets %}
-{% if particle.particle_title_color or particle.particle_title_fontsize or particle.title_color or particle.title_fontsize or particle.customize_content_color or particle.customize_content_fontsize or particle.meta_color or particle.meta_fontsize %}
+<link rel=\"stylesheet\" href=\"{{ url('gantry-theme://css/leaflet.css') }}\">
 <style>
 {% if particle.particle_title_color or particle.particle_title_fontsize %}
 #{{ id }}.g5-particle-title { {% if particle.particle_title_color %}color: {{ particle.particle_title_color }};{% endif %}{% if particle.particle_title_fontsize %}font-size: {{particle.particle_title_fontsize}}px;{% endif %} }
 {% endif %}
+#map{{id}} { height: {{particle.map_height|default('400')|e}}px; z-index: 1;}
 </style>
-{% endif %}
 {% endblock %}
 
 {# set Viewport Height #}
@@ -673,26 +872,76 @@ rotate: {% if particle.rotate_start == '' %}0{% else %}{{particle.rotate_start}}
 {% endif %}
 {% endset %}
 
-{# Set Divider Style #}
-{% set dividerstyle %}
-{% if particle.divider_style == 'default' %} class=\"jl-hr\"{% elseif particle.divider_style == 'icon' %} class=\"jl-divider-icon\"{% elseif particle.divider_style == 'vertical' %} class=\"jl-divider-vertical\"{% else %} class=\"jl-divider-small{% if particle.divider_align != 'inherit' %} jl-text-{{particle.divider_align|e}}{% if particle.divider_breakpoint != 'always' %}@{{particle.divider_breakpoint|e}}{% endif %}{% endif %}{% if particle.divider_fallback != 'inherit' %} jl-text-{{particle.divider_fallback|e}}{% endif %}\"
-{% endif %}
+{% set imagewidth %}
+\t\t{% if particle.image_width != '' %}
+    width = \"{{particle.image_width}}\"
+    {% endif %}
 {% endset %}
+
+{% set imageheight %}
+\t\t{% if particle.image_height != '' %}
+    height = \"{{particle.image_height}}\"
+    {% endif %}
+{% endset %}
+
 
 {% block particle %}
 {% if particle.enabled %}
 {{parallaxbackground}}
 {{particle_title_style}}
-<div class=\"tm-divider-wrapper{{content_maxwidth}}{% if particle.class %} {{ particle.class }}{% endif %}{{particle_alignment}}{% if particle.margin == 'inherit' %}{% elseif particle.margin == 'default' %} jl-margin{% else %} jl-margin-{{particle.margin|e}}{% endif %}{% if particle.visibility != 'inherit' %} jl-visible@{{particle.visibility|e}}{% endif %}\"{{animation}}>
-{% if particle.divider_element == 'hr' %}
-<hr{{dividerstyle}}>
-{% else %}
-<div{{dividerstyle}}></div>
-{% endif %}
+<div class=\"tm-map-wrapper{{content_maxwidth}}{% if particle.class %} {{ particle.class }}{% endif %}{{particle_alignment}}{% if particle.margin == 'inherit' %}{% elseif particle.margin == 'default' %} jl-margin{% else %} jl-margin-{{particle.margin|e}}{% endif %}{% if particle.visibility != 'inherit' %} jl-visible@{{particle.visibility|e}}{% endif %}{% if particle.box_shadow != 'none' %} jl-box-shadow-{{particle.box_shadow|e}}{% endif %}{% if particle.box_shadow_hover != 'none' %} jl-box-shadow-hover-{{particle.box_shadow_hover|e}}{% endif %}\"{{animation}}>
+ <div id=\"map{{id}}\"></div>
 </div>
 {{endparallaxbackground}}
 {% endif %}
 {% endblock %}
-", "@particles/jldivider.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/particles/jldivider.html.twig");
+
+{% block javascript_footer %}
+<script src=\"{{ url('gantry-theme://js/leaflet.js') }}\"></script>
+<script type=\"text/javascript\">
+
+{% for item in particle.items %}
+{% if loop.index == '1' %}
+var mymap = L.map('map{{id}}', {zoomControl: {% if particle.zoom_control %}true{% else %}false{% endif %}, scrollWheelZoom: {% if particle.scroll_wheel %}true{% else %}false{% endif %} }).setView([{{item.latitude|e}}, {{item.longitude|e}}], {{particle.map_zoom|default('11')|e}});
+{% endif %}
+{% endfor %}
+mymap.dragging.{% if particle.dragg %}enable{% else %}disable{% endif %}();
+mymap.doubleClickZoom.{% if particle.double_click_zoom %}enable{% else %}disable{% endif %}();
+L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+\t\t{% if particle.contributors %}attribution: 'Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery &copy; <a href=\"https://www.mapbox.com/\">Mapbox</a>',{% endif %}
+    maxZoom: {{particle.map_maxzoom}},
+    id: 'mapbox.{{particle.map_style}}',
+    accessToken: '{{particle.accesstoken}}'
+}).addTo(mymap);
+
+var LeafIcon = L.Icon.extend({
+    options: {
+\t\t\ticonSize: [25, 41],
+\t\t\ticonAnchor: [12, 41],
+\t\t\tpopupAnchor: [1, -34],
+\t\t\tshadowSize: [41, 41]
+    }
+});
+
+{% for item in particle.items %}
+
+{% if item.icon %}
+
+
+
+var icon_{{loop.index}} = new LeafIcon({iconUrl: '{{ url(item.icon)|e }}', shadowUrl: '{{ url(item.icon_shadow)|e }}'})
+
+var marker = L.marker([{{item.latitude|e}}, {{item.longitude|e}}], {icon: icon_{{loop.index}}}).addTo(mymap);
+{% else %}
+var marker = L.marker([{{item.latitude|e}}, {{item.longitude|e}}]).addTo(mymap);
+{% endif %}
+
+
+marker.bindPopup(\"{{item.pop_content|e('js')}}\"{% if item.pop_content_width %}, {maxWidth: \"{{item.pop_content_width|e}}\"}{% endif %}){% if particle.popup %}.openPopup(){% endif %};
+{% endfor %}
+
+</script>
+{% endblock %}
+", "@particles/jlopenstreetmap.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/themes/g5_helium/particles/jlopenstreetmap.html.twig");
     }
 }

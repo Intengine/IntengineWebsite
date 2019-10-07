@@ -35,7 +35,13 @@ layout:
       - 'logo-3593 25'
       - 'logo-4650 25'
       - 'logo-7601 25'
-  /testimonials/: {  }
+  /testimonials/:
+    -
+      - custom-8302
+    -
+      - 'custom-9742 33.3'
+      - 'jldivider-6776 33.3'
+      - 'custom-4266 33.3'
   /expanded/: {  }
   /container-main/:
     -
@@ -782,6 +788,83 @@ content:
       image: 'gantry-media://g5_helium/logo_efabryka.png'
     block:
       class: 'wow fadeInUp'
+  custom-8302:
+    title: 'Custom HTML'
+    attributes:
+      html: '<h1>CONTACT</h1>'
+    block:
+      class: 'wow fadeInDown'
+  custom-9742:
+    title: 'Custom HTML'
+    attributes:
+      html: "<p style=\"text-align: left\">E-MAIL: &nbsp; &nbsp; &nbsp; <a href=\"mailto: sylwester.pilarz93@gmail.com\">sylwester.pilarz93@gmail.com</a></p>\n<p style=\"text-align: left\">PHONE: &nbsp; &nbsp; &nbsp; +48 506 715 473</p>"
+    block:
+      class: 'wow fadeInRight'
+      variations: align-right
+  jldivider-6776:
+    title: 'JL Divider'
+    attributes:
+      divider_style: vertical
+      divider_element: hr
+      divider_align: center
+      divider_breakpoint: always
+      divider_fallback: center
+      class: ''
+      particle_title: ''
+      particle_title_style: h3
+      particle_title_decoration: none
+      particle_title_align: inherit
+      particle_predefined_color: default
+      particle_title_color: ''
+      particle_title_fontsize: ''
+      particle_title_element: h3
+      align: inherit
+      breakpoint: always
+      fallback: inherit
+      g_maxwidth: inherit
+      g_maxwidth_alignment: left
+      g_maxwidth_breakpoint: always
+      margin: inherit
+      visibility: inherit
+      animation: inherit
+      animation_delay: ''
+      animation_repeat: disabled
+      pa_horizontal_start: ''
+      pa_horizontal_end: ''
+      pa_vertical_start: ''
+      pa_vertical_end: ''
+      scale_start: ''
+      scale_end: ''
+      rotate_start: ''
+      rotate_end: ''
+      opacity_start: ''
+      opacity_end: ''
+      easing: ''
+      pa_viewport: ''
+      pa_breakpoint: always
+      parallax_image: ''
+      background_image_size: auto
+      background_image_position: center-center
+      parallax_bg_breakpoint: always
+      parallax_bg_visibility: always
+      parallax_bg_color: ''
+      blendmode: inherit
+      parallax_bg_overlay: ''
+      horizontal_start: '0'
+      horizontal_end: '0'
+      vertical_start: '0'
+      vertical_end: '0'
+      container: '0'
+      viewport_height: none
+      padding: default
+      vertical_alignment: none
+      parallax_text_color: default
+  custom-4266:
+    title: 'Custom HTML'
+    attributes:
+      html: '<div class="mapouter"><div class="gmap_canvas"><iframe width="595" height="198" id="gmap_canvas" src="https://maps.google.com/maps?q=bielsko-bia%C5%82a&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.utilitysavingexpert.com">Utility Saving Expert</a></div><style>.mapouter{position:relative;text-align:right;height:198px;width:595px;}.gmap_canvas {overflow:hidden;background:none!important;height:198px;width:595px;}</style></div>'
+    block:
+      variations: align-left
   position-position-4734:
     title: Aside
     attributes:
