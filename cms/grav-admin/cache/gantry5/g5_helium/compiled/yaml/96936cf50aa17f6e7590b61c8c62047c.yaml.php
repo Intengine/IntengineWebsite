@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/particles/scrollreveal-js.yaml',
-    'modified' => 1569251813,
+    'modified' => 1570461503,
     'data' => [
         'name' => 'ScrollReveal.js',
         'description' => 'Configure ScrollReveal.js.',

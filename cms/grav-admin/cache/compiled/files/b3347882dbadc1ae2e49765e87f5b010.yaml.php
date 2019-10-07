@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'plugins://admin-power-tools/admin-power-tools.yaml',
-    'modified' => 1570195092,
+    'modified' => 1570461503,
     'data' => [
         'enabled' => true,
         'edit_page_enabled' => true,

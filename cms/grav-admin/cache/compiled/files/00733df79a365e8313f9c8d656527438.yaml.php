@@ -2,9 +2,9 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/data/feed/9292e04d7d7733bcbfbb7f4c1bcd1f6d.yaml',
-    'modified' => 1569855996,
+    'modified' => 1570461503,
     'data' => [
-        'last_checked' => 1569855996,
+        'last_checked' => 1570195144,
         'data' => [
             0 => [
                 'title' => 'Grav 1.6 Released!',
@@ -40,7 +40,7 @@ return [
                 'title' => 'Git-Sync 2.0',
                 'url' => 'https://getgrav.org/blog/git-sync-2.0',
                 'date' => 1539604800,
-                'nicetime' => '11 miesięcy temu'
+                'nicetime' => '12 miesięcy temu'
             ],
             6 => [
                 'title' => 'Vote for Grav in the 2018 CMS Critic People\'s Choice Awards',
@@ -52,7 +52,7 @@ return [
                 'title' => 'New XSS Protection Available in Grav 1.5.2',
                 'url' => 'https://getgrav.org/blog/new-xss-protection',
                 'date' => 1538411400,
-                'nicetime' => '12 miesięcy temu'
+                'nicetime' => '1 lat temu'
             ],
             8 => [
                 'title' => 'macOS 10.14 Mojave Apache Setup: Upgrading Homebrew',

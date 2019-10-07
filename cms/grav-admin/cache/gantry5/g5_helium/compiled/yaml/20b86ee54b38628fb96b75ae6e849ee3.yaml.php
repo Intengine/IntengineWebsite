@@ -2,10 +2,10 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/config/_body_only/index.yaml',
-    'modified' => 1569856022,
+    'modified' => 1570462277,
     'data' => [
         'name' => '_body_only',
-        'timestamp' => 1569251813,
+        'timestamp' => 1570461503,
         'version' => 7,
         'preset' => [
             'image' => 'gantry-admin://images/layouts/body-only.png',

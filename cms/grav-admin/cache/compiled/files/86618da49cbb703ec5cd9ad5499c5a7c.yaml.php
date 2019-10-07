@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/login/login.yaml',
-    'modified' => 1569251814,
+    'modified' => 1570461505,
     'data' => [
         'enabled' => true,
         'built_in_css' => true,
@@ -50,6 +50,7 @@ return [
                 ]
             ],
             'redirect_after_registration' => '',
+            'redirect_after_activation' => '',
             'options' => [
                 'validate_password1_and_password2' => true,
                 'set_user_disabled' => false,

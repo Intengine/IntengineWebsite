@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/particles/wow-js.yaml',
-    'modified' => 1458734892,
+    'modified' => 1570461503,
     'data' => [
         'name' => 'WOW.js',
         'description' => 'Configure WOW.js.',

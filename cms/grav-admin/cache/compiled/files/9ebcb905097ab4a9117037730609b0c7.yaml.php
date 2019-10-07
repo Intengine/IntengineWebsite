@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/system/config/site.yaml',
-    'modified' => 1569251813,
+    'modified' => 1570461503,
     'data' => [
         'title' => 'Grav',
         'default_lang' => 'en',

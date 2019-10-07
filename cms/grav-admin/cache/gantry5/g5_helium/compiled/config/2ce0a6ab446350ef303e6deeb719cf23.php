@@ -1,143 +1,143 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1570195752,
-    'checksum' => 'd96deee930c38caf1db8a31318a5c036',
+    'timestamp' => 1570463066,
+    'checksum' => 'b8fbbbe1b2c03afac5847f9aa5cd5cb1',
     'files' => [
         'user/data/gantry5/themes/g5_helium/config/default' => [
             'index' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/index.yaml',
-                'modified' => 1570195749
+                'modified' => 1570463063
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-                'modified' => 1570195749
+                'modified' => 1570463063
             ],
             'page/assets' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/assets.yaml',
-                'modified' => 1570195091
+                'modified' => 1570461503
             ],
             'page/body' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/body.yaml',
-                'modified' => 1570195091
+                'modified' => 1570461503
             ],
             'page/head' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/head.yaml',
-                'modified' => 1570195091
+                'modified' => 1570461503
             ],
             'particles/branding' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/branding.yaml',
-                'modified' => 1570195091
+                'modified' => 1570461503
             ],
             'particles/content' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/content.yaml',
-                'modified' => 1570195091
+                'modified' => 1570461503
             ],
             'particles/contentarray' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/contentarray.yaml',
-                'modified' => 1570195091
+                'modified' => 1570461503
             ],
             'particles/contentcubes' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/contentcubes.yaml',
-                'modified' => 1570195091
+                'modified' => 1570461503
             ],
             'particles/contenttabs' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/contenttabs.yaml',
-                'modified' => 1570195091
+                'modified' => 1570461503
             ],
             'particles/copyright' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/copyright.yaml',
-                'modified' => 1570195091
+                'modified' => 1570461503
             ],
             'particles/custom' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/custom.yaml',
-                'modified' => 1570195091
+                'modified' => 1570461503
             ],
             'particles/date' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/date.yaml',
-                'modified' => 1570195091
+                'modified' => 1570461503
             ],
             'particles/gp_iconblock1' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/gp_iconblock1.yaml',
-                'modified' => 1570195091
+                'modified' => 1570461503
             ],
             'particles/horizontalmenu' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/horizontalmenu.yaml',
-                'modified' => 1570195091
+                'modified' => 1570461503
             ],
             'particles/jldivider' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/jldivider.yaml',
-                'modified' => 1570195091
+                'modified' => 1570461503
             ],
             'particles/login' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/login.yaml',
-                'modified' => 1570195091
+                'modified' => 1570461503
             ],
             'particles/logo' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/logo.yaml',
-                'modified' => 1570195091
+                'modified' => 1570461503
             ],
             'particles/menu' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/menu.yaml',
-                'modified' => 1570195091
+                'modified' => 1570461503
             ],
             'particles/messages' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/messages.yaml',
-                'modified' => 1570195091
+                'modified' => 1570461503
             ],
             'particles/mobile-menu' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/mobile-menu.yaml',
-                'modified' => 1570195091
+                'modified' => 1570461503
             ],
             'particles/owlcarousel' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/owlcarousel.yaml',
-                'modified' => 1570195091
+                'modified' => 1570461503
             ],
             'particles/position' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/position.yaml',
-                'modified' => 1570195091
+                'modified' => 1570461503
             ],
             'particles/social' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/social.yaml',
-                'modified' => 1570195091
+                'modified' => 1570461503
             ],
             'particles/spacer' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/spacer.yaml',
-                'modified' => 1570195091
+                'modified' => 1570461503
             ],
             'particles/totop' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/totop.yaml',
-                'modified' => 1570195091
+                'modified' => 1570461503
             ],
             'styles' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/styles.yaml',
-                'modified' => 1570195091
+                'modified' => 1570461503
             ]
         ],
         'user/themes/g5_helium/config/default' => [
             'page/body' => [
                 'file' => 'user/themes/g5_helium/config/default/page/body.yaml',
-                'modified' => 1570195094
+                'modified' => 1570461505
             ],
             'particles/branding' => [
                 'file' => 'user/themes/g5_helium/config/default/particles/branding.yaml',
-                'modified' => 1570195094
+                'modified' => 1570461505
             ],
             'particles/copyright' => [
                 'file' => 'user/themes/g5_helium/config/default/particles/copyright.yaml',
-                'modified' => 1570195094
+                'modified' => 1570461505
             ],
             'particles/logo' => [
                 'file' => 'user/themes/g5_helium/config/default/particles/logo.yaml',
-                'modified' => 1570195094
+                'modified' => 1570461505
             ],
             'particles/social' => [
                 'file' => 'user/themes/g5_helium/config/default/particles/social.yaml',
-                'modified' => 1570195094
+                'modified' => 1570461505
             ],
             'particles/totop' => [
                 'file' => 'user/themes/g5_helium/config/default/particles/totop.yaml',
-                'modified' => 1570195094
+                'modified' => 1570461505
             ]
         ]
     ],
@@ -845,7 +845,7 @@ return [
         ],
         'index' => [
             'name' => 'default',
-            'timestamp' => 1570195749,
+            'timestamp' => 1570463063,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -1804,6 +1804,7 @@ return [
                 'logo-6807' => [
                     'title' => 'Logo / Image',
                     'attributes' => [
+                        'url' => 'http://www.hrbemo.pl',
                         'image' => 'gantry-media://g5_helium/logo_hrbemo.png'
                     ],
                     'block' => [
@@ -1814,6 +1815,7 @@ return [
                 'logo-3593' => [
                     'title' => 'Logo / Image',
                     'attributes' => [
+                        'url' => 'http://www.wiren.pl',
                         'image' => 'gantry-media://g5_helium/logo_wiren.png'
                     ],
                     'block' => [
@@ -1822,10 +1824,24 @@ return [
                     ]
                 ],
                 'logo-4650' => [
-                    'title' => 'Logo / Image'
+                    'title' => 'Logo / Image',
+                    'attributes' => [
+                        'url' => 'http://www.sedaw.pl',
+                        'image' => 'gantry-media://g5_helium/logo_sedaw.png'
+                    ],
+                    'block' => [
+                        'class' => 'wow fadeInUp'
+                    ]
                 ],
                 'logo-7601' => [
-                    'title' => 'Logo / Image'
+                    'title' => 'Logo / Image',
+                    'attributes' => [
+                        'url' => 'http://www.efabryka.net',
+                        'image' => 'gantry-media://g5_helium/logo_efabryka.png'
+                    ],
+                    'block' => [
+                        'class' => 'wow fadeInUp'
+                    ]
                 ],
                 'position-position-4734' => [
                     'title' => 'Aside',

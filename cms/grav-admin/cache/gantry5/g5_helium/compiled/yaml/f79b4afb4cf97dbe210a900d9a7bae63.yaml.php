@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/engines/nucleus/particles/spacer.yaml',
-    'modified' => 1569251814,
+    'modified' => 1570461505,
     'data' => [
         'name' => 'Spacer',
         'description' => 'Add empty column to the row.',

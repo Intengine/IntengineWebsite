@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/engines/nucleus/particles/mobile-menu.yaml',
-    'modified' => 1569251814,
+    'modified' => 1570461505,
     'data' => [
         'name' => 'Mobile Menu',
         'description' => 'Renders the mobile menu container for the offcanvas section.',

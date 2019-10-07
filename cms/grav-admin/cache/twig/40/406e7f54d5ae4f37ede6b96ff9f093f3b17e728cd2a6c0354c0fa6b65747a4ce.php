@@ -56,6 +56,6 @@ class __TwigTemplate_4bafec898095628eac93d13acc8ff6639e97405cc7f379aaa94d52078f0
     public function getSourceContext()
     {
         return new Source("{% do gantry.load('lightcase.init') %}
-", "@particles/lightcase.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/engines/nucleus/particles/lightcase.html.twig");
+", "@particles/lightcase.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/engines/nucleus/particles/lightcase.html.twig");
     }
 }

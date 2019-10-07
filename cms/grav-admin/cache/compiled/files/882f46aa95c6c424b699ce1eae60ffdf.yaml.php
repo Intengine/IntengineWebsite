@@ -2,17 +2,17 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/data/notifications/9292e04d7d7733bcbfbb7f4c1bcd1f6d.yaml',
-    'modified' => 1569942027,
+    'modified' => 1570462257,
     'data' => [
-        'last_checked' => 1569942027,
+        'last_checked' => 1570462257,
         'data' => [
             'feed' => [
                 0 => [
                     'id' => 24,
-                    'date' => '2019-09-17 11:27',
-                    'message' => '⏰ It\'s that time again! Please vote for Grav as <b>Best Flat File CMS</b> in the 2019 CMS Critics\' Awards',
+                    'date' => '2019-10-03 11:27',
+                    'message' => '🙏 Thanks to our amazing community, Grav was voted <b>Best Flat File CMS</b> in the 2019 CMS Critics\' Awards!',
                     'link' => 'https://www.cmscritic.com/awards/',
-                    'type' => 'note',
+                    'type' => 'info',
                     'location' => [
                         0 => 'feed'
                     ]
