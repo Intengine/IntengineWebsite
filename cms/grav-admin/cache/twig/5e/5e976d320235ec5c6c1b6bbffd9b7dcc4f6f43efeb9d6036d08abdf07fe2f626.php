@@ -150,6 +150,6 @@ class __TwigTemplate_b47ff31a7c0c8b1d477d5048b7e2f9ce3f8bb80c928f8302c8433be89b3
         {{ assets.js()|raw }}
     {% endblock %}
 
-{% endblock %}", "partials/page_head.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/engines/nucleus/templates/partials/page_head.html.twig");
+{% endblock %}", "partials/page_head.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/engines/nucleus/templates/partials/page_head.html.twig");
     }
 }

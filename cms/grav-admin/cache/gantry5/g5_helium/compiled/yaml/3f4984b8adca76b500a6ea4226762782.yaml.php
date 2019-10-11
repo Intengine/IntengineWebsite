@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/engines/nucleus/particles/logo.yaml',
-    'modified' => 1570195093,
+    'modified' => 1570788199,
     'data' => [
         'name' => 'Logo / Image',
         'description' => 'Display a logo or an image.',

@@ -79,6 +79,6 @@ class __TwigTemplate_d7cf4ba4d64c743ce9a1242c3d215385fe4440c5859a368ef7831c03167
     {% set html = particle.twig ? gantry.theme.compile(particle.html) : particle.html %}
     {{ (particle.filter ? gantry.platform.filter(html) : html)|html|raw }}
 {% endblock %}
-", "@particles/custom.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/engines/nucleus/particles/custom.html.twig");
+", "@particles/custom.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/engines/nucleus/particles/custom.html.twig");
     }
 }

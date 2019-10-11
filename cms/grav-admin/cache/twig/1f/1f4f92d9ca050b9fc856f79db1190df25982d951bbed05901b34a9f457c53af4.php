@@ -118,6 +118,6 @@ class __TwigTemplate_e43b9f555a830d5fad5dbba18e44be10446e514b7693585e19be39335d6
 \t\t\twow.init();
 \t\t</script>
 \t{% endif %}
-{% endblock %}", "@particles/wow-js.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/particles/wow-js.html.twig");
+{% endblock %}", "@particles/wow-js.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/particles/wow-js.html.twig");
     }
 }

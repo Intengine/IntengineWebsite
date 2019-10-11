@@ -114,6 +114,6 @@ jQuery(document).ready(function(){
 });
 </script>
 {% endblock %}
-", "@particles/smoothscroll.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/particles/smoothscroll.html.twig");
+", "@particles/smoothscroll.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/particles/smoothscroll.html.twig");
     }
 }

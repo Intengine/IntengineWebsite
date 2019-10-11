@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/engines/nucleus/blueprints/page/assets.yaml',
-    'modified' => 1570195093,
+    'modified' => 1570788199,
     'data' => [
         'name' => 'Assets',
         'description' => 'Assets such as JS and CSS that can be globally loaded',

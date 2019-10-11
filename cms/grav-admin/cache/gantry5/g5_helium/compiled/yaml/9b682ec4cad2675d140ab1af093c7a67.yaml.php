@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/engines/nucleus/particles/feed.yaml',
-    'modified' => 1570195093,
+    'modified' => 1570788199,
     'data' => [
         'name' => 'Feed Buttons',
         'description' => 'Feed Buttons Particle for Grav Feed Plugin',

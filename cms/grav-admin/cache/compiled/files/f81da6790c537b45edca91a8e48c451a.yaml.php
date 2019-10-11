@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/markdown-notices/languages.yaml',
-    'modified' => 1570195094,
+    'modified' => 1570788199,
     'data' => [
         'en' => [
             'PLUGIN_MARKDOWN_NOTICES' => [

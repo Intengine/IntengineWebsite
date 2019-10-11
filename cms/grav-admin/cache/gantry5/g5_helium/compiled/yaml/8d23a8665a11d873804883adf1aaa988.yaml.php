@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/data/gantry5/themes/g5_helium/particles/jldivider.yaml',
-    'modified' => 1570195091,
+    'modified' => 1570788197,
     'data' => [
         'name' => 'JL Divider',
         'description' => 'Display a horizontal divider.',
