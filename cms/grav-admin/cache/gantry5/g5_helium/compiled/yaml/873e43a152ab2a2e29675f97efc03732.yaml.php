@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/themes/g5_helium/blueprints/styles/menu.yaml',
-    'modified' => 1570788199,
+    'modified' => 1571058281,
     'data' => [
         'name' => 'Menu',
         'description' => 'Set menu style configuration options.',
@@ -30,6 +30,13 @@ return [
                         'g-dropdown-bounce-in-left' => 'Bounce In Left',
                         'g-dropdown-bounce-in-right' => 'Bounce In Right'
                     ]
+                ],
+                'hide-on-mobile' => [
+                    'type' => 'input.checkbox',
+                    'label' => 'Hide on Mobile',
+                    'description' => 'Check this field to completely hide the dropdown menu on mobile devices. This prevents menu flickering but you might end with no menu when JS is not supported by the respective device.',
+                    'placeholder' => 'Select...',
+                    'default' => 0
                 ]
             ]
         ]

@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/themes/g5_helium/blueprints.yaml',
-    'modified' => 1570195094,
+    'modified' => 1571058281,
     'data' => [
         'name' => 'Helium',
-        'version' => '5.4.29',
+        'version' => '5.4.31',
         'description' => 'Default Gantry 5 theme.',
         'icon' => 'gantry',
         'author' => [

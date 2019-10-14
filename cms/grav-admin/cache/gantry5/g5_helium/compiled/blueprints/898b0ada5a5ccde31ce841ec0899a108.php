@@ -1,265 +1,265 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledBlueprints',
-    'timestamp' => 1570788224,
-    'checksum' => '541f849d166974c19f13d45f9207d3af',
+    'timestamp' => 1571058292,
+    'checksum' => '18941443f3156982f92abc2f05bb9dfb',
     'files' => [
         'user/data/gantry5/themes/g5_helium/particles' => [
             'particles/fixed-header' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/particles/fixed-header.yaml',
-                'modified' => 1570788197
+                'modified' => 1571058148
             ],
             'particles/gp_iconblock1' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/particles/gp_iconblock1.yaml',
-                'modified' => 1570788197
+                'modified' => 1571058148
             ],
             'particles/jldivider' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/particles/jldivider.yaml',
-                'modified' => 1570788197
+                'modified' => 1571058148
             ],
             'particles/jloverlay' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/particles/jloverlay.yaml',
-                'modified' => 1570788197
+                'modified' => 1571058148
             ],
             'particles/jluikit' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/particles/jluikit.yaml',
-                'modified' => 1570788197
+                'modified' => 1571058148
             ],
             'particles/scrollreveal-js' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/particles/scrollreveal-js.yaml',
-                'modified' => 1570788197
+                'modified' => 1571058148
             ],
             'particles/smoothscroll' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/particles/smoothscroll.yaml',
-                'modified' => 1570788197
+                'modified' => 1571058148
             ],
             'particles/wow-js' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/particles/wow-js.yaml',
-                'modified' => 1570788197
+                'modified' => 1571058148
             ]
         ],
         'user/themes/g5_helium/particles' => [
             'particles/contentcubes' => [
                 'file' => 'user/themes/g5_helium/particles/contentcubes.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058282
             ],
             'particles/contenttabs' => [
                 'file' => 'user/themes/g5_helium/particles/contenttabs.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058282
             ],
             'particles/copyright' => [
                 'file' => 'user/themes/g5_helium/particles/copyright.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058282
             ],
             'particles/horizontalmenu' => [
                 'file' => 'user/themes/g5_helium/particles/horizontalmenu.yaml',
-                'modified' => 1570788199
-            ],
-            'particles/jlopenstreetmap' => [
-                'file' => 'user/themes/g5_helium/particles/jlopenstreetmap.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058282
             ],
             'particles/owlcarousel' => [
                 'file' => 'user/themes/g5_helium/particles/owlcarousel.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058282
             ]
         ],
         'user/plugins/gantry5/engines/nucleus/particles' => [
             'particles/analytics' => [
                 'file' => 'user/plugins/gantry5/engines/nucleus/particles/analytics.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058286
             ],
             'particles/assets' => [
                 'file' => 'user/plugins/gantry5/engines/nucleus/particles/assets.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058286
             ],
             'particles/branding' => [
                 'file' => 'user/plugins/gantry5/engines/nucleus/particles/branding.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058286
             ],
             'particles/breadcrumbs' => [
                 'file' => 'user/plugins/gantry5/engines/nucleus/particles/breadcrumbs.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058286
             ],
             'particles/content' => [
                 'file' => 'user/plugins/gantry5/engines/nucleus/particles/content.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058286
             ],
             'particles/contentarray' => [
                 'file' => 'user/plugins/gantry5/engines/nucleus/particles/contentarray.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058286
             ],
             'particles/copyright' => [
                 'file' => 'user/plugins/gantry5/engines/nucleus/particles/copyright.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058286
             ],
             'particles/custom' => [
                 'file' => 'user/plugins/gantry5/engines/nucleus/particles/custom.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058286
             ],
             'particles/date' => [
                 'file' => 'user/plugins/gantry5/engines/nucleus/particles/date.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058286
             ],
             'particles/feed' => [
                 'file' => 'user/plugins/gantry5/engines/nucleus/particles/feed.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058286
             ],
             'particles/frameworks' => [
                 'file' => 'user/plugins/gantry5/engines/nucleus/particles/frameworks.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058286
             ],
             'particles/langswitcher' => [
                 'file' => 'user/plugins/gantry5/engines/nucleus/particles/langswitcher.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058286
             ],
             'particles/lightcase' => [
                 'file' => 'user/plugins/gantry5/engines/nucleus/particles/lightcase.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058286
             ],
             'particles/login' => [
                 'file' => 'user/plugins/gantry5/engines/nucleus/particles/login.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058286
             ],
             'particles/logo' => [
                 'file' => 'user/plugins/gantry5/engines/nucleus/particles/logo.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058286
             ],
             'particles/menu' => [
                 'file' => 'user/plugins/gantry5/engines/nucleus/particles/menu.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058286
             ],
             'particles/messages' => [
                 'file' => 'user/plugins/gantry5/engines/nucleus/particles/messages.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058286
             ],
             'particles/mobile-menu' => [
                 'file' => 'user/plugins/gantry5/engines/nucleus/particles/mobile-menu.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058286
             ],
             'particles/position' => [
                 'file' => 'user/plugins/gantry5/engines/nucleus/particles/position.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058286
             ],
             'particles/search' => [
                 'file' => 'user/plugins/gantry5/engines/nucleus/particles/search.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058286
             ],
             'particles/social' => [
                 'file' => 'user/plugins/gantry5/engines/nucleus/particles/social.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058286
             ],
             'particles/spacer' => [
                 'file' => 'user/plugins/gantry5/engines/nucleus/particles/spacer.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058286
             ],
             'particles/totop' => [
                 'file' => 'user/plugins/gantry5/engines/nucleus/particles/totop.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058286
             ]
         ],
         'user/themes/g5_helium/blueprints' => [
             'styles/above' => [
                 'file' => 'user/themes/g5_helium/blueprints/styles/above.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058281
             ],
             'styles/accent' => [
                 'file' => 'user/themes/g5_helium/blueprints/styles/accent.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058281
             ],
             'styles/base' => [
                 'file' => 'user/themes/g5_helium/blueprints/styles/base.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058281
             ],
             'styles/breakpoints' => [
                 'file' => 'user/themes/g5_helium/blueprints/styles/breakpoints.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058281
             ],
             'styles/expanded' => [
                 'file' => 'user/themes/g5_helium/blueprints/styles/expanded.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058281
             ],
             'styles/features' => [
                 'file' => 'user/themes/g5_helium/blueprints/styles/features.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058281
             ],
             'styles/font' => [
                 'file' => 'user/themes/g5_helium/blueprints/styles/font.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058281
             ],
             'styles/footer' => [
                 'file' => 'user/themes/g5_helium/blueprints/styles/footer.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058281
             ],
             'styles/header' => [
                 'file' => 'user/themes/g5_helium/blueprints/styles/header.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058281
             ],
             'styles/intro' => [
                 'file' => 'user/themes/g5_helium/blueprints/styles/intro.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058281
             ],
             'styles/link' => [
                 'file' => 'user/themes/g5_helium/blueprints/styles/link.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058281
             ],
             'styles/menu' => [
                 'file' => 'user/themes/g5_helium/blueprints/styles/menu.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058281
             ],
             'styles/navigation' => [
                 'file' => 'user/themes/g5_helium/blueprints/styles/navigation.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058281
             ],
             'styles/offcanvas' => [
                 'file' => 'user/themes/g5_helium/blueprints/styles/offcanvas.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058281
             ],
             'styles/testimonials' => [
                 'file' => 'user/themes/g5_helium/blueprints/styles/testimonials.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058281
             ],
             'styles/utility' => [
                 'file' => 'user/themes/g5_helium/blueprints/styles/utility.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058281
             ]
         ],
         'user/plugins/gantry5/engines/nucleus/blueprints' => [
             'page/assets' => [
                 'file' => 'user/plugins/gantry5/engines/nucleus/blueprints/page/assets.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058286
             ],
             'page/body' => [
                 'file' => 'user/plugins/gantry5/engines/nucleus/blueprints/page/body.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058286
+            ],
+            'page/fontawesome' => [
+                'file' => 'user/plugins/gantry5/engines/nucleus/blueprints/page/fontawesome.yaml',
+                'modified' => 1571058286
             ],
             'page/head' => [
                 'file' => 'user/plugins/gantry5/engines/nucleus/blueprints/page/head.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058286
             ],
             'pages/blog_item' => [
                 'file' => 'user/plugins/gantry5/engines/nucleus/blueprints/pages/blog_item.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058286
             ],
             'pages/blog_list' => [
                 'file' => 'user/plugins/gantry5/engines/nucleus/blueprints/pages/blog_list.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058286
             ],
             'pages/form' => [
                 'file' => 'user/plugins/gantry5/engines/nucleus/blueprints/pages/form.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058286
             ],
             'pages/modular/features' => [
                 'file' => 'user/plugins/gantry5/engines/nucleus/blueprints/pages/modular/features.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058286
             ],
             'pages/modular/showcase' => [
                 'file' => 'user/plugins/gantry5/engines/nucleus/blueprints/pages/modular/showcase.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058286
             ],
             'pages/modular/text' => [
                 'file' => 'user/plugins/gantry5/engines/nucleus/blueprints/pages/modular/text.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058286
             ]
         ]
     ],
@@ -2949,789 +2949,6 @@ return [
                 'label' => 'Link',
                 'name' => 'particles.horizontalmenu.items.*.link'
             ],
-            'particles.jlopenstreetmap' => [
-                'type' => '_root',
-                'form_field' => false,
-                'form' => [
-                    'overrideable' => false
-                ]
-            ],
-            'particles.jlopenstreetmap.enabled' => [
-                'type' => 'input.checkbox',
-                'label' => 'Enabled',
-                'description' => 'Globally enable to the particles.',
-                'default' => true,
-                'name' => 'particles.jlopenstreetmap.enabled'
-            ],
-            'particles.jlopenstreetmap.items' => [
-                'overrideable' => false,
-                'type' => 'collection.list',
-                'array' => true,
-                'label' => 'Items',
-                'description' => 'Create each item to appear in the content row.',
-                'value' => 'name',
-                'ajax' => true,
-                'name' => 'particles.jlopenstreetmap.items'
-            ],
-            'particles.jlopenstreetmap.items.*' => [
-                'type' => '_parent',
-                'name' => 'particles.jlopenstreetmap.items.*',
-                'form_field' => false
-            ],
-            'particles.jlopenstreetmap.items.*.latitude' => [
-                'type' => 'input.text',
-                'label' => 'Latitude',
-                'description' => 'Default latitude for maps. You can also change this for each map.',
-                'name' => 'particles.jlopenstreetmap.items.*.latitude'
-            ],
-            'particles.jlopenstreetmap.items.*.longitude' => [
-                'type' => 'input.text',
-                'label' => 'Longitude',
-                'description' => 'Default longitude for maps. You can also change this for each map.',
-                'name' => 'particles.jlopenstreetmap.items.*.longitude'
-            ],
-            'particles.jlopenstreetmap.items.*.pop_content' => [
-                'type' => 'textarea.textarea',
-                'label' => 'Text in Popup',
-                'description' => 'Enter the popup\'s content.',
-                'name' => 'particles.jlopenstreetmap.items.*.pop_content'
-            ],
-            'particles.jlopenstreetmap.items.*.pop_content_width' => [
-                'type' => 'input.number',
-                'label' => 'Popup Width',
-                'min' => 50,
-                'description' => 'Enter the popup\'s content width.',
-                'name' => 'particles.jlopenstreetmap.items.*.pop_content_width'
-            ],
-            'particles.jlopenstreetmap.items.*.icon' => [
-                'type' => 'input.imagepicker',
-                'label' => 'Custom Icon',
-                'description' => 'Instead of using default icon, you can select your custom icon.',
-                'name' => 'particles.jlopenstreetmap.items.*.icon'
-            ],
-            'particles.jlopenstreetmap.items.*.icon_shadow' => [
-                'type' => 'input.imagepicker',
-                'label' => 'Custom Icon',
-                'description' => 'Instead of using default icon, you can select your custom icon.',
-                'name' => 'particles.jlopenstreetmap.items.*.icon_shadow'
-            ],
-            'particles.jlopenstreetmap.map_style' => [
-                'type' => 'select.select',
-                'label' => 'Tile layer',
-                'description' => 'Instantiates a tile layer object given a URL template and optionally an options object.',
-                'default' => 'streets',
-                'options' => [
-                    'streets' => 'Streets',
-                    'light' => 'Light',
-                    'dark' => 'Dark',
-                    'satellite' => 'Satellite',
-                    'streets-satellite' => 'Streets Satellite',
-                    'wheatpaste' => 'Wheatpaste',
-                    'streets-basic' => 'Streets Basic',
-                    'comic' => 'Comic',
-                    'outdoors' => 'Outdoors',
-                    'run-bike-hike' => 'Run Bike Hike',
-                    'pencil' => 'Pencil',
-                    'pirates' => 'Pirates',
-                    'emerald' => 'Emerald',
-                    'high-contrast' => 'High Contrast'
-                ],
-                'name' => 'particles.jlopenstreetmap.map_style'
-            ],
-            'particles.jlopenstreetmap.map_height' => [
-                'type' => 'input.number',
-                'label' => 'Map Height',
-                'description' => 'Make sure the map container has a defined height',
-                'min' => 180,
-                'default' => 300,
-                'name' => 'particles.jlopenstreetmap.map_height'
-            ],
-            'particles.jlopenstreetmap.map_zoom' => [
-                'type' => 'input.number',
-                'label' => 'Zoom',
-                'description' => 'Default zoom for maps.',
-                'min' => 0,
-                'default' => 11,
-                'name' => 'particles.jlopenstreetmap.map_zoom'
-            ],
-            'particles.jlopenstreetmap.map_maxzoom' => [
-                'type' => 'input.number',
-                'label' => 'Max Zoom',
-                'description' => 'Default MAX zoom for maps.',
-                'min' => 0,
-                'default' => 18,
-                'name' => 'particles.jlopenstreetmap.map_maxzoom'
-            ],
-            'particles.jlopenstreetmap.zoom_control' => [
-                'type' => 'input.checkbox',
-                'label' => 'Show Zoom Controls',
-                'overridable' => false,
-                'default' => false,
-                'name' => 'particles.jlopenstreetmap.zoom_control'
-            ],
-            'particles.jlopenstreetmap.scroll_wheel' => [
-                'type' => 'input.checkbox',
-                'label' => 'Scroll Wheel Zoom',
-                'description' => 'Enable/Disable Scroll Wheel Zoom',
-                'overridable' => false,
-                'default' => false,
-                'name' => 'particles.jlopenstreetmap.scroll_wheel'
-            ],
-            'particles.jlopenstreetmap.popup' => [
-                'type' => 'input.checkbox',
-                'label' => 'Show Popup',
-                'description' => 'Show Popup content on load.',
-                'overridable' => false,
-                'default' => false,
-                'name' => 'particles.jlopenstreetmap.popup'
-            ],
-            'particles.jlopenstreetmap.double_click_zoom' => [
-                'type' => 'input.checkbox',
-                'label' => 'Double Click Zoom',
-                'description' => 'If enabled, your maps will zoom with a double click.',
-                'overridable' => false,
-                'default' => false,
-                'name' => 'particles.jlopenstreetmap.double_click_zoom'
-            ],
-            'particles.jlopenstreetmap.dragg' => [
-                'type' => 'input.checkbox',
-                'label' => 'Dragg',
-                'description' => 'Map dragging handler (by both mouse and touch).',
-                'overridable' => false,
-                'default' => false,
-                'name' => 'particles.jlopenstreetmap.dragg'
-            ],
-            'particles.jlopenstreetmap.accesstoken' => [
-                'type' => 'input.text',
-                'label' => 'Access Token',
-                'overridable' => false,
-                'default' => 'pk.eyJ1Ijoiam9vbWxlYWQiLCJhIjoiY2ptMWV4ZXh3MWhxbjNwbXRkbHd4MGJxbyJ9.6YlGbRxyQTs9XXw8fbGrMw',
-                'name' => 'particles.jlopenstreetmap.accesstoken'
-            ],
-            'particles.jlopenstreetmap.box_shadow' => [
-                'type' => 'select.select',
-                'label' => 'Box Shadow',
-                'description' => 'Select the image\'s box shadow size.',
-                'default' => 'none',
-                'options' => [
-                    'none' => 'None',
-                    'small' => 'Small',
-                    'medium' => 'Medium',
-                    'large' => 'Large',
-                    'xlarge' => 'X-Large'
-                ],
-                'name' => 'particles.jlopenstreetmap.box_shadow'
-            ],
-            'particles.jlopenstreetmap.box_shadow_hover' => [
-                'type' => 'select.select',
-                'label' => 'Hover Box Shadow',
-                'description' => 'Select the image\'s box shadow size on hover.',
-                'default' => 'none',
-                'options' => [
-                    'none' => 'None',
-                    'small' => 'Small',
-                    'medium' => 'Medium',
-                    'large' => 'Large',
-                    'xlarge' => 'X-Large'
-                ],
-                'name' => 'particles.jlopenstreetmap.box_shadow_hover'
-            ],
-            'particles.jlopenstreetmap.contributors' => [
-                'type' => 'input.checkbox',
-                'label' => 'Display Contributors',
-                'overridable' => false,
-                'default' => true,
-                'name' => 'particles.jlopenstreetmap.contributors'
-            ],
-            'particles.jlopenstreetmap.class' => [
-                'type' => 'input.selectize',
-                'label' => 'CSS Classes',
-                'description' => 'CSS class name for the particle.',
-                'name' => 'particles.jlopenstreetmap.class'
-            ],
-            'particles.jlopenstreetmap._tab_content' => [
-                'label' => 'Content',
-                'name' => 'particles.jlopenstreetmap._tab_content'
-            ],
-            'particles.jlopenstreetmap.particle_title' => [
-                'type' => 'input.text',
-                'label' => 'Title',
-                'description' => 'Add an optional particle title.',
-                'name' => 'particles.jlopenstreetmap.particle_title'
-            ],
-            'particles.jlopenstreetmap.particle_title_style' => [
-                'type' => 'select.select',
-                'label' => 'Style',
-                'description' => 'Heading styles differ in font-size but may also come with a predefined color, size and font.',
-                'default' => 'h3',
-                'options' => [
-                    'default' => 'Default',
-                    'heading-small' => 'Small',
-                    'heading-medium' => 'Medium',
-                    'heading-large' => 'Large',
-                    'heading-xlarge' => 'XLarge',
-                    'heading-2xlarge' => '2XLarge',
-                    'h1' => 'H1',
-                    'h2' => 'H2',
-                    'h3' => 'H3',
-                    'h4' => 'H4',
-                    'h5' => 'H5',
-                    'h6' => 'H6'
-                ],
-                'name' => 'particles.jlopenstreetmap.particle_title_style'
-            ],
-            'particles.jlopenstreetmap.particle_title_decoration' => [
-                'type' => 'select.select',
-                'label' => 'Decoration',
-                'description' => 'Decorate the headline with a divider, bullet or a line that is vertically centered to the heading.',
-                'default' => 'none',
-                'options' => [
-                    'none' => 'None',
-                    'divider' => 'Divider',
-                    'bullet' => 'Bullet',
-                    'line' => 'Line'
-                ],
-                'name' => 'particles.jlopenstreetmap.particle_title_decoration'
-            ],
-            'particles.jlopenstreetmap.particle_title_align' => [
-                'type' => 'select.select',
-                'label' => 'Alignment',
-                'description' => 'Center, left and right alignment for Particle title.',
-                'default' => 'inherit',
-                'options' => [
-                    'inherit' => 'Inherit',
-                    'left' => 'Left',
-                    'center' => 'Center',
-                    'right' => 'Right',
-                    'justify' => 'Justify'
-                ],
-                'name' => 'particles.jlopenstreetmap.particle_title_align'
-            ],
-            'particles.jlopenstreetmap.particle_predefined_color' => [
-                'type' => 'select.select',
-                'label' => 'Predefined Color',
-                'description' => 'Select the text color. If the Background option is selected, styles that don\'t apply a background image use the primary color instead.',
-                'default' => 'default',
-                'options' => [
-                    'default' => 'Default',
-                    'muted' => 'Muted',
-                    'emphasis' => 'Emphasis',
-                    'primary' => 'Primary',
-                    'secondary' => 'Secondary',
-                    'success' => 'Success',
-                    'warning' => 'Warning',
-                    'danger' => 'Danger'
-                ],
-                'name' => 'particles.jlopenstreetmap.particle_predefined_color'
-            ],
-            'particles.jlopenstreetmap.particle_title_color' => [
-                'type' => 'input.colorpicker',
-                'label' => 'Custom Color',
-                'description' => 'Customize the title color instead using predefined color mode. Set the Predefined color to default before using this color customization mode.',
-                'name' => 'particles.jlopenstreetmap.particle_title_color'
-            ],
-            'particles.jlopenstreetmap.particle_title_fontsize' => [
-                'type' => 'input.number',
-                'label' => 'Font Size',
-                'description' => 'Customize the particle title font size.',
-                'min' => 0,
-                'name' => 'particles.jlopenstreetmap.particle_title_fontsize'
-            ],
-            'particles.jlopenstreetmap.particle_title_element' => [
-                'type' => 'select.select',
-                'label' => 'HTML Element',
-                'description' => 'Choose one of the elements to fit your semantic structure.',
-                'default' => 'h3',
-                'options' => [
-                    'h1' => 'H1',
-                    'h2' => 'H2',
-                    'h3' => 'H3',
-                    'h4' => 'H4',
-                    'h5' => 'H5',
-                    'h6' => 'H6',
-                    'div' => 'div'
-                ],
-                'name' => 'particles.jlopenstreetmap.particle_title_element'
-            ],
-            'particles.jlopenstreetmap.align' => [
-                'type' => 'select.select',
-                'label' => 'Text Alignment',
-                'description' => 'Center, left and right alignment may depend on a breakpoint and require a fallback.',
-                'default' => 'inherit',
-                'options' => [
-                    'inherit' => 'Inherit',
-                    'left' => 'Left',
-                    'center' => 'Center',
-                    'right' => 'Right',
-                    'justify' => 'Justify'
-                ],
-                'name' => 'particles.jlopenstreetmap.align'
-            ],
-            'particles.jlopenstreetmap.breakpoint' => [
-                'type' => 'select.select',
-                'label' => 'Alignment Breakpoint',
-                'description' => 'Define the device width from which the alignment will apply.',
-                'default' => 'always',
-                'options' => [
-                    'always' => 'Always',
-                    's' => 'Small (Phone Landscape)',
-                    'm' => 'Medium (Tablet Landscape)',
-                    'l' => 'Large (Desktop)',
-                    'xl' => 'X-Large (Large Screens)'
-                ],
-                'name' => 'particles.jlopenstreetmap.breakpoint'
-            ],
-            'particles.jlopenstreetmap.fallback' => [
-                'type' => 'select.select',
-                'label' => 'Alignment Fallback',
-                'description' => 'Define an alignment fallback for device widths below the breakpoint.',
-                'default' => 'inherit',
-                'options' => [
-                    'inherit' => 'Inherit',
-                    'left' => 'Left',
-                    'center' => 'Center',
-                    'right' => 'Right',
-                    'justify' => 'Justify'
-                ],
-                'name' => 'particles.jlopenstreetmap.fallback'
-            ],
-            'particles.jlopenstreetmap.g_maxwidth' => [
-                'type' => 'select.select',
-                'label' => 'Max Width',
-                'description' => 'Set the maximum content width.',
-                'default' => 'inherit',
-                'options' => [
-                    'inherit' => 'None',
-                    'small' => 'Small',
-                    'medium' => 'Medium',
-                    'large' => 'Large',
-                    'xlarge' => 'X-Large',
-                    'xxlarge' => 'XX-Large'
-                ],
-                'name' => 'particles.jlopenstreetmap.g_maxwidth'
-            ],
-            'particles.jlopenstreetmap.g_maxwidth_alignment' => [
-                'type' => 'select.select',
-                'label' => 'Max Width Alignment',
-                'description' => 'Define the alignment in case the container exceeds the element\'s max-width.',
-                'default' => 'left',
-                'options' => [
-                    'left' => 'Left',
-                    'center' => 'Center',
-                    'right' => 'Right'
-                ],
-                'name' => 'particles.jlopenstreetmap.g_maxwidth_alignment'
-            ],
-            'particles.jlopenstreetmap.g_maxwidth_breakpoint' => [
-                'type' => 'select.select',
-                'label' => 'Max Width Breakpoint',
-                'description' => 'Define the device width from which the element\'s max-width will apply.',
-                'default' => 'always',
-                'options' => [
-                    'always' => 'Always',
-                    's' => 'Small (Phone Landscape)',
-                    'm' => 'Medium (Tablet Landscape)',
-                    'l' => 'Large (Desktop)',
-                    'xl' => 'X-Large (Large Screens)'
-                ],
-                'name' => 'particles.jlopenstreetmap.g_maxwidth_breakpoint'
-            ],
-            'particles.jlopenstreetmap.margin' => [
-                'type' => 'select.select',
-                'label' => 'Margin',
-                'description' => 'Set the vertical margin.',
-                'default' => 'inherit',
-                'options' => [
-                    'inherit' => 'Keep existing',
-                    'small' => 'Small',
-                    'default' => 'Default',
-                    'medium' => 'Medium',
-                    'large' => 'Large',
-                    'xlarge' => 'X-Large',
-                    'remove-vertical' => 'None'
-                ],
-                'name' => 'particles.jlopenstreetmap.margin'
-            ],
-            'particles.jlopenstreetmap.visibility' => [
-                'type' => 'select.select',
-                'label' => 'Visibility',
-                'description' => 'Display the element only on this device width and larger.',
-                'default' => 'inherit',
-                'options' => [
-                    'inherit' => 'Always',
-                    's' => 'Small (Phone Landscape)',
-                    'm' => 'Medium (Tablet Landscape)',
-                    'l' => 'Large (Desktop)',
-                    'xl' => 'X-Large (Large Screens)'
-                ],
-                'name' => 'particles.jlopenstreetmap.visibility'
-            ],
-            'particles.jlopenstreetmap.animation' => [
-                'type' => 'select.select',
-                'label' => 'Animation',
-                'description' => 'Apply an animation to particles once they enter the viewport. This will animate all particles inside the section.',
-                'default' => 'inherit',
-                'options' => [
-                    'inherit' => 'None',
-                    'fade' => 'Fade',
-                    'scale-up' => 'Scale Up',
-                    'scale-down' => 'Scale Down',
-                    'slide-top-small' => 'Slide Top Small',
-                    'slide-bottom-small' => 'Slide Bottom Small',
-                    'slide-left-small' => 'Slide Left Small',
-                    'slide-right-small' => 'Slide Right Small',
-                    'slide-top-medium' => 'Slide Top Medium',
-                    'slide-bottom-medium' => 'Slide Bottom Medium',
-                    'slide-left-medium' => 'Slide Left Medium',
-                    'slide-right-medium' => 'Slide Right Medium',
-                    'slide-top' => 'Slide Top 100%',
-                    'slide-bottom' => 'Slide Bottom 100%',
-                    'slide-left' => 'Slide Left 100%',
-                    'slide-right' => 'Slide Right 100%',
-                    'parallax' => 'Parallax'
-                ],
-                'name' => 'particles.jlopenstreetmap.animation'
-            ],
-            'particles.jlopenstreetmap.animation_delay' => [
-                'type' => 'input.number',
-                'label' => 'Animation Delay',
-                'description' => 'Set the delay animations for particle. Delay time in ms.',
-                'min' => 0,
-                'name' => 'particles.jlopenstreetmap.animation_delay'
-            ],
-            'particles.jlopenstreetmap.animation_repeat' => [
-                'type' => 'select.select',
-                'label' => 'Animation Repeat',
-                'description' => 'Repeat an animation to particle once it enter the viewport.',
-                'default' => 'disabled',
-                'options' => [
-                    'enabled' => 'Enable',
-                    'disabled' => 'Disable'
-                ],
-                'name' => 'particles.jlopenstreetmap.animation_repeat'
-            ],
-            'particles.jlopenstreetmap._tab_general' => [
-                'label' => 'General',
-                'overridable' => false,
-                'name' => 'particles.jlopenstreetmap._tab_general'
-            ],
-            'particles.jlopenstreetmap.pa_horizontal_start' => [
-                'type' => 'input.number',
-                'label' => 'Horizontal Start',
-                'description' => 'Animate the horizontal position (translateX) in pixels. Min -600 and Max 600.',
-                'min' => -600,
-                'max' => 600,
-                'name' => 'particles.jlopenstreetmap.pa_horizontal_start'
-            ],
-            'particles.jlopenstreetmap.pa_horizontal_end' => [
-                'type' => 'input.number',
-                'label' => 'Horizontal End',
-                'description' => 'Animate the horizontal position (translateX) in pixels. Min -600 and Max 600.',
-                'min' => -600,
-                'max' => 600,
-                'name' => 'particles.jlopenstreetmap.pa_horizontal_end'
-            ],
-            'particles.jlopenstreetmap.pa_vertical_start' => [
-                'type' => 'input.number',
-                'label' => 'Vertical Start',
-                'description' => 'Animate the vertical position (translateY) in pixels. Min -600 and Max 600.',
-                'min' => -600,
-                'max' => 600,
-                'name' => 'particles.jlopenstreetmap.pa_vertical_start'
-            ],
-            'particles.jlopenstreetmap.pa_vertical_end' => [
-                'type' => 'input.number',
-                'label' => 'Vertical End',
-                'description' => 'Animate the vertical position (translateY) in pixels. Min -600 and Max 600.',
-                'min' => -600,
-                'max' => 600,
-                'name' => 'particles.jlopenstreetmap.pa_vertical_end'
-            ],
-            'particles.jlopenstreetmap.scale_start' => [
-                'type' => 'input.number',
-                'label' => 'Scale Start',
-                'description' => 'Animate the scaling. 100 means 100% scale, 200 means 200% scale, and 50 means 50% scale. Min 50 and Max 200',
-                'min' => 50,
-                'max' => 200,
-                'name' => 'particles.jlopenstreetmap.scale_start'
-            ],
-            'particles.jlopenstreetmap.scale_end' => [
-                'type' => 'input.number',
-                'label' => 'Scale End',
-                'description' => 'Animate the scaling. 100 means 100% scale, 200 means 200% scale, and 50 means 50% scale. Min 50 and Max 200',
-                'min' => 50,
-                'max' => 200,
-                'name' => 'particles.jlopenstreetmap.scale_end'
-            ],
-            'particles.jlopenstreetmap.rotate_start' => [
-                'type' => 'input.number',
-                'label' => 'Rotate Start',
-                'description' => 'Animate the rotation clockwise in degrees. Min 0 and Max 360',
-                'min' => 0,
-                'max' => 360,
-                'name' => 'particles.jlopenstreetmap.rotate_start'
-            ],
-            'particles.jlopenstreetmap.rotate_end' => [
-                'type' => 'input.number',
-                'label' => 'Rotate End',
-                'description' => 'Animate the rotation clockwise in degrees. Min 0 and Max 360',
-                'min' => 0,
-                'max' => 360,
-                'name' => 'particles.jlopenstreetmap.rotate_end'
-            ],
-            'particles.jlopenstreetmap.opacity_start' => [
-                'type' => 'input.number',
-                'label' => 'Opacity Start',
-                'description' => 'Animate the opacity. 100 means 100% opacity, 0 means 0% opacity and 50 means 50%. Min 0 and Max 100',
-                'min' => 0,
-                'max' => 100,
-                'name' => 'particles.jlopenstreetmap.opacity_start'
-            ],
-            'particles.jlopenstreetmap.opacity_end' => [
-                'type' => 'input.number',
-                'label' => 'Opacity End',
-                'description' => 'Animate the opacity. 100 means 100% opacity, 0 means 0% opacity and 50 means 50%. Min 0 and Max 100',
-                'min' => 0,
-                'max' => 100,
-                'name' => 'particles.jlopenstreetmap.opacity_end'
-            ],
-            'particles.jlopenstreetmap.easing' => [
-                'type' => 'input.number',
-                'label' => 'Easing',
-                'description' => 'Determine how the speed of the animation behaves over time. A value below 100 is faster in the beginning and slower towards the end while a value above 100 behaves inversely. Min 10 and Max 200',
-                'min' => 10,
-                'max' => 200,
-                'name' => 'particles.jlopenstreetmap.easing'
-            ],
-            'particles.jlopenstreetmap.pa_viewport' => [
-                'type' => 'input.number',
-                'label' => 'Viewport',
-                'description' => 'Set the animation end point relative to viewport height, e.g. 50 for 50% of the viewport. Min 10 and Max 100',
-                'min' => 10,
-                'max' => 100,
-                'name' => 'particles.jlopenstreetmap.pa_viewport'
-            ],
-            'particles.jlopenstreetmap.pa_breakpoint' => [
-                'type' => 'select.select',
-                'label' => 'Breakpoint',
-                'description' => 'Display the parallax effect only on this device width and larger.',
-                'default' => 'always',
-                'options' => [
-                    'always' => 'Always',
-                    's' => 'Small (Phone Landscape)',
-                    'm' => 'Medium (Tablet Landscape)',
-                    'l' => 'Large (Desktop)',
-                    'xl' => 'X-Large (Large Screens)'
-                ],
-                'name' => 'particles.jlopenstreetmap.pa_breakpoint'
-            ],
-            'particles.jlopenstreetmap._tab_parallax_animation' => [
-                'label' => 'Parallax',
-                'overridable' => false,
-                'name' => 'particles.jlopenstreetmap._tab_parallax_animation'
-            ],
-            'particles.jlopenstreetmap.parallax_image' => [
-                'type' => 'input.imagepicker',
-                'label' => 'Background Image',
-                'description' => 'Select parallax background image for particle.',
-                'name' => 'particles.jlopenstreetmap.parallax_image'
-            ],
-            'particles.jlopenstreetmap.background_image_size' => [
-                'type' => 'select.select',
-                'label' => 'Image Size',
-                'description' => 'Determine whether the image will fit the section dimensions by clipping it or by filling the empty areas with the background color.',
-                'default' => 'auto',
-                'options' => [
-                    'auto' => 'Auto',
-                    'cover' => 'Cover',
-                    'contain' => 'Contain'
-                ],
-                'name' => 'particles.jlopenstreetmap.background_image_size'
-            ],
-            'particles.jlopenstreetmap.background_image_position' => [
-                'type' => 'select.select',
-                'label' => 'Image Position',
-                'description' => 'Set the initial background position, relative to the section layer.',
-                'default' => 'center-center',
-                'options' => [
-                    'top-left' => 'Top Left',
-                    'top-center' => 'Top Center',
-                    'top-right' => 'Top Right',
-                    'center-left' => 'Center Left',
-                    'center-center' => 'Center Center',
-                    'center-right' => 'Center Right',
-                    'bottom-left' => 'Bottom Left',
-                    'bottom-center' => 'Bottom Center',
-                    'bottom-right' => 'Bottom Right'
-                ],
-                'name' => 'particles.jlopenstreetmap.background_image_position'
-            ],
-            'particles.jlopenstreetmap.parallax_bg_breakpoint' => [
-                'type' => 'select.select',
-                'label' => 'Parallax Breakpoint',
-                'description' => 'Display the parallax effect only on this device width and larger.',
-                'default' => 'always',
-                'options' => [
-                    'always' => 'Always',
-                    's' => 'Small (Phone Landscape)',
-                    'm' => 'Medium (Tablet Landscape)',
-                    'l' => 'Large (Desktop)',
-                    'xl' => 'X-Large (Large Screens)'
-                ],
-                'name' => 'particles.jlopenstreetmap.parallax_bg_breakpoint'
-            ],
-            'particles.jlopenstreetmap.parallax_bg_visibility' => [
-                'type' => 'select.select',
-                'label' => 'Image Visibility',
-                'description' => 'Display the image only on this device width and larger.',
-                'default' => 'always',
-                'options' => [
-                    'always' => 'Always',
-                    's' => 'Small (Phone Landscape)',
-                    'm' => 'Medium (Tablet Landscape)',
-                    'l' => 'Large (Desktop)',
-                    'xl' => 'X-Large (Large Screens)'
-                ],
-                'name' => 'particles.jlopenstreetmap.parallax_bg_visibility'
-            ],
-            'particles.jlopenstreetmap.parallax_bg_color' => [
-                'type' => 'input.colorpicker',
-                'label' => 'Background Color',
-                'description' => 'Use the background color in combination with blend modes, a transparent image or to fill the area, if the image doesn\'t cover the whole section.',
-                'name' => 'particles.jlopenstreetmap.parallax_bg_color'
-            ],
-            'particles.jlopenstreetmap.blendmode' => [
-                'type' => 'select.select',
-                'label' => 'Blend Mode',
-                'description' => 'Determine how the image will blend with the background color.',
-                'default' => 'inherit',
-                'options' => [
-                    'inherit' => 'Normal',
-                    'multiply' => 'Multiply',
-                    'screen' => 'Screen',
-                    'overlay' => 'Overlay',
-                    'darken' => 'Darken',
-                    'lighten' => 'Lighten',
-                    'color-dodge' => 'Color-dodge',
-                    'color-burn' => 'Color-burn',
-                    'hard-light' => 'Hard-light',
-                    'soft-light' => 'Soft-light',
-                    'difference' => 'Difference',
-                    'exclusion' => 'Exclusion',
-                    'hue' => 'Hue',
-                    'saturation' => 'Saturation',
-                    'color' => 'Color',
-                    'luminosity' => 'Luminosity'
-                ],
-                'name' => 'particles.jlopenstreetmap.blendmode'
-            ],
-            'particles.jlopenstreetmap.parallax_bg_overlay' => [
-                'type' => 'input.colorpicker',
-                'label' => 'Overlay Color',
-                'description' => 'Set an additional transparent overlay to soften the image.',
-                'name' => 'particles.jlopenstreetmap.parallax_bg_overlay'
-            ],
-            'particles.jlopenstreetmap.horizontal_start' => [
-                'type' => 'input.number',
-                'label' => 'Horizontal Start',
-                'description' => 'Animate the horizontal position (translateX) in pixels. Min -600 and Max 600.',
-                'min' => -600,
-                'max' => 600,
-                'default' => 0,
-                'name' => 'particles.jlopenstreetmap.horizontal_start'
-            ],
-            'particles.jlopenstreetmap.horizontal_end' => [
-                'type' => 'input.number',
-                'label' => 'Horizontal End',
-                'description' => 'Animate the horizontal position (translateX) in pixels. Min -600 and Max 600.',
-                'min' => -600,
-                'max' => 600,
-                'default' => 0,
-                'name' => 'particles.jlopenstreetmap.horizontal_end'
-            ],
-            'particles.jlopenstreetmap.vertical_start' => [
-                'type' => 'input.number',
-                'label' => 'Vertical Start',
-                'description' => 'Animate the vertical position (translateY) in pixels. Min -600 and Max 600.',
-                'min' => -600,
-                'max' => 600,
-                'default' => 0,
-                'name' => 'particles.jlopenstreetmap.vertical_start'
-            ],
-            'particles.jlopenstreetmap.vertical_end' => [
-                'type' => 'input.number',
-                'label' => 'Vertical End',
-                'description' => 'Animate the vertical position (translateY) in pixels. Min -600 and Max 600.',
-                'min' => -600,
-                'max' => 600,
-                'default' => 0,
-                'name' => 'particles.jlopenstreetmap.vertical_end'
-            ],
-            'particles.jlopenstreetmap.container' => [
-                'type' => 'input.checkbox',
-                'label' => 'Add Container',
-                'description' => 'If you set the Fullwidth (Flushed Content) for parent section, you can use this option to define the container width for the particles inside this section.',
-                'overridable' => false,
-                'default' => false,
-                'name' => 'particles.jlopenstreetmap.container'
-            ],
-            'particles.jlopenstreetmap.viewport_height' => [
-                'type' => 'select.select',
-                'label' => 'Height',
-                'description' => 'Enabling viewport height on a section that directly follows the header will subtract the header\'s height from it. On short pages, a section can be expanded to fill the browser window.',
-                'default' => 'none',
-                'options' => [
-                    'none' => 'None',
-                    'full' => 'Viewport',
-                    'percent' => 'Viewport (Minus 20%)',
-                    'section' => 'Viewport (Minus 50%)',
-                    'expand' => 'Expand'
-                ],
-                'name' => 'particles.jlopenstreetmap.viewport_height'
-            ],
-            'particles.jlopenstreetmap.padding' => [
-                'type' => 'select.select',
-                'label' => 'Padding',
-                'description' => 'Set the vertical padding of the particle inside section. The padding is not needed if you set Height to Viewport mode.',
-                'default' => 'default',
-                'options' => [
-                    'default' => 'Default',
-                    'xsmall' => 'X-Small',
-                    'small' => 'Small',
-                    'large' => 'Large',
-                    'xlarge' => 'X-Large'
-                ],
-                'name' => 'particles.jlopenstreetmap.padding'
-            ],
-            'particles.jlopenstreetmap.vertical_alignment' => [
-                'type' => 'select.select',
-                'label' => 'Vertical Alignment',
-                'description' => 'Align the section content vertically, if the section height is larger than the content itself.',
-                'default' => 'none',
-                'options' => [
-                    'none' => 'Top',
-                    'middle' => 'Middle',
-                    'bottom' => 'Bottom'
-                ],
-                'name' => 'particles.jlopenstreetmap.vertical_alignment'
-            ],
-            'particles.jlopenstreetmap.parallax_text_color' => [
-                'type' => 'select.select',
-                'label' => 'Inverse Color',
-                'description' => 'Set light or dark color mode for text, buttons and controls.',
-                'default' => 'default',
-                'options' => [
-                    'default' => 'Default',
-                    'light' => 'Light',
-                    'dark' => 'Dark'
-                ],
-                'name' => 'particles.jlopenstreetmap.parallax_text_color'
-            ],
-            'particles.jlopenstreetmap._tab_parallax' => [
-                'label' => 'Parallax Background',
-                'overridable' => false,
-                'name' => 'particles.jlopenstreetmap._tab_parallax'
-            ],
             'particles.owlcarousel' => [
                 'type' => '_root',
                 'form_field' => false,
@@ -5338,6 +4555,13 @@ return [
                 ],
                 'name' => 'styles.menu.animation'
             ],
+            'styles.menu.hide-on-mobile' => [
+                'type' => 'input.checkbox',
+                'label' => 'Hide on Mobile',
+                'description' => 'Check this field to completely hide the dropdown menu on mobile devices. This prevents menu flickering but you might end with no menu when JS is not supported by the respective device.',
+                'default' => 0,
+                'name' => 'styles.menu.hide-on-mobile'
+            ],
             'styles.navigation' => [
                 'type' => '_root',
                 'form_field' => false,
@@ -5660,6 +4884,20 @@ return [
                 'label' => 'Before </body>',
                 'description' => 'Anything in this field will be appended right before the closing body tag',
                 'name' => 'page.body.body_bottom'
+            ],
+            'page.fontawesome' => [
+                'type' => '_root',
+                'form_field' => false,
+                'form' => [
+                    
+                ]
+            ],
+            'page.fontawesome.enable' => [
+                'type' => 'enable.enable',
+                'label' => 'Enable',
+                'description' => 'Enable or disable the loading of the Font Awesome icon library on the frontend. This is useful if you want to manually add a different version of the library (e.g. v5.x).',
+                'default' => 1,
+                'name' => 'page.fontawesome.enable'
             ],
             'page.head' => [
                 'type' => '_root',
@@ -7407,86 +6645,6 @@ return [
                         ]
                     ]
                 ],
-                'jlopenstreetmap' => [
-                    'enabled' => 'particles.jlopenstreetmap.enabled',
-                    '_tab_content' => 'particles.jlopenstreetmap._tab_content',
-                    'items' => [
-                        '*' => [
-                            'latitude' => 'particles.jlopenstreetmap.items.*.latitude',
-                            'longitude' => 'particles.jlopenstreetmap.items.*.longitude',
-                            'pop_content' => 'particles.jlopenstreetmap.items.*.pop_content',
-                            'pop_content_width' => 'particles.jlopenstreetmap.items.*.pop_content_width',
-                            'icon' => 'particles.jlopenstreetmap.items.*.icon',
-                            'icon_shadow' => 'particles.jlopenstreetmap.items.*.icon_shadow'
-                        ]
-                    ],
-                    'map_style' => 'particles.jlopenstreetmap.map_style',
-                    'map_height' => 'particles.jlopenstreetmap.map_height',
-                    'map_zoom' => 'particles.jlopenstreetmap.map_zoom',
-                    'map_maxzoom' => 'particles.jlopenstreetmap.map_maxzoom',
-                    'zoom_control' => 'particles.jlopenstreetmap.zoom_control',
-                    'scroll_wheel' => 'particles.jlopenstreetmap.scroll_wheel',
-                    'popup' => 'particles.jlopenstreetmap.popup',
-                    'double_click_zoom' => 'particles.jlopenstreetmap.double_click_zoom',
-                    'dragg' => 'particles.jlopenstreetmap.dragg',
-                    'accesstoken' => 'particles.jlopenstreetmap.accesstoken',
-                    'box_shadow' => 'particles.jlopenstreetmap.box_shadow',
-                    'box_shadow_hover' => 'particles.jlopenstreetmap.box_shadow_hover',
-                    'contributors' => 'particles.jlopenstreetmap.contributors',
-                    'class' => 'particles.jlopenstreetmap.class',
-                    '_tab_general' => 'particles.jlopenstreetmap._tab_general',
-                    'particle_title' => 'particles.jlopenstreetmap.particle_title',
-                    'particle_title_style' => 'particles.jlopenstreetmap.particle_title_style',
-                    'particle_title_decoration' => 'particles.jlopenstreetmap.particle_title_decoration',
-                    'particle_title_align' => 'particles.jlopenstreetmap.particle_title_align',
-                    'particle_predefined_color' => 'particles.jlopenstreetmap.particle_predefined_color',
-                    'particle_title_color' => 'particles.jlopenstreetmap.particle_title_color',
-                    'particle_title_fontsize' => 'particles.jlopenstreetmap.particle_title_fontsize',
-                    'particle_title_element' => 'particles.jlopenstreetmap.particle_title_element',
-                    'align' => 'particles.jlopenstreetmap.align',
-                    'breakpoint' => 'particles.jlopenstreetmap.breakpoint',
-                    'fallback' => 'particles.jlopenstreetmap.fallback',
-                    'g_maxwidth' => 'particles.jlopenstreetmap.g_maxwidth',
-                    'g_maxwidth_alignment' => 'particles.jlopenstreetmap.g_maxwidth_alignment',
-                    'g_maxwidth_breakpoint' => 'particles.jlopenstreetmap.g_maxwidth_breakpoint',
-                    'margin' => 'particles.jlopenstreetmap.margin',
-                    'visibility' => 'particles.jlopenstreetmap.visibility',
-                    'animation' => 'particles.jlopenstreetmap.animation',
-                    'animation_delay' => 'particles.jlopenstreetmap.animation_delay',
-                    'animation_repeat' => 'particles.jlopenstreetmap.animation_repeat',
-                    '_tab_parallax_animation' => 'particles.jlopenstreetmap._tab_parallax_animation',
-                    'pa_horizontal_start' => 'particles.jlopenstreetmap.pa_horizontal_start',
-                    'pa_horizontal_end' => 'particles.jlopenstreetmap.pa_horizontal_end',
-                    'pa_vertical_start' => 'particles.jlopenstreetmap.pa_vertical_start',
-                    'pa_vertical_end' => 'particles.jlopenstreetmap.pa_vertical_end',
-                    'scale_start' => 'particles.jlopenstreetmap.scale_start',
-                    'scale_end' => 'particles.jlopenstreetmap.scale_end',
-                    'rotate_start' => 'particles.jlopenstreetmap.rotate_start',
-                    'rotate_end' => 'particles.jlopenstreetmap.rotate_end',
-                    'opacity_start' => 'particles.jlopenstreetmap.opacity_start',
-                    'opacity_end' => 'particles.jlopenstreetmap.opacity_end',
-                    'easing' => 'particles.jlopenstreetmap.easing',
-                    'pa_viewport' => 'particles.jlopenstreetmap.pa_viewport',
-                    'pa_breakpoint' => 'particles.jlopenstreetmap.pa_breakpoint',
-                    '_tab_parallax' => 'particles.jlopenstreetmap._tab_parallax',
-                    'parallax_image' => 'particles.jlopenstreetmap.parallax_image',
-                    'background_image_size' => 'particles.jlopenstreetmap.background_image_size',
-                    'background_image_position' => 'particles.jlopenstreetmap.background_image_position',
-                    'parallax_bg_breakpoint' => 'particles.jlopenstreetmap.parallax_bg_breakpoint',
-                    'parallax_bg_visibility' => 'particles.jlopenstreetmap.parallax_bg_visibility',
-                    'parallax_bg_color' => 'particles.jlopenstreetmap.parallax_bg_color',
-                    'blendmode' => 'particles.jlopenstreetmap.blendmode',
-                    'parallax_bg_overlay' => 'particles.jlopenstreetmap.parallax_bg_overlay',
-                    'horizontal_start' => 'particles.jlopenstreetmap.horizontal_start',
-                    'horizontal_end' => 'particles.jlopenstreetmap.horizontal_end',
-                    'vertical_start' => 'particles.jlopenstreetmap.vertical_start',
-                    'vertical_end' => 'particles.jlopenstreetmap.vertical_end',
-                    'container' => 'particles.jlopenstreetmap.container',
-                    'viewport_height' => 'particles.jlopenstreetmap.viewport_height',
-                    'padding' => 'particles.jlopenstreetmap.padding',
-                    'vertical_alignment' => 'particles.jlopenstreetmap.vertical_alignment',
-                    'parallax_text_color' => 'particles.jlopenstreetmap.parallax_text_color'
-                ],
                 'owlcarousel' => [
                     'enabled' => 'particles.owlcarousel.enabled',
                     'class' => 'particles.owlcarousel.class',
@@ -7773,7 +6931,8 @@ return [
                 ],
                 'menu' => [
                     'col-width' => 'styles.menu.col-width',
-                    'animation' => 'styles.menu.animation'
+                    'animation' => 'styles.menu.animation',
+                    'hide-on-mobile' => 'styles.menu.hide-on-mobile'
                 ],
                 'navigation' => [
                     'background' => 'styles.navigation.background',
@@ -7832,6 +6991,9 @@ return [
                     ],
                     'body_top' => 'page.body.body_top',
                     'body_bottom' => 'page.body.body_bottom'
+                ],
+                'fontawesome' => [
+                    'enable' => 'page.fontawesome.enable'
                 ],
                 'head' => [
                     'meta' => 'page.head.meta',
@@ -8085,11 +7247,6 @@ return [
                     ]
                 ],
                 'horizontalmenu' => [
-                    'caching' => [
-                        'type' => 'static'
-                    ]
-                ],
-                'jlopenstreetmap' => [
                     'caching' => [
                         'type' => 'static'
                     ]

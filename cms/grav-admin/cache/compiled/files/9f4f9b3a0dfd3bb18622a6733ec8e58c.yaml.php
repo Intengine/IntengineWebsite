@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/system/config/backups.yaml',
-    'modified' => 1570788197,
+    'modified' => 1571058147,
     'data' => [
         'purge' => [
             'trigger' => 'space',

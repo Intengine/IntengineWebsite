@@ -47,7 +47,6 @@
  */
 .owl-carousel {
     display: none;
-    letter-spacing: 6px;
     width: 100%;
     -webkit-tap-highlight-color: transparent;
     /* position relative and z-index fix webkit rendering fonts issue */
@@ -318,7 +317,7 @@
 // THEME PARTICLES STYLING
 
 .g-owlcarousel {
-    color: #FFFFFF;
+    color: #eceeef;
 
     .g-owlcarousel-item-wrapper {
         position: relative;

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/admin-power-tools/services/../blueprints/copy-page-custom.yaml',
-    'modified' => 1570195092,
+    'modified' => 1571058148,
     'data' => [
         'rules' => [
             'slug' => [

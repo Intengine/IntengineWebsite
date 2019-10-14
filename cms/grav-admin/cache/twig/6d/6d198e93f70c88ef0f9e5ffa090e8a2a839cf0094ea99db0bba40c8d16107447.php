@@ -307,7 +307,7 @@ class __TwigTemplate_18f5279fee7b28448d156a6958d3c49f8efd037af31e4bbe5d1c049f15b
         // line 90
         if (twig_trim_filter(($context["page_offcanvas"] ?? null))) {
             // line 91
-            echo "<div class=\"g-offcanvas-hide g-offcanvas-toggle\" data-offcanvas-toggle aria-controls=\"g-offcanvas\" aria-expanded=\"false\"><i class=\"fa fa-fw fa-bars\"></i></div>";
+            echo "<div class=\"g-offcanvas-hide g-offcanvas-toggle\" role=\"navigation\" data-offcanvas-toggle aria-controls=\"g-offcanvas\" aria-expanded=\"false\"><i class=\"fa fa-fw fa-bars\"></i></div>";
         }
         // line 93
         echo "            ";
@@ -452,7 +452,7 @@ class __TwigTemplate_18f5279fee7b28448d156a6958d3c49f8efd037af31e4bbe5d1c049f15b
         {{ page_offcanvas|raw }}
         <div id=\"g-page-surround\">
             {% if page_offcanvas|trim -%}
-            <div class=\"g-offcanvas-hide g-offcanvas-toggle\" data-offcanvas-toggle aria-controls=\"g-offcanvas\" aria-expanded=\"false\"><i class=\"fa fa-fw fa-bars\"></i></div>
+            <div class=\"g-offcanvas-hide g-offcanvas-toggle\" role=\"navigation\" data-offcanvas-toggle aria-controls=\"g-offcanvas\" aria-expanded=\"false\"><i class=\"fa fa-fw fa-bars\"></i></div>
             {%- endif %}
             {{ page_top|raw }}
             {{ page_layout|raw }}

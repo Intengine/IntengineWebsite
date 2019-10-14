@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/blueprints.yaml',
-    'modified' => 1570788199,
+    'modified' => 1571058286,
     'data' => [
         'name' => 'Gantry 5 Framework',
-        'version' => '5.4.29',
+        'version' => '5.4.31',
         'description' => 'Theme framework.',
         'icon' => 'gantry',
         'author' => [
@@ -94,7 +94,7 @@ return [
                 'asset_timestamps' => [
                     'type' => 'toggle',
                     'label' => 'Asset Timestamps',
-                    'description' => 'Adds timestamps on changed asset files, like images, css and js. The option makes browser to get fresh assets without forcing reload on the page. NOTE: Timestamps are always enabled in development mode.',
+                    'description' => 'Adds timestamps on changed asset files, like images, css and js. The option makes browser to get fresh assets without forcing reload on the page.',
                     'highlight' => 1,
                     'default' => 1,
                     'options' => [

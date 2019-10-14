@@ -54,43 +54,43 @@ class __TwigTemplate_5250615f21cd83e1667cf2c9ca55bec8cc3f3c2f8ec0704e5b7de05bc4a
         // line 5
         echo "    ";
         $this->displayBlock('head_stylesheets', $context, $blocks);
-        // line 13
+        // line 15
         $this->displayBlock('head_platform', $context, $blocks);
-        // line 14
+        // line 16
         echo "
     ";
-        // line 15
+        // line 17
         $this->displayBlock('head_overrides', $context, $blocks);
         $content = ob_get_clean();
         $assetFunction($content, $location, $priority);
-        // line 22
+        // line 24
         echo "<head>
     ";
-        // line 23
+        // line 25
         echo twig_join_filter($this->getAttribute($this->getAttribute(($context["gantry"] ?? null), "document", []), "getHtml", [0 => "head_top"], "method"), "
     ");
         echo "
     ";
-        // line 24
+        // line 26
         $this->displayBlock('head_meta', $context, $blocks);
-        // line 50
+        // line 52
         $this->displayBlock('head_title', $context, $blocks);
-        // line 54
+        // line 56
         echo "
     ";
-        // line 55
+        // line 57
         $this->displayBlock('head_application', $context, $blocks);
-        // line 59
+        // line 61
         echo "
     ";
-        // line 60
+        // line 62
         $this->displayBlock('head_ie_stylesheets', $context, $blocks);
-        // line 68
+        // line 70
         $this->displayBlock('head', $context, $blocks);
-        // line 69
+        // line 71
         echo "    ";
         $this->displayBlock('head_custom', $context, $blocks);
-        // line 74
+        // line 76
         echo "    ";
         echo twig_join_filter($this->getAttribute($this->getAttribute(($context["gantry"] ?? null), "document", []), "getHtml", [0 => "head_bottom"], "method"), "
     ");
@@ -103,14 +103,19 @@ class __TwigTemplate_5250615f21cd83e1667cf2c9ca55bec8cc3f3c2f8ec0704e5b7de05bc4a
     public function block_head_stylesheets($context, array $blocks = [])
     {
         // line 6
-        echo "<link rel=\"stylesheet\" href=\"gantry-assets://css/font-awesome.min.css\" type=\"text/css\"/>
-        <link rel=\"stylesheet\" href=\"gantry-engine://css-compiled/nucleus.css\" type=\"text/css\"/>
+        if ((($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute(($context["gantry"] ?? null), "config", [], "any", false, true), "page", [], "any", false, true), "fontawesome", [], "any", false, true), "enable", [], "any", true, true)) ? (_twig_default_filter($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute(($context["gantry"] ?? null), "config", [], "any", false, true), "page", [], "any", false, true), "fontawesome", [], "any", false, true), "enable", []), 1)) : (1))) {
+            // line 7
+            echo "            <link rel=\"stylesheet\" href=\"gantry-assets://css/font-awesome.min.css\" type=\"text/css\"/>
         ";
-        // line 8
+        }
+        // line 9
+        echo "        <link rel=\"stylesheet\" href=\"gantry-engine://css-compiled/nucleus.css\" type=\"text/css\"/>
+        ";
+        // line 10
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable((($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute(($context["gantry"] ?? null), "theme", [], "any", false, true), "configuration", [], "any", false, true), "css", [], "any", false, true), "persistent", [], "any", true, true)) ? (_twig_default_filter($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute(($context["gantry"] ?? null), "theme", [], "any", false, true), "configuration", [], "any", false, true), "css", [], "any", false, true), "persistent", []), $this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute(($context["gantry"] ?? null), "theme", []), "configuration", []), "css", []), "files", []))) : ($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute(($context["gantry"] ?? null), "theme", []), "configuration", []), "css", []), "files", []))));
         foreach ($context['_seq'] as $context["_key"] => $context["scss"]) {
-            // line 9
+            // line 11
             echo "        <link rel=\"stylesheet\" href=\"";
             echo twig_escape_filter($this->env, $context["scss"], "html", null, true);
             echo ".scss\" type=\"text/css\"/>";
@@ -118,23 +123,23 @@ class __TwigTemplate_5250615f21cd83e1667cf2c9ca55bec8cc3f3c2f8ec0704e5b7de05bc4a
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['scss'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 11
+        // line 13
         echo "    ";
     }
 
-    // line 13
+    // line 15
     public function block_head_platform($context, array $blocks = [])
     {
     }
 
-    // line 15
+    // line 17
     public function block_head_overrides($context, array $blocks = [])
     {
-        // line 16
+        // line 18
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute(($context["gantry"] ?? null), "theme", []), "configuration", []), "css", []), "overrides", []));
         foreach ($context['_seq'] as $context["_key"] => $context["scss"]) {
-            // line 17
+            // line 19
             echo "        <link rel=\"stylesheet\" href=\"";
             echo twig_escape_filter($this->env, $context["scss"], "html", null, true);
             echo ".scss\" type=\"text/css\"/>";
@@ -142,31 +147,31 @@ class __TwigTemplate_5250615f21cd83e1667cf2c9ca55bec8cc3f3c2f8ec0704e5b7de05bc4a
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['scss'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 19
+        // line 21
         echo "    ";
     }
 
-    // line 24
+    // line 26
     public function block_head_meta($context, array $blocks = [])
     {
-        // line 25
+        // line 27
         echo "        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
         <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />
         ";
-        // line 27
+        // line 29
         if ($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute(($context["gantry"] ?? null), "config", []), "page", []), "head", []), "meta", [])) {
-            // line 28
+            // line 30
             $context['_parent'] = $context;
             $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute(($context["gantry"] ?? null), "config", []), "page", []), "head", []), "meta", []));
             foreach ($context['_seq'] as $context["_key"] => $context["attributes"]) {
-                // line 29
+                // line 31
                 $context['_parent'] = $context;
                 $context['_seq'] = twig_ensure_traversable($context["attributes"]);
                 foreach ($context['_seq'] as $context["key"] => $context["value"]) {
-                    // line 30
+                    // line 32
                     echo "                    ";
                     if ((is_string($__internal_f607aeef2c31a95a7bf963452dff024ffaeb6aafbe4603f9ca3bec57be8633f4 = $context["key"]) && is_string($__internal_62824350bc4502ee19dbc2e99fc6bdd3bd90e7d8dd6e72f42c35efd048542144 = "og:") && ('' === $__internal_62824350bc4502ee19dbc2e99fc6bdd3bd90e7d8dd6e72f42c35efd048542144 || 0 === strpos($__internal_f607aeef2c31a95a7bf963452dff024ffaeb6aafbe4603f9ca3bec57be8633f4, $__internal_62824350bc4502ee19dbc2e99fc6bdd3bd90e7d8dd6e72f42c35efd048542144)))) {
-                        // line 31
+                        // line 33
                         echo "                    <meta property=\"";
                         echo twig_escape_filter($this->env, $context["key"]);
                         echo "\" content=\"";
@@ -174,7 +179,7 @@ class __TwigTemplate_5250615f21cd83e1667cf2c9ca55bec8cc3f3c2f8ec0704e5b7de05bc4a
                         echo "\" />
                     ";
                     } else {
-                        // line 33
+                        // line 35
                         echo "                    <meta name=\"";
                         echo twig_escape_filter($this->env, $context["key"]);
                         echo "\" content=\"";
@@ -182,7 +187,7 @@ class __TwigTemplate_5250615f21cd83e1667cf2c9ca55bec8cc3f3c2f8ec0704e5b7de05bc4a
                         echo "\" />
                     ";
                     }
-                    // line 35
+                    // line 37
                     echo "                ";
                 }
                 $_parent = $context['_parent'];
@@ -193,99 +198,99 @@ class __TwigTemplate_5250615f21cd83e1667cf2c9ca55bec8cc3f3c2f8ec0704e5b7de05bc4a
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['attributes'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
         }
-        // line 38
+        // line 40
         echo twig_join_filter($this->getAttribute($this->getAttribute(($context["gantry"] ?? null), "document", []), "getHtml", [0 => "head_meta"], "method"), "
     ");
         echo "
 
         ";
-        // line 40
+        // line 42
         if ($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute(($context["gantry"] ?? null), "config", []), "page", []), "assets", []), "favicon", [])) {
-            // line 41
+            // line 43
             echo "        <link rel=\"icon\" type=\"image/x-icon\" href=\"";
             echo twig_escape_filter($this->env, $this->env->getExtension('Gantry\Component\Twig\TwigExtension')->urlFunc($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute(($context["gantry"] ?? null), "config", []), "page", []), "assets", []), "favicon", [])), "html", null, true);
             echo "\" />
         ";
         }
-        // line 43
+        // line 45
         echo "
         ";
-        // line 44
+        // line 46
         if ($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute(($context["gantry"] ?? null), "config", []), "page", []), "assets", []), "touchicon", [])) {
-            // line 45
+            // line 47
             echo "        <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"";
             echo twig_escape_filter($this->env, $this->env->getExtension('Gantry\Component\Twig\TwigExtension')->urlFunc($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute(($context["gantry"] ?? null), "config", []), "page", []), "assets", []), "touchicon", [])), "html", null, true);
             echo "\">
         <link rel=\"icon\" sizes=\"192x192\" href=\"";
-            // line 46
+            // line 48
             echo twig_escape_filter($this->env, $this->env->getExtension('Gantry\Component\Twig\TwigExtension')->urlFunc($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute(($context["gantry"] ?? null), "config", []), "page", []), "assets", []), "touchicon", [])), "html", null, true);
             echo "\">
         ";
         }
-        // line 48
+        // line 50
         echo "    ";
     }
 
-    // line 50
+    // line 52
     public function block_head_title($context, array $blocks = [])
     {
-        // line 51
+        // line 53
         echo "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />
         <title>Title</title>";
     }
 
-    // line 55
+    // line 57
     public function block_head_application($context, array $blocks = [])
     {
-        // line 56
+        // line 58
         echo twig_join_filter($this->getAttribute(($context["gantry"] ?? null), "styles", [0 => "head"], "method"), "
 ");
         echo "
         ";
-        // line 57
+        // line 59
         echo twig_join_filter($this->getAttribute(($context["gantry"] ?? null), "scripts", [0 => "head"], "method"), "
 ");
     }
 
-    // line 60
+    // line 62
     public function block_head_ie_stylesheets($context, array $blocks = [])
     {
-        // line 61
+        // line 63
         echo "<!--[if (gte IE 8)&(lte IE 9)]>
         <script type=\"text/javascript\" src=\"";
-        // line 62
+        // line 64
         echo twig_escape_filter($this->env, $this->env->getExtension('Gantry\Component\Twig\TwigExtension')->urlFunc("gantry-assets://js/html5shiv-printshiv.min.js"), "html", null, true);
         echo "\"></script>
         <link rel=\"stylesheet\" href=\"";
-        // line 63
+        // line 65
         echo twig_escape_filter($this->env, $this->env->getExtension('Gantry\Component\Twig\TwigExtension')->urlFunc("gantry-engine://css/nucleus-ie9.css"), "html", null, true);
         echo "\" type=\"text/css\"/>
         <script type=\"text/javascript\" src=\"";
-        // line 64
+        // line 66
         echo twig_escape_filter($this->env, $this->env->getExtension('Gantry\Component\Twig\TwigExtension')->urlFunc("gantry-assets://js/matchmedia.polyfill.js"), "html", null, true);
         echo "\"></script>
         <![endif]-->
     ";
     }
 
-    // line 68
+    // line 70
     public function block_head($context, array $blocks = [])
     {
     }
 
-    // line 69
+    // line 71
     public function block_head_custom($context, array $blocks = [])
     {
-        // line 70
+        // line 72
         echo "        ";
         if ($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute(($context["gantry"] ?? null), "config", []), "page", []), "head", []), "head_bottom", [])) {
-            // line 71
+            // line 73
             echo "        ";
             echo $this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute(($context["gantry"] ?? null), "config", []), "page", []), "head", []), "head_bottom", []);
             echo "
         ";
         }
-        // line 73
+        // line 75
         echo "    ";
     }
 
@@ -301,7 +306,7 @@ class __TwigTemplate_5250615f21cd83e1667cf2c9ca55bec8cc3f3c2f8ec0704e5b7de05bc4a
 
     public function getDebugInfo()
     {
-        return array (  289 => 73,  283 => 71,  280 => 70,  277 => 69,  272 => 68,  265 => 64,  261 => 63,  257 => 62,  254 => 61,  251 => 60,  246 => 57,  241 => 56,  238 => 55,  233 => 51,  230 => 50,  226 => 48,  221 => 46,  216 => 45,  214 => 44,  211 => 43,  205 => 41,  203 => 40,  197 => 38,  186 => 35,  178 => 33,  170 => 31,  167 => 30,  163 => 29,  159 => 28,  157 => 27,  153 => 25,  150 => 24,  146 => 19,  138 => 17,  134 => 16,  131 => 15,  126 => 13,  122 => 11,  114 => 9,  110 => 8,  106 => 6,  103 => 5,  94 => 74,  91 => 69,  89 => 68,  87 => 60,  84 => 59,  82 => 55,  79 => 54,  77 => 50,  75 => 24,  70 => 23,  67 => 22,  63 => 15,  60 => 14,  58 => 13,  55 => 5,  43 => 4,  41 => 2,  39 => 1,);
+        return array (  294 => 75,  288 => 73,  285 => 72,  282 => 71,  277 => 70,  270 => 66,  266 => 65,  262 => 64,  259 => 63,  256 => 62,  251 => 59,  246 => 58,  243 => 57,  238 => 53,  235 => 52,  231 => 50,  226 => 48,  221 => 47,  219 => 46,  216 => 45,  210 => 43,  208 => 42,  202 => 40,  191 => 37,  183 => 35,  175 => 33,  172 => 32,  168 => 31,  164 => 30,  162 => 29,  158 => 27,  155 => 26,  151 => 21,  143 => 19,  139 => 18,  136 => 17,  131 => 15,  127 => 13,  119 => 11,  115 => 10,  112 => 9,  108 => 7,  106 => 6,  103 => 5,  94 => 76,  91 => 71,  89 => 70,  87 => 62,  84 => 61,  82 => 57,  79 => 56,  77 => 52,  75 => 26,  70 => 25,  67 => 24,  63 => 17,  60 => 16,  58 => 15,  55 => 5,  43 => 4,  41 => 2,  39 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -319,7 +324,9 @@ class __TwigTemplate_5250615f21cd83e1667cf2c9ca55bec8cc3f3c2f8ec0704e5b7de05bc4a
 
 {% assets with { priority: 10 } %}
     {% block head_stylesheets -%}
-        <link rel=\"stylesheet\" href=\"gantry-assets://css/font-awesome.min.css\" type=\"text/css\"/>
+        {% if gantry.config.page.fontawesome.enable|default(1) %}
+            <link rel=\"stylesheet\" href=\"gantry-assets://css/font-awesome.min.css\" type=\"text/css\"/>
+        {% endif %}
         <link rel=\"stylesheet\" href=\"gantry-engine://css-compiled/nucleus.css\" type=\"text/css\"/>
         {% for scss in gantry.theme.configuration.css.persistent|default(gantry.theme.configuration.css.files) %}
         <link rel=\"stylesheet\" href=\"{{ scss }}.scss\" type=\"text/css\"/>

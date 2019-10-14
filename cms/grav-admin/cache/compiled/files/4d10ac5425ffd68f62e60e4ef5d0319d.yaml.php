@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/system/languages/nb.yaml',
-    'modified' => 1570788197,
+    'modified' => 1571058148,
     'data' => [
         'GRAV' => [
             'MONTHS_OF_THE_YEAR' => [

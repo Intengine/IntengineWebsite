@@ -28,13 +28,14 @@ class __TwigTemplate_efebe2190cd23d6e84c0181c069351d24a1bc26447a43bb133cda7bfec2
     {
         // line 1
         try {            // line 2
+            echo "    ";
             $context["menu"] = $this->getAttribute($this->getAttribute(($context["gantry"] ?? null), "menu", []), "instance", [0 => ($context["particle"] ?? null)], "method");
         } catch (\Exception $e) {
             if ($context['gantry']->debug()) throw $e;
             GANTRY_DEBUGGER && method_exists('Gantry\Debugger', 'addException') && \Gantry\Debugger::addException($e);
             $context['e'] = $e;
             // line 4
-            echo "<div class=\"alert alert-error\">";
+            echo "    <div class=\"alert alert-error\">";
             echo twig_escape_filter($this->env, $this->getAttribute(($context["e"] ?? null), "getMessage", []), "html", null, true);
             echo "</div>
 ";
@@ -51,38 +52,38 @@ class __TwigTemplate_efebe2190cd23d6e84c0181c069351d24a1bc26447a43bb133cda7bfec2
         // line 32
         echo "
 ";
-        // line 84
-        echo "
-";
-        // line 101
+        // line 92
         echo "
 ";
         // line 109
         echo "
 ";
-        // line 122
+        // line 117
         echo "
 ";
-        // line 123
+        // line 130
+        echo "
+";
+        // line 131
         $context["macro"] = $this;
-        // line 124
+        // line 132
         echo "
 ";
-        // line 125
+        // line 133
         if ($this->getAttribute($this->getAttribute(($context["menu"] ?? null), "root", []), "count", [], "method")) {
-            // line 126
-            echo "<nav class=\"g-main-nav\" role=\"navigation\"";
+            // line 134
+            echo "    <nav class=\"g-main-nav\"";
             echo (($this->getAttribute(($context["particle"] ?? null), "mobileTarget", [])) ? (" data-g-mobile-target") : (""));
             echo " data-g-hover-expand=\"";
             echo (((($this->getAttribute(($context["particle"] ?? null), "hoverExpand", [], "any", true, true)) ? (_twig_default_filter($this->getAttribute(($context["particle"] ?? null), "hoverExpand", []), "true")) : ("true"))) ? ("true") : ("false"));
             echo "\">
-    <ul class=\"g-toplevel\">
-        ";
-            // line 128
+        <ul class=\"g-toplevel\">
+            ";
+            // line 136
             echo $context["macro"]->getdisplayItems($this->getAttribute(($context["menu"] ?? null), "root", []), ($context["menu"] ?? null), $context);
             echo "
-    </ul>
-</nav>
+        </ul>
+    </nav>
 ";
         }
     }
@@ -152,7 +153,7 @@ class __TwigTemplate_efebe2190cd23d6e84c0181c069351d24a1bc26447a43bb133cda7bfec2
             echo "    <div class=\"menu-item-particle";
             ((($context["classes"] ?? null)) ? (print (twig_escape_filter($this->env, (" " . ($context["classes"] ?? null)), "html", null, true))) : (print ("")));
             echo "\">
-    ";
+        ";
             // line 19
             $__internal_f607aeef2c31a95a7bf963452dff024ffaeb6aafbe4603f9ca3bec57be8633f4 = null;
             try {
@@ -245,9 +246,8 @@ class __TwigTemplate_efebe2190cd23d6e84c0181c069351d24a1bc26447a43bb133cda7bfec2
             // line 35
             echo "    ";
             if ((($this->getAttribute(($context["item"] ?? null), "type", []) == "particle") &&  !$this->getAttribute($this->getAttribute($this->getAttribute(($context["item"] ?? null), "options", []), "particle", []), "enabled", []))) {
-                echo " 
-        ";
                 // line 36
+                echo "        ";
                 $context["enabled"] = 0;
                 // line 37
                 echo "    ";
@@ -277,9 +277,43 @@ class __TwigTemplate_efebe2190cd23d6e84c0181c069351d24a1bc26447a43bb133cda7bfec2
                 echo "        ";
                 $context["rel"] = (($this->getAttribute(($context["item"] ?? null), "rel", [])) ? (((" rel=\"" . twig_escape_filter($this->env, $this->getAttribute(($context["item"] ?? null), "rel", []))) . "\"")) : (""));
                 // line 46
+                echo "        ";
+                $context["attributes"] = "";
+                // line 47
+                echo "        ";
+                if ($this->getAttribute(($context["item"] ?? null), "attributes", [])) {
+                    // line 48
+                    echo "            ";
+                    $context['_parent'] = $context;
+                    $context['_seq'] = twig_ensure_traversable($this->getAttribute(($context["item"] ?? null), "attributes", []));
+                    foreach ($context['_seq'] as $context["_key"] => $context["attribute"]) {
+                        // line 49
+                        echo "                ";
+                        $context['_parent'] = $context;
+                        $context['_seq'] = twig_ensure_traversable($context["attribute"]);
+                        foreach ($context['_seq'] as $context["key"] => $context["value"]) {
+                            // line 50
+                            echo "                    ";
+                            $context["attributes"] = (((((($context["attributes"] ?? null) . " ") . twig_escape_filter($this->env, $context["key"])) . "=\"") . twig_escape_filter($this->env, $context["value"], "html_attr")) . "\"");
+                            // line 51
+                            echo "                ";
+                        }
+                        $_parent = $context['_parent'];
+                        unset($context['_seq'], $context['_iterated'], $context['key'], $context['value'], $context['_parent'], $context['loop']);
+                        $context = array_intersect_key($context, $_parent) + $_parent;
+                        // line 52
+                        echo "            ";
+                    }
+                    $_parent = $context['_parent'];
+                    unset($context['_seq'], $context['_iterated'], $context['_key'], $context['attribute'], $context['_parent'], $context['loop']);
+                    $context = array_intersect_key($context, $_parent) + $_parent;
+                    // line 53
+                    echo "        ";
+                }
+                // line 54
                 echo "
         <li class=\"g-menu-item g-menu-item-type-";
-                // line 47
+                // line 55
                 echo twig_escape_filter($this->env, $this->getAttribute(($context["item"] ?? null), "type", []), "html", null, true);
                 echo " g-menu-item-";
                 echo twig_escape_filter($this->env, $this->getAttribute(($context["item"] ?? null), "id", []), "html", null, true);
@@ -297,17 +331,18 @@ class __TwigTemplate_efebe2190cd23d6e84c0181c069351d24a1bc26447a43bb133cda7bfec2
                 echo " ";
                 echo twig_escape_filter($this->env, (($this->getAttribute(($context["item"] ?? null), "class", [], "any", true, true)) ? (_twig_default_filter($this->getAttribute(($context["item"] ?? null), "class", []), "")) : ("")), "html", null, true);
                 echo "\"";
-                // line 48
+                // line 56
                 echo $context["self"]->getgetCustomWidth(($context["item"] ?? null), ($context["menu"] ?? null), "item", ($context["dropdown"] ?? null));
-                // line 49
+                // line 57
                 if ((($this->getAttribute($this->getAttribute(($context["context"] ?? null), "particle", [], "any", false, true), "renderTitles", [], "any", true, true)) ? (_twig_default_filter($this->getAttribute($this->getAttribute(($context["context"] ?? null), "particle", [], "any", false, true), "renderTitles", []), 0)) : (0))) {
                     echo " title=\"";
                     echo twig_escape_filter($this->env, $this->getAttribute(($context["item"] ?? null), "title", []), "html", null, true);
                     echo "\"";
                 }
+                echo ($context["attributes"] ?? null);
                 echo ">
             ";
-                // line 50
+                // line 58
                 if ($this->getAttribute(($context["item"] ?? null), "url", [])) {
                     echo "<a class=\"g-menu-item-container";
                     (($this->getAttribute(($context["item"] ?? null), "anchor_class", [])) ? (print (twig_escape_filter($this->env, (" " . $this->getAttribute(($context["item"] ?? null), "anchor_class", [])), "html", null, true))) : (print ("")));
@@ -319,61 +354,61 @@ class __TwigTemplate_efebe2190cd23d6e84c0181c069351d24a1bc26447a43bb133cda7bfec2
                     echo ">
             ";
                 } else {
-                    // line 51
+                    // line 59
                     echo "<div class=\"g-menu-item-container";
                     (($this->getAttribute(($context["item"] ?? null), "anchor_class", [])) ? (print (twig_escape_filter($this->env, (" " . $this->getAttribute(($context["item"] ?? null), "anchor_class", [])), "html", null, true))) : (print ("")));
                     echo "\" data-g-menuparent=\"\"";
                     echo ($context["label"] ?? null);
                     echo ">";
                 }
-                // line 52
+                // line 60
                 echo "                ";
                 if ($this->getAttribute(($context["item"] ?? null), "image", [])) {
-                    // line 53
+                    // line 61
                     echo "                    <img src=\"";
                     echo twig_escape_filter($this->env, $this->env->getExtension('Gantry\Component\Twig\TwigExtension')->urlFunc($this->getAttribute(($context["item"] ?? null), "image", [])), "html", null, true);
                     echo "\" alt=\"";
                     echo twig_escape_filter($this->env, $this->getAttribute(($context["item"] ?? null), "title", []), "html", null, true);
                     echo "\" />
                 ";
-                } elseif ($this->getAttribute(                // line 54
+                } elseif ($this->getAttribute(                // line 62
 ($context["item"] ?? null), "icon", [])) {
-                    // line 55
+                    // line 63
                     echo "                    <i class=\"";
                     echo twig_escape_filter($this->env, $this->getAttribute(($context["item"] ?? null), "icon", []), "html", null, true);
                     echo "\" aria-hidden=\"true\"></i>
                 ";
                 }
-                // line 57
+                // line 65
                 echo "                ";
                 if ($this->getAttribute(($context["item"] ?? null), "url", [])) {
-                    // line 58
+                    // line 66
                     echo "                    <span class=\"g-menu-item-content\">
                         ";
-                    // line 59
+                    // line 67
                     echo $context["self"]->getdisplayTitle(($context["item"] ?? null));
                     echo "
                     </span>
                     ";
-                    // line 61
+                    // line 69
                     if (($this->getAttribute(($context["item"] ?? null), "children", []) &&  !$this->getAttribute(($context["item"] ?? null), "dropdown_hide", []))) {
-                        // line 62
+                        // line 70
                         echo "<span class=\"g-menu-parent-indicator\" data-g-menuparent=\"\"></span>";
                     }
-                    // line 64
+                    // line 72
                     echo "                ";
                 } else {
-                    // line 65
+                    // line 73
                     echo "                    ";
                     if (($this->getAttribute(($context["item"] ?? null), "type", []) == "particle")) {
-                        // line 66
+                        // line 74
                         echo "                        ";
                         echo $context["self"]->getdisplayParticle(($context["item"] ?? null), ($context["context"] ?? null));
                         echo "
                     ";
-                    } elseif (($this->getAttribute(                    // line 67
+                    } elseif (($this->getAttribute(                    // line 75
 ($context["item"] ?? null), "type", []) == "heading")) {
-                        // line 68
+                        // line 76
                         echo "                        <span class=\"g-nav-header g-menu-item-content\"";
                         echo ($context["title"] ?? null);
                         echo ">";
@@ -381,7 +416,7 @@ class __TwigTemplate_efebe2190cd23d6e84c0181c069351d24a1bc26447a43bb133cda7bfec2
                         echo "</span>
                     ";
                     } else {
-                        // line 70
+                        // line 78
                         echo "                        <span class=\"g-separator g-menu-item-content\"";
                         echo ($context["title"] ?? null);
                         echo ">";
@@ -389,31 +424,31 @@ class __TwigTemplate_efebe2190cd23d6e84c0181c069351d24a1bc26447a43bb133cda7bfec2
                         echo "</span>
                     ";
                     }
-                    // line 72
+                    // line 80
                     echo "                        ";
                     if (($this->getAttribute(($context["item"] ?? null), "children", []) &&  !$this->getAttribute(($context["item"] ?? null), "dropdown_hide", []))) {
-                        // line 73
+                        // line 81
                         echo "<span class=\"g-menu-parent-indicator\"></span>";
                     }
-                    // line 75
+                    // line 83
                     echo "                ";
                 }
-                // line 76
+                // line 84
                 echo "            ";
                 if ($this->getAttribute(($context["item"] ?? null), "url", [])) {
                     echo "</a>
             ";
                 } else {
-                    // line 77
+                    // line 85
                     echo "</div>";
                 }
-                // line 78
+                // line 86
                 echo "            ";
                 if ($this->getAttribute(($context["item"] ?? null), "children", [])) {
-                    // line 79
+                    // line 87
                     echo $context["self"]->getdisplaySubmenu(($context["item"] ?? null), ($context["menu"] ?? null), ($context["context"] ?? null), ($context["dropdown_type"] ?? null));
                 }
-                // line 81
+                // line 89
                 echo "        </li>
     ";
             }
@@ -430,7 +465,7 @@ class __TwigTemplate_efebe2190cd23d6e84c0181c069351d24a1bc26447a43bb133cda7bfec2
         return ('' === $tmp = ob_get_clean()) ? '' : new Markup($tmp, $this->env->getCharset());
     }
 
-    // line 85
+    // line 93
     public function getdisplayContainers($__item__ = null, $__menu__ = null, $__context__ = null, $__dropdown_type__ = null, ...$__varargs__)
     {
         $context = $this->env->mergeGlobals([
@@ -445,32 +480,32 @@ class __TwigTemplate_efebe2190cd23d6e84c0181c069351d24a1bc26447a43bb133cda7bfec2
 
         ob_start();
         try {
-            // line 86
+            // line 94
             echo "    ";
             $context["self"] = $this;
-            // line 87
+            // line 95
             echo "    <div class=\"g-grid\">
         ";
-            // line 88
+            // line 96
             $context["groups"] = ((($this->getAttribute(($context["item"] ?? null), "getDropdown", [], "method") == "standard")) ? ([0 => ($context["item"] ?? null)]) : ($this->getAttribute(($context["item"] ?? null), "groups", [])));
-            // line 89
+            // line 97
             echo "        ";
             $context['_parent'] = $context;
             $context['_seq'] = twig_ensure_traversable(($context["groups"] ?? null));
             foreach ($context['_seq'] as $context["column"] => $context["items"]) {
-                // line 90
+                // line 98
                 echo "        <div class=\"g-block ";
                 echo twig_escape_filter($this->env, call_user_func_array($this->env->getFilter('toGrid')->getCallable(), [$this->getAttribute(($context["item"] ?? null), "columnWidth", [0 => $context["column"]], "method")]), "html", null, true);
                 echo "\">
             <ul class=\"g-sublevel\">
                 <li class=\"g-level-";
-                // line 92
+                // line 100
                 echo twig_escape_filter($this->env, $this->getAttribute(($context["item"] ?? null), "level", []), "html", null, true);
                 echo " g-go-back\">
                     <a class=\"g-menu-item-container\" href=\"#\" data-g-menuparent=\"\"><span>Back</span></a>
                 </li>
                 ";
-                // line 95
+                // line 103
                 echo $context["self"]->getdisplayItems($context["items"], ($context["menu"] ?? null), ($context["context"] ?? null), ($context["dropdown_type"] ?? null));
                 echo "
             </ul>
@@ -480,7 +515,7 @@ class __TwigTemplate_efebe2190cd23d6e84c0181c069351d24a1bc26447a43bb133cda7bfec2
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['column'], $context['items'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 99
+            // line 107
             echo "    </div>
 ";
         } catch (\Exception $e) {
@@ -496,7 +531,7 @@ class __TwigTemplate_efebe2190cd23d6e84c0181c069351d24a1bc26447a43bb133cda7bfec2
         return ('' === $tmp = ob_get_clean()) ? '' : new Markup($tmp, $this->env->getCharset());
     }
 
-    // line 102
+    // line 110
     public function getdisplayItems($__items__ = null, $__menu__ = null, $__context__ = null, $__dropdown_type__ = null, ...$__varargs__)
     {
         $context = $this->env->mergeGlobals([
@@ -511,20 +546,20 @@ class __TwigTemplate_efebe2190cd23d6e84c0181c069351d24a1bc26447a43bb133cda7bfec2
 
         ob_start();
         try {
-            // line 103
+            // line 111
             echo "    ";
             $context["self"] = $this;
-            // line 104
+            // line 112
             echo "    ";
             $context['_parent'] = $context;
             $context['_seq'] = twig_ensure_traversable(($context["items"] ?? null));
             foreach ($context['_seq'] as $context["_key"] => $context["item"]) {
-                // line 105
+                // line 113
                 echo "        ";
                 if (($this->getAttribute($context["item"], "level", []) == 1)) {
                     $context["dropdown_type"] = $this->getAttribute($context["item"], "dropdown", []);
                 }
-                // line 106
+                // line 114
                 echo "        ";
                 echo $context["self"]->getdisplayItem($context["item"], ($context["menu"] ?? null), ($context["context"] ?? null), ($context["dropdown_type"] ?? null));
                 echo "
@@ -546,7 +581,7 @@ class __TwigTemplate_efebe2190cd23d6e84c0181c069351d24a1bc26447a43bb133cda7bfec2
         return ('' === $tmp = ob_get_clean()) ? '' : new Markup($tmp, $this->env->getCharset());
     }
 
-    // line 110
+    // line 118
     public function getdisplaySubmenu($__item__ = null, $__menu__ = null, $__context__ = null, $__dropdown_type__ = null, ...$__varargs__)
     {
         $context = $this->env->mergeGlobals([
@@ -561,21 +596,21 @@ class __TwigTemplate_efebe2190cd23d6e84c0181c069351d24a1bc26447a43bb133cda7bfec2
 
         ob_start();
         try {
-            // line 111
+            // line 119
             echo "    ";
             $context["self"] = $this;
-            // line 112
+            // line 120
             echo "    ";
             if ( !$this->getAttribute(($context["item"] ?? null), "dropdown_hide", [])) {
-                // line 113
+                // line 121
                 echo "        ";
                 $context["animation"] = (($this->getAttribute($this->getAttribute($this->getAttribute(($context["context"] ?? null), "gantry", [], "any", false, true), "config", [], "any", false, true), "get", [0 => "styles.menu.animation"], "method", true, true)) ? (_twig_default_filter($this->getAttribute($this->getAttribute($this->getAttribute(($context["context"] ?? null), "gantry", [], "any", false, true), "config", [], "any", false, true), "get", [0 => "styles.menu.animation"], "method"), "g-fade")) : ("g-fade"));
-                // line 114
+                // line 122
                 echo "        ";
                 if (((((twig_length_filter($this->env, $this->getAttribute(($context["item"] ?? null), "groups", [])) == 1) && ( !($context["dropdown_type"] ?? null) == "fullwidth")) || (($context["dropdown_type"] ?? null) == "standard")) || (((($this->getAttribute(($context["item"] ?? null), "width", [], "any", true, true)) ? (_twig_default_filter($this->getAttribute(($context["item"] ?? null), "width", []), "auto")) : ("auto")) != "auto") && (($context["dropdown_type"] ?? null) == "fullwidth")))) {
                     $context["dropdown_dir"] = ("g-dropdown-" . (($this->getAttribute(($context["item"] ?? null), "dropdown_dir", [], "any", true, true)) ? (_twig_default_filter($this->getAttribute(($context["item"] ?? null), "dropdown_dir", []), "right")) : ("right")));
                 }
-                // line 115
+                // line 123
                 echo "        <ul class=\"g-dropdown g-inactive ";
                 echo twig_escape_filter($this->env, ($context["animation"] ?? null), "html", null, true);
                 echo " ";
@@ -585,7 +620,7 @@ class __TwigTemplate_efebe2190cd23d6e84c0181c069351d24a1bc26447a43bb133cda7bfec2
                 echo ">
             <li class=\"g-dropdown-column\">
                 ";
-                // line 117
+                // line 125
                 echo $context["self"]->getdisplayContainers(($context["item"] ?? null), ($context["menu"] ?? null), ($context["context"] ?? null), ($context["dropdown_type"] ?? null));
                 echo "
             </li>
@@ -617,7 +652,7 @@ class __TwigTemplate_efebe2190cd23d6e84c0181c069351d24a1bc26447a43bb133cda7bfec2
 
     public function getDebugInfo()
     {
-        return array (  589 => 117,  579 => 115,  574 => 114,  571 => 113,  568 => 112,  565 => 111,  550 => 110,  528 => 106,  523 => 105,  518 => 104,  515 => 103,  500 => 102,  484 => 99,  474 => 95,  468 => 92,  462 => 90,  457 => 89,  455 => 88,  452 => 87,  449 => 86,  434 => 85,  417 => 81,  414 => 79,  411 => 78,  408 => 77,  402 => 76,  399 => 75,  396 => 73,  393 => 72,  385 => 70,  377 => 68,  375 => 67,  370 => 66,  367 => 65,  364 => 64,  361 => 62,  359 => 61,  354 => 59,  351 => 58,  348 => 57,  342 => 55,  340 => 54,  333 => 53,  330 => 52,  323 => 51,  311 => 50,  303 => 49,  301 => 48,  283 => 47,  280 => 46,  277 => 45,  274 => 44,  271 => 43,  268 => 42,  265 => 41,  262 => 40,  259 => 39,  256 => 38,  253 => 37,  251 => 36,  246 => 35,  243 => 34,  228 => 33,  212 => 30,  206 => 28,  204 => 27,  199 => 26,  196 => 25,  184 => 24,  168 => 21,  165 => 20,  157 => 19,  152 => 18,  149 => 17,  146 => 16,  133 => 15,  111 => 10,  108 => 9,  106 => 8,  91 => 7,  82 => 128,  74 => 126,  72 => 125,  69 => 124,  67 => 123,  64 => 122,  61 => 109,  58 => 101,  55 => 84,  52 => 32,  49 => 23,  46 => 14,  43 => 6,  37 => 4,  31 => 2,  30 => 1,);
+        return array (  624 => 125,  614 => 123,  609 => 122,  606 => 121,  603 => 120,  600 => 119,  585 => 118,  563 => 114,  558 => 113,  553 => 112,  550 => 111,  535 => 110,  519 => 107,  509 => 103,  503 => 100,  497 => 98,  492 => 97,  490 => 96,  487 => 95,  484 => 94,  469 => 93,  452 => 89,  449 => 87,  446 => 86,  443 => 85,  437 => 84,  434 => 83,  431 => 81,  428 => 80,  420 => 78,  412 => 76,  410 => 75,  405 => 74,  402 => 73,  399 => 72,  396 => 70,  394 => 69,  389 => 67,  386 => 66,  383 => 65,  377 => 63,  375 => 62,  368 => 61,  365 => 60,  358 => 59,  346 => 58,  337 => 57,  335 => 56,  317 => 55,  314 => 54,  311 => 53,  305 => 52,  299 => 51,  296 => 50,  291 => 49,  286 => 48,  283 => 47,  280 => 46,  277 => 45,  274 => 44,  271 => 43,  268 => 42,  265 => 41,  262 => 40,  259 => 39,  256 => 38,  253 => 37,  250 => 36,  247 => 35,  244 => 34,  229 => 33,  213 => 30,  207 => 28,  205 => 27,  200 => 26,  197 => 25,  185 => 24,  169 => 21,  166 => 20,  158 => 19,  153 => 18,  150 => 17,  147 => 16,  134 => 15,  112 => 10,  109 => 9,  107 => 8,  92 => 7,  83 => 136,  75 => 134,  73 => 133,  70 => 132,  68 => 131,  65 => 130,  62 => 117,  59 => 109,  56 => 92,  53 => 32,  50 => 23,  47 => 14,  44 => 6,  38 => 4,  31 => 2,  30 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -631,9 +666,9 @@ class __TwigTemplate_efebe2190cd23d6e84c0181c069351d24a1bc26447a43bb133cda7bfec2
     public function getSourceContext()
     {
         return new Source("{% try %}
-{% set menu = gantry.menu.instance(particle) %}
+    {% set menu = gantry.menu.instance(particle) %}
 {% catch %}
-<div class=\"alert alert-error\">{{ e.getMessage }}</div>
+    <div class=\"alert alert-error\">{{ e.getMessage }}</div>
 {% endtry %}
 
 {% macro getCustomWidth(item, menu, mode, dropdown_type) -%}
@@ -648,8 +683,8 @@ class __TwigTemplate_efebe2190cd23d6e84c0181c069351d24a1bc26447a43bb133cda7bfec2
     {% set context = context|merge({ particle: item.options.particle }) %}
     {% set classes = item.options.block.class %}
     <div class=\"menu-item-particle{{ classes ? ' ' ~ classes }}\">
-    {% include ['particles/' ~ item.particle ~ '.html.twig', '@particles/' ~ item.particle ~ '.html.twig']
-    ignore missing with context only %}
+        {% include ['particles/' ~ item.particle ~ '.html.twig', '@particles/' ~ item.particle ~ '.html.twig']
+        ignore missing with context only %}
     </div>
 {% endmacro %}
 
@@ -664,7 +699,7 @@ class __TwigTemplate_efebe2190cd23d6e84c0181c069351d24a1bc26447a43bb133cda7bfec2
 
 {% macro displayItem(item, menu, context, dropdown_type) %}
     {% import _self as self %}
-    {% if item.type == 'particle' and not item.options.particle.enabled %} 
+    {% if item.type == 'particle' and not item.options.particle.enabled %}
         {% set enabled = 0 %}
     {% endif %}
     {% if item.visible and item.enabled and enabled|default(1) %}
@@ -675,10 +710,18 @@ class __TwigTemplate_efebe2190cd23d6e84c0181c069351d24a1bc26447a43bb133cda7bfec2
         {% set parent = item.children ? ' g-parent' %}
         {% set target = (item.target != '_self' or context.particle.forceTarget) ? ' target=\"' ~ item.target|e ~ '\"' %}
         {% set rel = item.rel ? ' rel=\"' ~ item.rel|e ~ '\"' %}
+        {% set attributes = '' %}
+        {% if item.attributes %}
+            {% for attribute in item.attributes %}
+                {% for key, value in attribute %}
+                    {% set attributes = attributes ~ ' ' ~ key|e ~ '=\"' ~ value|e('html_attr') ~ '\"' %}
+                {% endfor %}
+            {% endfor %}
+        {% endif %}
 
         <li class=\"g-menu-item g-menu-item-type-{{ item.type }} g-menu-item-{{ item.id }}{% if not item.dropdown_hide %}{{ parent }}{% endif %}{{ active }}{{ dropdown }} {% if item.url and item.children %}{% if not item.dropdown_hide %}g-menu-item-link-parent{% endif %}{% endif %} {{ item.class|default('') }}\"
                 {{- self.getCustomWidth(item, menu, 'item', dropdown) }}
-                {%- if context.particle.renderTitles|default(0) %} title=\"{{ item.title }}\"{% endif %}>
+                {%- if context.particle.renderTitles|default(0) %} title=\"{{ item.title }}\"{% endif %}{{attributes|raw}}>
             {% if item.url %}<a class=\"g-menu-item-container{{ item.anchor_class ? ' ' ~ item.anchor_class }}\" href=\"{{ item.url }}{{ item.hash }}\"{{ (title ~ label ~ target ~ rel)|raw }}>
             {% else %}<div class=\"g-menu-item-container{{ item.anchor_class ? ' ' ~ item.anchor_class }}\" data-g-menuparent=\"\"{{ label|raw }}>{% endif %}
                 {% if item.image %}
@@ -755,11 +798,11 @@ class __TwigTemplate_efebe2190cd23d6e84c0181c069351d24a1bc26447a43bb133cda7bfec2
 {% import _self as macro %}
 
 {% if menu.root.count() %}
-<nav class=\"g-main-nav\" role=\"navigation\"{{ particle.mobileTarget ? ' data-g-mobile-target' : '' }} data-g-hover-expand=\"{{ particle.hoverExpand|default('true') ? 'true': 'false' }}\">
-    <ul class=\"g-toplevel\">
-        {{ macro.displayItems(menu.root, menu, _context) }}
-    </ul>
-</nav>
+    <nav class=\"g-main-nav\"{{ particle.mobileTarget ? ' data-g-mobile-target' : '' }} data-g-hover-expand=\"{{ particle.hoverExpand|default('true') ? 'true': 'false' }}\">
+        <ul class=\"g-toplevel\">
+            {{ macro.displayItems(menu.root, menu, _context) }}
+        </ul>
+    </nav>
 {% endif %}
 ", "@particles/menu.html.twig", "/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/engines/nucleus/particles/menu.html.twig");
     }

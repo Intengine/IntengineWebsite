@@ -1,91 +1,91 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1570788223,
-    'checksum' => '5a28b27483effd7f9f9bd4b667009e78',
+    'timestamp' => 1571058286,
+    'checksum' => '2304f5d74d21730cb18aab3783633fca',
     'files' => [
         'system/blueprints/config' => [
             'backups' => [
                 'file' => 'system/blueprints/config/backups.yaml',
-                'modified' => 1570788197
+                'modified' => 1571058147
             ],
             'media' => [
                 'file' => 'system/blueprints/config/media.yaml',
-                'modified' => 1570788197
+                'modified' => 1571058147
             ],
             'scheduler' => [
                 'file' => 'system/blueprints/config/scheduler.yaml',
-                'modified' => 1570788197
+                'modified' => 1571058147
             ],
             'security' => [
                 'file' => 'system/blueprints/config/security.yaml',
-                'modified' => 1570788197
+                'modified' => 1571058147
             ],
             'site' => [
                 'file' => 'system/blueprints/config/site.yaml',
-                'modified' => 1570788197
+                'modified' => 1571058147
             ],
             'streams' => [
                 'file' => 'system/blueprints/config/streams.yaml',
-                'modified' => 1570788197
+                'modified' => 1571058147
             ],
             'system' => [
                 'file' => 'system/blueprints/config/system.yaml',
-                'modified' => 1570788197
+                'modified' => 1571058147
             ]
         ],
         'user/plugins' => [
             'plugins/markdown-notices' => [
                 'file' => 'user/plugins/markdown-notices/blueprints.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058150
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/blueprints.yaml',
-                'modified' => 1570788198
+                'modified' => 1571058149
             ],
             'plugins/admin-power-tools' => [
                 'file' => 'user/plugins/admin-power-tools/blueprints.yaml',
-                'modified' => 1570788198
+                'modified' => 1571058148
             ],
             'plugins/gantry5' => [
                 'file' => 'user/plugins/gantry5/blueprints.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058286
             ],
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/blueprints.yaml',
-                'modified' => 1570788198
+                'modified' => 1571058148
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/blueprints.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058150
             ],
             'plugins/custom-css' => [
                 'file' => 'user/plugins/custom-css/blueprints.yaml',
-                'modified' => 1570788198
+                'modified' => 1571058149
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/blueprints.yaml',
-                'modified' => 1570788198
+                'modified' => 1571058149
             ],
             'plugins/bootstrapper' => [
                 'file' => 'user/plugins/bootstrapper/blueprints.yaml',
-                'modified' => 1570788198
+                'modified' => 1571058149
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/blueprints.yaml',
-                'modified' => 1570788199
+                'modified' => 1571058150
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/blueprints.yaml',
-                'modified' => 1570788198
+                'modified' => 1571058149
             ],
             'plugins/editor' => [
                 'file' => 'user/plugins/editor/blueprints.yaml',
-                'modified' => 1570788198
+                'modified' => 1571058149
             ],
             'plugins/core-service-manager' => [
                 'file' => 'user/plugins/core-service-manager/blueprints.yaml',
-                'modified' => 1570788198
+                'modified' => 1571058149
             ]
         ]
     ],
@@ -3022,7 +3022,7 @@ return [
             'plugins.gantry5.asset_timestamps' => [
                 'type' => 'toggle',
                 'label' => 'Asset Timestamps',
-                'description' => 'Adds timestamps on changed asset files, like images, css and js. The option makes browser to get fresh assets without forcing reload on the page. NOTE: Timestamps are always enabled in development mode.',
+                'description' => 'Adds timestamps on changed asset files, like images, css and js. The option makes browser to get fresh assets without forcing reload on the page.',
                 'highlight' => 1,
                 'default' => 1,
                 'options' => [

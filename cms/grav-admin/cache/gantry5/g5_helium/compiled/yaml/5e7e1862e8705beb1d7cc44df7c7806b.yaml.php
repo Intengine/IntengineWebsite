@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/cms/grav-admin/user/plugins/gantry5/engines/nucleus/admin/blueprints/layout/inheritance/messages/default.yaml',
-    'modified' => 1570195093,
+    'modified' => 1571058286,
     'data' => [
         'name' => 'Inheritance',
         'description' => 'Nothing to inherit tab',
