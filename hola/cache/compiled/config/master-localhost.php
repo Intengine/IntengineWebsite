@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1572508397,
-    'checksum' => 'c1a7a113cdb276cdeb10d1609fd3025d',
+    'timestamp' => 1572508680,
+    'checksum' => '9d94303d102f809524f43ff5f703fbdc',
     'files' => [
         'user/config' => [
             'backups' => [
@@ -23,7 +23,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1543931204
+                'modified' => 1572508680
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -31,7 +31,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1543931204
+                'modified' => 1572508631
             ],
             'themes/hola' => [
                 'file' => 'user/config/themes/hola.yaml',
@@ -631,11 +631,11 @@ node_modules'
             'salt' => 'H1Ub4GX6DaI9pM'
         ],
         'site' => [
-            'title' => 'Hola',
+            'title' => 'Intengine',
             'default_lang' => 'en',
             'author' => [
-                'name' => 'Devlom',
-                'email' => 'info@devlom.com'
+                'name' => 'Intengine',
+                'email' => 'sylwester.pilarz93@gmail.com'
             ],
             'taxonomies' => [
                 0 => 'category',
@@ -843,7 +843,7 @@ node_modules'
                 'twig' => true
             ],
             'images' => [
-                'default_image_quality' => 85,
+                'default_image_quality' => 100,
                 'cache_all' => false,
                 'cache_perms' => '0755',
                 'debug' => false,

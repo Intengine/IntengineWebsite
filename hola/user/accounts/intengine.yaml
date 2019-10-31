@@ -4,8 +4,11 @@ title: Administrator
 state: enabled
 access:
   admin:
-    login: true
-    super: true
+    super: 'true'
+    login: 'true'
   site:
-    login: true
+    login: 'true'
 hashed_password: $2y$10$Le9PYEpeDyRMf6.WMes4RekjI7vsND4CsbU5IA7TxHpFDvCDIffPi
+language: pl
+twofa_enabled: false
+twofa_secret: JFIVZGNFXK5JLMECI63H5ZTCCVPQWPSS

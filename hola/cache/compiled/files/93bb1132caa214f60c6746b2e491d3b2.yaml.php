@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/hola/user/config/system.yaml',
-    'modified' => 1543931204,
+    'modified' => 1572508631,
     'data' => [
         'absolute_urls' => false,
         'param_sep' => ':',
@@ -18,6 +18,7 @@ return [
                 0 => 'en'
             ],
             'include_default_lang' => false,
+            'pages_fallback_only' => false,
             'translations' => true,
             'translations_fallback' => true,
             'session_store_active' => false,
@@ -102,6 +103,9 @@ return [
             ],
             'driver' => 'auto',
             'prefix' => 'g',
+            'purge_at' => '0 4 * * *',
+            'clear_at' => '0 3 * * *',
+            'clear_job_type' => 'standard',
             'clear_images_by_default' => true,
             'cli_compatibility' => false,
             'lifetime' => 604800,
@@ -137,6 +141,12 @@ return [
             'display' => 1,
             'log' => true
         ],
+        'log' => [
+            'handler' => 'file',
+            'syslog' => [
+                'facility' => 'local6'
+            ]
+        ],
         'debugger' => [
             'enabled' => false,
             'shutdown' => [
@@ -145,11 +155,12 @@ return [
             'twig' => true
         ],
         'images' => [
-            'default_image_quality' => 85,
+            'default_image_quality' => 100,
             'cache_all' => false,
             'cache_perms' => '0755',
             'debug' => false,
-            'auto_fix_orientation' => false
+            'auto_fix_orientation' => false,
+            'seofriendly' => false
         ],
         'media' => [
             'enable_media_timestamp' => false,
@@ -161,6 +172,7 @@ return [
             'initialize' => true,
             'timeout' => 1800,
             'name' => 'grav-site',
+            'uniqueness' => 'path',
             'secure' => false,
             'httponly' => true,
             'split' => true
@@ -170,6 +182,10 @@ return [
             'method' => 'auto',
             'verify_peer' => true,
             'official_gpm_only' => true
+        ],
+        'accounts' => [
+            'type' => 'data',
+            'storage' => 'file'
         ],
         'strict_mode' => [
             'yaml_compat' => true,

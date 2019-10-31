@@ -1,7 +1,18 @@
-title: Hola
+title: Intengine
+default_lang: en
 author:
-  name: Devlom
-  email: 'info@devlom.com'
+  name: Intengine
+  email: sylwester.pilarz93@gmail.com
+taxonomies:
+  - category
+  - tag
+  - author
 metadata:
-    description: 'Hola is a modern and stylish vCard website template. Designed to be a resume, vCard, portfolio template, it’s the perfect template for creative designers, developers, freelancers, photographer or any creative profession.'
-taxonomies: [category,tag,author]
+  description: 'Hola is a modern and stylish vCard website template. Designed to be a resume, vCard, portfolio template, it’s the perfect template for creative designers, developers, freelancers, photographer or any creative profession.'
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+blog:
+  route: /blog
