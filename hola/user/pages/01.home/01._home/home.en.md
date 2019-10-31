@@ -1,5 +1,5 @@
 ---
-title: 'Hello There'
+title: 'Hello world'
 media_order: hero-bg.jpg
 menu: home
 redirect: home
@@ -35,6 +35,5 @@ social:
         socialIconLink: '#'
 ---
 
-I am Jonathan Doe.
-I am a graphic & UI/UX
-designer based in Somewhere.
+We are Intengine.
+Graphic Design, UX/UI, Game Development.
