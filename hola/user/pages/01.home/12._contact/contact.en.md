@@ -3,16 +3,16 @@ title: 'Say Hello.'
 media_order: contact-bg.jpg
 smallTitle: Contact
 menu: contact
+cache_enable: false
 visible: true
 background: contact-bg.jpg
-cache_enable: false
 opacity: '0.75'
 phoneTitle: Phone
-phonePhone: 'Phone: (+63) 555 1212'
-phoneMobile: 'Mobile: (+63) 555 0100'
+phonePhone: 'Phone: (+48) 506 715 473'
+phoneMobile: 'Mobile: (+48) 506 715 473'
 phoneFax: 'Fax: (+63) 555 0101'
 emailTitle: Email
-emailAddress: 'someone@holawebsite.com,info@holawebsite.com'
+emailAddress: sylwester.pilarz93@gmail.com
 addressTitle: Address
 addressDetails: "1600 Amphitheatre Parkway<br>\r\nMountain View, CA<br>\r\n94043 US"
 form:

@@ -8,26 +8,32 @@ bioDescription: "Lorem ipsum Ut eiusmod ex magna sit dolor esse adipisicing mini
 skillsTitle: 'I''ve Got Some skills.'
 skills:
     -
-        skillName: HTML
+        skillName: HTML5
         percentValue: 92%
     -
         skillName: CSS3
         percentValue: 85%
     -
-        skillName: JQuery
-        percentValue: 70%
+        skillName: JavaScript
+        percentValue: 45%
     -
-        skillName: PHP
+        skillName: Java
+        percentValue: 34%
+    -
+        skillName: 'C#'
+        percentValue: 72%
+    -
+        skillName: 'Adobe CC (PS, ID, AE, XD, IL)'
         percentValue: 95%
     -
-        skillName: Wordpress
-        percentValue: 75%
+        skillName: 'Autodesk Maya'
+        percentValue: 90%
     -
-        skillName: 'Angular JS'
+        skillName: 'Apple Final Cut Pro X'
         percentValue: 90%
 button1Text: 'Download My CV'
 button1Link: '#0'
-button2Text: 'Hire Me Now'
+button2Text: 'Contact Me'
 button2Link: '#0'
 skillName: 'Angular JS'
 percentValue: 90%
