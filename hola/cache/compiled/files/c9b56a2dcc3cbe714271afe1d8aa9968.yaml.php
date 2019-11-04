@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/hola/system/config/media.yaml',
-    'modified' => 1572508346,
+    'modified' => 1572867524,
     'data' => [
         'types' => [
             'defaults' => [

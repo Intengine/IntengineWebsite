@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/pagination/blueprints.yaml',
-    'modified' => 1572508385,
+    'modified' => 1572867525,
     'data' => [
         'name' => 'Pagination',
         'version' => '1.4.2',

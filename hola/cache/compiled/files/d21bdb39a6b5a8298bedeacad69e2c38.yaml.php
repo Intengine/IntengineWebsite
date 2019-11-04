@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/login/blueprints.yaml',
-    'modified' => 1572508368,
+    'modified' => 1572867525,
     'data' => [
         'name' => 'Login',
         'version' => '3.0.4',

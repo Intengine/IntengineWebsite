@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/hola/user/themes/hola/languages.yaml',
-    'modified' => 1543931218,
+    'modified' => 1572867525,
     'data' => [
         'en' => [
             'TRANSLATION_TEST' => 'Hola!',
