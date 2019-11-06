@@ -206,6 +206,6 @@ class __TwigTemplate_9edbf4e51b6c170c125d7c5e442e1777a1609e74ba79783ade303113f69
 
     public function getSourceContext()
     {
-        return new Source("", "partials/blueprints.html.twig", "/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/admin/themes/grav/templates/partials/blueprints.html.twig");
+        return new Source("", "partials/blueprints.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/hola/user/plugins/admin/themes/grav/templates/partials/blueprints.html.twig");
     }
 }

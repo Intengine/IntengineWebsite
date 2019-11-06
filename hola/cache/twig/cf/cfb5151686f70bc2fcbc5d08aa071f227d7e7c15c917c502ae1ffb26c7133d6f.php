@@ -1228,6 +1228,6 @@ $context["p"], "published", [])) ? (($this->env->getExtension('Grav\Plugin\Admin
 
     public function getSourceContext()
     {
-        return new Source("", "pages.html.twig", "/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/admin/themes/grav/templates/pages.html.twig");
+        return new Source("", "pages.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/hola/user/plugins/admin/themes/grav/templates/pages.html.twig");
     }
 }

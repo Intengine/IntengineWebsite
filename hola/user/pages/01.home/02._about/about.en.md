@@ -21,7 +21,7 @@ skills:
         percentValue: 34%
     -
         skillName: 'C#'
-        percentValue: 72%
+        percentValue: 54%
     -
         skillName: 'Adobe CC (PS, ID, AE, XD, IL)'
         percentValue: 95%
@@ -34,7 +34,7 @@ skills:
 button1Text: 'Download My CV'
 button1Link: '#0'
 button2Text: 'Contact Me'
-button2Link: '#0'
+button2Link: '#contact'
 skillName: 'Angular JS'
 percentValue: 90%
 onpage_menu: true
