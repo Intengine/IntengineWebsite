@@ -51,6 +51,6 @@ class __TwigTemplate_878200472ee5b03ded9ca00ecb1fc50ca5f47cb6f00b982c64a3d0c3873
 
     public function getSourceContext()
     {
-        return new Source("", "@admin-images/grav-regular.svg", "/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/admin/themes/grav/images/grav-regular.svg");
+        return new Source("", "@admin-images/grav-regular.svg", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/hola/user/plugins/admin/themes/grav/images/grav-regular.svg");
     }
 }

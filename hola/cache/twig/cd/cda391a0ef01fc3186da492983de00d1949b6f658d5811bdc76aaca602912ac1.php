@@ -130,6 +130,6 @@ class __TwigTemplate_f6e18790ac946ce4bc0b1469725eac48381b92aa2a2600e25fd7babaa48
 
     public function getSourceContext()
     {
-        return new Source("", "modular/testimonials.html.twig", "/Users/mac/Desktop/IntengineWebsite/hola/user/themes/hola/templates/modular/testimonials.html.twig");
+        return new Source("", "modular/testimonials.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/hola/user/themes/hola/templates/modular/testimonials.html.twig");
     }
 }
