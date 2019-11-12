@@ -1,6 +1,7 @@
 ---
 title: 'Basic Text Section'
 smallTitle: 'If you need to say anything else...'
+published: false
 row:
     -
         firstColumnTitle: Howdy!
@@ -9,7 +10,7 @@ row:
         firstColumnTitle: 'Want two column layout - no problem!'
         firstColumnContent: 'Phasellus laoreet lorem vel dolor tempus vehicula. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Paullum deliquit, ponderibus modulisque suis ratio utitur. Cum ceteris in veneratione tui montes, nascetur mus. Non equidem invideo, miror magis posuere velit aliquet.\r\nNihil hic munitissimus habendi senatus locus, nihil horum? Ab illo tempore, ab est sed immemorabili. Idque Caesaris facere voluntate liceret: sese habere. Quam diu etiam furor iste tuus nos eludet? Ambitioni dedisse scripsisse iudicaretur. Quam temere in vitiis, legem sancimus haerentia.\r\nCum sociis natoque penatibus et magnis dis parturient. Qui ipsorum lingua Celtae, nostra Galli appellantur. Fictum, deserunt mollit anim laborum astutumque!\r\nUllamco laboris nisi ut aliquid ex ea commodi consequat. Inmensae subtilitatis, obscuris et malesuada fames. Unam incolunt Belgae, aliam Aquitani, tertiam.'
         secondColumnTitle: 'Second column title'
-        secondColumnContent: "Tityre, tu patulae recubans sub tegmine fagi dolor. Quam diu etiam furor iste tuus nos eludet? Non equidem invideo, miror magis posuere velit aliquet. Quid securi etiam tamquam eu fugiat nulla pariatur.\r\n\r\nMercedem aut nummos unde unde extricat, amaras. Sed haec quis possit intrepidus aestimare tellus. Cum sociis natoque penatibus et magnis dis parturient. Hi omnes lingua, institutis, legibus inter se differunt. Phasellus laoreet lorem vel dolor tempus vehicula. Salutantibus vitae elit libero, a pharetra augue.\r\nAt nos hinc posthac, sitientis piros Afros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Morbi fringilla convallis sapien, id pulvinar odio volutpat.\r\n"
+        secondColumnContent: "Tityre, tu patulae recubans sub tegmine fagi dolor. Quam diu etiam furor iste tuus nos eludet? Non equidem invideo, miror magis posuere velit aliquet. Quid securi etiam tamquam eu fugiat nulla pariatur.\r\n\r\nMercedem aut nummos unde unde extricat, amaras. Sed haec quis possit intrepidus aestimare tellus. Cum sociis natoque penatibus et magnis dis parturient. Hi omnes lingua, institutis, legibus inter se differunt. Phasellus laoreet lorem vel dolor tempus vehicula. Salutantibus vitae elit libero, a pharetra augue.\r\nAt nos hinc posthac, sitientis piros Afros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Morbi fringilla convallis sapien, id pulvinar odio volutpat."
 onpage_menu: true
 ---
 

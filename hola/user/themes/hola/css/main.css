@@ -1275,7 +1275,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .section-intro h3 {
     font-family: "montserrat-semibold", sans-serif;
     font-size: 2rem;
-    color: #862121;
+    color: #0b9c87;
     text-transform: uppercase;
     letter-spacing: .15rem;
     margin-top: 0;
@@ -1383,7 +1383,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .blog-list .blog-date a {
-    color: #862121;
+    color: #0b9c87;
 }
 
 .blog-list .blog-date a:hover,
@@ -1665,7 +1665,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .header-nav li.current a {
     font-family: "montserrat-extrabold", sans-serif;
-    color: #af2b2b;
+    color: #0b9c87;
 }
 
 
@@ -1779,7 +1779,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .home-content h3 {
     font-family: "montserrat-bold", sans-serif;
     font-size: 1.8rem;
-    color: #862121;
+    color: #0b9c87;
     text-transform: uppercase;
     letter-spacing: .5rem;
     position: relative;
@@ -1793,7 +1793,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     content: "";
     width: 60px;
     height: 2px;
-    background-color: #862121;
+    background-color: #0b9c87;
     margin-top: -1.5px;
     position: absolute;
     left: 0;
@@ -1856,8 +1856,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__scroll a::after {
-    border-bottom: 2px solid #922424;
-    border-right: 2px solid #922424;
+    border-bottom: 2px solid #0b9c87;
+    border-right: 2px solid #0b9c87;
     content: '';
     display: block;
     height: 8px;
@@ -3276,8 +3276,8 @@ html.no-csstransitions .home-content__main {
 
 .contact__form button {
     margin-top: 4.2rem;
-    background-color: #862121;
-    border-color: #862121;
+    background-color: #0b9c87;
+    border-color: #0b9c87;
 }
 
 .message-warning, .message-success {
@@ -3437,7 +3437,7 @@ footer {
 }
 
 footer a, footer a:visited {
-    color: #862121;
+    color: #0b9c87;
 }
 
 footer a:hover, footer a:focus {
@@ -4294,7 +4294,7 @@ font-size: 14px;
 	text-align: center;
 }
 .s-resume .resume-header h2 {
-	color: #862121;
+	color: #0b9c87;
 }
 
 .s-resume .resume-timeline {
@@ -4623,10 +4623,10 @@ font-size: 14px;
 	border-radius: 50%;
 	display: inline-block;
     background: #FFFFFF;
-    border: 1px solid #862121;
+    border: 1px solid #0b9c87;
 }
 .owl-theme .owl-controls .owl-page.active span {
-	background: #862121;
+	background: #0b9c87;
 }
 /* -------------------------------------------------------------------
  * grey section
