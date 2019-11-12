@@ -35,5 +35,4 @@ social:
         socialIconLink: '#'
 ---
 
-We are Intengine.
-Graphic Design, UX/UI, Game Development.
+Graphic Design, UX/UI, Game Development
