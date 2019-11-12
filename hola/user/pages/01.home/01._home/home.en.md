@@ -29,10 +29,6 @@ social:
         socialIconClass: 'fa fa-behance-square'
         socialIconText: Behance
         socialIconLink: '#'
-    -
-        socialIconClass: 'fa fa-pinterest'
-        socialIconText: Pinterest
-        socialIconLink: '#'
 ---
 
 Graphic Design, UX/UI, Game Development

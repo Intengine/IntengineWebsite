@@ -1,5 +1,5 @@
 ---
-title: Statystics
+title: '(WYŁĄCZONE) Statistics'
 published: false
 menu: stats
 visible: false

@@ -1,5 +1,5 @@
 ---
-title: 'Say Hello.'
+title: 'Say Hello'
 media_order: contact-bg.jpg
 smallTitle: Contact
 menu: contact
@@ -71,4 +71,3 @@ form:
             message: 'Thank you for you''re message! We will contact you shortly'
 ---
 
-Lorem ipsum Dolor adipisicing nostrud et aute Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.

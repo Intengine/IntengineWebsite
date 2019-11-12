@@ -60,6 +60,7 @@
 
 @import url("iconic/css/iconmonstr-iconic-font.min.css");
 @import url("fonts.css");
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
 
 
@@ -561,7 +562,7 @@ form,
     margin-left: -30px;
     margin-top: -30px;
     padding: 0;
-    background-color: #862121;
+    background-color: #0b9c87;
     border-radius: 100%;
     -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
     animation: sk-scaleout 1.0s infinite ease-in-out;
@@ -1266,10 +1267,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .section-intro h1 {
-    font-family: "librebaskerville-bold", serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 4.8rem;
+    letter-spacing: 4px;
     line-height: 1.375;
     margin-top: 0;
+    text-transform: uppercase;
 }
 
 .section-intro h3 {
@@ -1933,7 +1936,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-social span {
-    color: #af2b2b;
+    color: #0b9c87;
     right: 3.6rem;
     font-size: 1.3rem;
     opacity: 0;
@@ -2771,9 +2774,11 @@ html.no-csstransitions .home-content__main {
 }
 
 .testimonials-header h1 {
-    font-family: "librebaskerville-bold", serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 4.2rem;
+    letter-spacing: 4px;
     margin-top: 0;
+    text-transform: uppercase;
     color: #FFFFFF;
 }
 

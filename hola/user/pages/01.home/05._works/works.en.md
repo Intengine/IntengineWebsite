@@ -1,5 +1,5 @@
 ---
-title: 'See My Latest Projects.'
+title: 'See My Latest Projects..'
 smallTitle: Portfolio
 menu: works
 visible: true
@@ -71,4 +71,3 @@ portfolio:
         imageSize2: shutterbug2x.jpg
 ---
 
-There are much work that I want to share with you. Especially the last designes that I made for my client. Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Etiam habebis sem dicantur magna mollis euismod. Please check them out and enjoy!

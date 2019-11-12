@@ -40,4 +40,3 @@ percentValue: 90%
 onpage_menu: true
 ---
 
-Lorem ipsum dolor sit amet

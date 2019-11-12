@@ -1,5 +1,5 @@
 ---
-title: 'More of my credentials.'
+title: 'More of my credentials'
 smallTitle: Resume
 menu: resume
 visible: true
@@ -38,4 +38,3 @@ timeline:
 resumeTitle: 'Work Experience'
 ---
 
-Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.

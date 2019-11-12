@@ -1,6 +1,6 @@
 ---
-title: 'Latest From The Blog.'
-smallTitle: Journal
+title: 'Latest From The Blog'
+smallTitle: 'Intengine Game Blog'
 menu: Blog
 subtitle: ''
 content:
@@ -13,4 +13,3 @@ content:
 hidemenu: true
 ---
 
-Lorem ipsum Dolor adipisicing nostrud et aute. Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.
