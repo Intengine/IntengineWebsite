@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/admin/languages/pt.yaml',
-    'modified' => 1572867524,
+    'modified' => 1573566880,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_BETA_MSG' => 'Esta é uma versão Beta! Use por sua conta em risco...',
@@ -48,10 +48,12 @@ return [
             'EXPERT' => 'Esperto',
             'EXPAND_ALL' => 'Expandir Tudo',
             'COLLAPSE_ALL' => 'Recolher Tudo',
+            'SECURE_DELETE_DESC' => 'Digite DELETE e confirme',
             'ERROR' => 'Erro',
             'CLOSE' => 'Fechar',
             'CANCEL' => 'Cancelar',
             'CONTINUE' => 'Continuar',
+            'CONFIRM' => 'Confirmar',
             'MODAL_DELETE_PAGE_CONFIRMATION_REQUIRED_TITLE' => 'Confirmação Requerida',
             'MODAL_CHANGED_DETECTED_TITLE' => 'Alterações Detectadas',
             'MODAL_CHANGED_DETECTED_DESC' => 'Você tem alterações não salvas. Tem certeza que deseja sair sem salvar?',

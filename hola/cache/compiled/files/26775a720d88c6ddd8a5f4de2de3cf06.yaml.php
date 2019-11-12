@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/admin/blueprints.yaml',
-    'modified' => 1572867524,
+    'modified' => 1573566880,
     'data' => [
         'name' => 'Admin Panel',
-        'version' => '1.9.10',
+        'version' => '1.9.11',
         'testing' => false,
         'description' => 'Adds an advanced administration panel to manage your site',
         'icon' => 'empire',
@@ -284,6 +284,20 @@ return [
                         'type' => 'bool'
                     ],
                     'help' => 'Ask the user confirmation when deleting a page'
+                ],
+                'warnings.secure_delete' => [
+                    'type' => 'toggle',
+                    'label' => 'Secure Delete',
+                    'highlight' => 1,
+                    'default' => 1,
+                    'options' => [
+                        1 => 'PLUGIN_ADMIN.ENABLED',
+                        0 => 'PLUGIN_ADMIN.DISABLED'
+                    ],
+                    'validate' => [
+                        'type' => 'bool'
+                    ],
+                    'help' => 'Shows the user a field to enter the word DELETE and enable the confirm delete button.'
                 ],
                 'hide_page_types' => [
                     'type' => 'array',

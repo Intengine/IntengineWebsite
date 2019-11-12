@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/pagination/languages.yaml',
-    'modified' => 1572867525,
+    'modified' => 1573552284,
     'data' => [
         'en' => [
             'PLUGIN_PAGINATION' => [

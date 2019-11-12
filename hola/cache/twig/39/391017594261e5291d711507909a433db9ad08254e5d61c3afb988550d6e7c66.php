@@ -63,28 +63,28 @@ class __TwigTemplate_f9268872d982befef44e4058dd248b618da46a1617df2387e9d125b89e7
         // line 10
         echo "            ";
         $this->displayBlock('input_attributes', $context, $blocks);
-        // line 33
+        // line 34
         echo "            >";
         echo twig_escape_filter($this->env, twig_trim_filter(($context["value"] ?? null)), "html");
         echo "</textarea>
             ";
-        // line 34
-        $this->displayBlock('append', $context, $blocks);
         // line 35
+        $this->displayBlock('append', $context, $blocks);
+        // line 36
         echo "            ";
         if ((($context["inline_errors"] ?? null) && ($context["errors"] ?? null))) {
-            // line 36
+            // line 37
             echo "                <div class=\"";
             echo ((($context["form_errors_classes"] ?? null)) ? (($context["form_errors_classes"] ?? null)) : ("form-errors"));
             echo "\">
                     <p class=\"form-message\"><i class=\"fa fa-exclamation-circle\"></i> ";
-            // line 37
+            // line 38
             echo twig_first($this->env, ($context["errors"] ?? null));
             echo "</p>
                 </div>
             ";
         }
-        // line 40
+        // line 41
         echo "    </div>
 ";
     }
@@ -155,60 +155,67 @@ class __TwigTemplate_f9268872d982befef44e4058dd248b618da46a1617df2387e9d125b89e7
         }
         // line 20
         echo "                ";
+        if ($this->getAttribute(($context["field"] ?? null), "tabindex", [])) {
+            echo "tabindex=\"";
+            echo $this->getAttribute(($context["field"] ?? null), "tabindex", []);
+            echo "\" %}";
+        }
+        // line 21
+        echo "                ";
         if (($context["required"] ?? null)) {
             echo "required=\"required\"";
         }
-        // line 21
+        // line 22
         echo "                ";
         if ($this->getAttribute($this->getAttribute(($context["field"] ?? null), "validate", []), "pattern", [])) {
             echo "pattern=\"";
             echo $this->getAttribute($this->getAttribute(($context["field"] ?? null), "validate", []), "pattern", []);
             echo "\"";
         }
-        // line 22
+        // line 23
         echo "                ";
         if ($this->getAttribute($this->getAttribute(($context["field"] ?? null), "validate", []), "message", [])) {
             echo "title=\"";
             echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\TwigExtension')->translate($this->env, $this->getAttribute($this->getAttribute(($context["field"] ?? null), "validate", []), "message", [])));
             echo "\"";
         }
-        // line 23
+        // line 24
         echo "                ";
         if ($this->getAttribute(($context["field"] ?? null), "rows", [], "any", true, true)) {
             echo "rows=\"";
             echo $this->getAttribute(($context["field"] ?? null), "rows", []);
             echo "\"";
         }
-        // line 24
+        // line 25
         echo "                ";
         if ($this->getAttribute(($context["field"] ?? null), "cols", [], "any", true, true)) {
             echo "cols=\"";
             echo $this->getAttribute(($context["field"] ?? null), "cols", []);
             echo "\"";
         }
-        // line 25
+        // line 26
         echo "                ";
         if ($this->getAttribute(($context["field"] ?? null), "minlength", [], "any", true, true)) {
             echo "minlength=\"";
             echo $this->getAttribute(($context["field"] ?? null), "minlength", []);
             echo "\"";
         }
-        // line 26
+        // line 27
         echo "                ";
         if ($this->getAttribute(($context["field"] ?? null), "maxlength", [], "any", true, true)) {
             echo "maxlength=\"";
             echo $this->getAttribute(($context["field"] ?? null), "maxlength", []);
             echo "\"";
         }
-        // line 27
+        // line 28
         echo "                ";
         if ($this->getAttribute(($context["field"] ?? null), "datasets", [])) {
-            // line 28
+            // line 29
             echo "                    ";
             $context['_parent'] = $context;
             $context['_seq'] = twig_ensure_traversable($this->getAttribute(($context["field"] ?? null), "datasets", []));
             foreach ($context['_seq'] as $context["datakey"] => $context["datavalue"]) {
-                // line 29
+                // line 30
                 echo "                        data-";
                 echo $context["datakey"];
                 echo "=\"";
@@ -219,14 +226,14 @@ class __TwigTemplate_f9268872d982befef44e4058dd248b618da46a1617df2387e9d125b89e7
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['datakey'], $context['datavalue'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 31
+            // line 32
             echo "                ";
         }
-        // line 32
+        // line 33
         echo "            ";
     }
 
-    // line 34
+    // line 35
     public function block_append($context, array $blocks = [])
     {
     }
@@ -243,7 +250,7 @@ class __TwigTemplate_f9268872d982befef44e4058dd248b618da46a1617df2387e9d125b89e7
 
     public function getDebugInfo()
     {
-        return array (  230 => 34,  226 => 32,  223 => 31,  212 => 29,  207 => 28,  204 => 27,  197 => 26,  190 => 25,  183 => 24,  176 => 23,  169 => 22,  162 => 21,  157 => 20,  150 => 19,  145 => 18,  140 => 17,  135 => 16,  128 => 15,  123 => 14,  116 => 13,  110 => 12,  101 => 11,  98 => 10,  93 => 5,  88 => 40,  82 => 37,  77 => 36,  74 => 35,  72 => 34,  67 => 33,  64 => 10,  59 => 8,  56 => 6,  54 => 5,  45 => 4,  42 => 3,  32 => 1,);
+        return array (  237 => 35,  233 => 33,  230 => 32,  219 => 30,  214 => 29,  211 => 28,  204 => 27,  197 => 26,  190 => 25,  183 => 24,  176 => 23,  169 => 22,  164 => 21,  157 => 20,  150 => 19,  145 => 18,  140 => 17,  135 => 16,  128 => 15,  123 => 14,  116 => 13,  110 => 12,  101 => 11,  98 => 10,  93 => 5,  88 => 41,  82 => 38,  77 => 37,  74 => 36,  72 => 35,  67 => 34,  64 => 10,  59 => 8,  56 => 6,  54 => 5,  45 => 4,  42 => 3,  32 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -256,6 +263,6 @@ class __TwigTemplate_f9268872d982befef44e4058dd248b618da46a1617df2387e9d125b89e7
 
     public function getSourceContext()
     {
-        return new Source("", "forms/fields/textarea/textarea.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/hola/user/plugins/form/templates/forms/fields/textarea/textarea.html.twig");
+        return new Source("", "forms/fields/textarea/textarea.html.twig", "/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/form/templates/forms/fields/textarea/textarea.html.twig");
     }
 }

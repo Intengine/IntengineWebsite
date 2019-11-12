@@ -2,9 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/admin/languages/en.yaml',
-    'modified' => 1572867524,
+    'modified' => 1573566880,
     'data' => [
         'PLUGIN_ADMIN' => [
+            'ADMIN_NOSCRIPT_MSG' => 'Please enable JavaScript in your browser.',
             'ADMIN_BETA_MSG' => 'This is a Beta release! Use this in production at your own risk...',
             'ADMIN_REPORT_ISSUE' => 'Found an issue? Please report it on GitHub.',
             'EMAIL_FOOTER' => '<a href="http://getgrav.org">Powered by Grav</a> - The Modern Flat File CMS',
@@ -49,10 +50,12 @@ return [
             'EXPERT' => 'Expert',
             'EXPAND_ALL' => 'Expand All',
             'COLLAPSE_ALL' => 'Collapse All',
+            'SECURE_DELETE_DESC' => 'Type DELETE and confirm',
             'ERROR' => 'Error',
             'CLOSE' => 'Close',
             'CANCEL' => 'Cancel',
             'CONTINUE' => 'Continue',
+            'CONFIRM' => 'Confirm',
             'MODAL_DELETE_PAGE_CONFIRMATION_REQUIRED_TITLE' => 'Confirmation Required',
             'MODAL_CHANGED_DETECTED_TITLE' => 'Changes Detected',
             'MODAL_CHANGED_DETECTED_DESC' => 'You have unsaved changes.  Are you sure you want to leave without saving?',

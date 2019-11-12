@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/admin/admin.yaml',
-    'modified' => 1572867524,
+    'modified' => 1573566880,
     'data' => [
         'enabled' => true,
         'route' => '/admin',
@@ -39,7 +39,8 @@ return [
             'timeout' => 1800
         ],
         'warnings' => [
-            'delete_page' => true
+            'delete_page' => true,
+            'secure_delete' => false
         ],
         'edit_mode' => 'normal',
         'frontend_preview_target' => 'inline',

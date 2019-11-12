@@ -18,543 +18,368 @@ class __TwigTemplate_e86be21cb5d5b055eedc42d34f7167a63b3003f9b52d22e9671f1e82e59
     {
         parent::__construct($env);
 
-        $this->parent = false;
+        $_trait_0 = $this->loadTemplate("forms/layouts/field-variables.html.twig", "forms/default/field.html.twig", 3);
+        // line 3
+        if (!$_trait_0->isTraitable()) {
+            throw new RuntimeError('Template "'."forms/layouts/field-variables.html.twig".'" cannot be used as a trait.', 3, $this->getSourceContext());
+        }
+        $_trait_0_blocks = $_trait_0->getBlocks();
 
-        $this->blocks = [
-            'field' => [$this, 'block_field'],
-            'outer_field_classes' => [$this, 'block_outer_field_classes'],
-            'contents' => [$this, 'block_contents'],
-            'label' => [$this, 'block_label'],
-            'global_attributes' => [$this, 'block_global_attributes'],
-            'group' => [$this, 'block_group'],
-            'input' => [$this, 'block_input'],
-            'prepend' => [$this, 'block_prepend'],
-            'input_attributes' => [$this, 'block_input_attributes'],
-            'append' => [$this, 'block_append'],
-        ];
+        $this->traits = $_trait_0_blocks;
+
+        $this->blocks = array_merge(
+            $this->traits,
+            [
+                'field_override_variables_before' => [$this, 'block_field_override_variables_before'],
+                'outer_field_classes' => [$this, 'block_outer_field_classes'],
+                'global_attributes' => [$this, 'block_global_attributes'],
+                'input_attributes' => [$this, 'block_input_attributes'],
+            ]
+        );
+    }
+
+    protected function doGetParent(array $context)
+    {
+        // line 107
+        return "forms/layouts/field.html.twig";
     }
 
     protected function doDisplay(array $context, array $blocks = [])
     {
         // line 1
         if ( !$this->getAttribute($this->getAttribute(($context["field"] ?? null), "validate", []), "ignore", [])) {
-            // line 2
-            echo "
-";
-            // line 3
-            $context["field_name"] = $this->env->getExtension('Grav\Common\Twig\TwigExtension')->fieldNameFilter((($context["scope"] ?? null) . $this->getAttribute(($context["field"] ?? null), "name", [])));
-            // line 4
-            $context["vertical"] = ($this->getAttribute(($context["field"] ?? null), "style", []) == "vertical");
-            // line 5
-            echo "
-";
             // line 6
+            $context["field_name"] = $this->env->getExtension('Grav\Common\Twig\TwigExtension')->fieldNameFilter((($context["scope"] ?? null) . $this->getAttribute(($context["field"] ?? null), "name", [])));
+            // line 7
+            $context["vertical"] = ($this->getAttribute(($context["field"] ?? null), "style", []) == "vertical");
+            // line 9
             if (( !($context["blueprints"] ?? null) || (((($this->getAttribute($this->getAttribute($this->getAttribute(($context["blueprints"] ?? null), "schema", [], "any", false, true), "type", [0 => $this->getAttribute(($context["field"] ?? null), "type", [])], "method", false, true), "input@", [], "array", true, true) &&  !(null === $this->getAttribute($this->getAttribute($this->getAttribute(($context["blueprints"] ?? null), "schema", [], "any", false, true), "type", [0 => $this->getAttribute(($context["field"] ?? null), "type", [])], "method", false, true), "input@", [], "array")))) ? ($this->getAttribute($this->getAttribute($this->getAttribute(($context["blueprints"] ?? null), "schema", [], "any", false, true), "type", [0 => $this->getAttribute(($context["field"] ?? null), "type", [])], "method", false, true), "input@", [], "array")) : (true)) === true))) {
-                // line 7
-                echo "    ";
+                // line 10
                 $context["toggleable"] = ((($this->getAttribute(($context["field"] ?? null), "toggleable", [], "any", true, true) &&  !(null === $this->getAttribute(($context["field"] ?? null), "toggleable", [])))) ? ($this->getAttribute(($context["field"] ?? null), "toggleable", [])) : (false));
-                // line 8
-                echo "    ";
+                // line 11
                 if (($context["toggleable"] ?? null)) {
-                    // line 9
-                    echo "        ";
-                    $context["originalValue"] = (((isset($context["originalValue"]) || array_key_exists("originalValue", $context))) ? (($context["originalValue"] ?? null)) : (($context["value"] ?? null)));
-                    // line 10
-                    echo "        ";
-                    $context["toggleableChecked"] = ( !(null === ($context["originalValue"] ?? null)) &&  !twig_test_empty(($context["originalValue"] ?? null)));
-                    // line 11
-                    echo "    ";
-                } elseif ($this->getAttribute(($context["field"] ?? null), "overridable", [])) {
                     // line 12
-                    echo "        ";
-                    $context["toggleable"] = true;
+                    $context["originalValue"] = (((isset($context["originalValue"]) || array_key_exists("originalValue", $context))) ? (($context["originalValue"] ?? null)) : (($context["value"] ?? null)));
                     // line 13
-                    echo "        ";
-                    $context["default"] = ((($this->getAttribute(($context["form"] ?? null), "getDefaultValue", [0 => $this->getAttribute(($context["field"] ?? null), "name", [])], "method", true, true) &&  !(null === $this->getAttribute(($context["form"] ?? null), "getDefaultValue", [0 => $this->getAttribute(($context["field"] ?? null), "name", [])], "method")))) ? ($this->getAttribute(($context["form"] ?? null), "getDefaultValue", [0 => $this->getAttribute(($context["field"] ?? null), "name", [])], "method")) : ($this->getAttribute(($context["field"] ?? null), "default", [])));
-                    // line 14
-                    echo "        ";
-                    $context["toggleableChecked"] = (($context["value"] ?? null) != ($context["default"] ?? null));
+                    $context["toggleableChecked"] = ( !(null === ($context["originalValue"] ?? null)) &&  !twig_test_empty(($context["originalValue"] ?? null)));
+                } elseif ($this->getAttribute(                // line 14
+($context["field"] ?? null), "overridable", [])) {
                     // line 15
-                    echo "    ";
+                    $context["toggleable"] = true;
+                    // line 16
+                    $context["default"] = ((($this->getAttribute(($context["form"] ?? null), "getDefaultValue", [0 => $this->getAttribute(($context["field"] ?? null), "name", [])], "method", true, true) &&  !(null === $this->getAttribute(($context["form"] ?? null), "getDefaultValue", [0 => $this->getAttribute(($context["field"] ?? null), "name", [])], "method")))) ? ($this->getAttribute(($context["form"] ?? null), "getDefaultValue", [0 => $this->getAttribute(($context["field"] ?? null), "name", [])], "method")) : ($this->getAttribute(($context["field"] ?? null), "default", [])));
+                    // line 17
+                    $context["toggleableChecked"] = (($context["value"] ?? null) != ($context["default"] ?? null));
                 }
-                // line 16
-                echo "
-    ";
-                // line 17
-                $context["cookie_name"] = ((("forms-" . $this->getAttribute(($context["form"] ?? null), "name", [])) . "-") . $this->getAttribute(($context["field"] ?? null), "name", []));
-                // line 18
-                echo "    ";
-                $context["value"] = (($context["value"]) ?? ((( !(null === $this->env->getExtension('Grav\Common\Twig\TwigExtension')->getCookie(($context["cookie_name"] ?? null)))) ? ($this->env->getExtension('Grav\Common\Twig\TwigExtension')->getCookie(($context["cookie_name"] ?? null))) : ($this->getAttribute(($context["field"] ?? null), "default", [])))));
-                // line 19
-                echo "
-    ";
                 // line 20
+                $context["cookie_name"] = ((("forms-" . $this->getAttribute(($context["form"] ?? null), "name", [])) . "-") . $this->getAttribute(($context["field"] ?? null), "name", []));
+                // line 21
+                $context["value"] = (($context["value"]) ?? ((( !(null === $this->env->getExtension('Grav\Common\Twig\TwigExtension')->getCookie(($context["cookie_name"] ?? null)))) ? ($this->env->getExtension('Grav\Common\Twig\TwigExtension')->getCookie(($context["cookie_name"] ?? null))) : ($this->getAttribute(($context["field"] ?? null), "default", [])))));
+                // line 23
                 if ((($this->getAttribute(($context["field"] ?? null), "yaml", []) || ($this->getAttribute($this->getAttribute(($context["field"] ?? null), "validate", []), "type", []) == "yaml")) && twig_test_iterable(($context["value"] ?? null)))) {
-                    // line 21
-                    echo "        ";
+                    // line 24
                     $context["value"] = call_user_func_array($this->env->getFilter('toYaml')->getCallable(), [($context["value"] ?? null)]);
-                    // line 22
-                    echo "    ";
                 }
             } else {
-                // line 24
-                echo "    ";
+                // line 27
                 $context["toggleable"] = false;
             }
-            // line 26
-            echo "
-";
-            // line 28
-            $context["isDisabledToggleable"] = (($context["toggleable"] ?? null) &&  !($context["toggleableChecked"] ?? null));
-            // line 29
-            echo "
-";
-            // line 30
-            $context["errors"] = $this->getAttribute($this->getAttribute(($context["form"] ?? null), "messages", []), $this->getAttribute(($context["field"] ?? null), "name", []));
             // line 31
-            $context["required"] = (($context["client_side_validation"] ?? null) && twig_in_filter($this->getAttribute($this->getAttribute(($context["field"] ?? null), "validate", []), "required", []), [0 => "on", 1 => "true", 2 => 1]));
-            // line 32
-            $context["autofocus"] = ((($context["inline_errors"] ?? null) == false) && twig_in_filter($this->getAttribute(($context["field"] ?? null), "autofocus", []), [0 => "on", 1 => "true", 2 => 1]));
+            $context["isDisabledToggleable"] = (($context["toggleable"] ?? null) &&  !($context["toggleableChecked"] ?? null));
             // line 33
-            echo "
-";
-            // line 34
-            if ((($context["inline_errors"] ?? null) && ($context["errors"] ?? null))) {
+            if (($context["toggleable"] ?? null)) {
+                // line 34
+                ob_start(function () { return ''; });
                 // line 35
                 echo "    ";
+                $this->loadTemplate("forms/default/toggleable.html.twig", "forms/default/field.html.twig", 35)->display(twig_array_merge($context, ["checked" => ($context["toggleableChecked"] ?? null)]));
+                // line 36
+                echo "  ";
+                $context["form_field_toggleable"] = ('' === $tmp = ob_get_clean()) ? '' : new Markup($tmp, $this->env->getCharset());
+            }
+            // line 39
+            $context["errors"] = $this->getAttribute($this->getAttribute(($context["form"] ?? null), "messages", []), $this->getAttribute(($context["field"] ?? null), "name", []));
+            // line 40
+            $context["required"] = (($context["client_side_validation"] ?? null) && twig_in_filter($this->getAttribute($this->getAttribute(($context["field"] ?? null), "validate", []), "required", []), [0 => "on", 1 => "true", 2 => 1]));
+            // line 41
+            $context["autofocus"] = ((($context["inline_errors"] ?? null) == false) && twig_in_filter($this->getAttribute(($context["field"] ?? null), "autofocus", []), [0 => "on", 1 => "true", 2 => 1]));
+            // line 43
+            if ((($context["inline_errors"] ?? null) && ($context["errors"] ?? null))) {
+                // line 44
                 $context["autofocus"] = true;
             }
-            // line 37
-            echo "
-";
-            // line 38
-            $this->displayBlock('field', $context, $blocks);
-            // line 138
-            echo "
-";
+            // line 47
+            ob_start(function () { return ''; });
+            // line 48
+            echo "  ";
+            $this->displayBlock('outer_field_classes', $context, $blocks);
+            $context["embed_outer_field_classes"] = ('' === $tmp = ob_get_clean()) ? '' : new Markup($tmp, $this->env->getCharset());
+            // line 52
+            if (($context["errors"] ?? null)) {
+                $context["form_field_outer_core"] = (($context["form_field_outer_core"] ?? null) . " has-errors");
+            }
+            // line 53
+            if (($context["toggleable"] ?? null)) {
+                $context["form_field_outer_core"] = (($context["form_field_outer_core"] ?? null) . " form-field-toggleable");
+            }
+            // line 55
+            $context["layout_form_field_outer_classes"] = $this->getAttribute(($context["field"] ?? null), "outerclasses", []);
+            // line 56
+            $context["layout_form_field_outer_classes"] = ((twig_trim_filter(($context["layout_form_field_outer_classes"] ?? null)) . " ") . ($context["form_field_outer_classes"] ?? null));
+            // line 57
+            $context["layout_form_field_outer_classes"] = ((twig_trim_filter(($context["layout_form_field_outer_classes"] ?? null)) . " ") . ($context["embed_outer_field_classes"] ?? null));
+            // line 60
+            $context["show_label"] = ( !($this->getAttribute(($context["field"] ?? null), "label", []) === false) &&  !($this->getAttribute(($context["field"] ?? null), "display_label", []) === false));
+            // line 63
+            $context["layout_form_field_outer_label_classes"] = twig_trim_filter(((((($context["form_field_outer_label_classes"] ?? null)) ? (($context["form_field_outer_label_classes"] ?? null)) : ("form-label")) . " ") . $this->getAttribute(($context["field"] ?? null), "labelclasses", [])));
+            // line 64
+            $context["layout_form_field_label_classes"] = twig_trim_filter(((($context["form_field_label_classes"] ?? null)) ? (($context["form_field_label_classes"] ?? null)) : ("inline")));
+            // line 65
+            $context["form_field_label_trim"] = ((($context["toggleable"] ?? null)) ? ("toggleable") : (""));
+            // line 68
+            $context["layout_form_field_outer_data_classes"] = twig_trim_filter(((((($context["form_field_outer_data_classes"] ?? null)) ? (($context["form_field_outer_data_classes"] ?? null)) : (" form-data")) . " ") . $this->getAttribute(($context["field"] ?? null), "dataclasses", [])));
+            // line 71
+            $context["layout_form_field_wrapper_classes"] = twig_trim_filter(((((($context["form_field_wrapper_classes"] ?? null)) ? (($context["form_field_wrapper_classes"] ?? null)) : (" form-input-wrapper")) . " ") . $this->getAttribute(($context["field"] ?? null), "wrapper_classes", [])));
+            // line 74
+            if ($this->env->getExtension('Grav\Common\Twig\TwigExtension')->ofTypeFunc(($context["field"] ?? null), "array")) {
+                // line 75
+                if ($this->getAttribute(($context["field"] ?? null), "classes", [])) {
+                    // line 76
+                    $context["field"] = twig_array_merge(($context["field"] ?? null), ["classes" => (($this->getAttribute(($context["field"] ?? null), "classes", []) . " ") . twig_trim_filter(                    $this->renderBlock("field_input_classes", $context, $blocks)))]);
+                } else {
+                    // line 78
+                    $context["field"] = twig_array_merge(($context["field"] ?? null), ["classes" =>                     $this->renderBlock("field_input_classes", $context, $blocks)]);
+                }
+            }
+            // line 81
+            $context["layout_form_field_input_classes"] = twig_trim_filter(((($context["form_field_input_classes"] ?? null) . " ") . $this->getAttribute(($context["field"] ?? null), "classes", [])));
+            // line 84
+            $context["form_field_inline_error_classes"] = ((($context["form_field_inline_error_classes"] ?? null)) ? (($context["form_field_inline_error_classes"] ?? null)) : (" form-errors"));
+            // line 87
+            $context["form_field_extra_wrapper_classes"] = ("form-extra-wrapper " . $this->getAttribute(($context["field"] ?? null), "wrapper_classes", []));
+            // line 90
+            $context["form_field_for"] = ((($context["toggleable"] ?? null)) ? (("toggleable_" . $this->getAttribute(($context["field"] ?? null), "name", []))) : (twig_escape_filter($this->env, $this->getAttribute(($context["field"] ?? null), "id", []))));
+            // line 93
+            $context["form_field_label"] = (($this->getAttribute(($context["field"] ?? null), "markdown", [])) ? ($this->env->getExtension('Grav\Common\Twig\TwigExtension')->markdownFunction($context, $this->getAttribute(($context["field"] ?? null), "label", []), false)) : ($this->getAttribute(($context["field"] ?? null), "label", [])));
+            // line 94
+            $context["form_field_label"] = twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\TwigExtension')->translate($this->env, (((isset($context["form_field_label"]) || array_key_exists("form_field_label", $context))) ? (_twig_default_filter(($context["form_field_label"] ?? null), twig_capitalize_string_filter($this->env, $this->getAttribute(($context["field"] ?? null), "name", [])))) : (twig_capitalize_string_filter($this->env, $this->getAttribute(($context["field"] ?? null), "name", []))))));
+            // line 97
+            if ($this->getAttribute(($context["field"] ?? null), "help", [])) {
+                // line 98
+                $context["form_field_help"] = (($this->getAttribute(($context["field"] ?? null), "markdown", [])) ? (twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\TwigExtension')->markdownFunction($context, $this->env->getExtension('Grav\Common\Twig\TwigExtension')->translate($this->env, $this->getAttribute(($context["field"] ?? null), "help", [])), false))) : (twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\TwigExtension')->translate($this->env, $this->getAttribute(($context["field"] ?? null), "help", [])))));
+            }
+            // line 102
+            $context["form_field_required"] = ((twig_in_filter($this->getAttribute($this->getAttribute(($context["field"] ?? null), "validate", []), "required", []), [0 => "on", 1 => "true", 2 => 1])) ? (true) : (false));
+            // line 105
+            $context["form_field_description"] = (($this->getAttribute(($context["field"] ?? null), "markdown", [])) ? ($this->env->getExtension('Grav\Common\Twig\TwigExtension')->markdownFunction($context, $this->env->getExtension('Grav\Common\Twig\TwigExtension')->translate($this->env, $this->getAttribute(($context["field"] ?? null), "description", [])), false)) : ($this->env->getExtension('Grav\Common\Twig\TwigExtension')->translate($this->env, $this->getAttribute(($context["field"] ?? null), "description", []))));
         }
+        // line 107
+        $this->parent = $this->loadTemplate("forms/layouts/field.html.twig", "forms/default/field.html.twig", 107);
+        $this->parent->display($context, array_merge($this->blocks, $blocks));
     }
 
-    // line 38
-    public function block_field($context, array $blocks = [])
+    // line 4
+    public function block_field_override_variables_before($context, array $blocks = [])
     {
-        // line 39
-        echo "    <div class=\"form-field ";
-        echo ($context["form_field_outer_classes"] ?? null);
-        echo " ";
-        echo $this->getAttribute(($context["field"] ?? null), "outerclasses", []);
-        echo " ";
-        if (($context["errors"] ?? null)) {
-            echo " has-errors";
-        }
-        echo " ";
-        $this->displayBlock('outer_field_classes', $context, $blocks);
-        echo " ";
-        if (($context["toggleable"] ?? null)) {
-            echo " form-field-toggleable";
-        }
-        echo "\">
-        ";
-        // line 40
-        $this->displayBlock('contents', $context, $blocks);
-        // line 136
-        echo "    </div>
-";
     }
 
-    // line 39
+    // line 48
     public function block_outer_field_classes($context, array $blocks = [])
     {
     }
 
-    // line 40
-    public function block_contents($context, array $blocks = [])
-    {
-        // line 41
-        echo "            ";
-        if (( !($this->getAttribute(($context["field"] ?? null), "label", []) === false) &&  !($this->getAttribute(($context["field"] ?? null), "display_label", []) === false))) {
-            // line 42
-            echo "                <div class=\"";
-            echo ((($context["form_field_outer_label_classes"] ?? null)) ? (($context["form_field_outer_label_classes"] ?? null)) : ("form-label"));
-            echo " ";
-            echo $this->getAttribute(($context["field"] ?? null), "labelclasses", []);
-            echo "\">
-                    ";
-            // line 43
-            if (($context["toggleable"] ?? null)) {
-                // line 44
-                echo "                        ";
-                $this->loadTemplate("forms/default/toggleable.html.twig", "forms/default/field.html.twig", 44)->display(twig_array_merge($context, ["field_name" => ($context["field_name"] ?? null), "field" => ($context["field"] ?? null), "checked" => ($context["toggleableChecked"] ?? null)]));
-                // line 45
-                echo "                    ";
-            }
-            // line 46
-            echo "                    <label class=\"";
-            echo ((($context["form_field_label_classes"] ?? null)) ? (($context["form_field_label_classes"] ?? null)) : ("inline"));
-            echo " ";
-            echo ((($context["toggleable"] ?? null)) ? ("toggleable") : (""));
-            echo "\" ";
-            if ($this->getAttribute(($context["field"] ?? null), "id", [], "any", true, true)) {
-                echo "for=\"";
-                echo ((($context["toggleable"] ?? null)) ? (("toggleable_" . $this->getAttribute(($context["field"] ?? null), "name", []))) : (twig_escape_filter($this->env, $this->getAttribute(($context["field"] ?? null), "id", []))));
-                echo "\" ";
-            }
-            echo " >
-                    ";
-            // line 47
-            $this->displayBlock('label', $context, $blocks);
-            // line 64
-            echo "                    </label>
-                </div>
-            ";
-        }
-        // line 67
-        echo "            <div class=\"";
-        echo ((($context["form_field_outer_data_classes"] ?? null)) ? (($context["form_field_outer_data_classes"] ?? null)) : ("form-data"));
-        echo " ";
-        echo $this->getAttribute(($context["field"] ?? null), "dataclasses", []);
-        echo "\"
-                ";
-        // line 68
-        $this->displayBlock('global_attributes', $context, $blocks);
-        // line 73
-        echo "            >
-                ";
-        // line 74
-        $this->displayBlock('group', $context, $blocks);
-        // line 122
-        echo "                ";
-        if ($this->getAttribute(($context["field"] ?? null), "description", [])) {
-            // line 123
-            echo "                    <div class=\"form-extra-wrapper ";
-            echo $this->getAttribute(($context["field"] ?? null), "wrapper_classes", []);
-            echo "\">
-                        <span class=\"form-description\">
-                            ";
-            // line 125
-            if ($this->getAttribute(($context["field"] ?? null), "markdown", [])) {
-                // line 126
-                echo "                                ";
-                echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->markdownFunction($context, $this->env->getExtension('Grav\Common\Twig\TwigExtension')->translate($this->env, $this->getAttribute(($context["field"] ?? null), "description", [])), false);
-                echo "
-                            ";
-            } else {
-                // line 128
-                echo "                                ";
-                echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->translate($this->env, $this->getAttribute(($context["field"] ?? null), "description", []));
-                echo "
-                            ";
-            }
-            // line 130
-            echo "                        </span>
-                    </div>
-                ";
-        }
-        // line 133
-        echo "
-            </div>
-        ";
-    }
-
-    // line 47
-    public function block_label($context, array $blocks = [])
-    {
-        // line 48
-        echo "                        ";
-        if ($this->getAttribute(($context["field"] ?? null), "help", [])) {
-            // line 49
-            echo "                            ";
-            if ($this->getAttribute(($context["field"] ?? null), "markdown", [])) {
-                // line 50
-                echo "                                <span class=\"tooltip\" data-asTooltip-position=\"w\" title=\"";
-                echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\TwigExtension')->markdownFunction($context, $this->env->getExtension('Grav\Common\Twig\TwigExtension')->translate($this->env, $this->getAttribute(($context["field"] ?? null), "help", [])), false));
-                echo "\">";
-                echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->translate($this->env, _twig_default_filter($this->env->getExtension('Grav\Common\Twig\TwigExtension')->markdownFunction($context, $this->getAttribute(($context["field"] ?? null), "label", []), false), twig_capitalize_string_filter($this->env, $this->getAttribute(($context["field"] ?? null), "name", []))));
-                echo "</span>
-                            ";
-            } else {
-                // line 52
-                echo "                                <span class=\"tooltip\" data-asTooltip-position=\"w\" title=\"";
-                echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\TwigExtension')->translate($this->env, $this->getAttribute(($context["field"] ?? null), "help", [])));
-                echo "\">";
-                echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->translate($this->env, (($this->getAttribute(($context["field"] ?? null), "label", [], "any", true, true)) ? (_twig_default_filter($this->getAttribute(($context["field"] ?? null), "label", []), twig_capitalize_string_filter($this->env, $this->getAttribute(($context["field"] ?? null), "name", [])))) : (twig_capitalize_string_filter($this->env, $this->getAttribute(($context["field"] ?? null), "name", [])))));
-                echo "</span>
-                            ";
-            }
-            // line 54
-            echo "                        ";
-        } else {
-            // line 55
-            echo "                            ";
-            if ($this->getAttribute(($context["field"] ?? null), "markdown", [])) {
-                // line 56
-                echo "                                ";
-                echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->translate($this->env, _twig_default_filter($this->env->getExtension('Grav\Common\Twig\TwigExtension')->markdownFunction($context, $this->getAttribute(($context["field"] ?? null), "label", []), false), twig_capitalize_string_filter($this->env, $this->getAttribute(($context["field"] ?? null), "name", []))));
-                echo "
-                            ";
-            } else {
-                // line 58
-                echo "                                ";
-                echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\TwigExtension')->translate($this->env, (($this->getAttribute(($context["field"] ?? null), "label", [], "any", true, true)) ? (_twig_default_filter($this->getAttribute(($context["field"] ?? null), "label", []), twig_capitalize_string_filter($this->env, $this->getAttribute(($context["field"] ?? null), "name", [])))) : (twig_capitalize_string_filter($this->env, $this->getAttribute(($context["field"] ?? null), "name", []))))), "html_attr");
-                echo "
-                            ";
-            }
-            // line 60
-            echo "                        ";
-        }
-        // line 61
-        echo "
-                        ";
-        // line 62
-        echo ((twig_in_filter($this->getAttribute($this->getAttribute(($context["field"] ?? null), "validate", []), "required", []), [0 => "on", 1 => "true", 2 => 1])) ? ("<span class=\"required\">*</span>") : (""));
-        echo "
-                    ";
-    }
-
-    // line 68
+    // line 109
     public function block_global_attributes($context, array $blocks = [])
     {
-        // line 69
-        echo "                data-grav-field=\"";
+        // line 110
+        echo "  data-grav-field=\"";
         echo $this->getAttribute(($context["field"] ?? null), "type", []);
         echo "\"
-                data-grav-disabled=\"";
-        // line 70
+  data-grav-disabled=\"";
+        // line 111
         echo (($context["toggleable"] ?? null) && ($context["toggleableChecked"] ?? null));
         echo "\"
-                data-grav-default=\"";
-        // line 71
+  data-grav-default=\"";
+        // line 112
         echo twig_escape_filter($this->env, twig_jsonencode_filter($this->getAttribute(($context["field"] ?? null), "default", [])), "html_attr");
         echo "\"
-                ";
+";
     }
 
-    // line 74
-    public function block_group($context, array $blocks = [])
-    {
-        // line 75
-        echo "                    ";
-        $this->displayBlock('input', $context, $blocks);
-        // line 121
-        echo "                ";
-    }
-
-    // line 75
-    public function block_input($context, array $blocks = [])
-    {
-        // line 76
-        echo "                        <div class=\"";
-        echo ((($context["form_field_wrapper_classes"] ?? null)) ? (($context["form_field_wrapper_classes"] ?? null)) : ("form-input-wrapper"));
-        echo " ";
-        echo $this->getAttribute(($context["field"] ?? null), "size", []);
-        echo " ";
-        echo $this->getAttribute(($context["field"] ?? null), "wrapper_classes", []);
-        echo "\">
-                            ";
-        // line 77
-        $this->displayBlock('prepend', $context, $blocks);
-        // line 78
-        echo "                            <input
-                                ";
-        // line 80
-        echo "                                name=\"";
-        echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->fieldNameFilter((($context["scope"] ?? null) . $this->getAttribute(($context["field"] ?? null), "name", [])));
-        echo "\"
-                                value=\"";
-        // line 81
-        echo twig_escape_filter($this->env, twig_join_filter(($context["value"] ?? null), ", "), "html_attr");
-        echo "\"
-                                ";
-        // line 83
-        echo "                                ";
-        $this->displayBlock('input_attributes', $context, $blocks);
-        // line 112
-        echo "                            />
-                            ";
-        // line 113
-        $this->displayBlock('append', $context, $blocks);
-        // line 114
-        echo "                            ";
-        if ((($context["inline_errors"] ?? null) && ($context["errors"] ?? null))) {
-            // line 115
-            echo "                                <div class=\"";
-            echo ((($context["form_errors_classes"] ?? null)) ? (($context["form_errors_classes"] ?? null)) : ("form-errors"));
-            echo "\">
-                                  <p class=\"form-message\"><i class=\"fa fa-exclamation-circle\"></i> ";
-            // line 116
-            echo twig_first($this->env, ($context["errors"] ?? null));
-            echo "</p>
-                                </div>
-                            ";
-        }
-        // line 119
-        echo "                        </div>
-                    ";
-    }
-
-    // line 77
-    public function block_prepend($context, array $blocks = [])
-    {
-    }
-
-    // line 83
+    // line 115
     public function block_input_attributes($context, array $blocks = [])
     {
-        // line 84
-        echo "                                    class=\"";
-        echo ($context["form_field_input_classes"] ?? null);
-        echo " ";
-        echo $this->getAttribute(($context["field"] ?? null), "classes", []);
+        // line 116
+        echo "  class=\"";
+        echo twig_trim_filter(($context["layout_form_field_input_classes"] ?? null));
         echo " ";
         echo $this->getAttribute(($context["field"] ?? null), "size", []);
         echo "\"
-                                    ";
-        // line 85
+  ";
+        // line 117
         if ($this->getAttribute(($context["field"] ?? null), "id", [], "any", true, true)) {
             echo "id=\"";
             echo twig_escape_filter($this->env, $this->getAttribute(($context["field"] ?? null), "id", []));
             echo "\" ";
         }
-        // line 86
-        echo "                                    ";
+        // line 118
+        echo "  ";
         if ($this->getAttribute(($context["field"] ?? null), "style", [], "any", true, true)) {
             echo "style=\"";
             echo twig_escape_filter($this->env, $this->getAttribute(($context["field"] ?? null), "style", []));
             echo "\" ";
         }
-        // line 87
-        echo "                                    ";
+        // line 119
+        echo "  ";
         if (($this->getAttribute(($context["field"] ?? null), "disabled", []) || ($context["isDisabledToggleable"] ?? null))) {
             echo "disabled=\"disabled\"";
         }
-        // line 88
-        echo "                                    ";
+        // line 120
+        echo "  ";
         if ($this->getAttribute(($context["field"] ?? null), "placeholder", [])) {
             echo "placeholder=\"";
             echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\TwigExtension')->translate($this->env, $this->getAttribute(($context["field"] ?? null), "placeholder", [])), "html_attr");
             echo "\"";
         }
-        // line 89
-        echo "                                    ";
+        // line 121
+        echo "  ";
         if (($context["autofocus"] ?? null)) {
             echo "autofocus=\"autofocus\"";
         }
-        // line 90
-        echo "                                    ";
+        // line 122
+        echo "  ";
         if (twig_in_filter($this->getAttribute(($context["field"] ?? null), "novalidate", []), [0 => "on", 1 => "true", 2 => 1])) {
             echo "novalidate=\"novalidate\"";
         }
-        // line 91
-        echo "                                    ";
+        // line 123
+        echo "  ";
         if (twig_in_filter($this->getAttribute(($context["field"] ?? null), "readonly", []), [0 => "on", 1 => "true", 2 => 1])) {
             echo "readonly=\"readonly\"";
         }
-        // line 92
-        echo "                                    ";
+        // line 124
+        echo "  ";
         if ($this->getAttribute(($context["field"] ?? null), "autocomplete", [], "any", true, true)) {
             echo "autocomplete=\"";
             echo $this->getAttribute(($context["field"] ?? null), "autocomplete", []);
             echo "\"";
         }
-        // line 93
-        echo "                                    ";
+        // line 125
+        echo "  ";
         if (twig_in_filter($this->getAttribute(($context["field"] ?? null), "autocapitalize", []), [0 => "off", 1 => "characters", 2 => "words", 3 => "sentences"])) {
             echo "autocapitalize=\"";
             echo $this->getAttribute(($context["field"] ?? null), "autocapitalize", []);
             echo "\"";
         }
-        // line 94
-        echo "                                    ";
+        // line 126
+        echo "  ";
         if (twig_in_filter($this->getAttribute(($context["field"] ?? null), "inputmode", []), [0 => "none", 1 => "text", 2 => "decimal", 3 => "numeric", 4 => "tel", 5 => "search", 6 => "email", 7 => "url"])) {
             echo "inputmode=\"";
             echo $this->getAttribute(($context["field"] ?? null), "inputmode", []);
             echo "\"";
         }
-        // line 95
-        echo "                                    ";
+        // line 127
+        echo "  ";
+        if ($this->getAttribute(($context["field"] ?? null), "tabindex", [])) {
+            echo "tabindex=\"";
+            echo $this->getAttribute(($context["field"] ?? null), "tabindex", []);
+            echo "\" %}";
+        }
+        // line 128
+        echo "  ";
         if (twig_in_filter($this->getAttribute(($context["field"] ?? null), "spellcheck", []), [0 => "true", 1 => "false"])) {
             echo "spellcheck=\"";
             echo $this->getAttribute(($context["field"] ?? null), "spellcheck", []);
             echo "\"";
         }
-        // line 96
-        echo "
-                                    ";
-        // line 97
-        if ($this->getAttribute(($context["field"] ?? null), "attributes", [], "any", true, true)) {
-            // line 98
-            echo "                                      ";
-            $context['_parent'] = $context;
-            $context['_seq'] = twig_ensure_traversable($this->getAttribute(($context["field"] ?? null), "attributes", []));
-            foreach ($context['_seq'] as $context["_key"] => $context["attribute"]) {
-                // line 99
-                echo "                                          ";
-                echo $this->getAttribute($context["attribute"], "name", []);
-                echo "=\"";
-                echo twig_escape_filter($this->env, $this->getAttribute($context["attribute"], "value", []));
-                echo "\"
-                                      ";
-            }
-            $_parent = $context['_parent'];
-            unset($context['_seq'], $context['_iterated'], $context['_key'], $context['attribute'], $context['_parent'], $context['loop']);
-            $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 101
-            echo "                                    ";
-        }
-        // line 102
-        echo "                                    ";
+        // line 129
+        echo "  ";
         if (($context["required"] ?? null)) {
             echo "required=\"required\"";
         }
-        // line 103
-        echo "                                    ";
+        // line 130
+        echo "  ";
         if ($this->getAttribute($this->getAttribute(($context["field"] ?? null), "validate", []), "pattern", [])) {
             echo "pattern=\"";
             echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute(($context["field"] ?? null), "validate", []), "pattern", []));
             echo "\"";
         }
-        // line 104
-        echo "                                    ";
+        // line 131
+        echo "  ";
         if ($this->getAttribute($this->getAttribute(($context["field"] ?? null), "validate", []), "message", [])) {
             echo "title=\"";
             echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\TwigExtension')->translate($this->env, $this->getAttribute($this->getAttribute(($context["field"] ?? null), "validate", []), "message", [])));
             echo "\"
-                                    ";
-        } elseif ($this->getAttribute(        // line 105
+  ";
+        } elseif ($this->getAttribute(        // line 132
 ($context["field"] ?? null), "title", [], "any", true, true)) {
             echo "title=\"";
             echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\TwigExtension')->translate($this->env, $this->getAttribute(($context["field"] ?? null), "title", [])));
             echo "\" ";
         }
-        // line 106
-        echo "                                    ";
-        if ($this->getAttribute(($context["field"] ?? null), "datasets", [])) {
-            // line 107
-            echo "                                        ";
+        // line 133
+        echo "
+  ";
+        // line 135
+        echo "  ";
+        if ($this->getAttribute(($context["field"] ?? null), "attributes", [], "any", true, true)) {
+            // line 136
+            echo "    ";
             $context['_parent'] = $context;
-            $context['_seq'] = twig_ensure_traversable($this->getAttribute(($context["field"] ?? null), "datasets", []));
-            foreach ($context['_seq'] as $context["datakey"] => $context["datavalue"]) {
-                // line 108
-                echo "                                            data-";
-                echo $context["datakey"];
-                echo "=\"";
-                echo twig_escape_filter($this->env, $context["datavalue"], "html_attr");
-                echo "\"
-                                        ";
+            $context['_seq'] = twig_ensure_traversable($this->getAttribute(($context["field"] ?? null), "attributes", []));
+            foreach ($context['_seq'] as $context["key"] => $context["attribute"]) {
+                // line 137
+                echo "      ";
+                if ($this->env->getExtension('Grav\Common\Twig\TwigExtension')->ofTypeFunc($context["attribute"], "array")) {
+                    // line 138
+                    echo "        ";
+                    echo $this->getAttribute($context["attribute"], "name", []);
+                    echo "=\"";
+                    echo twig_escape_filter($this->env, $this->getAttribute($context["attribute"], "value", []), "html_attr");
+                    echo "\"
+      ";
+                } else {
+                    // line 140
+                    echo "        ";
+                    echo $context["key"];
+                    echo "=\"";
+                    echo twig_escape_filter($this->env, $context["attribute"], "html_attr");
+                    echo "\"
+      ";
+                }
+                // line 142
+                echo "    ";
             }
             $_parent = $context['_parent'];
-            unset($context['_seq'], $context['_iterated'], $context['datakey'], $context['datavalue'], $context['_parent'], $context['loop']);
+            unset($context['_seq'], $context['_iterated'], $context['key'], $context['attribute'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 110
-            echo "                                    ";
+            // line 143
+            echo "  ";
         }
-        // line 111
-        echo "                                ";
-    }
-
-    // line 113
-    public function block_append($context, array $blocks = [])
-    {
+        // line 144
+        echo "
+  ";
+        // line 146
+        echo "  ";
+        if ($this->getAttribute(($context["field"] ?? null), "datasets", [])) {
+            // line 147
+            echo "    ";
+            $context['_parent'] = $context;
+            $context['_seq'] = twig_ensure_traversable($this->getAttribute(($context["field"] ?? null), "datasets", []));
+            foreach ($context['_seq'] as $context["key"] => $context["attribute"]) {
+                // line 148
+                echo "      data-";
+                echo $context["key"];
+                echo "=\"";
+                echo twig_escape_filter($this->env, $context["attribute"], "html_attr");
+                echo "\"
+    ";
+            }
+            $_parent = $context['_parent'];
+            unset($context['_seq'], $context['_iterated'], $context['key'], $context['attribute'], $context['_parent'], $context['loop']);
+            $context = array_intersect_key($context, $_parent) + $_parent;
+            // line 150
+            echo "  ";
+        }
     }
 
     public function getTemplateName()
@@ -569,7 +394,7 @@ class __TwigTemplate_e86be21cb5d5b055eedc42d34f7167a63b3003f9b52d22e9671f1e82e59
 
     public function getDebugInfo()
     {
-        return array (  556 => 113,  552 => 111,  549 => 110,  538 => 108,  533 => 107,  530 => 106,  524 => 105,  517 => 104,  510 => 103,  505 => 102,  502 => 101,  491 => 99,  486 => 98,  484 => 97,  481 => 96,  474 => 95,  467 => 94,  460 => 93,  453 => 92,  448 => 91,  443 => 90,  438 => 89,  431 => 88,  426 => 87,  419 => 86,  413 => 85,  404 => 84,  401 => 83,  396 => 77,  391 => 119,  385 => 116,  380 => 115,  377 => 114,  375 => 113,  372 => 112,  369 => 83,  365 => 81,  360 => 80,  357 => 78,  355 => 77,  346 => 76,  343 => 75,  339 => 121,  336 => 75,  333 => 74,  327 => 71,  323 => 70,  318 => 69,  315 => 68,  309 => 62,  306 => 61,  303 => 60,  297 => 58,  291 => 56,  288 => 55,  285 => 54,  277 => 52,  269 => 50,  266 => 49,  263 => 48,  260 => 47,  254 => 133,  249 => 130,  243 => 128,  237 => 126,  235 => 125,  229 => 123,  226 => 122,  224 => 74,  221 => 73,  219 => 68,  212 => 67,  207 => 64,  205 => 47,  192 => 46,  189 => 45,  186 => 44,  184 => 43,  177 => 42,  174 => 41,  171 => 40,  166 => 39,  161 => 136,  159 => 40,  142 => 39,  139 => 38,  133 => 138,  131 => 38,  128 => 37,  124 => 35,  122 => 34,  119 => 33,  117 => 32,  115 => 31,  113 => 30,  110 => 29,  108 => 28,  105 => 26,  101 => 24,  97 => 22,  94 => 21,  92 => 20,  89 => 19,  86 => 18,  84 => 17,  81 => 16,  78 => 15,  75 => 14,  72 => 13,  69 => 12,  66 => 11,  63 => 10,  60 => 9,  57 => 8,  54 => 7,  52 => 6,  49 => 5,  47 => 4,  45 => 3,  42 => 2,  40 => 1,);
+        return array (  381 => 150,  370 => 148,  365 => 147,  362 => 146,  359 => 144,  356 => 143,  350 => 142,  342 => 140,  334 => 138,  331 => 137,  326 => 136,  323 => 135,  320 => 133,  314 => 132,  307 => 131,  300 => 130,  295 => 129,  288 => 128,  281 => 127,  274 => 126,  267 => 125,  260 => 124,  255 => 123,  250 => 122,  245 => 121,  238 => 120,  233 => 119,  226 => 118,  220 => 117,  213 => 116,  210 => 115,  204 => 112,  200 => 111,  195 => 110,  192 => 109,  187 => 48,  182 => 4,  177 => 107,  174 => 105,  172 => 102,  169 => 98,  167 => 97,  165 => 94,  163 => 93,  161 => 90,  159 => 87,  157 => 84,  155 => 81,  151 => 78,  148 => 76,  146 => 75,  144 => 74,  142 => 71,  140 => 68,  138 => 65,  136 => 64,  134 => 63,  132 => 60,  130 => 57,  128 => 56,  126 => 55,  122 => 53,  118 => 52,  114 => 48,  112 => 47,  109 => 44,  107 => 43,  105 => 41,  103 => 40,  101 => 39,  97 => 36,  94 => 35,  92 => 34,  90 => 33,  88 => 31,  85 => 27,  81 => 24,  79 => 23,  77 => 21,  75 => 20,  72 => 17,  70 => 16,  68 => 15,  66 => 14,  64 => 13,  62 => 12,  60 => 11,  58 => 10,  56 => 9,  54 => 7,  52 => 6,  50 => 1,  44 => 107,  23 => 3,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -582,6 +407,6 @@ class __TwigTemplate_e86be21cb5d5b055eedc42d34f7167a63b3003f9b52d22e9671f1e82e59
 
     public function getSourceContext()
     {
-        return new Source("", "forms/default/field.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/hola/user/plugins/form/templates/forms/default/field.html.twig");
+        return new Source("", "forms/default/field.html.twig", "/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/form/templates/forms/default/field.html.twig");
     }
 }

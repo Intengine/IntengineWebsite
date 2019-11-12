@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/form/languages.yaml',
-    'modified' => 1572867525,
+    'modified' => 1573566888,
     'data' => [
         'en' => [
             'PLUGIN_FORM' => [
