@@ -10,6 +10,13 @@ skills:
     -
         skillName: HTML5
         percentValue: 92%
+        icon:
+            0: sasasa
+            user/pages/01.home/02._about/home.png:
+                name: home.png
+                type: image/png
+                size: 10769
+                path: user/pages/01.home/02._about/home.png
     -
         skillName: CSS3
         percentValue: 85%

@@ -2,7 +2,7 @@ extends@: default
 
 form:
   fields:
-    
+
     tabs:
       type: tabs
       active: 1
@@ -22,7 +22,7 @@ form:
         holaSetings:
           type: tab
           title: Hola Settings
-     
+
           fields:
             sectionBackground:
               type: section
@@ -47,15 +47,9 @@ form:
             header.phoneTitle:
               type: text
               label: Section Title
-            header.phonePhone:
-              type: text
-              label: Number
             header.phoneMobile:
               type: text
               label: Mobile Number
-            header.phoneFax:
-              type: text
-              label: FAX Number
             header.emailTitle:
               type: text
               label: Email Title
@@ -65,13 +59,10 @@ form:
               validate:
                 type: text
 
-                
+
             header.addressTitle:
               type: text
               label: Address Section Title
             header.addressDetails:
               type: textarea
               label: Address Details
-            
-
-                

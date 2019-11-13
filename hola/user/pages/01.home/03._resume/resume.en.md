@@ -9,23 +9,23 @@ timeline:
         resumeTitle: 'Work Experience'
         timelineItems:
             -
-                position: 'UX/UI Designer'
+                position: 'UX/UI Designer, Graphic Designer'
                 date: 'April 2019 - Present'
                 icon_class: 'fa fa-drupal'
                 title: 'eFabryka, LOQO Systemy Informatyczne'
-                descripiton: 'Creating web design projects based on clients preferations. Movie editing, directing. UX/UI design of web applications. Building websites on Drupal 8 CMS and Grav with Gantry5 framework.'
+                descripiton: 'Creating web design projects based on clients preferations. Movie editing, directing. UX/UI design of web applications. DTP (banners, posters, business cards, etc.). Editing content of websites on Drupal 8 CMS.'
             -
                 position: 'Graphic Designer, 3D Generalist'
                 date: 'November 2017 - April 2019'
                 icon_class: 'fa fa-desktop'
                 title: 'HR BEMO, Sp. z o.o.'
-                descripiton: 'Creating identification. 3D modelling of plastic-made prototypes, using 3D Robo Printer. Web Design.'
+                descripiton: 'Creating visual identity of the company. Design and 3D modelling of plastic-made prototypes (MAYA), 3D printing using high-end 3D Robo Printer. Web design, helpdesk, programming. Made a simple PDF linker in Java for office purpose.'
             -
-                position: 'Intengine Studio'
-                date: 'May 2013 - June 2014'
-                icon_class: 'fa fa-briefcase'
-                title: 'Great Designs Studio'
-                descripiton: 'Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.'
+                position: 'Graphic Designer, Game Developer'
+                date: '2016 - Present'
+                icon_class: 'fa fa-paint-brush'
+                title: 'Intengine Studio - freelancer'
+                descripiton: '3D modelling (MAYA, 3DS MAX), 3D/2D animation, web design, UX/UI, game development (Unity, Unreal Engine 4, GODOT), movie editing, programming (C#, JAVA, Objective-C, Swift).'
     -
         resumeTitle: Education
         timelineItems:
@@ -33,8 +33,8 @@ timeline:
                 position: 'Bachelor Degree'
                 date: 'September 2015 - March 2019'
                 icon_class: 'fa fa-graduation-cap'
-                title: 'Academy of Science and Management'
-                descripiton: 'Title: informatyk'
+                title: 'Academy of Science and Management, Bielsko-Biała'
+                descripiton: 'Created advertise for the academy - a one minute movie with many CGI effects (Adobe After Effects + Apple Motion).'
 resumeTitle: 'Work Experience'
 ---
 

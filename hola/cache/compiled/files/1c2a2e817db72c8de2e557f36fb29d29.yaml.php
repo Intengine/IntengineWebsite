@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/hola/user/themes/hola/blueprints/modular/contact.yaml',
-    'modified' => 1573552285,
+    'modified' => 1573653829,
     'data' => [
         'extends@' => 'default',
         'form' => [
@@ -56,17 +56,9 @@ return [
                                     'type' => 'text',
                                     'label' => 'Section Title'
                                 ],
-                                'header.phonePhone' => [
-                                    'type' => 'text',
-                                    'label' => 'Number'
-                                ],
                                 'header.phoneMobile' => [
                                     'type' => 'text',
                                     'label' => 'Mobile Number'
-                                ],
-                                'header.phoneFax' => [
-                                    'type' => 'text',
-                                    'label' => 'FAX Number'
                                 ],
                                 'header.emailTitle' => [
                                     'type' => 'text',

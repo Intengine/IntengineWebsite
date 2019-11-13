@@ -8,13 +8,11 @@ visible: true
 background: contact-bg.jpg
 opacity: '0.75'
 phoneTitle: Phone
-phonePhone: 'Phone: (+48) 506 715 473'
-phoneMobile: 'Mobile: (+48) 506 715 473'
-phoneFax: 'Fax: (+63) 555 0101'
 emailTitle: Email
 emailAddress: sylwester.pilarz93@gmail.com
 addressTitle: Address
 addressDetails: "1600 Amphitheatre Parkway<br>\r\nMountain View, CA<br>\r\n94043 US"
+phonePhone: 'Mobile: (+48) 506 715 473'
 form:
     name: kontakt-ajax-form
     template: form-messages

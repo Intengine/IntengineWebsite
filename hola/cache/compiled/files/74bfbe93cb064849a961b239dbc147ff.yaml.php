@@ -2,15 +2,15 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/hola/user/data/feed/9292e04d7d7733bcbfbb7f4c1bcd1f6d.yaml',
-    'modified' => 1573569255,
+    'modified' => 1573651489,
     'data' => [
-        'last_checked' => 1573569255,
+        'last_checked' => 1573651489,
         'data' => [
             0 => [
                 'title' => 'Grav 1.7 RC.1 Released',
                 'url' => 'https://getgrav.org/blog/grav-17-rc1-released',
                 'date' => 1573060980,
-                'nicetime' => '6 dni temu'
+                'nicetime' => '7 dni temu'
             ],
             1 => [
                 'title' => 'macOS 10.15 Catalina Apache Setup: Upgrading Homebrew',
