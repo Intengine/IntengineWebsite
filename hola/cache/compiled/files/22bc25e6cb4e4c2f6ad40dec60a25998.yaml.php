@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/hola/user/config/themes/hola.yaml',
-    'modified' => 1573632659,
+    'modified' => 1573717093,
     'data' => [
         'enabled' => true,
         'custom_logo' => [

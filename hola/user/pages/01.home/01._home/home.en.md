@@ -1,6 +1,6 @@
 ---
 title: 'Hello world'
-media_order: hero-bg.jpg
+media_order: 'hero-bg.jpg'
 menu: home
 redirect: home
 visible: true

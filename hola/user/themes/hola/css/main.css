@@ -1804,7 +1804,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content h1 {
-    font-family: "librebaskerville-bold", serif;
+    font-family: "montserrat-bold", sans-serif;
     color: #FFFFFF;
     font-size: 6rem;
     line-height: 1.35;
