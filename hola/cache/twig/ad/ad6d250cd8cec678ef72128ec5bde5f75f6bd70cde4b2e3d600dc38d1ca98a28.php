@@ -84,6 +84,6 @@ class __TwigTemplate_11004c0445b26a093b6f7c1b41a4871b6b3eddb589397e24d111fcd021c
 
     public function getSourceContext()
     {
-        return new Source("", "partials/page-legend.html.twig", "/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/admin/themes/grav/templates/partials/page-legend.html.twig");
+        return new Source("", "partials/page-legend.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/hola/user/plugins/admin/themes/grav/templates/partials/page-legend.html.twig");
     }
 }

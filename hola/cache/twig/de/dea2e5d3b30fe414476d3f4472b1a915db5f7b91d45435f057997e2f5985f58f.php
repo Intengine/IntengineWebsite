@@ -71,6 +71,6 @@ class __TwigTemplate_d8ebefd16c0127f32eafcd968faa07475e58156fd05087d4fc69ee9cc25
 
     public function getSourceContext()
     {
-        return new Source("", "partials/dashboard-notifications.html.twig", "/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/admin/themes/grav/templates/partials/dashboard-notifications.html.twig");
+        return new Source("", "partials/dashboard-notifications.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/hola/user/plugins/admin/themes/grav/templates/partials/dashboard-notifications.html.twig");
     }
 }

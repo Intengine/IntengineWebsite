@@ -90,6 +90,6 @@ class __TwigTemplate_f3297654424f6cc4ce667dfef43ecc780429bcdfcb94ecf6bd7a4b2db19
 
     public function getSourceContext()
     {
-        return new Source("", "partials/metadata.html.twig", "/Users/mac/Desktop/IntengineWebsite/hola/system/templates/partials/metadata.html.twig");
+        return new Source("", "partials/metadata.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/hola/system/templates/partials/metadata.html.twig");
     }
 }

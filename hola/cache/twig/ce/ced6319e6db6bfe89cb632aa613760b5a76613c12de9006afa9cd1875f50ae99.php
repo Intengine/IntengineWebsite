@@ -129,6 +129,6 @@ class __TwigTemplate_d3ad1ef5d2196d0a5f6028073d4ac3e3fd72c5e0dab120be728246ad8af
 
     public function getSourceContext()
     {
-        return new Source("", "partials/footer.html.twig", "/Users/mac/Desktop/IntengineWebsite/hola/user/themes/hola/templates/partials/footer.html.twig");
+        return new Source("", "partials/footer.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/hola/user/themes/hola/templates/partials/footer.html.twig");
     }
 }

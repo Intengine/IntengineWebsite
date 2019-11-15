@@ -304,6 +304,6 @@ class __TwigTemplate_1377cf69b18a5dce8cbce4a472249b5e91167cbf2347f988e4f47f6d92d
 
     public function getSourceContext()
     {
-        return new Source("", "config.html.twig", "/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/admin/themes/grav/templates/config.html.twig");
+        return new Source("", "config.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/hola/user/plugins/admin/themes/grav/templates/config.html.twig");
     }
 }

@@ -60,6 +60,6 @@ class __TwigTemplate_0ee19d0f8a695730ac87b803599c1741ff959fa69cc4cba4bf7e60fad18
 
     public function getSourceContext()
     {
-        return new Source("", "partials/nav-user-avatar.html.twig", "/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/admin/themes/grav/templates/partials/nav-user-avatar.html.twig");
+        return new Source("", "partials/nav-user-avatar.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/hola/user/plugins/admin/themes/grav/templates/partials/nav-user-avatar.html.twig");
     }
 }

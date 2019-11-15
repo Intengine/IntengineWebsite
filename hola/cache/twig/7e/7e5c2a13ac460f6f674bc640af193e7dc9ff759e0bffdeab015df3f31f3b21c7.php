@@ -79,6 +79,6 @@ class __TwigTemplate_4dac8181d4ea33294b1d1a1acc02292ec9230da0507bb3ae758b4f0230c
 
     public function getSourceContext()
     {
-        return new Source("", "partials/modal-changes-detected.html.twig", "/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/admin/themes/grav/templates/partials/modal-changes-detected.html.twig");
+        return new Source("", "partials/modal-changes-detected.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/hola/user/plugins/admin/themes/grav/templates/partials/modal-changes-detected.html.twig");
     }
 }

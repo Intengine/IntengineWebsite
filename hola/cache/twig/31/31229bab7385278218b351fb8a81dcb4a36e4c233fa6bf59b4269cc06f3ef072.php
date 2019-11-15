@@ -211,6 +211,6 @@ class __TwigTemplate_77339bb7550455a9c82d1af300fc05b551b4688f837ac472385d9baad80
 
     public function getSourceContext()
     {
-        return new Source("", "forms/fields/range/range.html.twig", "/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/admin/themes/grav/templates/forms/fields/range/range.html.twig");
+        return new Source("", "forms/fields/range/range.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/hola/user/plugins/admin/themes/grav/templates/forms/fields/range/range.html.twig");
     }
 }
