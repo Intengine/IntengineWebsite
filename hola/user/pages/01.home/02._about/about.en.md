@@ -8,29 +8,26 @@ bioDescription: "Love console games. Have PSone, PS2, PS3 and PS4. Playing on em
 skillsTitle: 'I''ve got some skills:'
 skills:
     -
-        skillName: HTML5
-        percentValue: 92%
-    -
-        skillName: CSS3
-        percentValue: 85%
-    -
-        skillName: JavaScript
-        percentValue: 45%
-    -
-        skillName: Java
-        percentValue: 34%
-    -
-        skillName: 'C#'
-        percentValue: 54%
-    -
-        skillName: 'Adobe CC (PS, ID, AE, XD, IL)'
+        skillName: '2D Graphics - Photoshop, Illustrator, InDesign'
         percentValue: 95%
     -
-        skillName: 'Autodesk Maya'
+        skillName: '3D Modelling - Maya, 3DS Max, Zbrush'
         percentValue: 90%
     -
-        skillName: 'Apple Final Cut Pro X'
+        skillName: 'FMV - Final Cut Pro, After Effects, Motion'
         percentValue: 90%
+    -
+        skillName: 'Game Development - Unity, Unreal'
+        percentValue: 75%
+    -
+        skillName: 'Programming - C#, JAVA, Swift, Objective-C'
+        percentValue: 45%
+    -
+        skillName: 'UX/UI Design - Adobe XD'
+        percentValue: 90%
+    -
+        skillName: 'Web Design - HTML, CSS, PHP'
+        percentValue: 85%
 button1Text: 'Download My CV'
 button1Link: '#0'
 button2Text: 'Contact Me'

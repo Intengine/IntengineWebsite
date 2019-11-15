@@ -1,11 +1,11 @@
 ---
 title: 'Hello world'
-media_order: 'hero-bg.jpg'
+media_order: hero-bg.jpg
 menu: home
 redirect: home
 visible: true
 background: hero-bg.jpg
-bannerOpacity: '0.5'
+bannerOpacity: '0.1'
 button1Text: 'Latest Projects'
 button1Link: '#works'
 button2Text: 'More About Me'
