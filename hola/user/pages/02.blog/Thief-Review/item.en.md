@@ -1,20 +1,19 @@
 ---
-title: 'Photography Skills Can Improve Your Graphic Design.'
+title: 'Lepkie ręce - recenzja gry Thief (PS4)'
 media_order: 'outside-walk.jpg,blog-bg-02.jpg'
-lead: 'Duis ex ad cupidatat tempor Excepteur cillum cupidatat fugiat nostrud cupidatat dolor sunt sint sit nisi est eu exercitation incididunt adipisicing veniam velit id fugiat enim mollit amet anim veniam dolor dolor irure velit commodo cillum sit nulla ullamco magna amet magna cupidatat qui labore cillum sit in tempor veniam consequat non laborum adipisicing aliqua ea nisi sint.'
-date: '15-09-2017 16:32'
-publish_date: '15-09-2017 16:32'
+lead: 'Zażółć gęślą jaźń'
+published: true
+date: '15-11-2019 16:32'
+publish_date: '15-11-2019 16:32'
 taxonomy:
     category:
-        - branding
-        - design
+        - 'game review'
     tag:
-        - orci
-        - lectus
-        - varius
-        - turpis
+        - thief
+        - garrett
+        - square
     author:
-        - 'Jonathan Doe'
+        - 'Sylvester Pilarz'
 hero_classes: 'page-header page-header--single page-hero'
 hero_image: blog-bg-02.jpg
 continue_link: true
