@@ -6,27 +6,27 @@ visible: true
 services:
     -
         icon: 'fa fa-globe'
-        title: Webdesign
-        description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.'
+        title: 'Web Design'
+        description: 'Creating websites from design to full server deployment.'
     -
         icon: 'fa fa-code'
         title: Development
-        description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.'
+        description: 'Writing modern and flexible applications, both on desktop and mobile.'
     -
         icon: 'fa fa-paint-brush'
         title: Branding
-        description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.'
+        description: 'Brochures, catalogues, business cards, logotypes and more.'
     -
         icon: 'fa fa-sliders'
-        title: 'UI/UX Design'
-        description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.'
+        title: 'UX/UI Design'
+        description: 'Creating simple but fully usable interfaces.'
     -
         icon: 'fa fa-picture-o'
-        title: 'Graphics Design'
-        description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.'
+        title: 'Graphic Design'
+        description: 'Digital painting, illustrations, posters and more.'
     -
         icon: 'fa fa-comments-o'
         title: Consultancy
-        description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.'
+        description: 'Need a hand with your project? I can help in many ways.'
 ---
 

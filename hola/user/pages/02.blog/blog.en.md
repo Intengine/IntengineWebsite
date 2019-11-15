@@ -1,8 +1,9 @@
 ---
 title: Blog
+visible: false
 admin:
     children_display_order: collection
-blog_url: blog
+hero_classes: 'page-header page-header--single page-hero'
 content:
     items:
         - '@self.children'
@@ -12,6 +13,7 @@ content:
         dir: desc
     pagination: true
     url_taxonomy_filters: true
+blog_url: blog
 sitemap:
     changefreq: monthly
     priority: 1.03
@@ -19,7 +21,5 @@ feed:
     description: 'Blog news'
     limit: 0
 pagination: true
-visible: false
-
 ---
 

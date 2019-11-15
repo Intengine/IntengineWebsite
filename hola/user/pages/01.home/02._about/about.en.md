@@ -8,19 +8,19 @@ bioDescription: "Love console games. Have PSone, PS2, PS3 and PS4. Playing on em
 skillsTitle: 'I''ve got some skills:'
 skills:
     -
-        skillName: '2D Graphics - Photoshop, Illustrator, InDesign'
+        skillName: '2D - Photoshop, Illustrator, InDesign'
         percentValue: 95%
     -
         skillName: '3D Modelling - Maya, 3DS Max, Zbrush'
         percentValue: 90%
     -
-        skillName: 'FMV - Final Cut Pro, After Effects, Motion'
+        skillName: 'FMV - Final Cut Pro, After Effects'
         percentValue: 90%
     -
         skillName: 'Game Development - Unity, Unreal'
         percentValue: 75%
     -
-        skillName: 'Programming - C#, JAVA, Swift, Objective-C'
+        skillName: 'Programming - C#, Swift, Objective-C'
         percentValue: 45%
     -
         skillName: 'UX/UI Design - Adobe XD'

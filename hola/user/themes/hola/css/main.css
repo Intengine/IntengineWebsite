@@ -1121,7 +1121,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     position: absolute;
     left: 0;
     top: -3rem;
-    font-family: "montserrat-extrabold", sans-serif;
+    font-family: "montserrat", sans-serif;
     color: #0D0A0B;
     text-transform: uppercase;
     letter-spacing: .2rem;
