@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/admin/blueprints/admin/pages/new_folder.yaml',
-    'modified' => 1573717093,
+    'modified' => 1573822305,
     'data' => [
         'rules' => [
             'slug' => [

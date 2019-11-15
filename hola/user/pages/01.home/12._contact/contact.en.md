@@ -11,7 +11,7 @@ phoneTitle: Phone
 emailTitle: Email
 emailAddress: sylwester.pilarz93@gmail.com
 addressTitle: Address
-addressDetails: "1600 Amphitheatre Parkway<br>\r\nMountain View, CA<br>\r\n94043 US"
+addressDetails: "43-300 Bielsko-Biała<br>\r\nPoland"
 phonePhone: 'Mobile: (+48) 506 715 473'
 form:
     name: kontakt-ajax-form

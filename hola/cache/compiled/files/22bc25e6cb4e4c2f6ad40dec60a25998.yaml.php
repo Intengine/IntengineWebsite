@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/hola/user/config/themes/hola.yaml',
-    'modified' => 1573717093,
+    'modified' => 1573822305,
     'data' => [
         'enabled' => true,
         'custom_logo' => [
@@ -13,7 +13,7 @@ return [
                 'path' => 'user/themes/hola/images/logo/logo.png'
             ]
         ],
-        'footer-text' => '© Copyright Hola 2018',
+        'footer-text' => '© Copyright Intengine 2019',
         'footer-design' => 'Design by <a href="https://www.styleshout.com/">styleshout</a>, GRAV conversion by <a href="https://devlom.com/">Devlom</a>',
         'footer-social' => [
             0 => [
@@ -34,11 +34,6 @@ return [
             3 => [
                 'socialIconClass' => 'fa fa-behance',
                 'socialIconText' => 'Behance',
-                'socialIconLink' => '#0'
-            ],
-            4 => [
-                'socialIconClass' => 'fa fa-pinterest',
-                'socialIconText' => 'Pinterest',
                 'socialIconLink' => '#0'
             ]
         ],

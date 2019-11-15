@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/hola/system/languages/ar.yaml',
-    'modified' => 1573717092,
+    'modified' => 1573822304,
     'data' => [
         'GRAV' => [
             'FRONTMATTER_ERROR_PAGE' => '---
