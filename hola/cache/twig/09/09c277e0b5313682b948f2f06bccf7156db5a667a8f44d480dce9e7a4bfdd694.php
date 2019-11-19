@@ -175,6 +175,6 @@ class __TwigTemplate_6cd9d8021fd73caa1fdc8ebdde411b0c89b0ea524a6c4cdd4625ffdb646
 
     public function getSourceContext()
     {
-        return new Source("", "partials/nav-quick-tray.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/hola/user/plugins/admin/themes/grav/templates/partials/nav-quick-tray.html.twig");
+        return new Source("", "partials/nav-quick-tray.html.twig", "/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/admin/themes/grav/templates/partials/nav-quick-tray.html.twig");
     }
 }

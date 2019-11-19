@@ -133,6 +133,6 @@ class __TwigTemplate_13be6fb2b7eb1dc4766ecf7f8322870fdbfe90481a2481d2f66f0aafdfe
 
     public function getSourceContext()
     {
-        return new Source("", "partials/page-move.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/hola/user/plugins/admin/themes/grav/templates/partials/page-move.html.twig");
+        return new Source("", "partials/page-move.html.twig", "/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/admin/themes/grav/templates/partials/page-move.html.twig");
     }
 }

@@ -316,6 +316,6 @@ class __TwigTemplate_a2a9067ddfa5c8e74a44ec713fdfda8a7940894c3ffe8d5ba35404a8f7c
 
     public function getSourceContext()
     {
-        return new Source("", "partials/nav.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/hola/user/plugins/admin/themes/grav/templates/partials/nav.html.twig");
+        return new Source("", "partials/nav.html.twig", "/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/admin/themes/grav/templates/partials/nav.html.twig");
     }
 }

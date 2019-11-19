@@ -2,9 +2,9 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/hola/user/data/feed/9292e04d7d7733bcbfbb7f4c1bcd1f6d.yaml',
-    'modified' => 1573822305,
+    'modified' => 1574171652,
     'data' => [
-        'last_checked' => 1573739750,
+        'last_checked' => 1573836070,
         'data' => [
             0 => [
                 'title' => 'Grav 1.7 RC.1 Released',
@@ -58,7 +58,7 @@ return [
                 'title' => 'We\'re Moving Chat from Slack to Discord',
                 'url' => 'https://getgrav.org/blog/chat-moving-to-discord',
                 'date' => 1542203100,
-                'nicetime' => '12 miesięcy temu'
+                'nicetime' => '1 lat temu'
             ],
             9 => [
                 'title' => 'RocketTheme\'s Halloween Sale is Going on Right Now',

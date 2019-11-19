@@ -1,7 +1,7 @@
 ---
 title: 'Lepkie ręce - recenzja gry Thief (PS4)'
 media_order: 'outside-walk.jpg,blog-bg-02.jpg'
-lead: 'Zażółć gęślą jaźń'
+lead: 'Garrett to fachowiec jakich mało - jego zręczność stała się legendarna w grach.'
 published: true
 date: '15-11-2019 16:32'
 publish_date: '15-11-2019 16:32'
