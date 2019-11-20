@@ -16,7 +16,7 @@ social:
     -
         socialIconClass: 'fa fa-facebook-square'
         socialIconText: Facebook
-        socialIconLink: 'https://www.facebook.com/devlom'
+        socialIconLink: 'https://www.facebook.com/sylwester.pilarz'
     -
         socialIconClass: 'fa fa-twitter'
         socialIconText: Twitter
@@ -26,9 +26,9 @@ social:
         socialIconText: Instagram
         socialIconLink: '#'
     -
-        socialIconClass: 'fa fa-behance-square'
-        socialIconText: Behance
-        socialIconLink: '#'
+        socialIconClass: 'fa fa-github'
+        socialIconText: Github
+        socialIconLink: 'https://github.com/intengine'
 ---
 
 Graphic Design, UX/UI, Game Development

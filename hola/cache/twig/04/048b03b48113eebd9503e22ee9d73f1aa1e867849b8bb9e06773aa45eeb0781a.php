@@ -95,6 +95,6 @@ class __TwigTemplate_fecc496f447cdf427a5c898396054f14e3879912809d60a458bebdec2d9
 
     public function getSourceContext()
     {
-        return new Source("", "partials/list-sort.html.twig", "/Users/sylwesterpilarz/Desktop/prgm/IntengineWebsite/hola/user/plugins/admin/themes/grav/templates/partials/list-sort.html.twig");
+        return new Source("", "partials/list-sort.html.twig", "/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/admin/themes/grav/templates/partials/list-sort.html.twig");
     }
 }

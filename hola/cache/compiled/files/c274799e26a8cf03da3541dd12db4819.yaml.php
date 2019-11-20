@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/hola/system/config/security.yaml',
-    'modified' => 1574171651,
+    'modified' => 1574235670,
     'data' => [
         'xss_whitelist' => [
             0 => 'admin.super'
