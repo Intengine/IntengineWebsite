@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/login/languages/es.yaml',
-    'modified' => 1574235672,
+    'modified' => 1575027076,
     'data' => [
         'PLUGIN_LOGIN' => [
             'USERNAME' => 'Nombre de usuario',

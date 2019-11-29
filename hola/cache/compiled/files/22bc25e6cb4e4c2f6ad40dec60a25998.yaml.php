@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/hola/user/config/themes/hola.yaml',
-    'modified' => 1574235671,
+    'modified' => 1575027076,
     'data' => [
         'enabled' => true,
         'custom_logo' => [
@@ -19,7 +19,7 @@ return [
             0 => [
                 'socialIconClass' => 'fa fa-facebook-square',
                 'socialIconText' => 'Facebook',
-                'socialIconLink' => 'https://www.facebook.com/devlom'
+                'socialIconLink' => 'https://www.facebook.com/sylwester.pilarz'
             ],
             1 => [
                 'socialIconClass' => 'fa fa-twitter',
@@ -32,9 +32,9 @@ return [
                 'socialIconLink' => '#0'
             ],
             3 => [
-                'socialIconClass' => 'fa fa-behance',
-                'socialIconText' => 'Behance',
-                'socialIconLink' => '#0'
+                'socialIconClass' => 'fa fa-github',
+                'socialIconText' => 'Github',
+                'socialIconLink' => 'https://github.com/intengine'
             ]
         ],
         'footer-additional-text' => 'Porting this template to GRAV was made possible with support of <a href="https://davidhagenauer.com/">davidhagenauer.com</a>.'

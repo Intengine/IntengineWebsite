@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/hola/system/languages/bg.yaml',
-    'modified' => 1574235671,
+    'modified' => 1575027075,
     'data' => [
         'GRAV' => [
             'NICETIME' => [
