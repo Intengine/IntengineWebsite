@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/hola/system/languages/sv.yaml',
-    'modified' => 1575027075,
+    'modified' => 1575379982,
     'data' => [
         'GRAV' => [
             'FRONTMATTER_ERROR_PAGE' => '--- titel: %1$s --- # Fel: Ogiltig Frontmatter-sökväg: `%2$s` **%3$s** ``` %4$s ```',

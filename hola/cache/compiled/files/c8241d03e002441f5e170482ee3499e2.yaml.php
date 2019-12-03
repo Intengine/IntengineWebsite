@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/admin/languages/zh-tw.yaml',
-    'modified' => 1575027076,
+    'modified' => 1575379861,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_BETA_MSG' => '這是 Beta 版！如果要用在營運中請自行承擔風險…',

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/admin/blueprints.yaml',
-    'modified' => 1575027076,
+    'modified' => 1575379861,
     'data' => [
         'name' => 'Admin Panel',
         'version' => '1.9.11',

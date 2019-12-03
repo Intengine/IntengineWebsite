@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/hola/system/languages/ja.yaml',
-    'modified' => 1575027075,
+    'modified' => 1575379982,
     'data' => [
         'GRAV' => [
             'INFLECTOR_IRREGULAR' => [
