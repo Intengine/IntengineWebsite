@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1575379991,
-    'checksum' => '918df88cf69cc67529c099d152a14860',
+    'timestamp' => 1575380785,
+    'checksum' => 'da793eff0e26a17d2a8900ca57f8c650',
     'files' => [
         'user/config' => [
             'backups' => [
@@ -31,7 +31,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1575379983
+                'modified' => 1575380785
             ],
             'themes/hola' => [
                 'file' => 'user/config/themes/hola.yaml',
