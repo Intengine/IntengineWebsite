@@ -37,39 +37,43 @@ class __TwigTemplate_d0fb8ca77047bb99a94a4f12a82b491d3440f70219006d803f0a2be1653
          class=\"s-services ";
         // line 2
         echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "sectionBackground", []);
-        echo " target-section\">
+        echo " target-section\"
+         style=\"background: url(";
+        // line 3
+        echo $this->getAttribute($this->getAttribute($this->getAttribute(($context["page"] ?? null), "media", []), $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "sectionbackground", []), [], "array"), "url", []);
+        echo ")\">
 
     <div class=\"overlay\"></div>
     <div class=\"row section-intro\">
         <div class=\"col-twelve\">
             ";
-        // line 7
+        // line 8
         if ($this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "smallTitle", [])) {
-            // line 8
+            // line 9
             echo "                <h3>";
             echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "smallTitle", []);
             echo "</h3>
             ";
         }
-        // line 10
+        // line 11
         echo "            ";
         if ($this->getAttribute(($context["page"] ?? null), "title", [])) {
-            // line 11
+            // line 12
             echo "                <h1>";
             echo $this->getAttribute(($context["page"] ?? null), "title", []);
             echo "</h1>
             ";
         }
-        // line 13
+        // line 14
         echo "           ";
         if ($this->getAttribute(($context["page"] ?? null), "content", [])) {
-            // line 14
+            // line 15
             echo "            <p class=\"lead\">";
             echo $this->getAttribute(($context["page"] ?? null), "content", []);
             echo "</p>
             ";
         }
-        // line 16
+        // line 17
         echo "        </div>
     </div> <!-- /section-intro -->
 
@@ -77,25 +81,25 @@ class __TwigTemplate_d0fb8ca77047bb99a94a4f12a82b491d3440f70219006d803f0a2be1653
 
         <div id=\"owl-slider\" class=\"owl-carousel services-list\">
             ";
-        // line 22
+        // line 23
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "services", []));
         foreach ($context['_seq'] as $context["_key"] => $context["item"]) {
-            // line 23
+            // line 24
             echo "
 
                 <div class=\"service\">
                     <span class=\"icon\"><i class=\"";
-            // line 26
+            // line 27
             echo $this->getAttribute($context["item"], "icon", []);
             echo "\"></i></span>
                     <div class=\"service-content\">
                         <h3>";
-            // line 28
+            // line 29
             echo $this->getAttribute($context["item"], "title", []);
             echo "</h3>
                         <p class=\"desc\">";
-            // line 29
+            // line 30
             echo $this->getAttribute($context["item"], "description", []);
             echo "
                         </p>
@@ -107,7 +111,7 @@ class __TwigTemplate_d0fb8ca77047bb99a94a4f12a82b491d3440f70219006d803f0a2be1653
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['item'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 35
+        // line 36
         echo "
         </div> <!-- /services-list -->
     </div>
@@ -128,7 +132,7 @@ class __TwigTemplate_d0fb8ca77047bb99a94a4f12a82b491d3440f70219006d803f0a2be1653
 
     public function getDebugInfo()
     {
-        return array (  111 => 35,  99 => 29,  95 => 28,  90 => 26,  85 => 23,  81 => 22,  73 => 16,  67 => 14,  64 => 13,  58 => 11,  55 => 10,  49 => 8,  47 => 7,  39 => 2,  30 => 1,);
+        return array (  115 => 36,  103 => 30,  99 => 29,  94 => 27,  89 => 24,  85 => 23,  77 => 17,  71 => 15,  68 => 14,  62 => 12,  59 => 11,  53 => 9,  51 => 8,  43 => 3,  39 => 2,  30 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */

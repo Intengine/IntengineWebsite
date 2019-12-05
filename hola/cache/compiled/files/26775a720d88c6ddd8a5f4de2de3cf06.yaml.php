@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/admin/blueprints.yaml',
-    'modified' => 1575379861,
+    'modified' => 1575549060,
     'data' => [
         'name' => 'Admin Panel',
-        'version' => '1.9.11',
+        'version' => '1.9.12',
         'testing' => false,
         'description' => 'Adds an advanced administration panel to manage your site',
         'icon' => 'empire',

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/error/error.yaml',
-    'modified' => 1575379862,
+    'modified' => 1575542357,
     'data' => [
         'enabled' => true,
         'routes' => [

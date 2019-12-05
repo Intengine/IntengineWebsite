@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/hola/system/config/streams.yaml',
-    'modified' => 1575379982,
+    'modified' => 1575549035,
     'data' => [
         'schemes' => [
             'image' => [

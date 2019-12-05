@@ -3,6 +3,8 @@ title: 'What Can I Do For You?'
 smallTitle: Services
 menu: services
 visible: true
+sectionbackground: testimonial-bg.jpg
+backgroundOverlay: '0.75'
 services:
     -
         icon: 'fa fa-globe'

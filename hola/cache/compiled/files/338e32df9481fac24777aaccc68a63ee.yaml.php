@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/admin/languages/en.yaml',
-    'modified' => 1575379861,
+    'modified' => 1575549060,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_NOSCRIPT_MSG' => 'Please enable JavaScript in your browser.',
