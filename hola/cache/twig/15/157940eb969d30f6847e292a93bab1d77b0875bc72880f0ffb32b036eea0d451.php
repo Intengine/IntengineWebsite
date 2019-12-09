@@ -169,6 +169,6 @@ class __TwigTemplate_a11cad511ea6cdad5b505ed71cc10f456e4bfe95652851888b002154bed
 
     public function getSourceContext()
     {
-        return new Source("", "modular/resume.html.twig", "/Users/mac/Desktop/IntengineWebsite/hola/user/themes/hola/templates/modular/resume.html.twig");
+        return new Source("", "modular/resume.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/hola/user/themes/hola/templates/modular/resume.html.twig");
     }
 }

@@ -119,6 +119,6 @@ class __TwigTemplate_47acde44718a97efef98be9529d5c6b3506e08248a1727c639cdb1fd534
 
     public function getSourceContext()
     {
-        return new Source("", "forms/fields/column/column.html.twig", "/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/admin/themes/grav/templates/forms/fields/column/column.html.twig");
+        return new Source("", "forms/fields/column/column.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/hola/user/plugins/admin/themes/grav/templates/forms/fields/column/column.html.twig");
     }
 }
