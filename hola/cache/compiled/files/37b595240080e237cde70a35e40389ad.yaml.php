@@ -2,9 +2,9 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/sylwesterpilarz/Desktop/IntengineWebsite/hola/user/data/notifications/9292e04d7d7733bcbfbb7f4c1bcd1f6d.yaml',
-    'modified' => 1575908521,
+    'modified' => 1575910705,
     'data' => [
-        'last_checked' => 1575908521,
+        'last_checked' => 1575910705,
         'data' => [
             'feed' => [
                 0 => [
