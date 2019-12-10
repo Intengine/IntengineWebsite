@@ -214,15 +214,16 @@ em, i, strong, b {
     font-size: inherit;
     line-height: inherit;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 800;
 }
 
 em, i {
-    font-family: "librebaskerville-italic", serif;
+    font-family: "Open Sans", serif;
+    font-style: italic;
 }
 
 strong, b {
-    font-family: "librebaskerville-bold", serif;
+    font-family: "Open Sans", serif;
 }
 
 small {
