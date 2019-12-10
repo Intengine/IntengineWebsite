@@ -103,6 +103,6 @@ class __TwigTemplate_e560a58c3f1abce8aa0851a6b596e97ca0e5bff77b937de05a1049a1ff1
 
     public function getSourceContext()
     {
-        return new Source("", "partials/dashboard-statistics.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/hola/user/plugins/admin/themes/grav/templates/partials/dashboard-statistics.html.twig");
+        return new Source("", "partials/dashboard-statistics.html.twig", "/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/admin/themes/grav/templates/partials/dashboard-statistics.html.twig");
     }
 }

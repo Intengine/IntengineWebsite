@@ -72,6 +72,6 @@ class __TwigTemplate_50ea952c4b72c1a2b9757071d2fd3fe631f6e2813d82be9e1eab89a1fa5
 
     public function getSourceContext()
     {
-        return new Source("", "partials/feed-block.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/hola/user/plugins/admin/themes/grav/templates/partials/feed-block.html.twig");
+        return new Source("", "partials/feed-block.html.twig", "/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/admin/themes/grav/templates/partials/feed-block.html.twig");
     }
 }

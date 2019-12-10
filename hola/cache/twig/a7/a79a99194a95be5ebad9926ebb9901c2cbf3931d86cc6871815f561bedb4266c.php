@@ -108,6 +108,6 @@ class __TwigTemplate_932fdda17a42148fa5904e1b211b878825bd413658931a7539e89f5867e
 
     public function getSourceContext()
     {
-        return new Source("", "partials/noscript.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/hola/user/plugins/admin/themes/grav/templates/partials/noscript.html.twig");
+        return new Source("", "partials/noscript.html.twig", "/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/admin/themes/grav/templates/partials/noscript.html.twig");
     }
 }

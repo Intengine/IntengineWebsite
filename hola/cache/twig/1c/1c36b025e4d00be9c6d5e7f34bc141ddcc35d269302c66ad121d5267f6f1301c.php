@@ -195,6 +195,6 @@ class __TwigTemplate_5256acda7bda43c636d42bc9d1381c332cee11661003922d1dc238367fb
 
     public function getSourceContext()
     {
-        return new Source("", "partials/modal-update-packages.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/hola/user/plugins/admin/themes/grav/templates/partials/modal-update-packages.html.twig");
+        return new Source("", "partials/modal-update-packages.html.twig", "/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/admin/themes/grav/templates/partials/modal-update-packages.html.twig");
     }
 }

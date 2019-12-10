@@ -22,11 +22,11 @@ hero_image: gow-hero.jpg
 continue_link: true
 ---
 
-Powiedzmy sobie szczerze - ta seria już miała dosyć siekania, miażdżenia głów i ubijania greckich bogów na różne wymyślne sposoby. Wraz ze Wstąpieniem skończyła się u developerów burza mózgów.
+Powiedzmy sobie szczerze - ta seria już miała dosyć siekania, miażdżenia głów i ubijania greckich bogów na różne wymyślne sposoby. Już "Wstąpienie" było dla fanów bardziej czymś w rodzaju płatnego DLC o słabej jakości niż pełnoprawną częścią serii. Niemniej zakończenie części trzeciej, cóż, pozostawiło twórcom otwartą furtkę do kolejnej kontynuacji. I zdecydowano się, że takowa nastąpi.
 
 ![](gow2.jpg)
 
-##Zażółć gęślą jaźń
+##Zmiana klimatu
 
 Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus omnis voluptas assumenda est id quod maxime placeat facere possimus, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et.
 

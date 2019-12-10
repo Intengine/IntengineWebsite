@@ -109,6 +109,6 @@ class __TwigTemplate_e8851ae96d9f68d49540b4e91971a298343ce1804d97072dd768c168580
 
     public function getSourceContext()
     {
-        return new Source("", "partials/dashboard-pages.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/hola/user/plugins/admin/themes/grav/templates/partials/dashboard-pages.html.twig");
+        return new Source("", "partials/dashboard-pages.html.twig", "/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/admin/themes/grav/templates/partials/dashboard-pages.html.twig");
     }
 }
