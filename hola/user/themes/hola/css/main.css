@@ -3662,6 +3662,7 @@ article.blog-single .blog-content {
     background-color: #0D0A0B;
     background-repeat: no-repeat;
     background-position: center, center;
+    background-size: cover;
     padding-top: 20.4rem;
     padding-bottom: 7.2rem;
     position: relative;

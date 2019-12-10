@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/admin/admin.yaml',
-    'modified' => 1575549060,
+    'modified' => 1575970146,
     'data' => [
         'enabled' => true,
         'route' => '/admin',

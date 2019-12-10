@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/admin/languages/ru.yaml',
-    'modified' => 1575549060,
+    'modified' => 1575970146,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_BETA_MSG' => 'Это бета-релиз! Используете его в продакшене на свой страх и риск...',

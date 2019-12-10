@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/mac/Desktop/IntengineWebsite/hola/system/languages/eu.yaml',
-    'modified' => 1575549034,
+    'modified' => 1575970145,
     'data' => [
         'GRAV' => [
             'FRONTMATTER_ERROR_PAGE' => '--- title: %1$s --- # Errorea: Baliogabeko Frontmatter Bidea: `%2$s` **%3$s** ``` %4$s ```',
