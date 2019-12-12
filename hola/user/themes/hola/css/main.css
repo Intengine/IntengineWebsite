@@ -4027,8 +4027,9 @@ article.blog-single .blog-content {
 }
 
 .blog-content__nav a {
-    font-family: "montserrat-bold", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 2.2rem;
+    font-weight: 800;
     line-height: 1.5;
     color: #0D0A0B;
 }
