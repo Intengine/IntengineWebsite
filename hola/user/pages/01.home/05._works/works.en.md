@@ -6,13 +6,13 @@ visible: true
 sectionBackground: gray-section
 portfolio:
     -
-        image: g-beetle.jpg
-        title: 'The beetle'
-        category: 'Web Development'
-        link: 'https://www.behance.net/'
-        description: 'Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.'
-        imageSize1: beetle.jpg
-        imageSize2: beetle2x.jpg
+        image: soad-tshirt.jpg
+        title: 'SOAD T-shirt'
+        category: 'Graphic Design'
+        link: 'http://www.tauronarenakrakow.pl/galeria/wydarzenia-2017/system-of-a-down/'
+        description: 'Simple T-shirt with custom print. This was before the concert in TAURON Arena, Cracow.'
+        imageSize1: soad.jpg
+        imageSize2: soad2x.jpg
     -
         image: g-lighthouse.jpg
         title: Lighthouse
