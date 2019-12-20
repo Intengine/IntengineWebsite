@@ -3,8 +3,8 @@ title: 'Furia na chłodno - recenzja gry God of War (PS4)'
 media_order: 'gow-hero.jpg,gow2.jpg,gow3.jpg,gow4.jpg,gow5.jpg'
 lead: 'Kratos powrócił. I zrobił to z przytupem godnym mitologicznego boga wojny.'
 published: true
-date: '15-11-2019 16:32'
-publish_date: '15-11-2019 16:32'
+date: '19-12-2019 16:32'
+publish_date: '19-12-2019 16:32'
 taxonomy:
     category:
         - 'game review'

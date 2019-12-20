@@ -6,7 +6,7 @@ redirect: home
 visible: true
 background: hero-bg.jpg
 bannerOpacity: '0.1'
-button1Text: 'Latest Projects'
+button1Text: '(coming soon)'
 button1Link: '#works'
 button2Text: 'More About Me'
 button2Link: '#about'
