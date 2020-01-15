@@ -312,6 +312,6 @@ class __TwigTemplate_01915460a57f5b772a492e9de2a23ec935cfacb80ba59f9300e58f8c977
 
     public function getSourceContext()
     {
-        return new Source("", "partials/navigation.html.twig", "/Users/mac/Desktop/IntengineWebsite/hola/user/themes/hola/templates/partials/navigation.html.twig");
+        return new Source("", "partials/navigation.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/hola/user/themes/hola/templates/partials/navigation.html.twig");
     }
 }

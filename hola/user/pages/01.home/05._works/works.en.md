@@ -1,5 +1,6 @@
 ---
 title: '(WYŁĄCZONE) See My Latest Projects...'
+media_order: 'g-bicycle.jpg,g-liberty.jpg,g-minimalismo.jpg,g-salad.jpg,g-shutterbug.jpg,g-skaterboy.jpg,g-woodcraft.jpg,liberty.jpg,liberty2x.jpg,minimalismo.jpg,minimalismo2x.jpg,salad.jpg,salad2x.jpg,shutterbug.jpg,shutterbug2x.jpg,skaterboy.jpg,skaterboy2x.jpg,soad-tshirt.jpg,soad.jpg,soad2x.jpg,woodcraft.jpg,woodcraft2x.jpg,quentin-tshirt.jpg'
 smallTitle: Portfolio
 published: true
 menu: works
@@ -15,13 +16,13 @@ portfolio:
         imageSize1: soad.jpg
         imageSize2: soad2x.jpg
     -
-        image: g-lighthouse.jpg
-        title: Lighthouse
-        category: 'Web Design'
-        link: 'https://www.behance.net/'
-        description: 'Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.'
-        imageSize1: lighthouse.jpg
-        imageSize2: lighthouse2x.jpg
+        image: quentin-tshirt.jpg
+        title: 'Quentin Tarantino T-shirt'
+        category: 'Graphic Design'
+        link: '#'
+        description: 'Simple T-shirt with custom print.'
+        imageSize1: quentin-tshirt.jpg
+        imageSize2: quentin-tshirt.jpg
     -
         image: g-salad.jpg
         title: Salad
