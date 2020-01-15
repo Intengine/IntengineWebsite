@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/sylwesterpilarz/Desktop/IntengineWebsite/hola/user/themes/hola/blueprints.yaml',
-    'modified' => 1575908318,
+    'modified' => 1579113228,
     'data' => [
         'name' => 'Hola',
         'version' => '1.1.2',

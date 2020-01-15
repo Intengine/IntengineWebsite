@@ -91,7 +91,7 @@ class __TwigTemplate_fb2929aac14ec0f8e66d816e3318b78a9e59ff486a26b09e24f6174293e
                 echo "        ";
                 // line 22
                 echo "    ";
-            } elseif ((($context["count"] ?? null) == 1)) {
+            } elseif (((($context["count"] ?? null) == 1) &&  !($context["admin"] ?? null))) {
                 // line 23
                 echo "        ";
                 $context['_parent'] = $context;
@@ -237,7 +237,7 @@ class __TwigTemplate_fb2929aac14ec0f8e66d816e3318b78a9e59ff486a26b09e24f6174293e
         <div class=\"tabs-content\">
             ";
                 // line 54
-                $this->loadTemplate("forms/fields/tabs/tabs.html.twig", "forms/fields/tabs/tabs.html.twig", 54, "1154014112")->display(twig_array_merge($context, ["name" => $this->getAttribute(($context["field"] ?? null), "name", []), "fields" => $this->getAttribute(($context["field"] ?? null), "fields", [])]));
+                $this->loadTemplate("forms/fields/tabs/tabs.html.twig", "forms/fields/tabs/tabs.html.twig", 54, "1723352454")->display(twig_array_merge($context, ["name" => $this->getAttribute(($context["field"] ?? null), "name", []), "fields" => $this->getAttribute(($context["field"] ?? null), "fields", [])]));
                 // line 62
                 echo "        </div>
     ";
@@ -273,13 +273,13 @@ class __TwigTemplate_fb2929aac14ec0f8e66d816e3318b78a9e59ff486a26b09e24f6174293e
 
     public function getSourceContext()
     {
-        return new Source("", "forms/fields/tabs/tabs.html.twig", "/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/form/templates/forms/fields/tabs/tabs.html.twig");
+        return new Source("", "forms/fields/tabs/tabs.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/hola/user/plugins/form/templates/forms/fields/tabs/tabs.html.twig");
     }
 }
 
 
 /* forms/fields/tabs/tabs.html.twig */
-class __TwigTemplate_fb2929aac14ec0f8e66d816e3318b78a9e59ff486a26b09e24f6174293e5a333___1154014112 extends \Twig\Template
+class __TwigTemplate_fb2929aac14ec0f8e66d816e3318b78a9e59ff486a26b09e24f6174293e5a333___1723352454 extends \Twig\Template
 {
     public function __construct(Environment $env)
     {
@@ -348,6 +348,6 @@ class __TwigTemplate_fb2929aac14ec0f8e66d816e3318b78a9e59ff486a26b09e24f6174293e
 
     public function getSourceContext()
     {
-        return new Source("", "forms/fields/tabs/tabs.html.twig", "/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/form/templates/forms/fields/tabs/tabs.html.twig");
+        return new Source("", "forms/fields/tabs/tabs.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/hola/user/plugins/form/templates/forms/fields/tabs/tabs.html.twig");
     }
 }

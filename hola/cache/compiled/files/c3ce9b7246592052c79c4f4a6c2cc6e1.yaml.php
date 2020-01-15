@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/sylwesterpilarz/Desktop/IntengineWebsite/hola/user/plugins/form/form.yaml',
-    'modified' => 1575908317,
+    'modified' => 1579113282,
     'data' => [
         'enabled' => true,
         'built_in_css' => true,

@@ -1,7 +1,7 @@
 ---
 title: '(WYŁĄCZONE) See My Latest Projects...'
 smallTitle: Portfolio
-published: false
+published: true
 menu: works
 visible: true
 sectionBackground: gray-section
