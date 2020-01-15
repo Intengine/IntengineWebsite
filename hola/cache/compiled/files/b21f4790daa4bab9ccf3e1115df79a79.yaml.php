@@ -2,51 +2,51 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/sylwesterpilarz/Desktop/IntengineWebsite/hola/user/data/feed/9292e04d7d7733bcbfbb7f4c1bcd1f6d.yaml',
-    'modified' => 1579113228,
+    'modified' => 1579113274,
     'data' => [
-        'last_checked' => 1576874680,
+        'last_checked' => 1579113274,
         'data' => [
             0 => [
                 'title' => 'Grav 1.7 RC.1 Released',
                 'url' => 'https://getgrav.org/blog/grav-17-rc1-released',
                 'date' => 1573060980,
-                'nicetime' => '1 miesięcy temu'
+                'nicetime' => '2 miesięcy temu'
             ],
             1 => [
                 'title' => 'macOS 10.15 Catalina Apache Setup: Upgrading Homebrew',
                 'url' => 'https://getgrav.org/blog/macos-catalina-apache-upgrade-homebrew',
                 'date' => 1570536000,
-                'nicetime' => '2 miesięcy temu'
+                'nicetime' => '3 miesięcy temu'
             ],
             2 => [
                 'title' => 'macOS 10.15 Catalina Apache Setup: SSL',
                 'url' => 'https://getgrav.org/blog/macos-catalina-apache-ssl',
                 'date' => 1570532580,
-                'nicetime' => '2 miesięcy temu'
+                'nicetime' => '3 miesięcy temu'
             ],
             3 => [
                 'title' => 'macOS 10/15 Catalina Apache Setup: MySQL, Xdebug & More...',
                 'url' => 'https://getgrav.org/blog/macos-catalina-apache-mysql-vhost-apc',
                 'date' => 1570532400,
-                'nicetime' => '2 miesięcy temu'
+                'nicetime' => '3 miesięcy temu'
             ],
             4 => [
                 'title' => 'macOS 10.15 Catalina Apache Setup: Multiple PHP Versions',
                 'url' => 'https://getgrav.org/blog/macos-catalina-apache-multiple-php-versions',
                 'date' => 1570528800,
-                'nicetime' => '2 miesięcy temu'
+                'nicetime' => '3 miesięcy temu'
             ],
             5 => [
                 'title' => 'Grav 1.6 Released!',
                 'url' => 'https://getgrav.org/blog/grav-1.6-released',
                 'date' => 1554987300,
-                'nicetime' => '8 miesięcy temu'
+                'nicetime' => '9 miesięcy temu'
             ],
             6 => [
                 'title' => 'Important Theme Updates',
                 'url' => 'https://getgrav.org/blog/important-theme-updates',
                 'date' => 1553169300,
-                'nicetime' => '9 miesięcy temu'
+                'nicetime' => '10 miesięcy temu'
             ],
             7 => [
                 'title' => 'All RocketTheme Grav Themes 50% Off for Black Friday',
