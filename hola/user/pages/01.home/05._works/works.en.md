@@ -1,6 +1,6 @@
 ---
 title: '(WYŁĄCZONE) See My Latest Projects...'
-media_order: 'g-bicycle.jpg,g-liberty.jpg,g-minimalismo.jpg,g-shutterbug.jpg,g-skaterboy.jpg,minimalismo.jpg,minimalismo2x.jpg,shutterbug.jpg,shutterbug2x.jpg,skaterboy.jpg,skaterboy2x.jpg,soad-tshirt.jpg,soad.jpg,soad2x.jpg,quentin-tshirt.jpg,FB-logo.jpg,FB-logo2x.jpg,moya.jpg,catalogue.jpg,catalogue2x.jpg'
+media_order: 'g-bicycle.jpg,g-liberty.jpg,g-minimalismo.jpg,g-shutterbug.jpg,minimalismo.jpg,minimalismo2x.jpg,shutterbug.jpg,shutterbug2x.jpg,soad-tshirt.jpg,soad.jpg,soad2x.jpg,quentin-tshirt.jpg,FB-logo.jpg,FB-logo2x.jpg,moya.jpg,catalogue.jpg,catalogue2x.jpg,roller2x.jpg,roller.jpg'
 smallTitle: Portfolio
 published: true
 menu: works
@@ -40,13 +40,13 @@ portfolio:
         imageSize1: catalogue2x.jpg
         imageSize2: catalogue2x.jpg
     -
-        image: g-skaterboy.jpg
-        title: Skaterboy
-        category: 'Web Development'
-        link: 'https://www.behance.net/'
-        description: 'Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.'
-        imageSize1: skaterboy.jpg
-        imageSize2: skaterboy2x.jpg
+        image: roller.jpg
+        title: 'Roller blinds 3D model'
+        category: '3D Modelling'
+        link: 'https://www.hrbemo.pl/'
+        description: '3D render of roller blinds - different colors.'
+        imageSize1: roller2x.jpg
+        imageSize2: roller2x.jpg
     -
         image: moya.jpg
         title: 'Moya 3D model'
