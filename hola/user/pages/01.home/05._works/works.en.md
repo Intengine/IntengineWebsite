@@ -1,6 +1,6 @@
 ---
 title: '(WYŁĄCZONE) See My Latest Projects...'
-media_order: 'g-bicycle.jpg,g-liberty.jpg,g-minimalismo.jpg,g-shutterbug.jpg,g-skaterboy.jpg,g-woodcraft.jpg,minimalismo.jpg,minimalismo2x.jpg,shutterbug.jpg,shutterbug2x.jpg,skaterboy.jpg,skaterboy2x.jpg,soad-tshirt.jpg,soad.jpg,soad2x.jpg,woodcraft.jpg,woodcraft2x.jpg,quentin-tshirt.jpg,FB-logo.jpg,FB-logo2x.jpg,moya.jpg'
+media_order: 'g-bicycle.jpg,g-liberty.jpg,g-minimalismo.jpg,g-shutterbug.jpg,g-skaterboy.jpg,minimalismo.jpg,minimalismo2x.jpg,shutterbug.jpg,shutterbug2x.jpg,skaterboy.jpg,skaterboy2x.jpg,soad-tshirt.jpg,soad.jpg,soad2x.jpg,quentin-tshirt.jpg,FB-logo.jpg,FB-logo2x.jpg,moya.jpg,catalogue.jpg,catalogue2x.jpg'
 smallTitle: Portfolio
 published: true
 menu: works
@@ -32,13 +32,13 @@ portfolio:
         imageSize1: FB-logo.jpg
         imageSize2: FB-logo.jpg
     -
-        image: g-woodcraft.jpg
-        title: Woodcraft
-        category: Branding
-        link: 'https://www.behance.net/'
-        description: 'Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.'
-        imageSize1: woodcraft.jpg
-        imageSize2: woodcraft2x.jpg
+        image: catalogue.jpg
+        title: 'Component catalogue'
+        category: DTP
+        link: 'https://www.hrbemo.pl/'
+        description: 'Roller blind components catalogue.'
+        imageSize1: catalogue2x.jpg
+        imageSize2: catalogue2x.jpg
     -
         image: g-skaterboy.jpg
         title: Skaterboy
