@@ -1,6 +1,6 @@
 ---
 title: '(WYŁĄCZONE) See My Latest Projects...'
-media_order: 'g-bicycle.jpg,g-liberty.jpg,g-minimalismo.jpg,g-shutterbug.jpg,minimalismo.jpg,minimalismo2x.jpg,shutterbug.jpg,shutterbug2x.jpg,soad-tshirt.jpg,soad.jpg,soad2x.jpg,quentin-tshirt.jpg,FB-logo.jpg,FB-logo2x.jpg,moya.jpg,catalogue.jpg,catalogue2x.jpg,roller2x.jpg,roller.jpg'
+media_order: 'soad-tshirt.jpg,soad.jpg,soad2x.jpg,quentin-tshirt.jpg,FB-logo.jpg,FB-logo2x.jpg,moya.jpg,catalogue.jpg,catalogue2x.jpg,roller2x.jpg,roller.jpg,work-eagle1.jpg,golgota2x.jpg,golgota.jpg'
 smallTitle: Portfolio
 published: true
 menu: works
@@ -56,20 +56,20 @@ portfolio:
         imageSize1: moya.jpg
         imageSize2: moya.jpg
     -
-        image: g-minimalismo.jpg
-        title: Minimalismo
-        category: 'Web Design'
-        link: 'https://www.behance.net/'
-        description: 'Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.'
-        imageSize1: minimalismo.jpg
-        imageSize2: minimalismo2x.jpg
+        image: golgota.jpg
+        title: 'Golgota Mountain'
+        category: 'Digital Painting'
+        link: '#'
+        description: 'Mousepainting of Golgota Mountain.'
+        imageSize1: golgota2x.jpg
+        imageSize2: golgota2x.jpg
     -
-        image: g-shutterbug.jpg
-        title: 'Lady Shutterbug'
-        category: Branding
-        link: 'https://www.behance.net/'
-        description: 'Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.'
-        imageSize1: shutterbug.jpg
-        imageSize2: shutterbug2x.jpg
+        image: work-eagle1.jpg
+        title: 'Eagloo logo'
+        category: Logotype
+        link: '#'
+        description: 'Logotype of the fiction company called "Eagloo".'
+        imageSize1: work-eagle1.jpg
+        imageSize2: work-eagle1.jpg
 ---
 
