@@ -132,6 +132,6 @@ class __TwigTemplate_57e207c6a63216979f0f8d835ee2187ab0e0c5c733f6f921e95f860f7ec
 
     public function getSourceContext()
     {
-        return new Source("", "partials/modal-reinstall-package.html.twig", "/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/admin/themes/grav/templates/partials/modal-reinstall-package.html.twig");
+        return new Source("", "partials/modal-reinstall-package.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/hola/user/plugins/admin/themes/grav/templates/partials/modal-reinstall-package.html.twig");
     }
 }

@@ -140,6 +140,6 @@ class __TwigTemplate_eca0f5b001477bbe403cb490c28a5c5ea5cf0c789609246c76eac998090
 
     public function getSourceContext()
     {
-        return new Source("", "partials/modal-remove-package.html.twig", "/Users/mac/Desktop/IntengineWebsite/hola/user/plugins/admin/themes/grav/templates/partials/modal-remove-package.html.twig");
+        return new Source("", "partials/modal-remove-package.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/hola/user/plugins/admin/themes/grav/templates/partials/modal-remove-package.html.twig");
     }
 }
