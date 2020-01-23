@@ -170,6 +170,6 @@ $context["paginate"], "isDeltaBorder", [])) {
 
     public function getSourceContext()
     {
-        return new Source("", "partials/pagination.html.twig", "/Users/mac/Desktop/IntengineWebsite/hola/user/themes/hola/templates/partials/pagination.html.twig");
+        return new Source("", "partials/pagination.html.twig", "/Users/sylwesterpilarz/Desktop/IntengineWebsite/hola/user/themes/hola/templates/partials/pagination.html.twig");
     }
 }

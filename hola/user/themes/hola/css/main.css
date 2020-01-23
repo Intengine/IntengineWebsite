@@ -3658,6 +3658,16 @@ article.blog-single .blog-content {
 /* -------------------------------------------------------------------
  * ## blog page header
  * ------------------------------------------------------------------- */
+.home-page-header {
+    background-color: #0D0A0B;
+    background-repeat: no-repeat;
+    background-position: center, center;
+    background-size: cover;
+    padding-top: 20.4rem;
+    padding-bottom: 7.2rem;
+    position: relative;
+    color: rgba(255, 255, 255, 0.5);
+}
 
 .page-header {
     background-color: #0D0A0B;

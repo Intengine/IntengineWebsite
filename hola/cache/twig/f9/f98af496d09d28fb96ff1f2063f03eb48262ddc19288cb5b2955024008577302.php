@@ -89,9 +89,16 @@ class __TwigTemplate_bf9065e95bcd89e3d4b04a63c854c9214776e6e6c75d95ef4e8781aaba9
             echo "</a>
                         </div>
 
+                        <div class=\"home-page-header page-hero\" style=\"background-image:url(";
+            // line 30
+            echo $this->getAttribute($this->getAttribute($this->getAttribute($context["page"], "media", []), $this->getAttribute($this->getAttribute($context["page"], "header", []), "hero_image", []), [], "array"), "url", [], "method");
+            echo ")\">
+
+                        </div>
+
                         <h2 class=\"h01\">
                             <a href=\"";
-            // line 31
+            // line 35
             echo $this->getAttribute($context["page"], "link", []);
             echo "\">";
             echo $this->getAttribute($context["page"], "title", []);
@@ -99,14 +106,14 @@ class __TwigTemplate_bf9065e95bcd89e3d4b04a63c854c9214776e6e6c75d95ef4e8781aaba9
                         </h2>
                         <p>
                             ";
-            // line 34
+            // line 38
             echo twig_slice($this->env, $this->getAttribute($this->getAttribute($context["page"], "header", []), "lead", []), 0.3);
             echo "
                         </p>
 
                         <div class=\"blog-cat\">
                             <a href=\"";
-            // line 38
+            // line 42
             echo $this->getAttribute($context["page"], "categoryLink", []);
             echo "\">";
             echo $this->getAttribute($context["page"], "postCategory", []);
@@ -120,13 +127,14 @@ class __TwigTemplate_bf9065e95bcd89e3d4b04a63c854c9214776e6e6c75d95ef4e8781aaba9
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['page'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 44
+        // line 48
         echo "            </div> <!-- end blog-list -->
 
         </div> <!-- end col-full -->
     </div> <!-- end blog-content -->
-    
-</section> <!-- end s-blog -->";
+
+</section> <!-- end s-blog -->
+";
     }
 
     public function getTemplateName()
@@ -141,7 +149,7 @@ class __TwigTemplate_bf9065e95bcd89e3d4b04a63c854c9214776e6e6c75d95ef4e8781aaba9
 
     public function getDebugInfo()
     {
-        return array (  124 => 44,  110 => 38,  103 => 34,  95 => 31,  86 => 27,  80 => 23,  76 => 22,  65 => 14,  61 => 13,  57 => 12,  50 => 8,  42 => 7,  38 => 5,  36 => 4,  34 => 3,  32 => 2,  30 => 1,);
+        return array (  131 => 48,  117 => 42,  110 => 38,  102 => 35,  94 => 30,  86 => 27,  80 => 23,  76 => 22,  65 => 14,  61 => 13,  57 => 12,  50 => 8,  42 => 7,  38 => 5,  36 => 4,  34 => 3,  32 => 2,  30 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
